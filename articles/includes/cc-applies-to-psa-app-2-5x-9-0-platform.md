@@ -1,1 +1,1 @@
-Програма Project Service 2.5.x або пізніших версій у Dynamics 365 (online) 9.x
+<span data-ttu-id="885ac-101">Програма Project Service 2.5.x або пізніших версій у Dynamics 365 (online) 9.x</span><span class="sxs-lookup"><span data-stu-id="885ac-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>

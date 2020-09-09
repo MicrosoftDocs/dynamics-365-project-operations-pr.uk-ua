@@ -1,1 +1,1 @@
-Застосовується до програми Project Service версій 2.x і 1.x
+<span data-ttu-id="13c5b-101">Застосовується до програми Project Service версій 2.x і 1.x</span><span class="sxs-lookup"><span data-stu-id="13c5b-101">Applies to Project Service app versions 2.x and 1.x</span></span>

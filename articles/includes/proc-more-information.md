@@ -1,1 +1,1 @@
-Додаткові відомості:
+<span data-ttu-id="b2bf1-101">Додаткові відомості:</span><span class="sxs-lookup"><span data-stu-id="b2bf1-101">More information:</span></span>
