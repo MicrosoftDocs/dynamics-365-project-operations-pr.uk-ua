@@ -33,9 +33,9 @@ ms.locfileid: "3756814"
 
 Перед запитом або призначенням ресурсів у [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] вам потрібно буде визначити ролі та набори навичок, які будуть потрібні для проектів ваших клієнтів. Це вимагає деякої конфігурації з вашого боку:  
   
--   [Додати навички ресурсів](../project-service/add-resource-skills.md).  
+-   [Додати навички ресурсів](../project-service/add-resource-skills.md)  
   
--   [Встановити моделі досвідченості](../project-service/set-up-proficiency-models.md).  
+-   [Встановити моделі досвідченості](../project-service/set-up-proficiency-models.md)  
   
 -   [Додати ролі ресурсів](../project-service/add-resource-roles.md)  
   
@@ -47,7 +47,7 @@ ms.locfileid: "3756814"
   
 -   [Призначити навички до ресурсів](../project-service/associate-skills-with-resources.md)  
   
--   [Створити шаблон робочих годин](../project-service/create-work-hours-template.md).  
+-   [Створити шаблон робочих годин](../project-service/create-work-hours-template.md)  
   
 -   [Застосувати календар до ресурсу](../project-service/apply-calendar-resource.md)  
   
