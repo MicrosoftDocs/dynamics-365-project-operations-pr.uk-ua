@@ -1,0 +1,46 @@
+---
+title: Вимкнення критерію ціноутворення
+description: У цьому розділі наведено відомості про те, як вимикати критерії ціноутворення.
+author: rumant
+manager: AnnBe
+ms.date: 09/18/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-customerservice
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 54e02726138f7306481ca50d5204ee29a3b68549
+ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.translationtype: HT
+ms.contentlocale: uk-UA
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3896531"
+---
+# <a name="turning-off-a-pricing-dimension"></a><span data-ttu-id="f0e6c-103">Вимкнення критерію ціноутворення</span><span class="sxs-lookup"><span data-stu-id="f0e6c-103">Turning off a pricing dimension</span></span>
+
+<span data-ttu-id="f0e6c-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_</span><span class="sxs-lookup"><span data-stu-id="f0e6c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="f0e6c-105">Можливо, доведеться переглядати та оновлювати стратегії ціноутворення кожні кілька років.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-105">You may need to review and update your pricing strategy every few years.</span></span> <span data-ttu-id="f0e6c-106">Усі оновлення, які можна виконати, можуть вимагати вимкнути наявний критерій ціноутворення і створити новий.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-106">Any updates you make might require that you turn off an existing pricing dimension and create a new one.</span></span> <span data-ttu-id="f0e6c-107">Наприклад, якщо ви раніше створювали ціну для **Ролі**, а тепер ви прийняли рішення створювати ціну для значення **Досвід роботи**.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-107">For example, you may have previously priced by **Role**, but now you have decided to price by **Work Experience**.</span></span> <span data-ttu-id="f0e6c-108">Для цього може знадобитися вимкнути **Роль** як критерій ціноутворення та створити **Досвід роботи** як новий критерій ціноутворення.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-108">This may require you to turn off **Role** as a pricing dimension and create **Work Experience** as a new pricing dimension.</span></span> 
+
+<span data-ttu-id="f0e6c-109">Вимкнення критерію ціни, незалежно від того, чи є він готовим або настроюваним, може бути зроблено шляхом встановлення полів критеріїв ціноутворення **Застосовується до вартості** та **Застосовується до збуту** у значення **Ні**.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-109">Turning off a pricing dimension, regardless if it is out-of-the-box or custom, can be done by setting the **Applicable to Cost** and **Applicable to Sales** fields of the Pricing Dimension to **No**.</span></span>
+
+<span data-ttu-id="f0e6c-110">Проте під час виконання цієї дії ви можете отримати повідомлення про помилку, **Критерій ціноутворення не можна оновити або видалити, якщо є зв'язані записи прайса.**</span><span class="sxs-lookup"><span data-stu-id="f0e6c-110">However, when you do this, you might receive the error message, **Pricing dimension cannot be updated or deleted if there are associated price records.**</span></span>
+
+<span data-ttu-id="f0e6c-111">Це повідомлення про помилку свідчить про те, що для критерію, який було вимкнуто, попередньо було настроєно прайс.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-111">This error message indicates that there are price records that were previously set up for the dimension that is being turned off.</span></span> <span data-ttu-id="f0e6c-112">Усі записи **Ціна ролі** та **Ціна ролі з націнкою**, які посилаються на критерій, необхідно видалити, перш ніж застосування критерію буде встановлено у значення **Ні**.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-112">All **Role Price** and **Role Price Markup** records that refer to a dimension must be deleted before the dimension’s applicability can be to set to **No**.</span></span> <span data-ttu-id="f0e6c-113">Це правило стосується як готових критеріїв ціноутворення, так і будь-яких настроюваних критеріїв ціни, які ви могли створити.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-113">This rule applies to both out-of-the-box pricing dimensions and any custom pricing dimensions that you may have created.</span></span> <span data-ttu-id="f0e6c-114">Причина цієї перевірки полягає в тому, що кожен запис **Розцінки ролі** повинен мати унікальне поєднання критеріїв.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-114">The reason for this validation is because each **Role Price** record must have a unique combination of dimensions.</span></span> <span data-ttu-id="f0e6c-115">Наприклад, у прайсі під назвою **Вартість ставки у США 2018**, у вас є наведені нижче рядки **Ціни ролі**.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-115">For example, on a price list called **US Cost Rates 2018**, you have the following **Role price** rows.</span></span> 
+
+| <span data-ttu-id="f0e6c-116">Стандартна посада</span><span class="sxs-lookup"><span data-stu-id="f0e6c-116">Standard Title</span></span>         | <span data-ttu-id="f0e6c-117">Організаційна одиниця</span><span class="sxs-lookup"><span data-stu-id="f0e6c-117">Org Unit</span></span>    |<span data-ttu-id="f0e6c-118">Одиниця вимірювання</span><span class="sxs-lookup"><span data-stu-id="f0e6c-118">Unit</span></span>   |<span data-ttu-id="f0e6c-119">Ціна</span><span class="sxs-lookup"><span data-stu-id="f0e6c-119">Price</span></span>  |<span data-ttu-id="f0e6c-120">Грошова одиниця</span><span class="sxs-lookup"><span data-stu-id="f0e6c-120">Currency</span></span>  |
+| -----------------------|-------------|-------|-------|----------|
+| <span data-ttu-id="f0e6c-121">Системний інженер</span><span class="sxs-lookup"><span data-stu-id="f0e6c-121">Systems Engineer</span></span>|<span data-ttu-id="f0e6c-122">Contoso US</span><span class="sxs-lookup"><span data-stu-id="f0e6c-122">Contoso US</span></span>|<span data-ttu-id="f0e6c-123">Hour</span><span class="sxs-lookup"><span data-stu-id="f0e6c-123">Hour</span></span>| <span data-ttu-id="f0e6c-124">100</span><span class="sxs-lookup"><span data-stu-id="f0e6c-124">100</span></span>|<span data-ttu-id="f0e6c-125">USD</span><span class="sxs-lookup"><span data-stu-id="f0e6c-125">USD</span></span>|
+| <span data-ttu-id="f0e6c-126">Провідний системний інженер</span><span class="sxs-lookup"><span data-stu-id="f0e6c-126">Senior Systems Engineer</span></span>|<span data-ttu-id="f0e6c-127">Contoso US</span><span class="sxs-lookup"><span data-stu-id="f0e6c-127">Contoso US</span></span>|<span data-ttu-id="f0e6c-128">Hour</span><span class="sxs-lookup"><span data-stu-id="f0e6c-128">Hour</span></span>| <span data-ttu-id="f0e6c-129">150</span><span class="sxs-lookup"><span data-stu-id="f0e6c-129">150</span></span>| <span data-ttu-id="f0e6c-130">USD</span><span class="sxs-lookup"><span data-stu-id="f0e6c-130">USD</span></span>|
+
+
+<span data-ttu-id="f0e6c-131">Якщо вимкнути **Стандартна посада** як критерій ціноутворення, коли пошуковий механізм шукатиме ціну, він використовуватиме лише значення **Організаційної одиниці** з контексту вводу.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-131">When you turn off **Standard Title** as the pricing dimension, and the pricing engine searches for a price, it will only use the **Org Unit** value from the input context.</span></span> <span data-ttu-id="f0e6c-132">Якщо для вхідний контекст **Організаційної одиниці** є "Contoso US", то результат не буде визначальним, оскільки обидва рядки будуть збігатися.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-132">If the **Org Unit** of the input context is “Contoso US”, the result will be non-deterministic because both the rows will match.</span></span> <span data-ttu-id="f0e6c-133">Щоб уникнути такого сценарію, під час створення записів **Розцінки ролі** у системі перевіряється унікальність поєднання критеріїв.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-133">To avoid this scenario, when you create **Role Price** records, the system validates that the combination of dimensions is unique.</span></span> <span data-ttu-id="f0e6c-134">Якщо критерій вимкнуто після створення записів **Ціна ролі**, це правило може бути порушеним.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-134">If the dimension is turned off after the **Role Price** records are created, this constraint can be violated.</span></span> <span data-ttu-id="f0e6c-135">Тому, перш ніж вимикати критерій, потрібно видалити всі рядки **Ціна ролі** та **Ціна ролі з націнкою**, які мають заповнені значення критерію.</span><span class="sxs-lookup"><span data-stu-id="f0e6c-135">Therefore, it is required that before you turn off a dimension, you delete all **Role Price** and **Role Price Markup** rows that have that dimension value populated.</span></span>
