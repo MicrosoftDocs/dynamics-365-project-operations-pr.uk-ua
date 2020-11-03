@@ -9,42 +9,42 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 5c9cd0c7c6886bd454c5f2ef2ae7f20d1707293f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897881"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086571"
 ---
-# <a name="update-a-project"></a>Оновлення проекту
+# <a name="update-a-project"></a><span data-ttu-id="9ec5e-103">Оновлення проекту</span><span class="sxs-lookup"><span data-stu-id="9ec5e-103">Update a project</span></span>
 
-_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
+<span data-ttu-id="9ec5e-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_</span><span class="sxs-lookup"><span data-stu-id="9ec5e-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-Нижче наведено короткий опис полів, які можна оновити в проекті після його створення, а також будь-які відповідні наслідки оновлень.
+<span data-ttu-id="9ec5e-105">Нижче наведено короткий опис полів, які можна оновити в проекті після його створення, а також будь-які відповідні наслідки оновлень.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-105">Below is a summary of the fields that can be updated on a project after it has been created and any applicable implications of the updates.</span></span>
 
-## <a name="project-detail-fields"></a>Поля з деталями проекту
+## <a name="project-detail-fields"></a><span data-ttu-id="9ec5e-106">Поля з деталями проекту</span><span class="sxs-lookup"><span data-stu-id="9ec5e-106">Project detail fields</span></span>
 
-- **Назва**: заголовок проекту.
-- **Опис**: огляд проекту.
-- **Клієнт**: компанія, якій буде доставлено проект.
-- **Шаблон календаря**: робочий час проекту. Після змінення поля весь розклад буде обчислено повторно.
-- **Грошова одиниця**: грошова одиниця для проекту. Стандартні значення цього поля залежать від грошової одиниці, визначеної в договірній одиниці. У разі оновлення договірної одиниці це поле також буде оновлено.
-- **Договірна одиниця**: організаційна одиниця, що представляє групу або підрозділ компанії, які перед усім відповідають за збут та управління наданням послуг клієнтам. 
-- **Менеджер проектів**: учасник робочої групи проекту, який має право на перегляд і затвердження записів про час і витрати.
+- <span data-ttu-id="9ec5e-107">**Назва** : заголовок проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-107">**Name** : The title of the project.</span></span>
+- <span data-ttu-id="9ec5e-108">**Опис** : огляд проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-108">**Description** : An overview of the project.</span></span>
+- <span data-ttu-id="9ec5e-109">**Клієнт** : компанія, якій буде доставлено проект.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-109">**Customer** : The company the project will be delivered to.</span></span>
+- <span data-ttu-id="9ec5e-110">**Шаблон календаря** : робочий час проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-110">**Calendar template** : The working hours of the project.</span></span> <span data-ttu-id="9ec5e-111">Після змінення поля весь розклад буде обчислено повторно.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-111">When the field is changed, the entire schedule is recalculated.</span></span>
+- <span data-ttu-id="9ec5e-112">**Грошова одиниця** : грошова одиниця для проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-112">**Currency** : The currency for the project.</span></span> <span data-ttu-id="9ec5e-113">Стандартні значення цього поля залежать від грошової одиниці, визначеної в договірній одиниці.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-113">This field defaults based on the currency defined in the contracting unit.</span></span> <span data-ttu-id="9ec5e-114">У разі оновлення договірної одиниці це поле також буде оновлено.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-114">When the contracting unit is updated, the field is also updated.</span></span>
+- <span data-ttu-id="9ec5e-115">**Договірна одиниця** : організаційна одиниця, що представляє групу або підрозділ компанії, які перед усім відповідають за збут та управління наданням послуг клієнтам.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-115">**Contracting Unit** : The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer.</span></span> 
+- <span data-ttu-id="9ec5e-116">**Менеджер проектів** : учасник робочої групи проекту, який має право на перегляд і затвердження записів про час і витрати.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-116">**Project Manager** : The project team member who has the authority to review and approve time entries and expenses.</span></span>
 
-## <a name="estimate-fields"></a>Поля з очікуваними даними
+## <a name="estimate-fields"></a><span data-ttu-id="9ec5e-117">Поля з очікуваними даними</span><span class="sxs-lookup"><span data-stu-id="9ec5e-117">Estimate fields</span></span>
 
-- **Очікувана дата початку**: дата початку проекту. У разі оновлення цього поля будь-які завдання з проекту буде переміщено пропорційно до нової дати початку.
-- **Дата завершення**: дата запланованого завершення проекту.
-- **Обсяг роботи**: очікуваний обсяг роботи проекту. Після додавання завдань до проекту це поле буде недоступно для редагування.
-- **Очікувана оплата праці**: очікувана оплата праці проекту. Після додавання оплати праці до проекту це поле буде недоступно для редагування.
-- **Очікувані витрати**: очікувані витрати проекту. Після додавання витрат до проекту це поле буде недоступно для редагування.
+- <span data-ttu-id="9ec5e-118">**Очікувана дата початку** : дата початку проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-118">**Estimated Start Date** : The date that the project will begin.</span></span> <span data-ttu-id="9ec5e-119">У разі оновлення цього поля будь-які завдання з проекту буде переміщено пропорційно до нової дати початку.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-119">When this field is updated, any tasks on the project will move proportionately with the start new start date.</span></span>
+- <span data-ttu-id="9ec5e-120">**Дата завершення** : дата запланованого завершення проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-120">**Finish Date** : The date that the project is scheduled to end.</span></span>
+- <span data-ttu-id="9ec5e-121">**Обсяг роботи** : очікуваний обсяг роботи проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-121">**Effort** : The estimated effort of the project.</span></span> <span data-ttu-id="9ec5e-122">Після додавання завдань до проекту це поле буде недоступно для редагування.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-122">When tasks are added to the project, this field is no longer editable.</span></span>
+- <span data-ttu-id="9ec5e-123">**Очікувана оплата праці** : очікувана оплата праці проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-123">**Estimated Labor Cost** : The estimated labor cost of the project.</span></span> <span data-ttu-id="9ec5e-124">Після додавання оплати праці до проекту це поле буде недоступно для редагування.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-124">When labor costs are added to the project, this field is no longer editable.</span></span>
+- <span data-ttu-id="9ec5e-125">**Очікувані витрати** : очікувані витрати проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-125">**Estimated Expenses** : The estimated expenses of the project.</span></span> <span data-ttu-id="9ec5e-126">Після додавання витрат до проекту це поле буде недоступно для редагування.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-126">When expenses are added to the project, this field is no longer editable.</span></span>
 
-## <a name="project-actual-fields"></a>Поля з фактичними даними проекту
-- **Фактичний початок**: дата початку проекту.
-- **Фактичне завершення**: оновлюється після завершення проекту.
+## <a name="project-actual-fields"></a><span data-ttu-id="9ec5e-127">Поля з фактичними даними проекту</span><span class="sxs-lookup"><span data-stu-id="9ec5e-127">Project actual fields</span></span>
+- <span data-ttu-id="9ec5e-128">**Фактичний початок** : дата початку проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-128">**Actual Start** : The date that the project started.</span></span>
+- <span data-ttu-id="9ec5e-129">**Фактичне завершення** : оновлюється після завершення проекту.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-129">**Actual Finish** : To be updated when a project has been completed.</span></span>
 
-## <a name="project-status-fields"></a>Поля з даними стану проекту
+## <a name="project-status-fields"></a><span data-ttu-id="9ec5e-130">Поля з даними стану проекту</span><span class="sxs-lookup"><span data-stu-id="9ec5e-130">Project status fields</span></span>
 
-- **Загальний стан проекту**: загальний стан проекту, що зазначається менеджером проектів.
-- **Коментарі**: виклад щодо поточного стану проекту, що зазначається менеджером проектів.
+- <span data-ttu-id="9ec5e-131">**Загальний стан проекту** : загальний стан проекту, що зазначається менеджером проектів.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-131">**Overall Project Status** : The overall project health provided by the Project manager.</span></span>
+- <span data-ttu-id="9ec5e-132">**Коментарі** : виклад щодо поточного стану проекту, що зазначається менеджером проектів.</span><span class="sxs-lookup"><span data-stu-id="9ec5e-132">**Comments** : A narrative regarding the current health of the project provided by the Project manager.</span></span>
 

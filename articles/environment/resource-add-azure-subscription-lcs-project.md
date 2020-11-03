@@ -9,64 +9,64 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086587"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Додавання передплати на Azure до проекту LCS
+# <a name="add-an-azure-subscription-to-lcs-project"></a><span data-ttu-id="335cf-103">Додавання передплати на Azure до проекту LCS</span><span class="sxs-lookup"><span data-stu-id="335cf-103">Add an Azure subscription to LCS project</span></span>
 
-_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
+<span data-ttu-id="335cf-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_</span><span class="sxs-lookup"><span data-stu-id="335cf-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-Хмарні середовища потрібно розгортати за допомогою наявної передплати на Azure. У цьому розділі пояснюється, як підключити наявну передплату на Azure до проекту LCS. 
+<span data-ttu-id="335cf-105">Хмарні середовища потрібно розгортати за допомогою наявної передплати на Azure.</span><span class="sxs-lookup"><span data-stu-id="335cf-105">Cloud-hosted environments must be deployed using an existing Azure subscription.</span></span> <span data-ttu-id="335cf-106">У цьому розділі пояснюється, як підключити наявну передплату на Azure до проекту LCS.</span><span class="sxs-lookup"><span data-stu-id="335cf-106">This topic explains how to connect your existing Azure subscription to an LCS project.</span></span> 
 
-## <a name="grant-admin-consent"></a>Надання згоди адміністратора
+## <a name="grant-admin-consent"></a><span data-ttu-id="335cf-107">Надання згоди адміністратора</span><span class="sxs-lookup"><span data-stu-id="335cf-107">Grant admin consent</span></span>
 
-1. У проекті LCS у розділі **Середовища** виберіть **Параметри Microsoft Azure**.
+1. <span data-ttu-id="335cf-108">У проекті LCS у розділі **Середовища** виберіть **Параметри Microsoft Azure**.</span><span class="sxs-lookup"><span data-stu-id="335cf-108">In your LCS project, in the **Environments** section, select **Microsoft Azure settings**.</span></span>
 
 ![Параметри Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. На сторінці **Параметри проектів** на вкладці **З’єднувачі Azure** виберіть **Авторизувати**. Це дасть змогу розгортати середовища в цьому проекті.
+2. <span data-ttu-id="335cf-110">На сторінці **Параметри проектів** на вкладці **З’єднувачі Azure** виберіть **Авторизувати**.</span><span class="sxs-lookup"><span data-stu-id="335cf-110">On the **Project settings** page, on the **Azure connectors** tab, select **Authorize**.</span></span> <span data-ttu-id="335cf-111">Це дасть змогу розгортати середовища в цьому проекті.</span><span class="sxs-lookup"><span data-stu-id="335cf-111">This allows environments to be deployed to this project.</span></span>
 
 ![З’єднувачі Azure](./media/2AzureConnectors.png)
 
-3. Знову виберіть **Авторизувати**, щоб надати згоду адміністратора.
+3. <span data-ttu-id="335cf-113">Знову виберіть **Авторизувати** , щоб надати згоду адміністратора.</span><span class="sxs-lookup"><span data-stu-id="335cf-113">Select **Authorize** again to provide admin consent.</span></span>
 
 ![Надання згоди адміністратора](./media/3GrantAdminConsent.png)
 
-4. Прийміть запит на надання дозволів.
+4. <span data-ttu-id="335cf-115">Прийміть запит на надання дозволів.</span><span class="sxs-lookup"><span data-stu-id="335cf-115">Accept the permissions request.</span></span>
 
 ![Прийняття запиту на надання дозволу](./media/4AcceptPermissionRequest.png)
 
-Тепер авторизацію завершено. 
+<span data-ttu-id="335cf-117">Тепер авторизацію завершено.</span><span class="sxs-lookup"><span data-stu-id="335cf-117">The authorization is now complete.</span></span> 
 
 ![Успішне здійснення авторизації](./media/5AuthorizationComplete.png)
 
-## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Надання службам розгортання Dynamics доступу до передплати на Azure
+## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a><span data-ttu-id="335cf-119">Надання службам розгортання Dynamics доступу до передплати на Azure</span><span class="sxs-lookup"><span data-stu-id="335cf-119">Provide Dynamics Deployment Services access to your Azure subscription</span></span>
 
-1. Відкрийте [Виставлення рахунків Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) і виберіть відповідну передплату. Службам розгортання Dynamics необхідний доступу до цієї передплати для забезпечення можливості розгортання середовищ.
+1. <span data-ttu-id="335cf-120">Відкрийте [Виставлення рахунків Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) і виберіть відповідну передплату.</span><span class="sxs-lookup"><span data-stu-id="335cf-120">Go to [Microsoft Azure billing](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) and select your subscription.</span></span> <span data-ttu-id="335cf-121">Службам розгортання Dynamics необхідний доступу до цієї передплати для забезпечення можливості розгортання середовищ.</span><span class="sxs-lookup"><span data-stu-id="335cf-121">Dynamics Deployment Services needs to access this subscription to be able to deploy environments.</span></span>
 
 ![Відомості про передплату на Azure](./media/6AzureSubscription.png)
 
-2. Виберіть **Керування доступом (IAM)** в області переходів, а потім – **Додати призначення ролей**.
-3. На повзунку справа виберіть **Роль співавтора** та в списку, що відобразиться, знайдіть і виберіть **Служби розгортання Dynamics**. 
-4. Виберіть **Зберегти**.
+2. <span data-ttu-id="335cf-123">Виберіть **Керування доступом (IAM)** в області переходів, а потім – **Додати призначення ролей**.</span><span class="sxs-lookup"><span data-stu-id="335cf-123">Select **Access control (IAM)** in the navigation pane, and then select **Add role assignment**.</span></span>
+3. <span data-ttu-id="335cf-124">На повзунку справа виберіть **Роль співавтора** та в списку, що відобразиться, знайдіть і виберіть **Служби розгортання Dynamics**.</span><span class="sxs-lookup"><span data-stu-id="335cf-124">In the slider on the right side, select **Contributor role** , and in the list provided, find and select **Dynamics Deployment Services**.</span></span> 
+4. <span data-ttu-id="335cf-125">Виберіть **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="335cf-125">Select **Save**.</span></span>
 
 ![Доступ до передплати](./media/7SubscriptionAccess.png)
 
-### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Додавання з’єднувача передплати до проекту LCS
+### <a name="add-a-subscription-connector-to-an-lcs-project"></a><span data-ttu-id="335cf-127">Додавання з’єднувача передплати до проекту LCS</span><span class="sxs-lookup"><span data-stu-id="335cf-127">Add a subscription connector to an LCS project</span></span>
 
-1. У проекті LCS на сторінці **Параметри Microsoft Azure** виберіть **Додати**, щоб додати новий з’єднувач.
-2. Введіть ідентифікатор передплати на Azure. Ідентифікатор передплати на Azure можна знайти на [порталі Azure](https://ms.portal.azure.com/) у розділі **Параметри** в лівому нижньому куті екрана.
-3. У полі **Настроїти на використання Azure Resource Manager** виберіть **Так**.
-4. Переконайтеся, що домен клієнта AAD передплати на Azure відповідає доменній передплаті на Azure, що використовується, а потім натисніть кнопку **Далі**.
-5. На екрані **Налаштування Microsoft Azure** натисніть **Далі** для підтвердження. Якщо на цьому екрані відображається повідомлення про помилку, поверніться до підрозділу [Надання службам розгортання Dynamics доступу до передплати на Azure](#provide) в цьому розділі й упевніться у виконанні всіх кроків.
-6. Завантажте сертифікат керування Azure до локальної папки на комп’ютері, а потім передайте його на портал керування Azure, вибравши **Параметри** > **Сертифікати керування**. Цей сертифікат надасть LCS можливість зв’язуватися з Azure від вашого імені. Цей крок можна пропустити, якщо користувач має доступ до передплати.
-7. Натисніть **Далі**.
-8. Виберіть область Azure для розгортання, а також центр обробки даних, що знаходиться неподалік від місця, у якому планується використання цієї системи.
-9.  Натисніть **Підключити**.
+1. <span data-ttu-id="335cf-128">У проекті LCS на сторінці **Параметри Microsoft Azure** виберіть **Додати** , щоб додати новий з’єднувач.</span><span class="sxs-lookup"><span data-stu-id="335cf-128">In your LCS project, on the **Microsoft Azure settings** page, select **Add** to add a new connector.</span></span>
+2. <span data-ttu-id="335cf-129">Введіть ідентифікатор передплати на Azure.</span><span class="sxs-lookup"><span data-stu-id="335cf-129">Enter your Azure subscription ID.</span></span> <span data-ttu-id="335cf-130">Ідентифікатор передплати на Azure можна знайти на [порталі Azure](https://ms.portal.azure.com/) у розділі **Параметри** в лівому нижньому куті екрана.</span><span class="sxs-lookup"><span data-stu-id="335cf-130">You can find your Azure subscription ID in the [Azure portal](https://ms.portal.azure.com/), under  **Settings**  in the lower left of the screen.</span></span>
+3. <span data-ttu-id="335cf-131">У полі **Настроїти на використання Azure Resource Manager** виберіть **Так**.</span><span class="sxs-lookup"><span data-stu-id="335cf-131">In the **Configure to use Azure Resource Manager** field, select **Yes**.</span></span>
+4. <span data-ttu-id="335cf-132">Переконайтеся, що домен клієнта AAD передплати на Azure відповідає доменній передплаті на Azure, що використовується, а потім натисніть кнопку **Далі**.</span><span class="sxs-lookup"><span data-stu-id="335cf-132">Make sure Azure's Subscription AAD Tenant Domain matches the domain-owning Azure subscription that you are using, and select **Next**.</span></span>
+5. <span data-ttu-id="335cf-133">На екрані **Налаштування Microsoft Azure** натисніть **Далі** для підтвердження.</span><span class="sxs-lookup"><span data-stu-id="335cf-133">On the **Microsoft Azure Setup** screen, select **Next** to confirm.</span></span> <span data-ttu-id="335cf-134">Якщо на цьому екрані відображається повідомлення про помилку, поверніться до підрозділу [Надання службам розгортання Dynamics доступу до передплати на Azure](#provide) в цьому розділі й упевніться у виконанні всіх кроків.</span><span class="sxs-lookup"><span data-stu-id="335cf-134">If you receive an error on this screen, return to the section [Provide Dynamics Deployment Services access to Azure subscription](#provide) in this topic and make sure you have completed all of the steps.</span></span>
+6. <span data-ttu-id="335cf-135">Завантажте сертифікат керування Azure до локальної папки на комп’ютері, а потім передайте його на портал керування Azure, вибравши **Параметри** > **Сертифікати керування**.</span><span class="sxs-lookup"><span data-stu-id="335cf-135">Download the Azure Management Certificate to a local folder on your computer, and then upload it to Azure Management Portal by going to **Settings** > **Management Certificates**.</span></span> <span data-ttu-id="335cf-136">Цей сертифікат надасть LCS можливість зв’язуватися з Azure від вашого імені.</span><span class="sxs-lookup"><span data-stu-id="335cf-136">This certificate will enable LCS to communicate with Azure on your behalf.</span></span> <span data-ttu-id="335cf-137">Цей крок можна пропустити, якщо користувач має доступ до передплати.</span><span class="sxs-lookup"><span data-stu-id="335cf-137">You can skip this step if your user has access to the subscription.</span></span>
+7. <span data-ttu-id="335cf-138">Натисніть **Далі**.</span><span class="sxs-lookup"><span data-stu-id="335cf-138">Select  **Next**.</span></span>
+8. <span data-ttu-id="335cf-139">Виберіть область Azure для розгортання, а також центр обробки даних, що знаходиться неподалік від місця, у якому планується використання цієї системи.</span><span class="sxs-lookup"><span data-stu-id="335cf-139">Select the Azure region to deploy in and select a data center that is close to where you plan to use this system.</span></span>
+9.  <span data-ttu-id="335cf-140">Натисніть **Підключити**.</span><span class="sxs-lookup"><span data-stu-id="335cf-140">Select  **Connect**.</span></span>
 
-Передплату на Azure успішно підключено. Тепер можна розгортати хмарні середовища Dynamics 365 Finance.
+<span data-ttu-id="335cf-141">Передплату на Azure успішно підключено.</span><span class="sxs-lookup"><span data-stu-id="335cf-141">You have successfully connected your Azure subscription.</span></span> <span data-ttu-id="335cf-142">Тепер можна розгортати хмарні середовища Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="335cf-142">You can now deploy Dynamics 365 Finance cloud-hosted environments.</span></span>
 
 

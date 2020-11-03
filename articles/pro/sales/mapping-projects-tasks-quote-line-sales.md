@@ -9,84 +9,84 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964932"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086608"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Зіставлення проектів і завдань із позиціями цінової пропозиції на основі продуктів
+# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a><span data-ttu-id="e6876-103">Зіставлення проектів і завдань із позиціями цінової пропозиції на основі продуктів</span><span class="sxs-lookup"><span data-stu-id="e6876-103">Map projects and tasks to a project-based quote line</span></span>
 
-_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
+<span data-ttu-id="e6876-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_</span><span class="sxs-lookup"><span data-stu-id="e6876-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-У позиціях цінової пропозиції на основі проекту можна зіставити певні завдання проекту, який уже прив’язано до позиції цінової пропозиції.
+<span data-ttu-id="e6876-105">У позиціях цінової пропозиції на основі проекту можна зіставити певні завдання проекту, який уже прив’язано до позиції цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-105">On project-based quote lines, you can map the specific tasks of a project that is already associated to a quote line.</span></span>
 
-Коли ви зіставляєте завдання з позицією цінової пропозиції, зазначені нижче елементи, які ви визначили в цій позиції, буде застосовано до таких завдань:
+<span data-ttu-id="e6876-106">Коли ви зіставляєте завдання з позицією цінової пропозиції, зазначені нижче елементи, які ви визначили в цій позиції, буде застосовано до таких завдань:</span><span class="sxs-lookup"><span data-stu-id="e6876-106">When you map tasks to a quote line, the following items you defined on the quote line will only apply to those tasks:</span></span>
 
-- Спосіб виставлення рахунків
-- Параметри оплатності
-- Граничні обмеження
-- Клієнти
+- <span data-ttu-id="e6876-107">Спосіб виставлення рахунків</span><span class="sxs-lookup"><span data-stu-id="e6876-107">Billing method</span></span>
+- <span data-ttu-id="e6876-108">Параметри оплатності</span><span class="sxs-lookup"><span data-stu-id="e6876-108">Chargeability options</span></span>
+- <span data-ttu-id="e6876-109">Граничні обмеження</span><span class="sxs-lookup"><span data-stu-id="e6876-109">Not-to-exceed limits</span></span>
+- <span data-ttu-id="e6876-110">Клієнти</span><span class="sxs-lookup"><span data-stu-id="e6876-110">Customers</span></span>
 
-Наприклад, ви можете мати проект, в якому одна фаза — це фіксована ціна, а всі інші фази — це час і матеріали. У цьому випадку можна прив’язати першу фазу, а також всі її дочірні завдання, до позиції цінової пропозиції для цієї фази за допомогою методу виставлення рахунків із фіксованою ціною. Потім можна прив’язати всі інші фази до позиції цінової пропозиції на основі часу і матеріалів.
+<span data-ttu-id="e6876-111">Наприклад, ви можете мати проект, в якому одна фаза — це фіксована ціна, а всі інші фази — це час і матеріали.</span><span class="sxs-lookup"><span data-stu-id="e6876-111">For example, you might have a project where one phase is fixed price and all the other phases are time and materials.</span></span> <span data-ttu-id="e6876-112">У цьому випадку можна прив’язати першу фазу, а також всі її дочірні завдання, до позиції цінової пропозиції для цієї фази за допомогою методу виставлення рахунків із фіксованою ціною.</span><span class="sxs-lookup"><span data-stu-id="e6876-112">In this case, you can associate the first phase, and all of its child tasks, to the quote line for that phase with a fixed price billing method.</span></span> <span data-ttu-id="e6876-113">Потім можна прив’язати всі інші фази до позиції цінової пропозиції на основі часу і матеріалів.</span><span class="sxs-lookup"><span data-stu-id="e6876-113">You can then associate all the other phases to the time and materials-based quote line.</span></span>
 
-## <a name="associate-tasks-to-project-based-quote-lines"></a>Прив’язування завдань до позицій цінової пропозиції на основі проекту
+## <a name="associate-tasks-to-project-based-quote-lines"></a><span data-ttu-id="e6876-114">Прив’язування завдань до позицій цінової пропозиції на основі проекту</span><span class="sxs-lookup"><span data-stu-id="e6876-114">Associate tasks to project-based quote lines</span></span>
 
-Завдання можна прив’язувати до позицій цінової пропозиції з таких розташувань:
+<span data-ttu-id="e6876-115">Завдання можна прив’язувати до позицій цінової пропозиції з таких розташувань:</span><span class="sxs-lookup"><span data-stu-id="e6876-115">You can associate tasks with quote lines from the following locations:</span></span>
 
-- Сторінка **Проект** > вкладка **Виставлення рахунка за завданнями** (оптимальний)
-- Сторінка **Позиція цінової пропозиції** > вкладка **Оплачувані завдання** 
+- <span data-ttu-id="e6876-116">Сторінка **Проект** > вкладка **Виставлення рахунка за завданнями** (оптимальний)</span><span class="sxs-lookup"><span data-stu-id="e6876-116">**Project** page > **Task billing** tab (optimal)</span></span>
+- <span data-ttu-id="e6876-117">Сторінка **Позиція цінової пропозиції** > вкладка **Оплачувані завдання**</span><span class="sxs-lookup"><span data-stu-id="e6876-117">**Quote Line** page > **Chargeable tasks** tab</span></span> 
 
-### <a name="from-the-project-page"></a>На сторінці проекту
+### <a name="from-the-project-page"></a><span data-ttu-id="e6876-118">На сторінці проекту</span><span class="sxs-lookup"><span data-stu-id="e6876-118">From the Project page</span></span>
 
-Сторінка **Проект** надає оптимальні можливості для прив’язування завдань до позицій цінової пропозиції. Цю сторінку можна використовувати для вибору кількох завдань і прив’язування всіх із них, а також їхніх дочірніх завдань, до вибраної позиції цінової пропозиції.
+<span data-ttu-id="e6876-119">Сторінка **Проект** надає оптимальні можливості для прив’язування завдань до позицій цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-119">The **Project** page provides the optimal experience for associating tasks to quote lines.</span></span> <span data-ttu-id="e6876-120">Цю сторінку можна використовувати для вибору кількох завдань і прив’язування всіх із них, а також їхніх дочірніх завдань, до вибраної позиції цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-120">You can use this page to select multiple tasks and associate all of them, plus their child tasks, to the selected quote line.</span></span>
 
-1. На вкладці позиції цінової пропозиції на основі проекту **Загальні** переконайтеся, що поле **Проект** заповнено.
-2. У полі **Включені завдання** виберіть **Лише вибрані завдання**.
-3. Збережіть цю позицію цінової пропозиції на основі проекту. Під час оновлення форми відображається вкладка **Оплачувані завдання**.
-4. На вкладці **Загальні** виберіть посилання на проект в полі **Проект**.
-5. На сторінці **Проект** виберіть вкладку **Виставлення рахунка за завданнями**.
-6. У другій сітці, яка застосовується до налаштування виставлення рахунків для цього завдання, виберіть одне або кілька завдань, а потім виберіть елемент **Прив’язати позиції цінової пропозиції**.
-7. На сторінці діалогового вікна, що відобразиться, виберіть позицію цінової пропозиції, в якій відображатимуться позиції цінової пропозиції на основі проекту в ціновій пропозиції.
-8. У полі **Тип виставлення рахунків** укажіть, чи є ці завдання оплачуваними або неоплачуваними.
-9. Установіть прапорець, щоб указати, чи має цей зв’язок включати дочірні завдання вибраних завдань. Установлення прапорця прив’яже дочірні завдання вибраних завдань до цієї позиції цінової пропозиції.
-10. Натисніть кнопку **OK**, щоб закрити діалогове вікно.
+1. <span data-ttu-id="e6876-121">На вкладці позиції цінової пропозиції на основі проекту **Загальні** переконайтеся, що поле **Проект** заповнено.</span><span class="sxs-lookup"><span data-stu-id="e6876-121">On the **General** tab of a project–based quote line, verify the **Project** field is filled out.</span></span>
+2. <span data-ttu-id="e6876-122">У полі **Включені завдання** виберіть **Лише вибрані завдання**.</span><span class="sxs-lookup"><span data-stu-id="e6876-122">In the **Included tasks** field, select **Selected tasks only**.</span></span>
+3. <span data-ttu-id="e6876-123">Збережіть цю позицію цінової пропозиції на основі проекту.</span><span class="sxs-lookup"><span data-stu-id="e6876-123">Save the project-based quote line.</span></span> <span data-ttu-id="e6876-124">Під час оновлення форми відображається вкладка **Оплачувані завдання**.</span><span class="sxs-lookup"><span data-stu-id="e6876-124">When the form refreshes, the **Chargeable tasks** tab displays.</span></span>
+4. <span data-ttu-id="e6876-125">На вкладці **Загальні** виберіть посилання на проект в полі **Проект**.</span><span class="sxs-lookup"><span data-stu-id="e6876-125">On the **General** tab, select the link for the project from the **Project** field.</span></span>
+5. <span data-ttu-id="e6876-126">На сторінці **Проект** виберіть вкладку **Виставлення рахунка за завданнями**.</span><span class="sxs-lookup"><span data-stu-id="e6876-126">On the **Project** page, select the **Task billing** tab.</span></span>
+6. <span data-ttu-id="e6876-127">У другій сітці, яка застосовується до налаштування виставлення рахунків для цього завдання, виберіть одне або кілька завдань, а потім виберіть елемент **Прив’язати позиції цінової пропозиції**.</span><span class="sxs-lookup"><span data-stu-id="e6876-127">In the second grid, which applies to task-specific billing setup, select one or more tasks and then select **Associate quote lines**.</span></span>
+7. <span data-ttu-id="e6876-128">На сторінці діалогового вікна, що відобразиться, виберіть позицію цінової пропозиції, в якій відображатимуться позиції цінової пропозиції на основі проекту в ціновій пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-128">In the dialog page that appears, select a quote line that displays project-based quote lines on the quote.</span></span>
+8. <span data-ttu-id="e6876-129">У полі **Тип виставлення рахунків** укажіть, чи є ці завдання оплачуваними або неоплачуваними.</span><span class="sxs-lookup"><span data-stu-id="e6876-129">In the **Billing type** field, indicate if these tasks are chargeable or non-chargeable.</span></span>
+9. <span data-ttu-id="e6876-130">Установіть прапорець, щоб указати, чи має цей зв’язок включати дочірні завдання вибраних завдань.</span><span class="sxs-lookup"><span data-stu-id="e6876-130">Select the check box to indicate if the association should include child tasks of the selected tasks.</span></span> <span data-ttu-id="e6876-131">Установлення прапорця прив’яже дочірні завдання вибраних завдань до цієї позиції цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-131">Checking the box will associate the child tasks of the selected tasks to the quote line.</span></span>
+10. <span data-ttu-id="e6876-132">Натисніть кнопку **OK** , щоб закрити діалогове вікно.</span><span class="sxs-lookup"><span data-stu-id="e6876-132">Select **OK** to close the dialog.</span></span>
 
-### <a name="from-the-quote-line-page"></a>На сторінці «Позиція цінової пропозиції»
+### <a name="from-the-quote-line-page"></a><span data-ttu-id="e6876-133">На сторінці «Позиція цінової пропозиції»</span><span class="sxs-lookup"><span data-stu-id="e6876-133">From the Quote line page</span></span>
 
-Завдання проекту можна прив’язати до позицій цінової пропозиції на вкладці **Оплачувані завдання** на сторінці **Позиція цінової пропозиції**.
-
->[!NOTE]
->Оптимальне місце для прив’язування завдань проекту до позицій цінової пропозиції — вкладка **Виставлення рахунка за завданнями** на сторінці **Проект**. Якщо ви прив’язуєте завдання з вкладки **Оплачувані завдання** на сторінці **Позиція цінової пропозиції**, ви повинні вручну прив’язати кожен проект.
-
-1. На вкладці позиції цінової пропозиції на основі проекту **Загальні** переконайтеся, що в полі **Проект** вибрано проект.
-2. У полі **Включені завдання** виберіть **Лише вибрані завдання**.
-3. Збережіть цю позицію цінової пропозиції на основі проекту. Під час оновлення форми відображається вкладка **Оплачувані завдання**.
-4. На вкладці **Оплачувані завдання** виберіть елемент **Додати завдання позиції цінової пропозиції**.
-5. На сторінці **Завдання позиції цінової пропозиції** в полі **Завдання** виберіть завдання, а у полі **Тип виставлення рахунків** виберіть **Зберегти**. 
-6. Закрийте сторінку. Вибране завдання тепер прив’язано до позиції цінової пропозиції.
-
-## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Скасування прив’язування завдань до позицій цінової пропозиції на основі проекту
-
-### <a name="from-the-project-page"></a>На сторінці проекту
-
-Цей метод надає найбільш оптимальні можливості для скасування прив’язування завдань до позицій цінової пропозиції. Ви можете вибрати кілька завдань і скасувати прив’язування всіх із них, а також їхніх дочірніх завдань, з вибраної позиції цінової пропозиції.
-
-1. На вкладці позиції цінової пропозиції на основі проекту **Загальні** в полі **Проект** виберіть посилання на проект.
-2. На сторінці **Проект** виберіть вкладку **Виставлення рахунка за завданнями**.
-3. У другій сітці, яка застосовується до налаштування виставлення рахунків для цього завдання, виберіть одне або кілька завдань, а потім виберіть елемент **Скасувати прив’язування позицій цінової пропозиції**.
-4. На сторінці діалогового вікна, що відобразиться, виберіть позицію цінової пропозиції.
-5. Установіть прапорець, щоб указати, чи потрібно цей зв’язок також видалити з дочірніх завдань вибраних завдань. Установлення прапорця також скасує при’язування дочірніх завдань вибраних завдань до позиції цінової пропозиції.
-6. Виберіть **ОК**. Попереджувальне повідомлення повідомить вас про те, що в разі видалення цього зв’язку всі фактичні дані, записані в завданні, може бути скасовано. 
-7. Натисніть кнопку **ОК**, щоб продовжити та видалити зв’язок між завданням і позицією цінової пропозиції на основі проекту.
-
-### <a name="from-the-quote-line-page"></a>На сторінці «Позиція цінової пропозиції»
-
-Скасувати прив’язування завдань проекту до позицій цінової пропозиції також можна на вкладці **Оплачувані завдання** на сторінці **Позиція цінової пропозиції**.
-
-1. На вкладці **Оплачувані завдання** виберіть елемент **Видалити завдання позиції цінової пропозиції**.
-2. Виберіть **ОК**. Попереджувальне повідомлення повідомить вас про те, що в разі видалення цього зв’язку всі фактичні дані, записані в завданні, може бути скасовано. 
-3. Натисніть кнопку **ОК**, щоб продовжити та видалити зв’язок між завданням і позицією цінової пропозиції на основі проекту.
+<span data-ttu-id="e6876-134">Завдання проекту можна прив’язати до позицій цінової пропозиції на вкладці **Оплачувані завдання** на сторінці **Позиція цінової пропозиції**.</span><span class="sxs-lookup"><span data-stu-id="e6876-134">You can associate project tasks to quote lines from the **Chargeable tasks** tab on **Quote line** page.</span></span>
 
 >[!NOTE]
-> Ця процедура не призводить до видалення завдання з проекту. Це призведе до видалення лише прив’язування завдання до позиції цінової пропозиції на основі проекту.
+><span data-ttu-id="e6876-135">Оптимальне місце для прив’язування завдань проекту до позицій цінової пропозиції — вкладка **Виставлення рахунка за завданнями** на сторінці **Проект**.</span><span class="sxs-lookup"><span data-stu-id="e6876-135">The optimal place to associate project tasks to quote lines is on the **Task billing** tab on the **Project** page.</span></span> <span data-ttu-id="e6876-136">Якщо ви прив’язуєте завдання з вкладки **Оплачувані завдання** на сторінці **Позиція цінової пропозиції** , ви повинні вручну прив’язати кожен проект.</span><span class="sxs-lookup"><span data-stu-id="e6876-136">If you associate tasks from the **Chargeable tasks** tab on **Quote line** page, you must manually associate each project.</span></span>
+
+1. <span data-ttu-id="e6876-137">На вкладці позиції цінової пропозиції на основі проекту **Загальні** переконайтеся, що в полі **Проект** вибрано проект.</span><span class="sxs-lookup"><span data-stu-id="e6876-137">On the **General** tab of a project–based quote line, verify that there is a project selected in the **Project** field.</span></span>
+2. <span data-ttu-id="e6876-138">У полі **Включені завдання** виберіть **Лише вибрані завдання**.</span><span class="sxs-lookup"><span data-stu-id="e6876-138">In the **Included tasks** field, select **Selected tasks only**.</span></span>
+3. <span data-ttu-id="e6876-139">Збережіть цю позицію цінової пропозиції на основі проекту.</span><span class="sxs-lookup"><span data-stu-id="e6876-139">Save the project-based quote line.</span></span> <span data-ttu-id="e6876-140">Під час оновлення форми відображається вкладка **Оплачувані завдання**.</span><span class="sxs-lookup"><span data-stu-id="e6876-140">When the form refreshes, the **Chargeable tasks** tab displays.</span></span>
+4. <span data-ttu-id="e6876-141">На вкладці **Оплачувані завдання** виберіть елемент **Додати завдання позиції цінової пропозиції**.</span><span class="sxs-lookup"><span data-stu-id="e6876-141">On the **Chargeable tasks** tab, select **Add a quote line task**.</span></span>
+5. <span data-ttu-id="e6876-142">На сторінці **Завдання позиції цінової пропозиції** в полі **Завдання** виберіть завдання, а у полі **Тип виставлення рахунків** виберіть **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="e6876-142">On the **Quote line task** page, in the **Tasks** field, select the task and in the **Billing type** field, select **Save**.</span></span> 
+6. <span data-ttu-id="e6876-143">Закрийте сторінку.</span><span class="sxs-lookup"><span data-stu-id="e6876-143">Close the page.</span></span> <span data-ttu-id="e6876-144">Вибране завдання тепер прив’язано до позиції цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-144">The selected task is now associated to the quote line.</span></span>
+
+## <a name="disassociate-tasks-from-projectbased-quote-lines"></a><span data-ttu-id="e6876-145">Скасування прив’язування завдань до позицій цінової пропозиції на основі проекту</span><span class="sxs-lookup"><span data-stu-id="e6876-145">Disassociate tasks from project–based quote lines</span></span>
+
+### <a name="from-the-project-page"></a><span data-ttu-id="e6876-146">На сторінці проекту</span><span class="sxs-lookup"><span data-stu-id="e6876-146">From the Project page</span></span>
+
+<span data-ttu-id="e6876-147">Цей метод надає найбільш оптимальні можливості для скасування прив’язування завдань до позицій цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-147">This method provides the most optimal experience for disassociating tasks from quote lines.</span></span> <span data-ttu-id="e6876-148">Ви можете вибрати кілька завдань і скасувати прив’язування всіх із них, а також їхніх дочірніх завдань, з вибраної позиції цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-148">You can select multiple tasks and disassociate all of the them, plus their child tasks, from the selected quote line.</span></span>
+
+1. <span data-ttu-id="e6876-149">На вкладці позиції цінової пропозиції на основі проекту **Загальні** в полі **Проект** виберіть посилання на проект.</span><span class="sxs-lookup"><span data-stu-id="e6876-149">On the **General** tab of a project–based quote line, in the **Project** field, select the project link.</span></span>
+2. <span data-ttu-id="e6876-150">На сторінці **Проект** виберіть вкладку **Виставлення рахунка за завданнями**.</span><span class="sxs-lookup"><span data-stu-id="e6876-150">On the **Project** page, select the **Task billing** tab.</span></span>
+3. <span data-ttu-id="e6876-151">У другій сітці, яка застосовується до налаштування виставлення рахунків для цього завдання, виберіть одне або кілька завдань, а потім виберіть елемент **Скасувати прив’язування позицій цінової пропозиції**.</span><span class="sxs-lookup"><span data-stu-id="e6876-151">In the second grid, which applies to task-specific billing setup, select one or more tasks, and then select **Disassociate quote lines**.</span></span>
+4. <span data-ttu-id="e6876-152">На сторінці діалогового вікна, що відобразиться, виберіть позицію цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-152">In the dialog page that appears, select a quote line.</span></span>
+5. <span data-ttu-id="e6876-153">Установіть прапорець, щоб указати, чи потрібно цей зв’язок також видалити з дочірніх завдань вибраних завдань.</span><span class="sxs-lookup"><span data-stu-id="e6876-153">Select the check box to indicate whether the association should also be removed from child tasks of the selected tasks.</span></span> <span data-ttu-id="e6876-154">Установлення прапорця також скасує при’язування дочірніх завдань вибраних завдань до позиції цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="e6876-154">Checking the box will also disassociate the child tasks of the selected tasks to the quote line.</span></span>
+6. <span data-ttu-id="e6876-155">Виберіть **ОК**.</span><span class="sxs-lookup"><span data-stu-id="e6876-155">Select **OK**.</span></span> <span data-ttu-id="e6876-156">Попереджувальне повідомлення повідомить вас про те, що в разі видалення цього зв’язку всі фактичні дані, записані в завданні, може бути скасовано.</span><span class="sxs-lookup"><span data-stu-id="e6876-156">A warning message informs you that if you remove this association, any actuals previously recorded on the task could be reversed.</span></span> 
+7. <span data-ttu-id="e6876-157">Натисніть кнопку **ОК** , щоб продовжити та видалити зв’язок між завданням і позицією цінової пропозиції на основі проекту.</span><span class="sxs-lookup"><span data-stu-id="e6876-157">Select **OK** to continue and remove the association between the task and the project-based quote line.</span></span>
+
+### <a name="from-the-quote-line-page"></a><span data-ttu-id="e6876-158">На сторінці «Позиція цінової пропозиції»</span><span class="sxs-lookup"><span data-stu-id="e6876-158">From the Quote line page</span></span>
+
+<span data-ttu-id="e6876-159">Скасувати прив’язування завдань проекту до позицій цінової пропозиції також можна на вкладці **Оплачувані завдання** на сторінці **Позиція цінової пропозиції**.</span><span class="sxs-lookup"><span data-stu-id="e6876-159">You can also disassociate project tasks to quote lines from the **Chargeable tasks** tab on **Quote line** page.</span></span>
+
+1. <span data-ttu-id="e6876-160">На вкладці **Оплачувані завдання** виберіть елемент **Видалити завдання позиції цінової пропозиції**.</span><span class="sxs-lookup"><span data-stu-id="e6876-160">On the **Chargeable tasks** tab, select **Delete a quote line task**.</span></span>
+2. <span data-ttu-id="e6876-161">Виберіть **ОК**.</span><span class="sxs-lookup"><span data-stu-id="e6876-161">Select **OK**.</span></span> <span data-ttu-id="e6876-162">Попереджувальне повідомлення повідомить вас про те, що в разі видалення цього зв’язку всі фактичні дані, записані в завданні, може бути скасовано.</span><span class="sxs-lookup"><span data-stu-id="e6876-162">A warning message informs you that if you remove this association, any actuals previously recorded on the task could be reversed.</span></span> 
+3. <span data-ttu-id="e6876-163">Натисніть кнопку **ОК** , щоб продовжити та видалити зв’язок між завданням і позицією цінової пропозиції на основі проекту.</span><span class="sxs-lookup"><span data-stu-id="e6876-163">Select **OK** to continue and remove the association between the task and the project-based quote line.</span></span>
+
+>[!NOTE]
+> <span data-ttu-id="e6876-164">Ця процедура не призводить до видалення завдання з проекту.</span><span class="sxs-lookup"><span data-stu-id="e6876-164">This procedure doesn't delete the task from the project.</span></span> <span data-ttu-id="e6876-165">Це призведе до видалення лише прив’язування завдання до позиції цінової пропозиції на основі проекту.</span><span class="sxs-lookup"><span data-stu-id="e6876-165">It only removes the task association from the project-based quote line.</span></span>

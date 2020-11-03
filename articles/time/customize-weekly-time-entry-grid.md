@@ -3,139 +3,144 @@ title: Подовження записів часу
 description: У цьому розділі наведено відомості про те, як розробники можуть розширити елемент керування введенням часу.
 author: stsporen
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 93f411ad7c86beefcc35e7799a03987dacdcd62b
-ms.sourcegitcommit: 5a29adce48133e09f051929e8544d6c2c93c025d
+ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3930905"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086615"
 ---
-# <a name="extending-time-entries"></a>Подовження записів часу
+# <a name="extending-time-entries"></a><span data-ttu-id="b92f1-103">Подовження записів часу</span><span class="sxs-lookup"><span data-stu-id="b92f1-103">Extending time entries</span></span>
 
-_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
+<span data-ttu-id="b92f1-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_</span><span class="sxs-lookup"><span data-stu-id="b92f1-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-У Dynamics 365 Project Operations передбачено розширюваний елемент керування введенням часу. Цей елемент керування має перелічені нижче функції.
+<span data-ttu-id="b92f1-105">У Dynamics 365 Project Operations передбачено розширюваний елемент керування введенням часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-105">Dynamics 365 Project Operations includes an extendable time entry custom control.</span></span> <span data-ttu-id="b92f1-106">Цей елемент керування має перелічені нижче функції.</span><span class="sxs-lookup"><span data-stu-id="b92f1-106">This control includes the following features:</span></span>
 
-- Введення часу горизонтально в межах тижня
-- Підсумки за днем, рядком або тижнем
-- Копіювання рядків або тижнів
-- Запис часу, використовуючи ГГ:хх або ГГ.гг (автоматично перетворюється на ГГ.гг)
-- Імпорт з призначень, резервувань або зустрічей
+- <span data-ttu-id="b92f1-107">Введення часу горизонтально в межах тижня</span><span class="sxs-lookup"><span data-stu-id="b92f1-107">Enter time horizontally over a week</span></span>
+- <span data-ttu-id="b92f1-108">Підсумки за днем, рядком або тижнем</span><span class="sxs-lookup"><span data-stu-id="b92f1-108">Totals by day, row, or week</span></span>
+- <span data-ttu-id="b92f1-109">Копіювання рядків або тижнів</span><span class="sxs-lookup"><span data-stu-id="b92f1-109">Copy rows or weeks</span></span>
+- <span data-ttu-id="b92f1-110">Запис часу, використовуючи ГГ:хх або ГГ.гг (автоматично перетворюється на ГГ.гг)</span><span class="sxs-lookup"><span data-stu-id="b92f1-110">Time entry through HH:mm or HH.hh (automatically converts to HH.hh)</span></span>
+- <span data-ttu-id="b92f1-111">Імпорт з призначень, резервувань або зустрічей</span><span class="sxs-lookup"><span data-stu-id="b92f1-111">Import from assignments, bookings, or appointments</span></span>
 
-Подовження записів часу можливе в двох областях:
-- [Додавання настроюваних записів часу для власного використання](#add)
-- [Налаштування елемента керування щотижневим введенням часу](#customize)
+<span data-ttu-id="b92f1-112">Подовження записів часу можливе в двох областях:</span><span class="sxs-lookup"><span data-stu-id="b92f1-112">Extending time entries is possible in two areas:</span></span>
+- [<span data-ttu-id="b92f1-113">Додавання настроюваних записів часу для власного використання</span><span class="sxs-lookup"><span data-stu-id="b92f1-113">Add custom time entries for your own use</span></span>](#add)
+- [<span data-ttu-id="b92f1-114">Налаштування елемента керування щотижневим введенням часу</span><span class="sxs-lookup"><span data-stu-id="b92f1-114">Customize the weekly Time Entry control</span></span>](#customize)
 
-## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Додавання настроюваних записів часу для власного використання.
+## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a><span data-ttu-id="b92f1-115">Додавання настроюваних записів часу для власного використання</span><span class="sxs-lookup"><span data-stu-id="b92f1-115">Add custom time entries for your own use</span></span>
 
-Записи часу — це основна сутність, призначена для використання в кількох сценаріях. У першій хвилі 2020 у квітні було введено основне рішення TESA, яке додає сутність **Параметри** та нову роль безпеки **Користувач записів часу**. Також було додано нові поля, **msdyn_start** та **msdyn_end**, які мають пряме відношення до **msdyn_duration**. Нова сутність, роль безпеки та нові поля дозволяють більш універсально підходити до роботи із часом для кількох продуктів.
+<span data-ttu-id="b92f1-116">Записи часу є основною сутністю, яка використовується в різних сценаріях.</span><span class="sxs-lookup"><span data-stu-id="b92f1-116">Time entries are a core entity used in multiple scenarios.</span></span> <span data-ttu-id="b92f1-117">У хвилі 1 за квітень 2020 року було введено базове рішення TESA.</span><span class="sxs-lookup"><span data-stu-id="b92f1-117">In April Wave 1 2020, the TESA core solution was introduced.</span></span> <span data-ttu-id="b92f1-118">TESA вводить сутність **Параметри** та нову роль безпеки **Користувач записів часу**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-118">TESA provides a **Settings** entity and a new **Time Entry User** security role.</span></span> <span data-ttu-id="b92f1-119">Також було додано нові поля, **msdyn_start** та **msdyn_end** , які мають пряме відношення до **msdyn_duration**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-119">The new fields, **msdyn_start** and **msdyn_end** , which have a direct relation to **msdyn_duration** , were also included.</span></span> <span data-ttu-id="b92f1-120">Нова сутність, роль безпеки та нові поля дозволяють більш універсально підходити до роботи із часом для кількох продуктів.</span><span class="sxs-lookup"><span data-stu-id="b92f1-120">The new entity, security role, and fields allow for a more unified approach to time across multiple products.</span></span>
 
 
-### <a name="time-source-entity"></a>Сутність «Джерело часу»
-| Поле | Опис | 
+### <a name="time-source-entity"></a><span data-ttu-id="b92f1-121">Сутність «Джерело часу»</span><span class="sxs-lookup"><span data-stu-id="b92f1-121">Time source entity</span></span>
+| <span data-ttu-id="b92f1-122">Поле</span><span class="sxs-lookup"><span data-stu-id="b92f1-122">Field</span></span> | <span data-ttu-id="b92f1-123">Опис</span><span class="sxs-lookup"><span data-stu-id="b92f1-123">Description</span></span> | 
 |-------|------------|
-| Ім'я  | Ім'я запису Джерело часу, який використовується як значення вибору під час створення запису. |
-| Джерело часу за замовчуванням [Джерело часу: isdefault] | За замовчуванням лише одне джерело часу може бути позначено як джерело часу за замовчуванням. Завдяки цій можливості записи можуть за замовчуванням використовувати певне джерело часу, якщо джерела не вказано. |
-|Тип джерела часу [Джерело часу: sourcetype] | Тип джерела — це параметр (тип джерела запису часу), який дає змогу об'єднувати джерело часу та програму. Додаткові значення будуть додаватися до цього набору параметрів, коли з'являтимуться нові програми. Зверніть увагу на те, що корпорація Microsoft резервує значення, більші за 190 000 000.|
+| <span data-ttu-id="b92f1-124">Ім'я</span><span class="sxs-lookup"><span data-stu-id="b92f1-124">Name</span></span>  | <span data-ttu-id="b92f1-125">Ім'я запису Джерело часу, який використовується як значення вибору при створенні записів часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-125">The name of the Time source entry used as the selection value when creating time entries.</span></span> |
+| <span data-ttu-id="b92f1-126">Джерело часу за замовчуванням [Джерело часу: isdefault]</span><span class="sxs-lookup"><span data-stu-id="b92f1-126">Default Time Source [Time Source: isdefault]</span></span> | <span data-ttu-id="b92f1-127">За замовчуванням лише одне джерело часу може бути позначено як джерело часу за замовчуванням.</span><span class="sxs-lookup"><span data-stu-id="b92f1-127">By default, only one Time Source can be marked at the default.</span></span> <span data-ttu-id="b92f1-128">Завдяки цьому записи можуть за замовчуванням використовувати певне джерело часу, якщо джерела не вказано.</span><span class="sxs-lookup"><span data-stu-id="b92f1-128">This allows for entries to default to a time source if one isn't specified.</span></span> |
+|<span data-ttu-id="b92f1-129">Тип джерела часу [Джерело часу: sourcetype]</span><span class="sxs-lookup"><span data-stu-id="b92f1-129">Time Source Type [Time Source: sourcetype]</span></span> | <span data-ttu-id="b92f1-130">Тип джерела — це параметр (тип джерела запису часу), який дає змогу об'єднувати джерело часу та програму.</span><span class="sxs-lookup"><span data-stu-id="b92f1-130">The source type is an option (Time Entry Source Type) that allows for the association of the time source to an app.</span></span> <span data-ttu-id="b92f1-131">Корпорація Microsoft резервує значення, більші за 190 000 000.</span><span class="sxs-lookup"><span data-stu-id="b92f1-131">Microsoft reserves values greater than 190,000,000.</span></span>|
 
 
-### <a name="time-entries-and-the-time-source-entity"></a>Записи часу та сутність Джерело часу
-Кожен запис часу зв'язується із записом джерела часу. Цей запис визначає, як і які саме програми мають обробляти запис часу.
+### <a name="time-entries-and-the-time-source-entity"></a><span data-ttu-id="b92f1-132">Записи часу та сутність Джерело часу</span><span class="sxs-lookup"><span data-stu-id="b92f1-132">Time entries and the Time source entity</span></span>
+<span data-ttu-id="b92f1-133">Кожен запис часу зв'язується із записом джерела часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-133">Each time entry is associated to a time source record.</span></span> <span data-ttu-id="b92f1-134">Цей запис визначає, як і які саме програми мають обробляти запис часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-134">This record determines how and which applications should process the time entry.</span></span>
 
-Записи часу завжди є одним безперервним блоком часу із пов'язаним початком, кінцем та тривалістю.
+<span data-ttu-id="b92f1-135">Записи часу завжди є одним безперервним блоком часу із пов'язаним початком, кінцем та тривалістю.</span><span class="sxs-lookup"><span data-stu-id="b92f1-135">Time entries are always one contiguous block of time with the start, end, and duration linked.</span></span>
 
-Логіка автоматично оновлюватиме запис запису часу в перелічених нижче ситуаціях.
+<span data-ttu-id="b92f1-136">Логіка автоматично оновлюватиме запис запису часу в перелічених нижче ситуаціях.</span><span class="sxs-lookup"><span data-stu-id="b92f1-136">The logic will automatically update the time entry record in the following situations:</span></span>
 
-- Якщо введено значення двох з трьох полів, вказаних нижче, значення третього обчислюється автоматично 
+- <span data-ttu-id="b92f1-137">Якщо введено значення двох з трьох полів, вказаних нижче, значення третього обчислюється автоматично.</span><span class="sxs-lookup"><span data-stu-id="b92f1-137">If two of the three following fields are provided, the third is calculated automatically:</span></span> 
 
-    - **msdyn_start**
-    - **msdyn_end**
-    - **msdyn_duration**
+    - <span data-ttu-id="b92f1-138">**msdyn_start**</span><span class="sxs-lookup"><span data-stu-id="b92f1-138">**msdyn_start**</span></span>
+    - <span data-ttu-id="b92f1-139">**msdyn_end**</span><span class="sxs-lookup"><span data-stu-id="b92f1-139">**msdyn_end**</span></span>
+    - <span data-ttu-id="b92f1-140">**msdyn_duration**</span><span class="sxs-lookup"><span data-stu-id="b92f1-140">**msdyn_duration**</span></span>
 
-- Ці поля, **msdyn_start** та **msdyn_end**, враховують часовий пояс.
-- Записи часу, створені лише з **msdyn_date** та **msdyn_duration**, будуть починатися опівночі, а **msdyn_start** і **msdyn_end** буде змінено відповідно.
+- <span data-ttu-id="b92f1-141">Ці поля, **msdyn_start** та **msdyn_end** , враховують часовий пояс.</span><span class="sxs-lookup"><span data-stu-id="b92f1-141">The fields, **msdyn_start** and **msdyn_end** are timezone aware.</span></span>
+- <span data-ttu-id="b92f1-142">Записи часу, створені із зазначенням лише **msdyn_date** та **msdyn_duration** , починатимуться опівночі.</span><span class="sxs-lookup"><span data-stu-id="b92f1-142">Time entries created with only **msdyn_date** and **msdyn_duration** specified will start at midnight.</span></span> <span data-ttu-id="b92f1-143">Поля **msdyn_start** та **msdyn_end** оновляться відповідно.</span><span class="sxs-lookup"><span data-stu-id="b92f1-143">The **msdyn_start** and **msdyn_end** fields will update accordingly.</span></span>
 
-#### <a name="time-entry-types"></a>Типи записів часу
+#### <a name="time-entry-types"></a><span data-ttu-id="b92f1-144">Типи записів часу</span><span class="sxs-lookup"><span data-stu-id="b92f1-144">Time entry types</span></span>
 
-Записи сутності Запис часу мають пов'язаний тип, який визначає поведінку в потоці надсилання для зв'язаної програми.
+<span data-ttu-id="b92f1-145">Записи сутності Запис часу мають пов'язаний тип, який визначає поведінку в потоці надсилання для зв'язаної програми.</span><span class="sxs-lookup"><span data-stu-id="b92f1-145">Time entry records have an associated type that defines the behavior in the submission flow for the associated application.</span></span>
 
-|Заголовок | Значення|
+|<span data-ttu-id="b92f1-146">Заголовок</span><span class="sxs-lookup"><span data-stu-id="b92f1-146">Label</span></span> | <span data-ttu-id="b92f1-147">Значення</span><span class="sxs-lookup"><span data-stu-id="b92f1-147">Value</span></span>|
 |-----|-----|
-|На перерві   |192,355,000|
-|Подорожі | 192,355,001|
-|Понаднормово   | 192,354,320|
-|Робота   | 192,350,000|
-|Відгул    | 192,350,001|
-|Відпустка   | 192,350,002|
+|<span data-ttu-id="b92f1-148">На перерві</span><span class="sxs-lookup"><span data-stu-id="b92f1-148">On break</span></span>   |<span data-ttu-id="b92f1-149">192,355,000</span><span class="sxs-lookup"><span data-stu-id="b92f1-149">192,355,000</span></span>|
+|<span data-ttu-id="b92f1-150">Подорожі</span><span class="sxs-lookup"><span data-stu-id="b92f1-150">Travel</span></span> | <span data-ttu-id="b92f1-151">192,355,001</span><span class="sxs-lookup"><span data-stu-id="b92f1-151">192,355,001</span></span>|
+|<span data-ttu-id="b92f1-152">Понаднормово</span><span class="sxs-lookup"><span data-stu-id="b92f1-152">Overtime</span></span>   | <span data-ttu-id="b92f1-153">192,354,320</span><span class="sxs-lookup"><span data-stu-id="b92f1-153">192,354,320</span></span>|
+|<span data-ttu-id="b92f1-154">Робота</span><span class="sxs-lookup"><span data-stu-id="b92f1-154">Work</span></span>   | <span data-ttu-id="b92f1-155">192,350,000</span><span class="sxs-lookup"><span data-stu-id="b92f1-155">192,350,000</span></span>|
+|<span data-ttu-id="b92f1-156">Відгул</span><span class="sxs-lookup"><span data-stu-id="b92f1-156">Absence</span></span>    | <span data-ttu-id="b92f1-157">192,350,001</span><span class="sxs-lookup"><span data-stu-id="b92f1-157">192,350,001</span></span>|
+|<span data-ttu-id="b92f1-158">Відпустка</span><span class="sxs-lookup"><span data-stu-id="b92f1-158">Vacation</span></span>   | <span data-ttu-id="b92f1-159">192,350,002</span><span class="sxs-lookup"><span data-stu-id="b92f1-159">192,350,002</span></span>|
 
 
 
-## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Налаштування елемента керування щотижневим введенням часу
-Розробники можуть додавати додаткові поля підстановки та інші поля до інших сутностей, а також впроваджувати настроювані бізнес-правила для підтримки своїх бізнес-сценаріїв.
+## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a><span data-ttu-id="b92f1-160">Налаштування елемента керування щотижневим введенням часу</span><span class="sxs-lookup"><span data-stu-id="b92f1-160">Customize the weekly Time entry control</span></span>
+<span data-ttu-id="b92f1-161">Розробники можуть додавати додаткові поля підстановки та інші поля до інших сутностей, а також впроваджувати настроювані бізнес-правила для підтримки своїх бізнес-сценаріїв.</span><span class="sxs-lookup"><span data-stu-id="b92f1-161">Developers can add additional fields and lookups to other entities, and implement custom business rules to support their business scenarios.</span></span>
 
-### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Додавання настроюваних полів із підстановками до інших сутностей
-Існує три основні кроки, щоб додати настроюване поле до сітки щотижневого запису часу.
+### <a name="add-custom-fields-with-lookups-to-other-entities"></a><span data-ttu-id="b92f1-162">Додавання настроюваних полів із підстановками до інших сутностей</span><span class="sxs-lookup"><span data-stu-id="b92f1-162">Add custom fields with lookups to other entities</span></span>
+<span data-ttu-id="b92f1-163">Існує три основні кроки, щоб додати настроюване поле до сітки щотижневого запису часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-163">There are three main steps to adding a custom field to the weekly time entry grid.</span></span>
 
-- Додайте настроюване поле до діалогового вікна швидкого створення.
-- Настройте сітку, щоб показати настроюване поле.
-- Додайте настроюване поле до потоку завдань редагування рядка або потоку завдань редагування клітинки.
+1. <span data-ttu-id="b92f1-164">Додайте настроюване поле до діалогового вікна швидкого створення.</span><span class="sxs-lookup"><span data-stu-id="b92f1-164">Add the custom field to the quick create dialog box.</span></span>
+2. <span data-ttu-id="b92f1-165">Настройте сітку, щоб показати настроюване поле.</span><span class="sxs-lookup"><span data-stu-id="b92f1-165">Configure the grid to show the custom field.</span></span>
+3. <span data-ttu-id="b92f1-166">Додайте настроюване поле до потоку завдань редагування рядка або потоку завдань редагування клітинки.</span><span class="sxs-lookup"><span data-stu-id="b92f1-166">Add the custom field to the row edit task flow or the cell edit task flow.</span></span>
 
-Крім того, необхідно переконатися, що в новому полі є необхідні перевірки в потоці завдань редагування рядка або клітинки. У межах цього кроку потрібно заблокувати поле, залежно від стану запису часу.
+<span data-ttu-id="b92f1-167">Переконайтеся також, що в новому полі є необхідні перевірки в потоці завдань редагування рядка або клітинки.</span><span class="sxs-lookup"><span data-stu-id="b92f1-167">Make sure that the new field has the required validations in the row or cell edit task flow.</span></span> <span data-ttu-id="b92f1-168">У межах цього кроку заблокуйте поля, залежно від стану запису часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-168">As part of this step, lock the field based on the time entry status.</span></span>
 
-#### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Додайте настроюване поле до діалогового вікна швидкого створення
-Слід додати настроюване поле до діалогового вікна **Швидке створення запису часу**. Тоді користувачі зможуть вводити значення під час додавання записів часу, вибравши **Створити**.
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a><span data-ttu-id="b92f1-169">Додайте настроюване поле до діалогового вікна швидкого створення</span><span class="sxs-lookup"><span data-stu-id="b92f1-169">Add the custom field to the quick create dialog box</span></span>
+<span data-ttu-id="b92f1-170">Додайте настроюване поле до діалогового вікна **Швидке створення запису часу**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-170">Add the custom field to the **Create Time Entry Quick Create** dialog box.</span></span> <span data-ttu-id="b92f1-171">Тоді під час додавання записів часу користувачі зможуть вводити значення, вибираючи **Створити**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-171">Then, when time entries are added, a value can be entered by selecting **New**.</span></span>
 
-#### <a name="configure-the-grid-to-show-the-custom-field"></a>Настройте сітку, щоб показати настроюване поле
-Існує два способи додавання настроюваного поля до тижневої сітки записів часу.
+### <a name="configure-the-grid-to-show-the-custom-field"></a><span data-ttu-id="b92f1-172">Настройте сітку, щоб показати настроюване поле</span><span class="sxs-lookup"><span data-stu-id="b92f1-172">Configure the grid to show the custom field</span></span>
+<span data-ttu-id="b92f1-173">Існує два способи додавання настроюваного поля до тижневої сітки записів часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-173">There are two ways add a custom field to the weekly time entry grid:</span></span>
 
-  - Настроювання подання та додавання настроюваного поля
-  - Створення нового настроюваного запису часу за замовчуванням 
+  - <span data-ttu-id="b92f1-174">Настроювання подання та додавання настроюваного поля</span><span class="sxs-lookup"><span data-stu-id="b92f1-174">Customize a view and add a custom field</span></span>
+  - <span data-ttu-id="b92f1-175">Створення нового настроюваного запису часу за замовчуванням</span><span class="sxs-lookup"><span data-stu-id="b92f1-175">Create a new default custom time entry</span></span> 
 
 
-**Настроювання подання та додавання настроюваного поля**
+#### <a name="customize-a-view-and-add-a-custom-field"></a><span data-ttu-id="b92f1-176">Настроювання подання та додавання настроюваного поля</span><span class="sxs-lookup"><span data-stu-id="b92f1-176">Customize a view and add a custom field</span></span>
 
-Ви можете настроїти подання **Мої тижневі записи часу** та додати до нього настроюване поле. Можна вибрати розташування та розмір настроюваного поля в сітці, редагуючи ці властивості в поданні.
+<span data-ttu-id="b92f1-177">Настройте подання **Мої тижневі записи часу** та додайте до нього настроюване поле.</span><span class="sxs-lookup"><span data-stu-id="b92f1-177">Customize the **My Weekly Time Entries** view and add the custom field to it.</span></span> <span data-ttu-id="b92f1-178">Можна вибрати розташування та розмір настроюваного поля в сітці, редагуючи властивості в поданні.</span><span class="sxs-lookup"><span data-stu-id="b92f1-178">You can choose the position and size of the custom field in the grid by editing the properties in the view.</span></span>
 
-**Створення нового настроюваного запису часу за замовчуванням** 
+#### <a name="create-a-new-default-custom-time-entry"></a><span data-ttu-id="b92f1-179">Створення нового настроюваного запису часу за замовчуванням</span><span class="sxs-lookup"><span data-stu-id="b92f1-179">Create a new default custom time entry</span></span>
 
-Це подання має містити поля **Опис** та **Зовнішні примітки**, а також стовпці, які потрібно додати до сітки. 
+<span data-ttu-id="b92f1-180">Це подання має містити поля **Опис** та **Зовнішні примітки** , а також стовпці, які потрібно додати до сітки.</span><span class="sxs-lookup"><span data-stu-id="b92f1-180">This view should contain the **Description** and **External Comments** fields, in addition to the columns that you want to have in the grid.</span></span> 
 
-1. Виберіть позицію, розмір і порядок сортування за замовчуванням у сітці, редагуючи ці властивості в поданні. 
-2. Налаштуйте настроюваний елемент керування для цього подання, щоб він став елементом керування **Сітка для введення часу**. 
-3. Додайте цей елемент керування до подання та виберіть його для веб-сайту, телефону та планшета. 
-4. Налаштуйте параметри для тижневої сітки запису часу. Встановіть поле **Дата початку** у значення **msdyn_date**, поле **Тривалість** у значення **msdyn_duration**, а також поле **Стан** у значення **msdyn_entrystatus**. 
-5. Для подання за замовчуванням поле **Список стану лише для читання** має значення **192350002, 192350003, 192350004**, поле **Потік завдань редагування рядка** – **msdyn_timeentryrowedit**, а поле **Потік завдань редагування клітинки** – значення **msdyn_timeentryedit**. 
-6. Ці поля можна настроїти, щоб додати або усунути стан лише для читання, або використати інший можливості на основі завдань (TBX) для редагування рядка або клітинки. Ці поля слід прив'язати до статичного значення.
+1. <span data-ttu-id="b92f1-181">Виберіть позицію, розмір і порядок сортування за замовчуванням у сітці, редагуючи ці властивості в поданні.</span><span class="sxs-lookup"><span data-stu-id="b92f1-181">Choose the position, size, and default sort order of the grid by editing those properties in the view.</span></span> 
+2. <span data-ttu-id="b92f1-182">Налаштуйте настроюваний елемент керування для цього подання, щоб він став елементом керування **Сітка для введення часу**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-182">Configure the custom control for this view so that it's a **Time Entry Grid** control.</span></span> 
+3. <span data-ttu-id="b92f1-183">Додайте цей елемент керування до подання та виберіть його для веб-сайту, телефону та планшета.</span><span class="sxs-lookup"><span data-stu-id="b92f1-183">Add this control to the view, and select it for web, phone, and tablet.</span></span> 
+4. <span data-ttu-id="b92f1-184">Налаштуйте параметри для тижневої сітки запису часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-184">Configure the parameters for the weekly time entry grid.</span></span> 
+5. <span data-ttu-id="b92f1-185">Встановіть поле **Дата початку** у значення **msdyn_date** , поле **Тривалість** у значення **msdyn_duration** , а також поле **Стан** у значення **msdyn_entrystatus**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-185">Set the **Start Date** field to **msdyn_date** , set the **Duration** field to **msdyn_duration** , and set the **Status** field to **msdyn_entrystatus**.</span></span> 
+6. <span data-ttu-id="b92f1-186">У поданні за замовчуванням для поля **Список станів лише для читання** встановлено значення **192350002,192350003,192350004**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-186">For the default view, the **Read-only Status List** field is set to **192350002,192350003,192350004**.</span></span> <span data-ttu-id="b92f1-187">Для поля **Потік завдань редагування рядка** встановлено значення **msdyn_timeentryrowedit**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-187">The **Row Edit Task Flow** field is set to **msdyn_timeentryrowedit**.</span></span> <span data-ttu-id="b92f1-188">Для поля **Потік завдань редагування клітинки** встановлено значення **msdyn_timeentryedit**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-188">The **Cell Edit Task Flow** field is set to **msdyn_timeentryedit**.</span></span> 
+7. <span data-ttu-id="b92f1-189">Ці поля можна настроїти, щоб додати або усунути стан лише для читання, або використати інший можливості на основі завдань (TBX) для редагування рядка або клітинки.</span><span class="sxs-lookup"><span data-stu-id="b92f1-189">You can customize these fields to add or remove read-only status, or to use a different task-based experience (TBX) for row or cell editing.</span></span> <span data-ttu-id="b92f1-190">Ці поля тепер прив’язано до статичного значення.</span><span class="sxs-lookup"><span data-stu-id="b92f1-190">These fields are now bound to a static value.</span></span>
 
 
 > [!NOTE] 
-> Обидва параметри видалять деякі готові елемент фільтрації у сутностях **Проект** та **Завдання проекту**, щоб усі подання підстановки для сутностей були видимими. Станом одразу після установки у полі відображаються лише відповідні подання підстановки.
-Слід визначити відповідний потік завдань для настроюваного поля. Скоріш за все, якщо поле було додано до сітки, його слід додати до потоку завдань редагування рядка, який використовується для полів, які застосовуються до цілого рядка записів часу. Якщо настроюване поле має унікальне значення щодня, наприклад настроюване поле для **Часу завершення**, його слід змінити у потоці завдання редагування клітинки.
+> <span data-ttu-id="b92f1-191">Обидва параметри видалять деякі готові елемент фільтрації у сутностях **Проект** та **Завдання проекту** , щоб усі подання підстановки для сутностей були видимими.</span><span class="sxs-lookup"><span data-stu-id="b92f1-191">Both options will remove some out-of-box filtering on the **Project** and **Project Task** entities so that all lookup views for the entities will be visible.</span></span> <span data-ttu-id="b92f1-192">Станом одразу після установки у полі відображаються лише відповідні подання підстановки.</span><span class="sxs-lookup"><span data-stu-id="b92f1-192">Out-of-the-box, only the relevant lookup views are visible.</span></span>
 
-Щоб додати настроюване поле до потоку завдань, перетягніть елемент **Поле** до відповідної позиції на сторінці, а потім настройте властивості поля. Установіть параметр **Джерело** у значення **Запис часу** і настройте властивість **Поле даних** на настроюване поле. Властивість **Поля** визначає коротке ім'я на сторінці TBX. Виберіть **Застосувати**, щоб зберегти зміни в полі, а потім виберіть **Оновити**, щоб зберегти зміни на сторінці.
+<span data-ttu-id="b92f1-193">Визначте відповідний потік завдань для настроюваного поля.</span><span class="sxs-lookup"><span data-stu-id="b92f1-193">Determine the appropriate task flow for the custom field.</span></span> <span data-ttu-id="b92f1-194">Якщо поле було додано до сітки, його слід додати до потоку завдань редагування рядка, який використовується для полів, що застосовуються до цілого рядка записів часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-194">If you added the field to the grid, it should go in the row edit task flow that is used for fields that apply to the whole row of time entries.</span></span> <span data-ttu-id="b92f1-195">Якщо настроюване поле має унікальне значення щодня, наприклад настроюване поле для **Часу завершення** , його слід змінити у потоці завдання редагування клітинки.</span><span class="sxs-lookup"><span data-stu-id="b92f1-195">If the custom field has a unique value every day, such as a custom field for **End time** , it should go in the cell edit task flow.</span></span>
 
-Для використання нової настроюваної сторінки TBX, створіть новий процес. Укажіть категорію для **Потік бізнес-процесу**, установіть сутність у **Запис часу** та встановіть тип бізнес-процесу у **Виконання процесу як потоку завдань**. У розділі **Властивості** властивість **Ім’я сторінки** має бути задано для відображення імені сторінки. Додайте всі відповідні поля до сторінки TBX. Збережіть і активуйте процес, а потім оновіть настроювану властивість елемента керування для відповідного потоку завдань у значення **Ім’я** у процесі.
+<span data-ttu-id="b92f1-196">Щоб додати настроюване поле до потоку завдань, перетягніть елемент **Поле** до відповідної позиції на сторінці, а потім настройте властивості поля.</span><span class="sxs-lookup"><span data-stu-id="b92f1-196">To add the custom field to a task flow, drag a **Field** element into the appropriate position on the page, and then set the field properties.</span></span> <span data-ttu-id="b92f1-197">Установіть параметр **Джерело** у значення **Запис часу** і настройте властивість **Поле даних** на настроюване поле.</span><span class="sxs-lookup"><span data-stu-id="b92f1-197">Set the **Source** property to **Time Entry** , and set the **Data Field** property to the custom field.</span></span> <span data-ttu-id="b92f1-198">Властивість **Поля** визначає коротке ім'я на сторінці TBX.</span><span class="sxs-lookup"><span data-stu-id="b92f1-198">The **Field** property specifies the display name on the TBX page.</span></span> <span data-ttu-id="b92f1-199">Виберіть **Застосувати** , щоб зберегти зміни в полі, а потім виберіть **Оновити** , щоб зберегти зміни на сторінці.</span><span class="sxs-lookup"><span data-stu-id="b92f1-199">Select **Apply** to save your changes to the field, and then select **Update** to save your changes to the page.</span></span>
 
-### <a name="add-new-option-set-values"></a>Додайте новий набір параметрів
-Щоб додати значення набору параметрів до готового поля, відкрийте сторінку редагування для поля, а потім в області **Тип** виберіть **Змінити** поряд з набором параметрів. Потім додайте новий параметр, який має власний підпис і колір. Якщо потрібно додати новий стан запису часу, готове поле матиме **Стан запису**, а не **Стан**.
+<span data-ttu-id="b92f1-200">Для використання нової настроюваної сторінки TBX, створіть новий процес.</span><span class="sxs-lookup"><span data-stu-id="b92f1-200">To use a new custom TBX page instead, create a new process.</span></span> <span data-ttu-id="b92f1-201">Укажіть категорію для **Потік бізнес-процесу** , установіть сутність у **Запис часу** та встановіть тип бізнес-процесу у **Виконання процесу як потоку завдань**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-201">Set the category to **Business Process Flow** , set the entity to **Time Entry** , and set the business process type to **Run process as a task flow**.</span></span> <span data-ttu-id="b92f1-202">У розділі **Властивості** властивість **Ім’я сторінки** має бути задано для відображення імені сторінки.</span><span class="sxs-lookup"><span data-stu-id="b92f1-202">Under **Properties** , the **Page name** property should be set to the display name for the page.</span></span> <span data-ttu-id="b92f1-203">Додайте всі відповідні поля до сторінки TBX.</span><span class="sxs-lookup"><span data-stu-id="b92f1-203">Add all the relevant fields to the TBX page.</span></span> <span data-ttu-id="b92f1-204">Збережіть та активуйте процес.</span><span class="sxs-lookup"><span data-stu-id="b92f1-204">Save and activate the process.</span></span> <span data-ttu-id="b92f1-205">Оновіть настроювану властивість елемента керування для відповідного потоку завдань, вказавши значення **Ім’я** у процесі.</span><span class="sxs-lookup"><span data-stu-id="b92f1-205">Update the custom control property for the relevant task flow to the value of **Name** on the process.</span></span>
 
-### <a name="designate-a-new-time-entry-status-as-read-only"></a>Призначення новому запису часу стану лише для читання
-Щоб вказати статус нового запису часу як «тільки для читання», додайте нове значення запису часу до властивості **Список станів лише для читання**. Для рядків, які мають новий статус, змінювана частина сітки запису часу буде заблокована.
-Потім додайте бізнес-правила, щоб заблокувати всі поля на сторінках TBX **Редагування рядка запису часу** та **Редагування запису часу**. Можна отримати доступ до бізнес-правил для цих сторінок, відкривши редактор потоку бізнес-процесу для сторінки, а потім вибравши **Бізнес-правила**. Можна додати новий стан до умови в наявних бізнес-правилах або додати нове бізнес-правило для нового стану.
+### <a name="add-new-option-set-values"></a><span data-ttu-id="b92f1-206">Додайте новий набір параметрів</span><span class="sxs-lookup"><span data-stu-id="b92f1-206">Add new option set values</span></span>
+<span data-ttu-id="b92f1-207">Щоб додати значення набору параметрів до готового поля, відкрийте сторінку редагування для поля, а потім в області **Тип** виберіть **Змінити** поряд з набором параметрів.</span><span class="sxs-lookup"><span data-stu-id="b92f1-207">To add option set values to an out-of-the-box field, open the editing page for the field, and under **Type** , select **Edit** next to the option set.</span></span> <span data-ttu-id="b92f1-208">Додайте новий параметр, який має власний підпис і колір.</span><span class="sxs-lookup"><span data-stu-id="b92f1-208">Add a new option that has a custom label and color.</span></span> <span data-ttu-id="b92f1-209">Якщо вам потрібно додати новий стан запису часу, готове поле називається **Стан запису** , а не **Стан**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-209">If you want to add a new time entry status, the out-of-the-box field is named **Entry Status** , not **Status**.</span></span>
 
-### <a name="add-custom-validation-rules"></a>Додавання настроюваних правил перевірки
-Існує два типи правил перевірки, які можна додати при роботі з сіткою тижневих записів часу.
+### <a name="designate-a-new-time-entry-status-as-read-only"></a><span data-ttu-id="b92f1-210">Призначення новому запису часу стану лише для читання</span><span class="sxs-lookup"><span data-stu-id="b92f1-210">Designate a new time entry status as read-only</span></span>
+<span data-ttu-id="b92f1-211">Щоб вказати статус нового запису часу як «тільки для читання», додайте нове значення запису часу до властивості **Список станів лише для читання**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-211">To designate a new time entry status as read-only, add the new time entry value to the **Read-only Status List** property.</span></span> <span data-ttu-id="b92f1-212">Для рядків, які мають новий статус, змінювана частина сітки запису часу буде заблокована.</span><span class="sxs-lookup"><span data-stu-id="b92f1-212">The editable part of the time entry grid will be locked for rows that have the new status.</span></span>
+<span data-ttu-id="b92f1-213">Потім додайте бізнес-правила, щоб заблокувати всі поля на сторінках TBX **Редагування рядка запису часу** та **Редагування запису часу**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-213">Next, add business rules to lock all the fields on the **Time Entry Row Edit** and **Time Entry Edit** TBX pages.</span></span> <span data-ttu-id="b92f1-214">Можна отримати доступ до бізнес-правил для цих сторінок, відкривши редактор потоку бізнес-процесу для сторінки, а потім вибравши **Бізнес-правила**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-214">You can access the business rules for these pages by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="b92f1-215">Можна додати новий стан до умови в наявних бізнес-правилах або додати нове бізнес-правило для нового стану.</span><span class="sxs-lookup"><span data-stu-id="b92f1-215">You can add the new status to the condition in the existing business rules, or you can add a new business rule for the new status.</span></span>
 
-- Клієнтські бізнес-правила, які працюють у діалогових вікнах швидкого створення та на сторінках TBX.
-- Перевірки компонентів Plug-in на сервері, які застосовуються до всіх оновлень записів часу.
+### <a name="add-custom-validation-rules"></a><span data-ttu-id="b92f1-216">Додавання настроюваних правил перевірки</span><span class="sxs-lookup"><span data-stu-id="b92f1-216">Add custom validation rules</span></span>
+<span data-ttu-id="b92f1-217">Існує два типи правил перевірки, які можна додати при роботі з сіткою тижневих записів часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-217">There are two types of validation rules that you can add for the weekly time entry grid experience:</span></span>
 
-#### <a name="business-rules"></a>Бізнес-правила
-За допомогою бізнес-правил можна блокувати та розблоковувати поля, вводити значення за замовчуванням у полях, а також визначати перевірки, які потребують даних лише з поточного запису часу. Можна отримати доступ до бізнес-правил для сторінок TBX, відкривши редактор потоку бізнес-процесів для сторінки, а потім вибравши **Бізнес-правила**. Тоді можна змінити наявні бізнес-правила або додати нове бізнес-правило. Щоб додати ще кілька настроюваних можливостей перевірки, можна використовувати бізнес-правило для виконання JavaScript.
+- <span data-ttu-id="b92f1-218">Клієнтські бізнес-правила, які працюють у діалогових вікнах швидкого створення та на сторінках TBX.</span><span class="sxs-lookup"><span data-stu-id="b92f1-218">Client-side business rules that work in quick create dialog boxes and on TBX pages.</span></span>
+- <span data-ttu-id="b92f1-219">Перевірки компонентів Plug-in на сервері, які застосовуються до всіх оновлень записів часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-219">Server-side plug-in validations that apply to all time entry updates.</span></span>
 
-#### <a name="plug-in-validations"></a>Перевірка компонента Plug-in
-Слід використовувати перевірки компонента plug-in для будь-яких перевірок, які потребують більше контексту, ніж доступно в одному записі часу, або для будь-яких перевірок, які потрібно виконати з вбудованими оновленнями в сітці. Щоб виконати перевірку, створіть настроюваний компонент plug-in для сутності **Запис часу**.
+#### <a name="business-rules"></a><span data-ttu-id="b92f1-220">Бізнес-правила</span><span class="sxs-lookup"><span data-stu-id="b92f1-220">Business rules</span></span>
+<span data-ttu-id="b92f1-221">За допомогою бізнес-правил можна блокувати та розблоковувати поля, вводити значення за замовчуванням у полях, а також визначати перевірки, які потребують даних лише з поточного запису часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-221">Use business rules to lock and unlock fields, enter default values in fields, and define validations that require information only from the current time entry record.</span></span> <span data-ttu-id="b92f1-222">Можна отримати доступ до бізнес-правил для сторінок TBX, відкривши редактор потоку бізнес-процесів для сторінки, а потім вибравши **Бізнес-правила**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-222">You can access the business rules for a TBX page by opening the business process flow editor for the page and then selecting **Business Rules**.</span></span> <span data-ttu-id="b92f1-223">Тоді можна змінити наявні бізнес-правила або додати нове бізнес-правило.</span><span class="sxs-lookup"><span data-stu-id="b92f1-223">You can then edit the existing business rules or add a new business rule.</span></span> <span data-ttu-id="b92f1-224">Щоб додати ще кілька настроюваних можливостей перевірки, можна використовувати бізнес-правило для виконання JavaScript.</span><span class="sxs-lookup"><span data-stu-id="b92f1-224">For even more customized validations, you can use a business rule to run JavaScript.</span></span>
+
+#### <a name="plug-in-validations"></a><span data-ttu-id="b92f1-225">Перевірка компонента Plug-in</span><span class="sxs-lookup"><span data-stu-id="b92f1-225">Plug-in validations</span></span>
+<span data-ttu-id="b92f1-226">Використовуйте перевірки компонента plug-in для будь-яких перевірок, які потребують більше контексту, ніж доступно в одному записі часу, або для будь-яких перевірок, які потрібно виконати з вбудованими оновленнями в сітці.</span><span class="sxs-lookup"><span data-stu-id="b92f1-226">Use plug-in validations for any validations that require more context than is available in a single time entry record, or for any validations that you want to run on inline updates in the grid.</span></span> <span data-ttu-id="b92f1-227">Щоб виконати перевірку, створіть настроюваний компонент plug-in для сутності **Запис часу**.</span><span class="sxs-lookup"><span data-stu-id="b92f1-227">To complete the validation, create a custom plug-in on the **Time Entry** entity.</span></span>
+
+### <a name="copying-time-entries"></a><span data-ttu-id="b92f1-228">Копіювання записи часу</span><span class="sxs-lookup"><span data-stu-id="b92f1-228">Copying time entries</span></span>
+<span data-ttu-id="b92f1-229">Використовуйте подання **Копіювати стовпці із записами часу** , щоб визначити список полів для копіювання при введенні часу.</span><span class="sxs-lookup"><span data-stu-id="b92f1-229">Use the view **Copy Time Entry Columns** to define the list of fields to copy during time entry.</span></span> <span data-ttu-id="b92f1-230">**Дата** й **Тривалість** є обов'язковими полями, їх не слід видаляти з подання.</span><span class="sxs-lookup"><span data-stu-id="b92f1-230">**Date** and **Duration** are required fields and shouldn't be removed from the view.</span></span>

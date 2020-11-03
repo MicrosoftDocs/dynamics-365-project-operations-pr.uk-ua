@@ -9,79 +9,79 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 86f805cd33f81e70bf9ae3c1fb20a1c310473604
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961759"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086651"
 ---
-# <a name="time-entry-ui-behavior"></a>Поведінка інтерфейсу користувача запису часу
+# <a name="time-entry-ui-behavior"></a><span data-ttu-id="429d1-103">Поведінка інтерфейсу користувача запису часу</span><span class="sxs-lookup"><span data-stu-id="429d1-103">Time entry UI behavior</span></span>
 
-_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
+<span data-ttu-id="429d1-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_</span><span class="sxs-lookup"><span data-stu-id="429d1-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 
-Сітка **Тижневий запис часу** — це настроюваний елемент керування, що має два основні розділи: **Виміри** та **Тривалість**.
+<span data-ttu-id="429d1-105">Сітка **Тижневий запис часу**  — це настроюваний елемент керування, що має два основні розділи: **Виміри** та **Тривалість**.</span><span class="sxs-lookup"><span data-stu-id="429d1-105">The **Weekly time entry** grid is a custom control that has two main sections, **Dimensions** and **Duration**.</span></span>
 
-## <a name="dimensions"></a>Виміри
-У розділі **Виміри** відображаються виміри, для яких можна ввести час. Виміри нижче підтримуються за замовчуванням:
+## <a name="dimensions"></a><span data-ttu-id="429d1-106">Виміри</span><span class="sxs-lookup"><span data-stu-id="429d1-106">Dimensions</span></span>
+<span data-ttu-id="429d1-107">У розділі **Виміри** відображаються виміри, для яких можна ввести час.</span><span class="sxs-lookup"><span data-stu-id="429d1-107">The **Dimensions** section shows the dimensions that time can be entered against.</span></span> <span data-ttu-id="429d1-108">Виміри нижче підтримуються за замовчуванням:</span><span class="sxs-lookup"><span data-stu-id="429d1-108">The following dimensions are supported out-of-the-box:</span></span>
 
-  - Project
-  - Проектне завдання
-  - Роль
-  - Тип
-  - Стан запису
+  - <span data-ttu-id="429d1-109">Project</span><span class="sxs-lookup"><span data-stu-id="429d1-109">Project</span></span>
+  - <span data-ttu-id="429d1-110">Проектне завдання</span><span class="sxs-lookup"><span data-stu-id="429d1-110">Project Task</span></span>
+  - <span data-ttu-id="429d1-111">Роль</span><span class="sxs-lookup"><span data-stu-id="429d1-111">Role</span></span>
+  - <span data-ttu-id="429d1-112">Тип</span><span class="sxs-lookup"><span data-stu-id="429d1-112">Type</span></span>
+  - <span data-ttu-id="429d1-113">Стан запису</span><span class="sxs-lookup"><span data-stu-id="429d1-113">Entry Status</span></span>
 
-У розділі **Виміри** не дозволяється вбудоване редагування. Цей розділ спирається на подання, яке дає змогу додавати настроювані поля до тижневої сітки запису часу.
+<span data-ttu-id="429d1-114">У розділі **Виміри** не дозволяється вбудоване редагування.</span><span class="sxs-lookup"><span data-stu-id="429d1-114">The **Dimensions** section doesn't allow inline editing.</span></span> <span data-ttu-id="429d1-115">Цей розділ спирається на подання, яке дає змогу додавати настроювані поля до тижневої сітки запису часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-115">This section is backed by a view that enables custom fields to be added to the weekly time entry grid.</span></span>
 
-## <a name="duration"></a>Тривалість
-У розділі "Тривалість" відображаються дні тижня як заголовки стовпців. У цьому розділі дозволяється вбудоване редагування. Після створення запису часу з відповідними вимірами користувачі можуть швидко вводити кількість часу, витраченого на ці виміри.
+## <a name="duration"></a><span data-ttu-id="429d1-116">Тривалість</span><span class="sxs-lookup"><span data-stu-id="429d1-116">Duration</span></span>
+<span data-ttu-id="429d1-117">У розділі "Тривалість" відображаються дні тижня як заголовки стовпців.</span><span class="sxs-lookup"><span data-stu-id="429d1-117">The Duration section shows the days of the week as column headers.</span></span> <span data-ttu-id="429d1-118">У цьому розділі дозволяється вбудоване редагування.</span><span class="sxs-lookup"><span data-stu-id="429d1-118">This section allows inline editing.</span></span> <span data-ttu-id="429d1-119">Після створення запису часу з відповідними вимірами користувачі можуть швидко вводити кількість часу, витраченого на ці виміри.</span><span class="sxs-lookup"><span data-stu-id="429d1-119">After a time entry row is created with the appropriate dimensions, users can quickly enter the amount of time that they spent on those dimensions.</span></span>
 
-## <a name="create-a-new-time-entry"></a>Створення нового запису часу
+## <a name="create-a-new-time-entry"></a><span data-ttu-id="429d1-120">Створення нового запису часу</span><span class="sxs-lookup"><span data-stu-id="429d1-120">Create a new time entry</span></span>
 
-1. У сітці запису часу виберіть **Новий**. 
-2. У діалоговому вікні **Швидке створення запису часу** виберіть дату запису часу.
-3. Уведіть дані для вимірів **Проект**, **Завдання проекту**, **Роль** і **Тривалість**. Ця інформація додається у хвилинах, годинах або днях шляхом уведення **год**, **хв** або **дн.** разом із числом. 
-4. Уведіть опис для запису та будь-які коментарі, які можна поширювати зовнішньо щодо запису часу. 
+1. <span data-ttu-id="429d1-121">У сітці запису часу виберіть **Новий**.</span><span class="sxs-lookup"><span data-stu-id="429d1-121">In the time entry grid, select **New**.</span></span> 
+2. <span data-ttu-id="429d1-122">У діалоговому вікні **Швидке створення запису часу** виберіть дату запису часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-122">In the **Time Entry Quick Create** dialog box, select the time entry date.</span></span>
+3. <span data-ttu-id="429d1-123">Уведіть дані для вимірів **Проект** , **Завдання проекту** , **Роль** і **Тривалість**.</span><span class="sxs-lookup"><span data-stu-id="429d1-123">Enter data for the **Project** , **Project Task** , **Role** , and **Duration** dimensions.</span></span> <span data-ttu-id="429d1-124">Ця інформація додається у хвилинах, годинах або днях шляхом уведення **год** , **хв** або **дн.** разом із числом.</span><span class="sxs-lookup"><span data-stu-id="429d1-124">This information should be added in minutes, hours, or days by typing **h** , **m** , or **d** , together with the number.</span></span> 
+4. <span data-ttu-id="429d1-125">Уведіть опис для запису та будь-які коментарі, які можна поширювати зовнішньо щодо запису часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-125">Enter a description for the entry and any comments that can be shared externally regarding time entry.</span></span> 
 
-Після збереження запису введені значення будуть відображатися в розділі **Виміри**. Інформація, введена в полі **Тривалість**, відображається на даті, коли було створено запис часу.
+<span data-ttu-id="429d1-126">Після збереження запису введені значення будуть відображатися в розділі **Виміри**.</span><span class="sxs-lookup"><span data-stu-id="429d1-126">When you save the entry, the entered values appear in the **Dimensions** section.</span></span> <span data-ttu-id="429d1-127">Інформація, введена в полі **Тривалість** , відображається на даті, коли було створено запис часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-127">The information entered in the **Duration** field appears on the date that the time entry was created for.</span></span>
 
-Поля підстановки підтримуються системними поданнями. Наприклад, після того, як користувач вводить проект, поле **Завдання проекту** буде настроєно на подання **Копіювання** за замовчуванням. Щоб створити записи часу для завдань, які не призначено користувачу, виберіть команду **Змінити подання** в діалоговому вікні підстановки, а потім виберіть подання **Усі активні завдання проекту**.
+<span data-ttu-id="429d1-128">Поля підстановки підтримуються системними поданнями.</span><span class="sxs-lookup"><span data-stu-id="429d1-128">Lookup fields are backed by system views.</span></span> <span data-ttu-id="429d1-129">Наприклад, після того, як користувач вводить проект, поле **Завдання проекту** буде настроєно на подання **Копіювання** за замовчуванням.</span><span class="sxs-lookup"><span data-stu-id="429d1-129">For example, after a user enters a project, the **Project Task** field is set to the **Copy** view by default.</span></span> <span data-ttu-id="429d1-130">Щоб створити записи часу для завдань, які не призначено користувачу, виберіть команду **Змінити подання** в діалоговому вікні підстановки, а потім виберіть подання **Усі активні завдання проекту**.</span><span class="sxs-lookup"><span data-stu-id="429d1-130">To create time entries for tasks that aren't assigned to a user, select **Change View** in the lookup dialog box, and then select the **All Active Project Tasks** view.</span></span>
 
-## <a name="edit-a-time-entry"></a>Редагування запису часу 
-Відомості з деяких полів на сторінці запису часу, наприклад **Опис** і **Зовнішні коментарі**, не відображаються в тижневій сітці запису часу. Натомість невеликий трикутний індикатор відобразиться в клітинках **Тривалість**, що містять ці додаткові деталі. 
+## <a name="edit-a-time-entry"></a><span data-ttu-id="429d1-131">Редагування запису часу</span><span class="sxs-lookup"><span data-stu-id="429d1-131">Edit a time entry</span></span> 
+<span data-ttu-id="429d1-132">Відомості з деяких полів на сторінці запису часу, наприклад **Опис** і **Зовнішні коментарі** , не відображаються в тижневій сітці запису часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-132">Details from some fields on the time entry page, such as **Description** and **External Comments** , aren't shown in the weekly time entry grid.</span></span> <span data-ttu-id="429d1-133">Натомість невеликий трикутний індикатор відобразиться в клітинках **Тривалість** , що містять ці додаткові деталі.</span><span class="sxs-lookup"><span data-stu-id="429d1-133">Instead, a small triangular indicator appears in the **Duration** cells that have these additional details.</span></span> 
 
-1. Щоб редагувати запис часу, виберіть клітинку, яку потрібно оновити, у записі часу.
-2. Виберіть **Редагувати деталі**, щоб оновити дані в області **Основна форма запису часу**. 
+1. <span data-ttu-id="429d1-134">Щоб редагувати запис часу, виберіть клітинку, яку потрібно оновити, у записі часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-134">To edit a time entry, select the cell you want to update in the time entry.</span></span>
+2. <span data-ttu-id="429d1-135">Виберіть **Редагувати деталі** , щоб оновити дані в області **Основна форма запису часу**.</span><span class="sxs-lookup"><span data-stu-id="429d1-135">Select **Edit Details** to update the data in the **Time Entry Mainform** pane.</span></span> 
 
-## <a name="copy-a-time-entry-row"></a>Копіювання рядка запису часу
-Після створення рядка можна вибрати **Копіювати рядок**, щоб скопіювати весь рядок до нового рядка. Коли рядок копіюється таким чином, критерії та тривалість також копіюються. Можна також вибрати **Редагувати рядок**, щоб оновити значення вимірів та тривалості в розділі **Тривалість**.
+## <a name="copy-a-time-entry-row"></a><span data-ttu-id="429d1-136">Копіювання рядка запису часу</span><span class="sxs-lookup"><span data-stu-id="429d1-136">Copy a time entry row</span></span>
+<span data-ttu-id="429d1-137">Після створення рядка можна вибрати **Копіювати рядок** , щоб скопіювати весь рядок до нового рядка.</span><span class="sxs-lookup"><span data-stu-id="429d1-137">After the row has been created, you can select **Copy Row** to copy the whole row to a new row.</span></span> <span data-ttu-id="429d1-138">Коли рядок копіюється таким чином, критерії та тривалість також копіюються.</span><span class="sxs-lookup"><span data-stu-id="429d1-138">When a row is copied in this way, dimensions and durations are also copied.</span></span> <span data-ttu-id="429d1-139">Можна також вибрати **Редагувати рядок** , щоб оновити значення вимірів та тривалості в розділі **Тривалість**.</span><span class="sxs-lookup"><span data-stu-id="429d1-139">You can also select **Edit Row** to update dimension values and durations in the **Duration** section.</span></span>
 
-## <a name="open-a-time-entry-behavior"></a>Поведінка відкриття запису часу
-Щоб підтримати оптимальний та швидкий запис у найбільш популярних полях, у сітці тижневого запису часу відображається підмножина вибраних вимірів і тривалостей часу. Щоб переглянути всі відомості про один запис часу , в області **Редагувати запис** виберіть **Відкрити**.
+## <a name="open-a-time-entry-behavior"></a><span data-ttu-id="429d1-140">Поведінка відкриття запису часу</span><span class="sxs-lookup"><span data-stu-id="429d1-140">Open a time entry behavior</span></span>
+<span data-ttu-id="429d1-141">Щоб підтримати оптимальний та швидкий запис у найбільш популярних полях, у сітці тижневого запису часу відображається підмножина вибраних вимірів і тривалостей часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-141">To support optimal and quick entry in the most prominent fields, the weekly time entry grid shows a subset of selected dimensions and time durations.</span></span> <span data-ttu-id="429d1-142">Щоб переглянути всі відомості про один запис часу , в області **Редагувати запис** виберіть **Відкрити**.</span><span class="sxs-lookup"><span data-stu-id="429d1-142">To view all the details of a single time entry, under **Edit Entry** , select **Open**.</span></span>
 
-## <a name="submit-a-time-entry"></a>Надіслати запис часу
-Ви можете надіслати один запис часу або групу записів часу, вибравши блок клітинок або весь рядок запису часу, а потім вибравши **Надіслати**. Надіслані записи часу відображаються як записи, що очікують на затвердження на сторінці **Затвердження**. Після успішного надсилання записів їх не можна редагувати.
+## <a name="submit-a-time-entry"></a><span data-ttu-id="429d1-143">Надіслати запис часу</span><span class="sxs-lookup"><span data-stu-id="429d1-143">Submit a time entry</span></span>
+<span data-ttu-id="429d1-144">Ви можете надіслати один запис часу або групу записів часу, вибравши блок клітинок або весь рядок запису часу, а потім вибравши **Надіслати**.</span><span class="sxs-lookup"><span data-stu-id="429d1-144">You can submit a single time entry or a group of time entries by selecting a block of cells or a whole time entry row, and then selecting **Submit**.</span></span> <span data-ttu-id="429d1-145">Надіслані записи часу відображаються як записи, що очікують на затвердження на сторінці **Затвердження**.</span><span class="sxs-lookup"><span data-stu-id="429d1-145">Submitted time entries appear as entries that are pending approval on the approvers' **Approval** page.</span></span> <span data-ttu-id="429d1-146">Після успішного надсилання записів їх не можна редагувати.</span><span class="sxs-lookup"><span data-stu-id="429d1-146">After time entries are successfully submitted, they can't be edited.</span></span>
 
-## <a name="recall-a-time-entry"></a>Відкликати запис часу
-Можна відкликати надіслані записи часу. Можна відкликати один запис часу, блок записів часу або цілий рядок записів часу. Відкликані записи часу можна редагувати.
+## <a name="recall-a-time-entry"></a><span data-ttu-id="429d1-147">Відкликати запис часу</span><span class="sxs-lookup"><span data-stu-id="429d1-147">Recall a time entry</span></span>
+<span data-ttu-id="429d1-148">Можна відкликати надіслані записи часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-148">You can recall time entries that you've submitted.</span></span> <span data-ttu-id="429d1-149">Можна відкликати один запис часу, блок записів часу або цілий рядок записів часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-149">You can recall a single time entry, a block of time entries, or a whole row of time entries.</span></span> <span data-ttu-id="429d1-150">Відкликані записи часу можна редагувати.</span><span class="sxs-lookup"><span data-stu-id="429d1-150">Recalled time entries can be edited.</span></span>
 
-## <a name="time-entry-status"></a>Стан запису часу
+## <a name="time-entry-status"></a><span data-ttu-id="429d1-151">Стан запису часу</span><span class="sxs-lookup"><span data-stu-id="429d1-151">Time entry status</span></span>
 
-- **Чернетка**: новим записам часу автоматично назначається стан **Чернетка**. Можна видаляти лише записи часу, які мають статус **Чернетка**.
-- **Надіслано**: після надсилання запису часу стан оновлюється на **Надіслано**. 
-- **Затверджено**: після затвердження надісланого запису часу стан оновлюється на **Затверджено**. 
-- **Повернено**: у разі відхилення запису часу стан оновлюється на **Повернено**, а запис стане доступним для виправлення та повторного надсилання. 
+- <span data-ttu-id="429d1-152">**Чернетка** : новим записам часу автоматично назначається стан **Чернетка**.</span><span class="sxs-lookup"><span data-stu-id="429d1-152">**Draft** : New time entries are automatically assigned a status of **Draft**.</span></span> <span data-ttu-id="429d1-153">Можна видаляти лише записи часу, які мають статус **Чернетка**.</span><span class="sxs-lookup"><span data-stu-id="429d1-153">Only time entries that have a status of **Draft** can be deleted.</span></span>
+- <span data-ttu-id="429d1-154">**Надіслано** : після надсилання запису часу стан оновлюється на **Надіслано**.</span><span class="sxs-lookup"><span data-stu-id="429d1-154">**Submitted** : When a time entry is submitted, the status is updated to **Submitted**.</span></span> 
+- <span data-ttu-id="429d1-155">**Затверджено** : після затвердження надісланого запису часу стан оновлюється на **Затверджено**.</span><span class="sxs-lookup"><span data-stu-id="429d1-155">**Approved** : When a submitted time entry is approved, the status is updated to **Approved**.</span></span> 
+- <span data-ttu-id="429d1-156">**Повернено** : у разі відхилення запису часу стан оновлюється на **Повернено** , а запис стане доступним для виправлення та повторного надсилання.</span><span class="sxs-lookup"><span data-stu-id="429d1-156">**Returned** : If a time entry is rejected, the status is updated to **Returned** , and the entry becomes available for correction and resubmission.</span></span> 
 
-## <a name="view-rejection-comments"></a>Див. примітки до відхилення
-У разі відхилення запису часу затверджувачем затверджувач може додати коментарі, щоб допомогти ресурсу зрозуміти причину відхилення. Щоб переглянути коментарі до відхилення запису, виберіть **Відкрити запис**. Коментарі до відхилення будуть показані на часовій шкалі. Користувач може відповісти на коментарі щодо відхилення, перш ніж повторно надіслати запис.
+## <a name="view-rejection-comments"></a><span data-ttu-id="429d1-157">Див. примітки до відхилення</span><span class="sxs-lookup"><span data-stu-id="429d1-157">View rejection comments</span></span>
+<span data-ttu-id="429d1-158">У разі відхилення запису часу затверджувачем затверджувач може додати коментарі, щоб допомогти ресурсу зрозуміти причину відхилення.</span><span class="sxs-lookup"><span data-stu-id="429d1-158">When a time entry is rejected by an approver, the approver might add comments to help the resource understand the reason for the rejection.</span></span> <span data-ttu-id="429d1-159">Щоб переглянути коментарі до відхилення запису, виберіть **Відкрити запис**.</span><span class="sxs-lookup"><span data-stu-id="429d1-159">To view the rejection comments for a time entry, select **Open entry**.</span></span> <span data-ttu-id="429d1-160">Коментарі до відхилення будуть показані на часовій шкалі.</span><span class="sxs-lookup"><span data-stu-id="429d1-160">The rejection comments will be shown in the timeline.</span></span> <span data-ttu-id="429d1-161">Користувач може відповісти на коментарі щодо відхилення, перш ніж повторно надіслати запис.</span><span class="sxs-lookup"><span data-stu-id="429d1-161">The user can respond to the rejection comments before they resubmit the entry.</span></span>
 
-## <a name="copy-week"></a>Копіювати тиждень
-Після створення кількох записів часу користувачі можуть створювати кілька записів часу одночасно.
+## <a name="copy-week"></a><span data-ttu-id="429d1-162">Копіювати тиждень</span><span class="sxs-lookup"><span data-stu-id="429d1-162">Copy week</span></span>
+<span data-ttu-id="429d1-163">Після створення кількох записів часу користувачі можуть створювати кілька записів часу одночасно.</span><span class="sxs-lookup"><span data-stu-id="429d1-163">After a few time entries have been created, users can create multiple time entries at the same time.</span></span>
 
-1. У формі **Записи часу** виберіть **Копіювати тиждень**, щоб створити групу додаткових записів часу. 
-2. У діалоговому полі **Копіювати** в розділі **Від періоду** використайте поля **Дата початку** й **Дата завершення**, щоб визначити діапазон дат, із яких слід копіювати записи часу. 
-3. У розділі **До періоду** у полі **Дата початку** укажіть дату, для якої слід створити записи часу. 
-4. Виберіть **Копіювати**. Для вказаної дати в розділі **До періоду** створюється копія записів часу для відповідного дня тижня в розділі **Від періоду**. Наприклад, запис часу в понеділок минулого тижня копіюється на понеділок тижня, указаного як **До періоду**.
+1. <span data-ttu-id="429d1-164">У формі **Записи часу** виберіть **Копіювати тиждень** , щоб створити групу додаткових записів часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-164">In the **Time Entries** form, select **Copy Week** to bulk-create additional time entries.</span></span> 
+2. <span data-ttu-id="429d1-165">У діалоговому полі **Копіювати** в розділі **Від періоду** використайте поля **Дата початку** й **Дата завершення** , щоб визначити діапазон дат, із яких слід копіювати записи часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-165">In the **Copy** dialog box, in the **From period** section, use the **Start Date** and **End Date** fields to define the date range to copy time entries from.</span></span> 
+3. <span data-ttu-id="429d1-166">У розділі **До періоду** у полі **Дата початку** укажіть дату, для якої слід створити записи часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-166">In the **To Period** section, in the **Start Date** field, specify the date to create time entries for.</span></span> 
+4. <span data-ttu-id="429d1-167">Виберіть **Копіювати**.</span><span class="sxs-lookup"><span data-stu-id="429d1-167">Select **Copy**.</span></span> <span data-ttu-id="429d1-168">Для вказаної дати в розділі **До періоду** створюється копія записів часу для відповідного дня тижня в розділі **Від періоду**.</span><span class="sxs-lookup"><span data-stu-id="429d1-168">For the specified date in the **To period** , a copy of the time entries for the corresponding day of the week in the **From period** is created.</span></span> <span data-ttu-id="429d1-169">Наприклад, запис часу в понеділок минулого тижня копіюється на понеділок тижня, указаного як **До періоду**.</span><span class="sxs-lookup"><span data-stu-id="429d1-169">For example, Monday's time entry from last week is copied into Monday of the week that is specified as the **To period**.</span></span>
 
-## <a name="import"></a>Імпортувати
-Такий самий базовий процес використовується для імпортування із резервувань, призначень і обмінів. Ви можете вказати діапазон дат, із якого імпортуються резервування, а потім чітко вибрати резервування, які потрібно скопіювати до чернеткових записів часу. 
+## <a name="import"></a><span data-ttu-id="429d1-170">Імпортувати</span><span class="sxs-lookup"><span data-stu-id="429d1-170">Import</span></span>
+<span data-ttu-id="429d1-171">Такий самий базовий процес використовується для імпортування із резервувань, призначень і обмінів.</span><span class="sxs-lookup"><span data-stu-id="429d1-171">The same basic process is used to import from bookings, assignments, and exchanges.</span></span> <span data-ttu-id="429d1-172">Ви можете вказати діапазон дат, із якого імпортуються резервування, а потім чітко вибрати резервування, які потрібно скопіювати до чернеткових записів часу.</span><span class="sxs-lookup"><span data-stu-id="429d1-172">You can specify the date range that bookings are imported from and then explicitly select the bookings that should be copied into draft time entries.</span></span> 

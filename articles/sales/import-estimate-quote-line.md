@@ -3,67 +3,67 @@ title: Імпортування оцінок для проекту до пози
 description: У цьому розділі наведено відомості про імпортування оцінок з проекту до позиції цінової пропозиції.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 75511f0d7ef1d2d1b3bf5cc598a8f51d0c553939
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 8c0fe18b33207f73848709b99334f64aadc7867a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908711"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086632"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Імпортування оцінок для проекту до позицій цінової пропозиції на основі проекту
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a><span data-ttu-id="24ea6-103">Імпортування оцінок для проекту до позицій цінової пропозиції на основі проекту</span><span class="sxs-lookup"><span data-stu-id="24ea6-103">Import estimates for a project to a project-based quote line</span></span>
 
-_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
+<span data-ttu-id="24ea6-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_</span><span class="sxs-lookup"><span data-stu-id="24ea6-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
 
-Якщо проект створюється на етапі попереднього збуту, ви можете скористатися імпортом фінансової оцінки з проекту до позиції цінової пропозиції на основі проекту.
+<span data-ttu-id="24ea6-105">Якщо проект створюється на етапі попереднього збуту, ви можете скористатися імпортом фінансової оцінки з проекту до позиції цінової пропозиції на основі проекту.</span><span class="sxs-lookup"><span data-stu-id="24ea6-105">If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.</span></span>
 
-1. Переконайтеся, що в позиції цінової пропозиції на основі проекту у полі **Проект** зазначено відомості проекту.
-2. На вкладці **Відомості позиції цінової пропозиції** виберіть **Імпортувати з оцінки проекту**.
-3. У діалоговому вікні, що відкриється, виберіть один із зазначених нижче параметрів узагальнення.
+1. <span data-ttu-id="24ea6-106">Переконайтеся, що в позиції цінової пропозиції на основі проекту у полі **Проект** зазначено відомості проекту.</span><span class="sxs-lookup"><span data-stu-id="24ea6-106">Make sure that the project-based quote line has the project information in the **Project** field.</span></span>
+2. <span data-ttu-id="24ea6-107">На вкладці **Відомості позиції цінової пропозиції** виберіть **Імпортувати з оцінки проекту**.</span><span class="sxs-lookup"><span data-stu-id="24ea6-107">On the **Quote line details** tab, select **Import from Project Estimation**.</span></span>
+3. <span data-ttu-id="24ea6-108">У діалоговому вікні, що відкриється, виберіть один із зазначених нижче параметрів узагальнення.</span><span class="sxs-lookup"><span data-stu-id="24ea6-108">On the dialog page opens, select one of the following summarization options:</span></span>
 
-  - **Клас транзакції**
-  - **Категорія**
-  - **Роль** 
-  - **Проектне завдання**
+  - <span data-ttu-id="24ea6-109">**Клас транзакції**</span><span class="sxs-lookup"><span data-stu-id="24ea6-109">**Transaction class**</span></span>
+  - <span data-ttu-id="24ea6-110">**Категорія**</span><span class="sxs-lookup"><span data-stu-id="24ea6-110">**Category**</span></span>
+  - <span data-ttu-id="24ea6-111">**Роль**</span><span class="sxs-lookup"><span data-stu-id="24ea6-111">**Role**</span></span> 
+  - <span data-ttu-id="24ea6-112">**Проектне завдання**</span><span class="sxs-lookup"><span data-stu-id="24ea6-112">**Project task**</span></span>
 
-Згідно з вашим вибором, оцінку буде скопійовано з проекту для всіх класів транзакцій, включених до цієї позиції цінової пропозиції. Щоб перевірити, які класи транзакцій включено, виберіть вкладку **Загальне** у позиції цінової пропозиції на основі проекту та перевірте значення у полях **Включити час**, **Включити витрати** та **Включити сплати**.
+<span data-ttu-id="24ea6-113">Згідно з вашим вибором, оцінку буде скопійовано з проекту для всіх класів транзакцій, включених до цієї позиції цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="24ea6-113">Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over.</span></span> <span data-ttu-id="24ea6-114">Щоб перевірити, які класи транзакцій включено, виберіть вкладку **Загальне** у позиції цінової пропозиції на основі проекту та перевірте значення у полях **Включити час** , **Включити витрати** та **Включити сплати**.</span><span class="sxs-lookup"><span data-stu-id="24ea6-114">To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time** , **Include Expenses** , and **Include Fees**.</span></span>
 
-Під час імпортування оцінок система скине ціни до значень за замовчуванням на основі прайсів проекту, вкладених до цінової пропозиції та типу виставлення рахунків, заданого для позицій цінової пропозиції на основі проекту. Якщо роль або категорію задано для позиції цінової пропозиції на основі проекту як неоплатну, імпортована позиція оцінки буде також задана як неоплатна та не додаватиметься до запропонованого значення позиції цінової пропозиції.
+<span data-ttu-id="24ea6-115">Під час імпортування оцінок система скине ціни до значень за замовчуванням на основі прайсів проекту, вкладених до цінової пропозиції та типу виставлення рахунків, заданого для позицій цінової пропозиції на основі проекту.</span><span class="sxs-lookup"><span data-stu-id="24ea6-115">When you import estimates, the system will default pricing based on the project price lists attached to the quote and the billing type set up on the project-based quote line.</span></span> <span data-ttu-id="24ea6-116">Якщо роль або категорію задано для позиції цінової пропозиції на основі проекту як неоплатну, імпортована позиція оцінки буде також задана як неоплатна та не додаватиметься до запропонованого значення позиції цінової пропозиції.</span><span class="sxs-lookup"><span data-stu-id="24ea6-116">If a role or category is set up on the project-based quote line as non-chargeable, the imported estimate line will set as non-chargeable and won't add up to the quoted value of quote line.</span></span>
 
-Якщо для позиції цінової пропозиції вказано відомості, поля **Значення цінової пропозиції** та **Прогнозований податок** позиції цінової пропозиції додаються та недоступні до редагування.
+<span data-ttu-id="24ea6-117">Якщо для позиції цінової пропозиції вказано відомості, поля **Значення цінової пропозиції** та **Прогнозований податок** позиції цінової пропозиції додаються та недоступні до редагування.</span><span class="sxs-lookup"><span data-stu-id="24ea6-117">When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.</span></span>
 
-Якщо вибрано кілька параметрів узагальнення, буде виконано спробу узагальнення за усіма вибраними параметрами. Це означає, що вивід імпортованих позицій цінової пропозиції буде більшим, ніж якщо було б вибрано лише один параметр узагальнення.
+<span data-ttu-id="24ea6-118">Якщо вибрано кілька параметрів узагальнення, система спробує узагальнити їх за усіма вибраними параметрами.</span><span class="sxs-lookup"><span data-stu-id="24ea6-118">When multiple summarization options are selected, the system attempts to summarize by all selected options.</span></span> <span data-ttu-id="24ea6-119">Результат виводу імпортованих позицій цінової пропозиції буде багатшим, ніж якщо було б вибрано лише один параметр узагальнення.</span><span class="sxs-lookup"><span data-stu-id="24ea6-119">The result is that the output of imported quote lines will be more than if you selected only one summarization option.</span></span>
 
-Наприклад, якщо у проекті є зазначені нижче позиції оцінок для витрат.
+<span data-ttu-id="24ea6-120">Наприклад, якщо у проекті є зазначені нижче позиції оцінок для витрат.</span><span class="sxs-lookup"><span data-stu-id="24ea6-120">For example, if the project has the following estimate lines for expenses.</span></span>
 
-| Завдання | Категорія | датою | Кількість | Ціна за одиницю | Сума |
+| <span data-ttu-id="24ea6-121">Завдання</span><span class="sxs-lookup"><span data-stu-id="24ea6-121">Task</span></span> | <span data-ttu-id="24ea6-122">Категорія</span><span class="sxs-lookup"><span data-stu-id="24ea6-122">Category</span></span> | <span data-ttu-id="24ea6-123">датою</span><span class="sxs-lookup"><span data-stu-id="24ea6-123">Date</span></span> | <span data-ttu-id="24ea6-124">Кількість</span><span class="sxs-lookup"><span data-stu-id="24ea6-124">Quantity</span></span> | <span data-ttu-id="24ea6-125">Ціна за одиницю</span><span class="sxs-lookup"><span data-stu-id="24ea6-125">Unit price</span></span> | <span data-ttu-id="24ea6-126">Сума</span><span class="sxs-lookup"><span data-stu-id="24ea6-126">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Завдання А | Авіаквиток | 1.10.2020 | 4 | 400 | 1600 |
-| Завдання Б | Готель | 1.10.2020 | 4 | 200 | 800 |
-| Завдання В | Готель | 1.11.2020 | 2 | 200 | 400 |
+| <span data-ttu-id="24ea6-127">Завдання А</span><span class="sxs-lookup"><span data-stu-id="24ea6-127">Task A</span></span> | <span data-ttu-id="24ea6-128">Авіаквиток</span><span class="sxs-lookup"><span data-stu-id="24ea6-128">Airfare</span></span> | <span data-ttu-id="24ea6-129">1.10.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-129">10/1/2020</span></span> | <span data-ttu-id="24ea6-130">4</span><span class="sxs-lookup"><span data-stu-id="24ea6-130">4</span></span> | <span data-ttu-id="24ea6-131">400</span><span class="sxs-lookup"><span data-stu-id="24ea6-131">400</span></span> | <span data-ttu-id="24ea6-132">1600</span><span class="sxs-lookup"><span data-stu-id="24ea6-132">1600</span></span> |
+| <span data-ttu-id="24ea6-133">Завдання Б</span><span class="sxs-lookup"><span data-stu-id="24ea6-133">Task B</span></span> | <span data-ttu-id="24ea6-134">Готель</span><span class="sxs-lookup"><span data-stu-id="24ea6-134">Hotel</span></span> | <span data-ttu-id="24ea6-135">1.10.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-135">10/1/2020</span></span> | <span data-ttu-id="24ea6-136">4</span><span class="sxs-lookup"><span data-stu-id="24ea6-136">4</span></span> | <span data-ttu-id="24ea6-137">200</span><span class="sxs-lookup"><span data-stu-id="24ea6-137">200</span></span> | <span data-ttu-id="24ea6-138">800</span><span class="sxs-lookup"><span data-stu-id="24ea6-138">800</span></span> |
+| <span data-ttu-id="24ea6-139">Завдання В</span><span class="sxs-lookup"><span data-stu-id="24ea6-139">Task C</span></span> | <span data-ttu-id="24ea6-140">Готель</span><span class="sxs-lookup"><span data-stu-id="24ea6-140">Hotel</span></span> | <span data-ttu-id="24ea6-141">1.11.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-141">11/1/2020</span></span> | <span data-ttu-id="24ea6-142">2</span><span class="sxs-lookup"><span data-stu-id="24ea6-142">2</span></span> | <span data-ttu-id="24ea6-143">200</span><span class="sxs-lookup"><span data-stu-id="24ea6-143">200</span></span> | <span data-ttu-id="24ea6-144">400</span><span class="sxs-lookup"><span data-stu-id="24ea6-144">400</span></span> |
 
-Якщо користувач вибере узагальнення за класом транзакцій, буде імпортовано зазначені нижче відомості.
+<span data-ttu-id="24ea6-145">Якщо користувач вибере узагальнення за класом транзакцій, буде імпортовано зазначені нижче відомості.</span><span class="sxs-lookup"><span data-stu-id="24ea6-145">When the user selects to summarize by Transaction class, the following information will be imported.</span></span>
 
-| Завдання | Категорія | датою | Кількість | Ціна за одиницю | Сума |
+| <span data-ttu-id="24ea6-146">Завдання</span><span class="sxs-lookup"><span data-stu-id="24ea6-146">Task</span></span> | <span data-ttu-id="24ea6-147">Категорія</span><span class="sxs-lookup"><span data-stu-id="24ea6-147">Category</span></span> | <span data-ttu-id="24ea6-148">датою</span><span class="sxs-lookup"><span data-stu-id="24ea6-148">Date</span></span> | <span data-ttu-id="24ea6-149">Кількість</span><span class="sxs-lookup"><span data-stu-id="24ea6-149">Quantity</span></span> | <span data-ttu-id="24ea6-150">Ціна за одиницю</span><span class="sxs-lookup"><span data-stu-id="24ea6-150">Unit price</span></span> | <span data-ttu-id="24ea6-151">Сума</span><span class="sxs-lookup"><span data-stu-id="24ea6-151">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| | | 1.10.2020 | 3.34 | 840 | 2800 |
+| | | <span data-ttu-id="24ea6-152">1.10.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-152">10/1/2020</span></span> | <span data-ttu-id="24ea6-153">3.34</span><span class="sxs-lookup"><span data-stu-id="24ea6-153">3.34</span></span> | <span data-ttu-id="24ea6-154">840</span><span class="sxs-lookup"><span data-stu-id="24ea6-154">840</span></span> | <span data-ttu-id="24ea6-155">2800</span><span class="sxs-lookup"><span data-stu-id="24ea6-155">2800</span></span> |
 
-Якщо користувач вибере узагальнення за класом транзакцій та категорією, буде імпортовано зазначені нижче відомості.
+<span data-ttu-id="24ea6-156">Якщо користувач вибере узагальнення за класом транзакцій та категорією, буде імпортовано зазначені нижче відомості.</span><span class="sxs-lookup"><span data-stu-id="24ea6-156">When the user selects to summarize by Transaction class and Category, the following information will be imported.</span></span>
 
-| Завдання | Категорія | датою | Кількість | Ціна за одиницю | Сума |
+| <span data-ttu-id="24ea6-157">Завдання</span><span class="sxs-lookup"><span data-stu-id="24ea6-157">Task</span></span> | <span data-ttu-id="24ea6-158">Категорія</span><span class="sxs-lookup"><span data-stu-id="24ea6-158">Category</span></span> | <span data-ttu-id="24ea6-159">датою</span><span class="sxs-lookup"><span data-stu-id="24ea6-159">Date</span></span> | <span data-ttu-id="24ea6-160">Кількість</span><span class="sxs-lookup"><span data-stu-id="24ea6-160">Quantity</span></span> | <span data-ttu-id="24ea6-161">Ціна за одиницю</span><span class="sxs-lookup"><span data-stu-id="24ea6-161">Unit price</span></span> | <span data-ttu-id="24ea6-162">Сума</span><span class="sxs-lookup"><span data-stu-id="24ea6-162">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Завдання А | Авіаквиток | 1.10.2020 | 4 | 400 | 1600 |
-| | Готель | 1.10.2020 | 6 | 200 | 1200 |
+| <span data-ttu-id="24ea6-163">Завдання А</span><span class="sxs-lookup"><span data-stu-id="24ea6-163">Task A</span></span> | <span data-ttu-id="24ea6-164">Авіаквиток</span><span class="sxs-lookup"><span data-stu-id="24ea6-164">Airfare</span></span> | <span data-ttu-id="24ea6-165">1.10.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-165">10/1/2020</span></span> | <span data-ttu-id="24ea6-166">4</span><span class="sxs-lookup"><span data-stu-id="24ea6-166">4</span></span> | <span data-ttu-id="24ea6-167">400</span><span class="sxs-lookup"><span data-stu-id="24ea6-167">400</span></span> | <span data-ttu-id="24ea6-168">1600</span><span class="sxs-lookup"><span data-stu-id="24ea6-168">1600</span></span> |
+| | <span data-ttu-id="24ea6-169">Готель</span><span class="sxs-lookup"><span data-stu-id="24ea6-169">Hotel</span></span> | <span data-ttu-id="24ea6-170">1.10.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-170">10/1/2020</span></span> | <span data-ttu-id="24ea6-171">6</span><span class="sxs-lookup"><span data-stu-id="24ea6-171">6</span></span> | <span data-ttu-id="24ea6-172">200</span><span class="sxs-lookup"><span data-stu-id="24ea6-172">200</span></span> | <span data-ttu-id="24ea6-173">1200</span><span class="sxs-lookup"><span data-stu-id="24ea6-173">1200</span></span> |
 
-Якщо користувач вибере узагальнення за класом транзакцій та категорією та завданням кінцевого вузла, буде імпортовано зазначені нижче відомості. Зверніть увагу на те, що результат буде такий самий, як був у проекті.
+<span data-ttu-id="24ea6-174">Якщо користувач вибере узагальнення за класом транзакцій та категорією та завданням кінцевого вузла, буде імпортовано зазначені нижче відомості.</span><span class="sxs-lookup"><span data-stu-id="24ea6-174">When the user selects to summarize by Transaction class, Category, and Leaf Node Task, the following information will be imported.</span></span> <span data-ttu-id="24ea6-175">Зверніть увагу на те, що результат буде такий самий, як був у проекті.</span><span class="sxs-lookup"><span data-stu-id="24ea6-175">Notice that this result is the same as what was on the project.</span></span>
 
-| Завдання | Категорія | датою | Кількість | Ціна за одиницю | Сума |
+| <span data-ttu-id="24ea6-176">Завдання</span><span class="sxs-lookup"><span data-stu-id="24ea6-176">Task</span></span> | <span data-ttu-id="24ea6-177">Категорія</span><span class="sxs-lookup"><span data-stu-id="24ea6-177">Category</span></span> | <span data-ttu-id="24ea6-178">датою</span><span class="sxs-lookup"><span data-stu-id="24ea6-178">Date</span></span> | <span data-ttu-id="24ea6-179">Кількість</span><span class="sxs-lookup"><span data-stu-id="24ea6-179">Quantity</span></span> | <span data-ttu-id="24ea6-180">Ціна за одиницю</span><span class="sxs-lookup"><span data-stu-id="24ea6-180">Unit price</span></span> | <span data-ttu-id="24ea6-181">Сума</span><span class="sxs-lookup"><span data-stu-id="24ea6-181">Amount</span></span> |
 | --- | --- | --- | --- | --- | --- |
-| Завдання А | Авіаквиток | 1.10.2020 | 4 | 400 | 1600 |
-| Завдання Б | Готель | 1.10.2020 | 4 | 200 | 800 |
-| Завдання В | Готель | 1.11.2020 | 2 | 200 | 400 |
+| <span data-ttu-id="24ea6-182">Завдання А</span><span class="sxs-lookup"><span data-stu-id="24ea6-182">Task A</span></span> | <span data-ttu-id="24ea6-183">Авіаквиток</span><span class="sxs-lookup"><span data-stu-id="24ea6-183">Airfare</span></span> | <span data-ttu-id="24ea6-184">1.10.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-184">10/1/2020</span></span> | <span data-ttu-id="24ea6-185">4</span><span class="sxs-lookup"><span data-stu-id="24ea6-185">4</span></span> | <span data-ttu-id="24ea6-186">400</span><span class="sxs-lookup"><span data-stu-id="24ea6-186">400</span></span> | <span data-ttu-id="24ea6-187">1600</span><span class="sxs-lookup"><span data-stu-id="24ea6-187">1600</span></span> |
+| <span data-ttu-id="24ea6-188">Завдання Б</span><span class="sxs-lookup"><span data-stu-id="24ea6-188">Task B</span></span> | <span data-ttu-id="24ea6-189">Готель</span><span class="sxs-lookup"><span data-stu-id="24ea6-189">Hotel</span></span> | <span data-ttu-id="24ea6-190">1.10.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-190">10/1/2020</span></span> | <span data-ttu-id="24ea6-191">4</span><span class="sxs-lookup"><span data-stu-id="24ea6-191">4</span></span> | <span data-ttu-id="24ea6-192">200</span><span class="sxs-lookup"><span data-stu-id="24ea6-192">200</span></span> | <span data-ttu-id="24ea6-193">800</span><span class="sxs-lookup"><span data-stu-id="24ea6-193">800</span></span> |
+| <span data-ttu-id="24ea6-194">Завдання В</span><span class="sxs-lookup"><span data-stu-id="24ea6-194">Task C</span></span> | <span data-ttu-id="24ea6-195">Готель</span><span class="sxs-lookup"><span data-stu-id="24ea6-195">Hotel</span></span> | <span data-ttu-id="24ea6-196">1.11.2020</span><span class="sxs-lookup"><span data-stu-id="24ea6-196">11/1/2020</span></span> | <span data-ttu-id="24ea6-197">2</span><span class="sxs-lookup"><span data-stu-id="24ea6-197">2</span></span> | <span data-ttu-id="24ea6-198">200</span><span class="sxs-lookup"><span data-stu-id="24ea6-198">200</span></span> | <span data-ttu-id="24ea6-199">400</span><span class="sxs-lookup"><span data-stu-id="24ea6-199">400</span></span> |

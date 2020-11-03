@@ -3,122 +3,91 @@ title: Реєстрація для отримання підготовчої в�
 description: 'У цьому розділі наведено відомості про те, як оформити передплату та здійснити розгортання Project Operations Lite: від угоди до рахунків-проформ.'
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a9c1432e8971eeb7918e23e00be9989294335f49
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949129"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086579"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Зареєструйтеся для отримання підготовчої версії передплати для розгортання lite: від угоди до рахунків-проформ
+# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a><span data-ttu-id="51d70-103">Зареєструйтеся для отримання підготовчої версії передплати для розгортання lite: від угоди до рахунків-проформ</span><span class="sxs-lookup"><span data-stu-id="51d70-103">Sign up for a preview subscription for lite deployment – deal to proforma invoicing</span></span>
 
-У цьому розділі пояснюється, як оформити передплату на підготовчу версію партнерської пропозиції та здійснити розгортання Dynamics 365 Project Operations Lite: від угоди до рахунків-проформ.
-
-> [!NOTE]
-> Цей процес буде змінено в майбутніх випусках Project Operations.
-
-## <a name="prerequisites"></a>Вимоги
-
-- Ви отримаєте електронною поштою запрошення до участі в підготовчій версії. Можна надіслати запит на підготовчу версію на [веб-сайті Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- Користувач, який розгортає підготовчу версію, повинен мати глобальні права адміністратора клієнта Azure.
-- Користувач, який розгортає підготовчу версію, повинен мати номер телефону та дійсну кредитну картку. При реєстрації жодних списань з картки не відбуватиметься протягом шести місяців. За шість місяців потрібно буде скасувати передплату. 
-- Перегляньте всі положення та умови.
-
-## <a name="subscribe"></a>Підписатися
-
-Коли ваш [запит підготовчої версії](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) буде затверджено, ви отримаєте електронною поштою дві пропозиції від Microsoft. Ці пропозиції дають змогу розгорнути підготовчу версію Project Operations:
-
-- Підготовча ознайомлювальна версія Dynamics 365 Customer Service — код для одноразового використання
-- Dynamics 365 Project Operations — підготовча ознайомлювальна версія
-
-### <a name="dynamics-365-customer-service-paid-offer"></a>Платна пропозиція Dynamics 365 Customer Service
-
-1. Відкрийте вікно браузера у приватному режимі або режимі інкогніто та використайте перший код пропозиції Dynamics 365 Customer Service. Для реєстрації Customer Service вам знадобляться:
-
-- Номер телефону
-- Кредитна картка. Після реєстрації жодних списань з картки не відбуватиметься протягом шести місяців. За шість місяців потрібно буде скасувати передплату.
-- Перегляньте всі положення та умови.
-
-2. Надайте вашу контактну інформацію.
-
-![Контактні відомості](./media/1ContactInformation.png)
-
-3. Укажіть відомості стосовно нового клієнта.
-
-![Створіть ідентифікатор користувача](./media/2CreateUserID.png)
-
-4. Перевірте свої відомості, збережіть новий ідентифікатор користувача, а потім виберіть **Настроїти**.
-
-![Збережіть відомості](./media/3SaveInfo.png)
-
-5. Завершіть реєстрацію кредитної картки та перегляньте всі положення та умови. 
-
-![Заповнення відомостей про кредитну картку](./media/4CompleteCreditCard.png)
-
-![Оплата кредитною карткою](./media/5CreditCardCheckout.png)
-
-![Збереження замовлення](./media/6SaveOrder.png)
-
-![Підтвердження кредитної картки](./media/7Confirmation.png)
-
-## <a name="cancel-the-dynamics-365-customer-service-enterprise-offer"></a>Скасування пропозиції Dynamics 365 Customer Service для корпорацій
-
-Пропозиція Dynamics 365 Customer Service для корпорацій надається безкоштовно протягом шести місяців. Пропозиція буде повторно надана за повну вартість наприкінці шестимісячного періоду. Щоб відмовитись до дати повторного надання, виконайте зазначені нижче вказівки. 
+<span data-ttu-id="51d70-104">У цьому розділі пояснюється, як оформити передплату на підготовчу версію партнерської пропозиції та здійснити розгортання Dynamics 365 Project Operations Lite: від угоди до рахунків-проформ.</span><span class="sxs-lookup"><span data-stu-id="51d70-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> Після виконання цих дій ви більше не зможете використовувати середовище загальнодоступної підготовчої версії Project Operations.
+> <span data-ttu-id="51d70-105">Цей процес буде змінено в майбутніх випусках Project Operations.</span><span class="sxs-lookup"><span data-stu-id="51d70-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-1. Перейдіть на [портал адміністрування](https://admin.microsoft.com/) та в розділі **Виставлення рахунків** виберіть **Ваші продукти**.
+## <a name="prerequisites"></a><span data-ttu-id="51d70-106">Вимоги</span><span class="sxs-lookup"><span data-stu-id="51d70-106">Prerequisites</span></span>
 
-![Портал адміністрування, сторінка «Ваші продукти»](./media/8AdminPortal.png)
+- <span data-ttu-id="51d70-107">Ви отримаєте електронною поштою запрошення до участі в підготовчій версії.</span><span class="sxs-lookup"><span data-stu-id="51d70-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="51d70-108">Можна надіслати запит на підготовчу версію на [веб-сайті Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span><span class="sxs-lookup"><span data-stu-id="51d70-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
+- <span data-ttu-id="51d70-109">Користувач, який розгортає підготовчу версію, повинен мати глобальні права адміністратора клієнта Azure.</span><span class="sxs-lookup"><span data-stu-id="51d70-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
+- <span data-ttu-id="51d70-110">Перегляньте всі положення та умови.</span><span class="sxs-lookup"><span data-stu-id="51d70-110">Review all terms and conditions.</span></span>
 
-2. Виберіть **Пропозиція Dynamics 365 Customer Service для корпорацій**.
+## <a name="subscribe"></a><span data-ttu-id="51d70-111">Підписатися</span><span class="sxs-lookup"><span data-stu-id="51d70-111">Subscribe</span></span>
 
-![Скасування передплати](./media/9CancelSubscription.png)
+<span data-ttu-id="51d70-112">Коли ваш [запит підготовчої версії](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) буде затверджено, ви отримаєте електронною поштою дві пропозиції від Microsoft.</span><span class="sxs-lookup"><span data-stu-id="51d70-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="51d70-113">Ці пропозиції дають змогу розгорнути підготовчу версію Project Operations:</span><span class="sxs-lookup"><span data-stu-id="51d70-113">These offers allow you to deploy the Project Operations Preview:</span></span>
 
-3. Виберіть **Параметри** > **Дії** > **Скасування передплати**.
-4. На формі **Скасування передплати** укажіть відомості в обов'язкових полях.
-5. Виберіть **Скасувати** > **Передплата.**
-
-### <a name="dynamics-365-project-operations--preview-trial"></a>Dynamics 365 Project Operations – підготовча ознайомлювальна версія
-
-1. Використайте другу пропозицію, ознайомлювальну версію Dynamics 365 Project Operations, перейшовши за URL-адресою, зазначеною у привітальному повідомленні електронної пошти.
-
-![Використайте пропозицію 2](./media/10RedeemOffer2.png)
-
-2. Переконайтеся, що ви увійшли до системи як користувач, що належить до тієї самої організації, для якої оформлено передплату за допомогою коду першої пропозиції, а тоді використайте пропозицію. 
-3. Виберіть **Так, додати до мого облікового запису**.
-
-![Додавання до облікового запису](./media/11AddToAccount.png)
-
-![Екран «Спробуйте зараз»](./media/12TryNow.png)
-
-![Відомості про замовлення](./media/13Confirmation.png)
-
-## <a name="assign-licenses"></a>Призначення ліцензій
+- <span data-ttu-id="51d70-114">Dynamics 365 Project Operations (CRM) – підготовча ознайомлювальна версія</span><span class="sxs-lookup"><span data-stu-id="51d70-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
+- <span data-ttu-id="51d70-115">Office 365 Підготовча ознайомлювальна версія Project Operations</span><span class="sxs-lookup"><span data-stu-id="51d70-115">Office 365 Project Operations - Preview Trial</span></span>
 
 > [!IMPORTANT]
-> Щоб виконати наведені далі кроки, потрібно мати доступ адміністратора до порталу Office 365 організації.
+> <span data-ttu-id="51d70-116">Виконувати це завдання має лише одна особа в організації – адміністратор клієнта.</span><span class="sxs-lookup"><span data-stu-id="51d70-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="51d70-117">Якщо ви не є абонентом цього випуску, зачекайте, доки ваша організація не зареєструється і ви не отримаєте облікові дані користувача.</span><span class="sxs-lookup"><span data-stu-id="51d70-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
 
-1. Відкрийте [Центр адміністрування Microsoft 365](https://portal.office.com/), щоб призначити ліцензії користувачам.
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="51d70-118">Dynamics 365 Project Operations (CRM) – підготовча ознайомлювальна версія</span><span class="sxs-lookup"><span data-stu-id="51d70-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+
+<span data-ttu-id="51d70-119">Перш ніж почати, переконайтеся, що ви ввійшли до браузера з обліковим записом користувача в клієнта, в якому має відображатися підготовча версія Project Operations.</span><span class="sxs-lookup"><span data-stu-id="51d70-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+
+1. <span data-ttu-id="51d70-120">Використайте код першої пропозиції, **Dynamics 365 Project Operations (CRM) - підготовча ознайомлювальна версія** , вставивши його в URL-адресу браузера.</span><span class="sxs-lookup"><span data-stu-id="51d70-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+
+![Використання пропозиції](./media/16RedeemFirstOfferNew.png)
+
+2. <span data-ttu-id="51d70-122">Підтвердьте замовлення.</span><span class="sxs-lookup"><span data-stu-id="51d70-122">Confirm your order.</span></span>
+<span data-ttu-id="51d70-123">![Підтвердьте замовлення](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="51d70-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
+
+<span data-ttu-id="51d70-124">Ви побачите, що пропозицію підтвердження успішно використано.</span><span class="sxs-lookup"><span data-stu-id="51d70-124">You'll see confirmation offer was successfully redeemed.</span></span>
+
+![Підтвердження](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="51d70-126">Office 365 Підготовча ознайомлювальна версія Project Operations</span><span class="sxs-lookup"><span data-stu-id="51d70-126">Office 365 Project Operations - Preview Trial</span></span>
+
+<span data-ttu-id="51d70-127">Повторіть такі самі кроки, що й для коду першої пропозиції.</span><span class="sxs-lookup"><span data-stu-id="51d70-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="51d70-128">Обов'язково додайте код другої пропозиції, використовуючи той самий обліковий запис користувача, який використовувався з кодом першої пропозиції пропозиції.</span><span class="sxs-lookup"><span data-stu-id="51d70-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
+
+## <a name="assign-licenses"></a><span data-ttu-id="51d70-129">Призначення ліцензій</span><span class="sxs-lookup"><span data-stu-id="51d70-129">Assign licenses</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="51d70-130">Щоб виконати наведені далі кроки, потрібно мати доступ адміністратора до порталу Microsoft 365 організації.</span><span class="sxs-lookup"><span data-stu-id="51d70-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+
+
+1. <span data-ttu-id="51d70-131">Відкрийте [Центр адміністрування Microsoft 365](https://portal.office.com/), щоб призначити ліцензії користувачам.</span><span class="sxs-lookup"><span data-stu-id="51d70-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
 
 ![Головна сторінка центру адміністрування](./media/14AdminPortal.png)
 
-2. На сторінці **Активні користувачі** виберіть користувачів, яким потрібно призначити ліцензію.
+2. <span data-ttu-id="51d70-133">На сторінці **Активні користувачі** виберіть користувачів, яким потрібно призначити ліцензію.</span><span class="sxs-lookup"><span data-stu-id="51d70-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
 
 ![Призначення ліцензій](./media/15AssignLicenses.png)
 
-3. Перевірте, що вибрано ліцензії **Customer Service Enterprise** та **Project Operations**, а потім виберіть **Зберегти зміни**.
+3. <span data-ttu-id="51d70-135">Переконайтеся, що вибрано ліцензії **Dynamics 365 Project Operations (CRM) - підготовча версія** і **Office 365 Project Operations - підготовча версія**.</span><span class="sxs-lookup"><span data-stu-id="51d70-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
+4. <span data-ttu-id="51d70-136">Виберіть **Зберегти зміни**.</span><span class="sxs-lookup"><span data-stu-id="51d70-136">Select **Save changes**.</span></span>
 
-## <a name="create-a-new-cds-environment"></a>Створити нове середовище CDS
+## <a name="create-a-new-cds-environment"></a><span data-ttu-id="51d70-137">Створити нове середовище CDS</span><span class="sxs-lookup"><span data-stu-id="51d70-137">Create a new CDS environment</span></span>
 
-Підготуйте нове середовище CDS для розгортання Project Operations, дотримуючись вказівок у розділі [Модель розгортання CDS](lite-deployment.md).
+1. <span data-ttu-id="51d70-138">Підготуйте нове середовище CDS для розгортання Project Operations, дотримуючись вказівок у розділі [Модель розгортання CDS](lite-deployment.md).</span><span class="sxs-lookup"><span data-stu-id="51d70-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="51d70-139">Під час вибору типу середовища переконайтеся, що використовуєте **Ознайомлювальну версію (на основі підписки)**.</span><span class="sxs-lookup"><span data-stu-id="51d70-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
+<span data-ttu-id="51d70-140">![Нове середовище](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="51d70-140">![New environment](./media/19CreateEnvironment.png)</span></span>
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Інсталюйте конфігурацію CDS та настройте демонстраційні дані
+2. <span data-ttu-id="51d70-141">Виберіть параметр **Увімкнення програм Dynamics 365 Apps** і залиште поле **Автоматично розгортати ці програми** пустим.</span><span class="sxs-lookup"><span data-stu-id="51d70-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="51d70-142">Натисніть **Зберегти** , щоб створити середовище.</span><span class="sxs-lookup"><span data-stu-id="51d70-142">Select **Save** to create the environment.</span></span>
 
-Інсталюйте конфігурацію CDS і настройте демонстраційні дані, дотримуючись вказівок у розділі [Застосування демонстраційних даних налаштування та конфігурації](lite-apply-demo-setup-config-data.md).
+![Додати базу даних](./media/20CreateEnvironment1.png)
+
+4. <span data-ttu-id="51d70-144">Після створення середовища встановіть рішення **Microsoft Dynamics 365 Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="51d70-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+
+![Інсталяція рішення](./media/21InstallSolution.png)
+
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="51d70-146">Інсталюйте конфігурацію CDS та настройте демонстраційні дані</span><span class="sxs-lookup"><span data-stu-id="51d70-146">Install a CDS configuration and setup demo data</span></span>
+
+<span data-ttu-id="51d70-147">Інсталюйте конфігурацію CDS і настройте демонстраційні дані, дотримуючись вказівок у розділі [Застосування демонстраційних даних налаштування та конфігурації](lite-apply-demo-setup-config-data.md).</span><span class="sxs-lookup"><span data-stu-id="51d70-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>

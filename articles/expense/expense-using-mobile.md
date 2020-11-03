@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,224 +15,224 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897071"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086718"
 ---
-# <a name="expense-using-mobile"></a>Врахування витрат за допомогою мобільних пристроїв
+# <a name="expense-using-mobile"></a><span data-ttu-id="cabb7-103">Врахування витрат за допомогою мобільних пристроїв</span><span class="sxs-lookup"><span data-stu-id="cabb7-103">Expense using mobile</span></span>
 
-_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
+<span data-ttu-id="cabb7-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_</span><span class="sxs-lookup"><span data-stu-id="cabb7-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-У цій темі наведено відомості про мобільну робочу область **Керування витратами**. У цій робочій області користувачі можуть збирати та передавати квитанції, щоб їх можна було пізніше вкласти до звіту про витрати. Користувачі також можуть швидко створювати рядки витрат, використовуючи для цього вкладені квитанції, а ще створювати звіти про витрати та керувати ними. Крім того, особи, що затверджують звіти, можуть використовувати мобільну робочу область **Керування витратами**, щоб переглядати призначені їм звіти про витрати та затверджувати або відхиляти їх.
+<span data-ttu-id="cabb7-105">У цій темі наведено відомості про мобільну робочу область **Керування витратами**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-105">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="cabb7-106">У цій робочій області користувачі можуть збирати та передавати квитанції, щоб їх можна було пізніше вкласти до звіту про витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-106">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="cabb7-107">Користувачі також можуть швидко створювати рядки витрат, використовуючи для цього вкладені квитанції, а ще створювати звіти про витрати та керувати ними.</span><span class="sxs-lookup"><span data-stu-id="cabb7-107">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="cabb7-108">Крім того, особи, що затверджують звіти, можуть використовувати мобільну робочу область **Керування витратами** , щоб переглядати призначені їм звіти про витрати та затверджувати або відхиляти їх.</span><span class="sxs-lookup"><span data-stu-id="cabb7-108">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
-Ця мобільна робоча область призначена для використання з програмою для мобільних пристроїв Dynamics 365 Unified Ops.
+<span data-ttu-id="cabb7-109">Ця мобільна робоча область призначена для використання з програмою для мобільних пристроїв Dynamics 365 Unified Ops.</span><span class="sxs-lookup"><span data-stu-id="cabb7-109">This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.</span></span>
 
-У багатьох організаціях вимагається, щоб копії квитанцій вкладалися до звітів, пов’язаних із подорожами або веденням бізнесу, що їх подають працівники для відшкодування. Мобільна робоча область **Керування витратами** дозволяє користувачам швидко створювати нові рядки витрат на власному мобільному пристрої за допомогою вкладеної фотографії квитанції. Крім того, користувачі можуть зробити фото квитанції та вкласти її до звіту про витрати пізніше. Працівники також можуть створювати звіти про витрати та керувати ними, а потім передавати їх для затвердження та відшкодування, використовуючи свої мобільні пристрої.
+<span data-ttu-id="cabb7-110">У багатьох організаціях вимагається, щоб копії квитанцій вкладалися до звітів, пов’язаних із подорожами або веденням бізнесу, що їх подають працівники для відшкодування.</span><span class="sxs-lookup"><span data-stu-id="cabb7-110">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="cabb7-111">Мобільна робоча область **Керування витратами** дозволяє користувачам швидко створювати нові рядки витрат на власному мобільному пристрої за допомогою вкладеної фотографії квитанції.</span><span class="sxs-lookup"><span data-stu-id="cabb7-111">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="cabb7-112">Крім того, користувачі можуть зробити фото квитанції та вкласти її до звіту про витрати пізніше.</span><span class="sxs-lookup"><span data-stu-id="cabb7-112">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="cabb7-113">Працівники також можуть створювати звіти про витрати та керувати ними, а потім передавати їх для затвердження та відшкодування, використовуючи свої мобільні пристрої.</span><span class="sxs-lookup"><span data-stu-id="cabb7-113">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
-Зокрема, мобільна робоча область **Керування витратами** дає користувачам змогу виконувати перелічені нижче завдання.
+<span data-ttu-id="cabb7-114">Зокрема, мобільна робоча область **Керування витратами** дає користувачам змогу виконувати перелічені нижче завдання.</span><span class="sxs-lookup"><span data-stu-id="cabb7-114">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Робити фото квитанцій. Передавати фото та пізніше вкладати його до звіту про витрати.
-- Передавати файли із отриманими квитанціями. Такий файл можна додати до звіту про витрати пізніше.
-- Створювати нові рядки витрат за допомогою вкладених квитанцій. Елемент рядка можна додати до звіту про витрати пізніше, а тоді надіслати звіт для затвердження та відшкодування.
+- <span data-ttu-id="cabb7-115">Робити фото квитанцій.</span><span class="sxs-lookup"><span data-stu-id="cabb7-115">Take a photo of a receipt.</span></span> <span data-ttu-id="cabb7-116">Передавати фото та пізніше вкладати його до звіту про витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-116">Upload the receipt photo and attach it to an expense report later.</span></span>
+- <span data-ttu-id="cabb7-117">Передавати файли із отриманими квитанціями.</span><span class="sxs-lookup"><span data-stu-id="cabb7-117">Upload a file as a captured receipt.</span></span> <span data-ttu-id="cabb7-118">Такий файл можна додати до звіту про витрати пізніше.</span><span class="sxs-lookup"><span data-stu-id="cabb7-118">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="cabb7-119">Створювати нові рядки витрат за допомогою вкладених квитанцій.</span><span class="sxs-lookup"><span data-stu-id="cabb7-119">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="cabb7-120">Елемент рядка можна додати до звіту про витрати пізніше, а тоді надіслати звіт для затвердження та відшкодування.</span><span class="sxs-lookup"><span data-stu-id="cabb7-120">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Ви можете також використовувати зазначені нижче функції.
+<span data-ttu-id="cabb7-121">Ви можете також використовувати зазначені нижче функції.</span><span class="sxs-lookup"><span data-stu-id="cabb7-121">You can also use these features:</span></span>
 
-- Створення нового звіту про витрати.
-- Вкладати операції із кредитними картками та інші витрати, що їх було створено раніше, до звіту про витрати.
-- Створення нових витрат для звіту про витрати.
-- Додавання квитанцій для будь-яких витрат у звіті про витрати, знімаючи фото квитанції або передаючи файл із зображенням квитанції.
-- Залежно від політики компанії щодо витрат, додавання до витрат списків гостей.
-- Залежно від політики компанії щодо витрат, деталізація витрат.
-- Надсилання звіту про видатки для затвердження та відшкодування.
-- Затвердження або відхилення звітів про витрати, призначених вам для затвердження.
+- <span data-ttu-id="cabb7-122">Створення нового звіту про витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-122">Create a new expense report.</span></span>
+- <span data-ttu-id="cabb7-123">Вкладати операції із кредитними картками та інші витрати, що їх було створено раніше, до звіту про витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-123">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="cabb7-124">Створення нових витрат для звіту про витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-124">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="cabb7-125">Додавання квитанцій для будь-яких витрат у звіті про витрати, знімаючи фото квитанції або передаючи файл із зображенням квитанції.</span><span class="sxs-lookup"><span data-stu-id="cabb7-125">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="cabb7-126">Залежно від політики компанії щодо витрат, додавання до витрат списків гостей.</span><span class="sxs-lookup"><span data-stu-id="cabb7-126">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="cabb7-127">Залежно від політики компанії щодо витрат, деталізація витрат.</span><span class="sxs-lookup"><span data-stu-id="cabb7-127">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="cabb7-128">Надсилання звіту про видатки для затвердження та відшкодування.</span><span class="sxs-lookup"><span data-stu-id="cabb7-128">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="cabb7-129">Затвердження або відхилення звітів про витрати, призначених вам для затвердження.</span><span class="sxs-lookup"><span data-stu-id="cabb7-129">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Вимоги
-Попередні умови відрізняються залежно від версії, яку розгорнуто у вашій організації.
+## <a name="prerequisites"></a><span data-ttu-id="cabb7-130">Вимоги</span><span class="sxs-lookup"><span data-stu-id="cabb7-130">Prerequisites</span></span>
+<span data-ttu-id="cabb7-131">Попередні умови відрізняються залежно від версії, яку розгорнуто у вашій організації.</span><span class="sxs-lookup"><span data-stu-id="cabb7-131">The prerequisites vary, based on the version that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Необхідні компоненти при використанні Dynamics 365 Finance 
-Якщо у вашій організації розгорнуто Finance, системний адміністратор має опублікувати мобільну робочу область **Керування витратами**. 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a><span data-ttu-id="cabb7-132">Необхідні компоненти при використанні Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="cabb7-132">Prerequisites if you use Dynamics 365 Finance</span></span> 
+<span data-ttu-id="cabb7-133">Якщо у вашій організації розгорнуто Finance, системний адміністратор має опублікувати мобільну робочу область **Керування витратами**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-133">If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> 
 
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Попередні умови, якщо ви використовуєте версію 1611 з оновленням платформи 3 або пізнішого випуску
-Якщо у вашій організації розгорнуто версію 1611 з оновленням платформи 3 або пізнішого випуску, системний адміністратор повинен забезпечити наведені нижче попередні умови. 
+### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="cabb7-134">Попередні умови, якщо ви використовуєте версію 1611 з оновленням платформи 3 або пізнішого випуску</span><span class="sxs-lookup"><span data-stu-id="cabb7-134">Prerequisites if you use version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="cabb7-135">Якщо у вашій організації розгорнуто версію 1611 з оновленням платформи 3 або пізнішого випуску, системний адміністратор повинен забезпечити наведені нижче попередні умови.</span><span class="sxs-lookup"><span data-stu-id="cabb7-135">If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Передумова</th>
-<th>Роль</th>
-<th>Опис</th>
+<th><span data-ttu-id="cabb7-136">Передумова</span><span class="sxs-lookup"><span data-stu-id="cabb7-136">Prerequisite</span></span></th>
+<th><span data-ttu-id="cabb7-137">Роль</span><span class="sxs-lookup"><span data-stu-id="cabb7-137">Role</span></span></th>
+<th><span data-ttu-id="cabb7-138">Опис</span><span class="sxs-lookup"><span data-stu-id="cabb7-138">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Реалізувати базу знань KB 4019015.</td>
-<td>Системний адміністратор</td>
-<td>Оновлення KB 4019015 – це оновлення X++ або виправлення метаданих, яке містить мобільну робочу область <strong>Керування витратами</strong>. Щоб реалізувати базу знань KB 4019015, системний адміністратор має дотримуватися наведених далі кроків.
+<td><span data-ttu-id="cabb7-139">Реалізувати базу знань KB 4019015.</span><span class="sxs-lookup"><span data-stu-id="cabb7-139">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="cabb7-140">Системний адміністратор</span><span class="sxs-lookup"><span data-stu-id="cabb7-140">System administrator</span></span></td>
+<td><span data-ttu-id="cabb7-141">Оновлення KB 4019015 – це оновлення X++ або виправлення метаданих, яке містить мобільну робочу область <strong>Керування витратами</strong>.</span><span class="sxs-lookup"><span data-stu-id="cabb7-141">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="cabb7-142">Щоб реалізувати базу знань KB 4019015, системний адміністратор має дотримуватися наведених далі кроків.</span><span class="sxs-lookup"><span data-stu-id="cabb7-142">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Завантаження оновлень із Lifecycle Services</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Інсталювати виправлення метаданих</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Створіть пакет для розгортання</a>, який містить моделі <strong>ApplicationSuite</strong> і <strong>ExpenseMobile</strong>, а потім передайте цей пакет для розгортання до LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Застосуйте цей пакет для розгортання</a>.</li>
+<li><span data-ttu-id="cabb7-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Завантаження оновлень із Lifecycle Services</a>.</span><span class="sxs-lookup"><span data-stu-id="cabb7-143"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</span></span></li>
+<li><span data-ttu-id="cabb7-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Інсталювати виправлення метаданих</a>.</span><span class="sxs-lookup"><span data-stu-id="cabb7-144"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="cabb7-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Створіть пакет для розгортання</a>, який містить моделі <strong>ApplicationSuite</strong> і <strong>ExpenseMobile</strong>, а потім передайте цей пакет для розгортання до LCS.</span><span class="sxs-lookup"><span data-stu-id="cabb7-145"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="cabb7-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Застосуйте цей пакет для розгортання</a>.</span><span class="sxs-lookup"><span data-stu-id="cabb7-146"><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Опублікуйте робочу область <strong>Керування витратами</strong> для мобільних пристроїв.</td>
-<td>Системний адміністратор</td>
-<td>Див. розділ <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публікуйте мобільну робочу область</a>.</td>
+<td><span data-ttu-id="cabb7-147">Опублікуйте робочу область <strong>Керування витратами</strong> для мобільних пристроїв.</span><span class="sxs-lookup"><span data-stu-id="cabb7-147">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="cabb7-148">Системний адміністратор</span><span class="sxs-lookup"><span data-stu-id="cabb7-148">System administrator</span></span></td>
+<td><span data-ttu-id="cabb7-149">Див. розділ <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публікуйте мобільну робочу область</a>.</span><span class="sxs-lookup"><span data-stu-id="cabb7-149">See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Завантаження та інсталяція програми Dynamics 365 Unified Ops для мобільних пристроїв
-Завантаження та інсталяція програми Dynamics 365 Unified Ops для мобільних пристроїв:
+## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a><span data-ttu-id="cabb7-150">Завантаження та інсталяція програми Dynamics 365 Unified Ops для мобільних пристроїв</span><span class="sxs-lookup"><span data-stu-id="cabb7-150">Download and install the Dynamics 365 Unified Ops mobile app</span></span>
+<span data-ttu-id="cabb7-151">Завантаження та інсталяція програми Dynamics 365 Unified Ops для мобільних пристроїв:</span><span class="sxs-lookup"><span data-stu-id="cabb7-151">Download and install the Dynamics 365 Unified Ops mobile app:</span></span>
 
-- [Для телефонів Android](https://go.microsoft.com/fwlink/?linkid=850662)
-- [Для пристроїв iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="cabb7-152">Для телефонів Android</span><span class="sxs-lookup"><span data-stu-id="cabb7-152">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="cabb7-153">Для пристроїв iPhone</span><span class="sxs-lookup"><span data-stu-id="cabb7-153">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Виконайте вхід до програми для мобільних пристроїв
-1. Запустіть програму на мобільному пристрої.
-2. Введіть URL-адресу Dynamics 365.
-4. При першому вході ви отримаєте підказку щодо введення імені користувача та паролю. Введіть свої облікові дані.
-5. Після того, як ви виконаєте вхід, відобразяться доступні для вашої компанії робочі області. Якщо пізніше системний адміністратор опублікує нову робочу область, вам доведеться оновити список мобільних робочих областей.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="cabb7-154">Виконайте вхід до програми для мобільних пристроїв</span><span class="sxs-lookup"><span data-stu-id="cabb7-154">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="cabb7-155">Запустіть програму на мобільному пристрої.</span><span class="sxs-lookup"><span data-stu-id="cabb7-155">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="cabb7-156">Введіть URL-адресу Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="cabb7-156">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="cabb7-157">При першому вході ви отримаєте підказку щодо введення імені користувача та паролю.</span><span class="sxs-lookup"><span data-stu-id="cabb7-157">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="cabb7-158">Введіть свої облікові дані.</span><span class="sxs-lookup"><span data-stu-id="cabb7-158">Enter your credentials.</span></span>
+5. <span data-ttu-id="cabb7-159">Після того, як ви виконаєте вхід, відобразяться доступні для вашої компанії робочі області.</span><span class="sxs-lookup"><span data-stu-id="cabb7-159">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="cabb7-160">Якщо пізніше системний адміністратор опублікує нову робочу область, вам доведеться оновити список мобільних робочих областей.</span><span class="sxs-lookup"><span data-stu-id="cabb7-160">If your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Отримання квитанції за допомогою робочої області Керування витратами для мобільних пристроїв
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="cabb7-161">Отримання квитанції за допомогою робочої області Керування витратами для мобільних пристроїв</span><span class="sxs-lookup"><span data-stu-id="cabb7-161">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. На мобільному пристрої відкрийте робочу область **Керування витратами**.
-2. Виберіть **Отримати квитанцію**.
-3. Виберіть **Зробити фото** або **Вибрати зображення**.
-4. Виконайте один з наведених нижче кроків.
+1. <span data-ttu-id="cabb7-162">На мобільному пристрої відкрийте робочу область **Керування витратами**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-162">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="cabb7-163">Виберіть **Отримати квитанцію**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-163">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="cabb7-164">Виберіть **Зробити фото** або **Вибрати зображення**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-164">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="cabb7-165">Виконайте один з наведених нижче кроків.</span><span class="sxs-lookup"><span data-stu-id="cabb7-165">Follow one of these steps:</span></span>
 
-   - Якщо ви вибрали **Зробити фото**, виконайте зазначені нижче дії.
+   - <span data-ttu-id="cabb7-166">Якщо ви вибрали **Зробити фото** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-166">If you selected **Take photo** , follow these steps:</span></span>
 
-      1. Ви перейдете до камери мобільного пристрою і там зможете зробити фото квитанції. 
-      2. Після завершення зйомки фото натисніть кнопку **ОК**, щоб прийняти цю фотографію.
-      3. Необов'язково: укажіть ім'я для фотографії та введіть будь-які примітки.
+      1. <span data-ttu-id="cabb7-167">Ви перейдете до камери мобільного пристрою і там зможете зробити фото квитанції.</span><span class="sxs-lookup"><span data-stu-id="cabb7-167">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> 
+      2. <span data-ttu-id="cabb7-168">Після завершення зйомки фото натисніть кнопку **ОК** , щоб прийняти цю фотографію.</span><span class="sxs-lookup"><span data-stu-id="cabb7-168">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+      3. <span data-ttu-id="cabb7-169">Необов'язково: укажіть ім'я для фотографії та введіть будь-які примітки.</span><span class="sxs-lookup"><span data-stu-id="cabb7-169">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - Якщо ви вибрали **Вибрати зображення**, виконайте зазначені нижче дії.
+    - <span data-ttu-id="cabb7-170">Якщо ви вибрали **Вибрати зображення** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-170">If you selected **Choose image** , follow these steps:</span></span>
 
-        1. Оберіть зображення зі списку.
-        2. Необов'язково: укажіть ім'я для зображення та введіть будь-які примітки.
+        1. <span data-ttu-id="cabb7-171">Оберіть зображення зі списку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-171">Select an image in the list.</span></span>
+        2. <span data-ttu-id="cabb7-172">Необов'язково: укажіть ім'я для зображення та введіть будь-які примітки.</span><span class="sxs-lookup"><span data-stu-id="cabb7-172">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. Виберіть **Готово**.
+5. <span data-ttu-id="cabb7-173">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-173">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Швидко вносьте витрати за допомогою робочої області Керування витратами для мобільних пристроїв
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="cabb7-174">Швидко вносьте витрати за допомогою робочої області Керування витратами для мобільних пристроїв</span><span class="sxs-lookup"><span data-stu-id="cabb7-174">Quickly enter expenses by using the Expense management mobile workspace</span></span>
 
-1. На мобільному пристрої відкрийте робочу область **Керування витратами**.
-2. Виберіть **Швидке введення витрати**.
-3. Виберіть категорію для витрати. Ви побачите список категорій витрат, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Якщо в списку немає відповідної категорії, виберіть **Пошук**, щоб виконати пошук онлайн. Шукайте за категорією витрат або перейдіть до пошуку за типом витрати.
-4. Уведіть дату операції для витрати.
-5. Необов'язково: укажіть для витрати торгову точку.
-6. Укажіть суму втрати.
-7. Виберіть грошову одиницю для витрати. Ви побачите список кодів грошових одиниць, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажується 400 грошових одиниць, але розробник може змінити цю кількість. Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Якщо в списку немає потрібної грошової одиниці, виберіть **Пошук**, щоб виконати пошук онлайн. Виконайте пошук за грошовою одиницею або перейдіть до пошуку за іменем.
-8. Виберіть **Зробити фото** або **Вибрати зображення**.
-9. Виконайте один з наведених нижче кроків.
+1. <span data-ttu-id="cabb7-175">На мобільному пристрої відкрийте робочу область **Керування витратами**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-175">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="cabb7-176">Виберіть **Швидке введення витрати**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-176">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="cabb7-177">Виберіть категорію для витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-177">Select the expense category.</span></span> <span data-ttu-id="cabb7-178">Ви побачите список категорій витрат, які завантажуються до вашої програми для використання в автономному режимі.</span><span class="sxs-lookup"><span data-stu-id="cabb7-178">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="cabb7-179">За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість.</span><span class="sxs-lookup"><span data-stu-id="cabb7-179">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="cabb7-180">Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="cabb7-180">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="cabb7-181">Якщо в списку немає відповідної категорії, виберіть **Пошук** , щоб виконати пошук онлайн.</span><span class="sxs-lookup"><span data-stu-id="cabb7-181">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="cabb7-182">Шукайте за категорією витрат або перейдіть до пошуку за типом витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-182">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="cabb7-183">Уведіть дату операції для витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-183">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="cabb7-184">Необов'язково: укажіть для витрати торгову точку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-184">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="cabb7-185">Укажіть суму втрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-185">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="cabb7-186">Виберіть грошову одиницю для витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-186">Select the currency of the expense.</span></span> <span data-ttu-id="cabb7-187">Ви побачите список кодів грошових одиниць, які завантажуються до вашої програми для використання в автономному режимі.</span><span class="sxs-lookup"><span data-stu-id="cabb7-187">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="cabb7-188">За замовчуванням завантажується 400 грошових одиниць, але розробник може змінити цю кількість.</span><span class="sxs-lookup"><span data-stu-id="cabb7-188">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="cabb7-189">Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="cabb7-189">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="cabb7-190">Якщо в списку немає потрібної грошової одиниці, виберіть **Пошук** , щоб виконати пошук онлайн.</span><span class="sxs-lookup"><span data-stu-id="cabb7-190">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="cabb7-191">Виконайте пошук за грошовою одиницею або перейдіть до пошуку за іменем.</span><span class="sxs-lookup"><span data-stu-id="cabb7-191">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="cabb7-192">Виберіть **Зробити фото** або **Вибрати зображення**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-192">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="cabb7-193">Виконайте один з наведених нижче кроків.</span><span class="sxs-lookup"><span data-stu-id="cabb7-193">Follow one of these steps:</span></span>
 
-    - Якщо ви вибрали **Зробити фото**, ви перейдете до камери мобільного пристрою і там зможете зробити фото квитанції. Після завершення зйомки фото натисніть кнопку **ОК**, щоб прийняти цю фотографію.
-    - Якщо вибрано **Вибрати зображення**, виберіть зображення у списку.
+    - <span data-ttu-id="cabb7-194">Якщо ви вибрали **Зробити фото** , ви перейдете до камери мобільного пристрою і там зможете зробити фото квитанції.</span><span class="sxs-lookup"><span data-stu-id="cabb7-194">If you selected **Take photo** , you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="cabb7-195">Після завершення зйомки фото натисніть кнопку **ОК** , щоб прийняти цю фотографію.</span><span class="sxs-lookup"><span data-stu-id="cabb7-195">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="cabb7-196">Якщо вибрано **Вибрати зображення** , виберіть зображення у списку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-196">If you selected **Choose image** , select an image in the list.</span></span>
 
-10. Виберіть **Готово**.
+10. <span data-ttu-id="cabb7-197">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-197">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Затвердження звітів про видатки за допомогою мобільної робочої області «Керування витратами» (якщо ви використовуєте оновлення від липня 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="cabb7-198">Затвердження звітів про видатки за допомогою мобільної робочої області «Керування витратами» (якщо ви використовуєте оновлення від липня 2017)</span><span class="sxs-lookup"><span data-stu-id="cabb7-198">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. На мобільному пристрої відкрийте робочу область **Керування витратами**.
-2. **Затвердження витрат** відображає кількість звітів про витрати, призначених вам для затвердження. Кількість оновлюється приблизно кожні 30 хвилин. Виберіть **Затвердження витрат**.
+1. <span data-ttu-id="cabb7-199">На мобільному пристрої відкрийте робочу область **Керування витратами**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-199">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="cabb7-200">**Затвердження витрат** відображає кількість звітів про витрати, призначених вам для затвердження.</span><span class="sxs-lookup"><span data-stu-id="cabb7-200">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="cabb7-201">Кількість оновлюється приблизно кожні 30 хвилин.</span><span class="sxs-lookup"><span data-stu-id="cabb7-201">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="cabb7-202">Виберіть **Затвердження витрат**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-202">Select **Expense approvals**.</span></span>
 
-    Відобразиться список звітів про витрати, призначених вам для затвердження.
+    <span data-ttu-id="cabb7-203">Відобразиться список звітів про витрати, призначених вам для затвердження.</span><span class="sxs-lookup"><span data-stu-id="cabb7-203">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Виберіть звіт про витрати, щоб переглянути для нього докладні відомості про витрати.
-4. Виберіть витрату, щоб переглянути для неї докладні відомості. Відомості, що відображаються для витрат, містять усі подробиці про квитанції, гостей та деталізації.
-5. Поверніться на сторінку **Звіт про витрати** та затвердіть або відхиліть звіт про витрати.
-6. Уведіть будь-які коментарі щодо дії затвердження.
-7. Виберіть **Готово**.
+3. <span data-ttu-id="cabb7-204">Виберіть звіт про витрати, щоб переглянути для нього докладні відомості про витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-204">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="cabb7-205">Виберіть витрату, щоб переглянути для неї докладні відомості.</span><span class="sxs-lookup"><span data-stu-id="cabb7-205">Select an expense to view the details for it.</span></span> <span data-ttu-id="cabb7-206">Відомості, що відображаються для витрат, містять усі подробиці про квитанції, гостей та деталізації.</span><span class="sxs-lookup"><span data-stu-id="cabb7-206">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="cabb7-207">Поверніться на сторінку **Звіт про витрати** та затвердіть або відхиліть звіт про витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-207">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="cabb7-208">Уведіть будь-які коментарі щодо дії затвердження.</span><span class="sxs-lookup"><span data-stu-id="cabb7-208">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="cabb7-209">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-209">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Створення звітів про витрати та надсилання їх для затвердження за допомогою мобільної робочої області «Керування витратами» (якщо ви використовуєте оновлення від липня 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="cabb7-210">Створення звітів про витрати та надсилання їх для затвердження за допомогою мобільної робочої області «Керування витратами» (якщо ви використовуєте оновлення від липня 2017)</span><span class="sxs-lookup"><span data-stu-id="cabb7-210">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
 
-1. На мобільному пристрої відкрийте робочу область **Керування витратами**.
-2. Виберіть **Введення витрати**.
-3. Виберіть **Новий звіт**, або ж виберіть наявний звіт про витрати зі списку.
-4. Для нового звіту про витрати введіть призначення та будь-які наявні додаткові відомості. Ці відомості можуть бути різними, залежно від того, як у вашій компанії налаштовано керування витратами.
-5. Виберіть **Готово**.
-6. Щоб додати до звіту про витрати наявні витрати, наприклад, операції з кредитними картками, виберіть **Вкласти**.
-7. Виберіть одну або кілька витрат зі списку.
-8. Виберіть **Готово**.
-9. Щоб додати до звіту про витрати нову витрату, виберіть **Нова витрата**.
-10. Виберіть категорію для цієї витрати. Ви побачите список категорій витрат, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Якщо в списку немає відповідної категорії, виберіть **Пошук**, щоб виконати пошук онлайн. Шукайте за категорією витрат або перейдіть до пошуку за типом витрати.
-11. Необов'язково: укажіть для витрати торгову точку.
-12. Уведіть дату операції для витрати.
-13. Укажіть суму втрати.
-14. Виберіть грошову одиницю для витрати. Ви побачите список кодів грошових одиниць, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажується 400 грошових одиниць, але розробник може змінити цю кількість. Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Якщо в списку немає потрібної грошової одиниці, виберіть **Пошук**, щоб виконати пошук онлайн. Виконайте пошук за грошовою одиницею або перейдіть до пошуку за іменем.
-15. Виберіть **Готово**.
-16. Щоб додати докладні відомості щодо витрати, виберіть **Додати докладні відомості**. Перелік доступних полів залежатиме від налаштування керування витратами у вашій компанії.
-17. Якщо політика компанії вимагає додавання квитанцій до витрат, виберіть **Квитанції**, а потім виконайте зазначені нижче дії.
+1. <span data-ttu-id="cabb7-211">На мобільному пристрої відкрийте робочу область **Керування витратами**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-211">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="cabb7-212">Виберіть **Введення витрати**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-212">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="cabb7-213">Виберіть **Новий звіт** , або ж виберіть наявний звіт про витрати зі списку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-213">Select **New report** , or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="cabb7-214">Для нового звіту про витрати введіть призначення та будь-які наявні додаткові відомості.</span><span class="sxs-lookup"><span data-stu-id="cabb7-214">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="cabb7-215">Ці відомості можуть бути різними, залежно від того, як у вашій компанії налаштовано керування витратами.</span><span class="sxs-lookup"><span data-stu-id="cabb7-215">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="cabb7-216">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-216">Select **Done**.</span></span>
+6. <span data-ttu-id="cabb7-217">Щоб додати до звіту про витрати наявні витрати, наприклад, операції з кредитними картками, виберіть **Вкласти**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-217">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="cabb7-218">Виберіть одну або кілька витрат зі списку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-218">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="cabb7-219">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-219">Select **Done**.</span></span>
+9. <span data-ttu-id="cabb7-220">Щоб додати до звіту про витрати нову витрату, виберіть **Нова витрата**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-220">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="cabb7-221">Виберіть категорію для цієї витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-221">Select the category for the expense.</span></span> <span data-ttu-id="cabb7-222">Ви побачите список категорій витрат, які завантажуються до вашої програми для використання в автономному режимі.</span><span class="sxs-lookup"><span data-stu-id="cabb7-222">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="cabb7-223">За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість.</span><span class="sxs-lookup"><span data-stu-id="cabb7-223">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="cabb7-224">Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="cabb7-224">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="cabb7-225">Якщо в списку немає відповідної категорії, виберіть **Пошук** , щоб виконати пошук онлайн.</span><span class="sxs-lookup"><span data-stu-id="cabb7-225">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="cabb7-226">Шукайте за категорією витрат або перейдіть до пошуку за типом витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-226">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="cabb7-227">Необов'язково: укажіть для витрати торгову точку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-227">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="cabb7-228">Уведіть дату операції для витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-228">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="cabb7-229">Укажіть суму втрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-229">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="cabb7-230">Виберіть грошову одиницю для витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-230">Select the currency of the expense.</span></span> <span data-ttu-id="cabb7-231">Ви побачите список кодів грошових одиниць, які завантажуються до вашої програми для використання в автономному режимі.</span><span class="sxs-lookup"><span data-stu-id="cabb7-231">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="cabb7-232">За замовчуванням завантажується 400 грошових одиниць, але розробник може змінити цю кількість.</span><span class="sxs-lookup"><span data-stu-id="cabb7-232">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="cabb7-233">Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="cabb7-233">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="cabb7-234">Якщо в списку немає потрібної грошової одиниці, виберіть **Пошук** , щоб виконати пошук онлайн.</span><span class="sxs-lookup"><span data-stu-id="cabb7-234">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="cabb7-235">Виконайте пошук за грошовою одиницею або перейдіть до пошуку за іменем.</span><span class="sxs-lookup"><span data-stu-id="cabb7-235">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="cabb7-236">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-236">Select **Done**.</span></span>
+16. <span data-ttu-id="cabb7-237">Щоб додати докладні відомості щодо витрати, виберіть **Додати докладні відомості**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-237">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="cabb7-238">Перелік доступних полів залежатиме від налаштування керування витратами у вашій компанії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-238">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="cabb7-239">Якщо політика компанії вимагає додавання квитанцій до витрат, виберіть **Квитанції** , а потім виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-239">If company policy requires a receipt for the expense, select **Receipts** , and then follow these steps:</span></span>
 
-    1. Виберіть **Отримати квитанцію** або **Вкласти квитанцію**.
-    2. Виконайте один з наведених нижче кроків.
+    1. <span data-ttu-id="cabb7-240">Виберіть **Отримати квитанцію** або **Вкласти квитанцію**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-240">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="cabb7-241">Виконайте один з наведених нижче кроків.</span><span class="sxs-lookup"><span data-stu-id="cabb7-241">Follow one of these steps:</span></span>
 
-        - Якщо ви вибрали **Отримати квитанцію**, виконайте зазначені нижче дії.
+        - <span data-ttu-id="cabb7-242">Якщо ви вибрали **Отримати квитанцію** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-242">If you selected **Capture receipt** , follow these steps:</span></span>
 
-            1. Виберіть **Зробити фото** або **Вибрати зображення**.
-            2. Виконайте один з наведених нижче кроків.
+            1. <span data-ttu-id="cabb7-243">Виберіть **Зробити фото** або **Вибрати зображення**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-243">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="cabb7-244">Виконайте один з наведених нижче кроків.</span><span class="sxs-lookup"><span data-stu-id="cabb7-244">Follow one of these steps:</span></span>
 
-                - Якщо ви вибрали **Зробити фото**, виконайте зазначені нижче дії.
+                - <span data-ttu-id="cabb7-245">Якщо ви вибрали **Зробити фото** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-245">If you selected **Take photo** , follow these steps:</span></span>
 
-                    1. Ви перейдете до камери мобільного пристрою і там зможете зробити фото квитанції. Після завершення зйомки фото натисніть кнопку **ОК**, щоб прийняти цю фотографію.
-                    2. Необов'язково: укажіть ім'я для фотографії та введіть будь-які примітки.
+                    1. <span data-ttu-id="cabb7-246">Ви перейдете до камери мобільного пристрою і там зможете зробити фото квитанції.</span><span class="sxs-lookup"><span data-stu-id="cabb7-246">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="cabb7-247">Після завершення зйомки фото натисніть кнопку **ОК** , щоб прийняти цю фотографію.</span><span class="sxs-lookup"><span data-stu-id="cabb7-247">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="cabb7-248">Необов'язково: укажіть ім'я для фотографії та введіть будь-які примітки.</span><span class="sxs-lookup"><span data-stu-id="cabb7-248">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - Якщо ви вибрали **Вибрати зображення**, виконайте зазначені нижче дії.
+                - <span data-ttu-id="cabb7-249">Якщо ви вибрали **Вибрати зображення** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-249">If you selected **Choose image** , follow these steps:</span></span>
 
-                    1. Оберіть зображення зі списку.
-                    2. Необов'язково: укажіть ім'я для зображення та введіть будь-які примітки.
+                    1. <span data-ttu-id="cabb7-250">Оберіть зображення зі списку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-250">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="cabb7-251">Необов'язково: укажіть ім'я для зображення та введіть будь-які примітки.</span><span class="sxs-lookup"><span data-stu-id="cabb7-251">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  Виберіть **Готово**.
+            3.  <span data-ttu-id="cabb7-252">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-252">Select **Done**.</span></span>
 
-        - Якщо ви вибрали **Вкласти квитанцію**, виконайте зазначені нижче дії.
+        - <span data-ttu-id="cabb7-253">Якщо ви вибрали **Вкласти квитанцію** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-253">If you selected **Attach receipt** , follow these steps:</span></span>
 
-            1.  Виберіть одне або кілька зображень у списку.
-            2.  Виберіть **Готово**.
+            1.  <span data-ttu-id="cabb7-254">Виберіть одне або кілька зображень у списку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-254">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="cabb7-255">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-255">Select **Done**.</span></span>
 
-    3. Натисніть кнопку **Назад**, щоб повернутися до відомостей про витрату.
+    3. <span data-ttu-id="cabb7-256">Натисніть кнопку **Назад** , щоб повернутися до відомостей про витрату.</span><span class="sxs-lookup"><span data-stu-id="cabb7-256">Select the **Back** button to return to the expense details.</span></span>
 
-18. Якщо політика компанії вимагає зазначення гостей для витрат, виберіть **Гості**, а потім виконайте зазначені нижче дії.
+18. <span data-ttu-id="cabb7-257">Якщо політика компанії вимагає зазначення гостей для витрат, виберіть **Гості** , а потім виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-257">If company policy requires guests for the expense, select **Guests** , and then follow these steps:</span></span>
 
-    1. Виберіть **Гості**, **Попередні гості** або **Колеги**.
-    2. Виконайте один з наведених нижче кроків.
+    1. <span data-ttu-id="cabb7-258">Виберіть **Гості** , **Попередні гості** або **Колеги**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-258">Select **Guest** , **Previous guests** , or **Coworkers**.</span></span>
+    2. <span data-ttu-id="cabb7-259">Виконайте один з наведених нижче кроків.</span><span class="sxs-lookup"><span data-stu-id="cabb7-259">Follow one of these steps:</span></span>
 
-        - Якщо ви вибрали **Гості**, виконайте зазначені нижче дії.
+        - <span data-ttu-id="cabb7-260">Якщо ви вибрали **Гості** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-260">If you selected **Guest** , follow these steps:</span></span>
 
-            1. Уведіть ім’я гостя.
-            2. Необов'язково: вкажіть для гостя організацію та/або країну.
-            3. Необов’язково: вкажіть посаду гостя.
-            4. Виберіть **Готово**.
+            1. <span data-ttu-id="cabb7-261">Уведіть ім’я гостя.</span><span class="sxs-lookup"><span data-stu-id="cabb7-261">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="cabb7-262">Необов'язково: вкажіть для гостя організацію та/або країну.</span><span class="sxs-lookup"><span data-stu-id="cabb7-262">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="cabb7-263">Необов’язково: вкажіть посаду гостя.</span><span class="sxs-lookup"><span data-stu-id="cabb7-263">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="cabb7-264">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-264">Select **Done**.</span></span>
 
-        - Якщо ви вибрали **Попередні гості**, виконайте зазначені нижче дії.
+        - <span data-ttu-id="cabb7-265">Якщо ви вибрали **Попередні гості** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-265">If you selected **Previous guests** , follow these steps:</span></span>
 
-            1. Виберіть одного або кількох попередніх гостей зі списку. Відобразиться список попередніх гостей, які вже раніше додавалися до попередніх звітів про витрати, завантажені у програму для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Якщо в списку немає потрібного попереднього гостя, виберіть **Пошук**, щоб виконати пошук онлайн. Виконайте пошук за іменем або перейдіть до пошуку за організацією, країною або посадою.
-            2. Виберіть **Готово**.
+            1. <span data-ttu-id="cabb7-266">Виберіть одного або кількох попередніх гостей зі списку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-266">Select one or more previous guests in the list.</span></span> <span data-ttu-id="cabb7-267">Відобразиться список попередніх гостей, які вже раніше додавалися до попередніх звітів про витрати, завантажені у програму для використання в автономному режимі.</span><span class="sxs-lookup"><span data-stu-id="cabb7-267">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="cabb7-268">За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість.</span><span class="sxs-lookup"><span data-stu-id="cabb7-268">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="cabb7-269">Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="cabb7-269">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="cabb7-270">Якщо в списку немає потрібного попереднього гостя, виберіть **Пошук** , щоб виконати пошук онлайн.</span><span class="sxs-lookup"><span data-stu-id="cabb7-270">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="cabb7-271">Виконайте пошук за іменем або перейдіть до пошуку за організацією, країною або посадою.</span><span class="sxs-lookup"><span data-stu-id="cabb7-271">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="cabb7-272">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-272">Select **Done**.</span></span>
 
-        - Якщо ви вибрали **Колеги**, виконайте зазначені нижче дії.
+        - <span data-ttu-id="cabb7-273">Якщо ви вибрали **Колеги** , виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-273">If you selected **Coworkers** , follow these steps:</span></span>
 
-            1. Виберіть одного або кількох колег зі списку. Ви побачите список колег, який завантажується до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Якщо в списку немає потрібного колеги, виберіть **Пошук**, щоб виконати пошук онлайн. Виконайте пошук за іменем або перейдіть до пошуку за компанією або посадою.
-            2. Виберіть **Готово**.
+            1. <span data-ttu-id="cabb7-274">Виберіть одного або кількох колег зі списку.</span><span class="sxs-lookup"><span data-stu-id="cabb7-274">Select one or more coworkers in the list.</span></span> <span data-ttu-id="cabb7-275">Ви побачите список колег, який завантажується до вашої програми для використання в автономному режимі.</span><span class="sxs-lookup"><span data-stu-id="cabb7-275">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="cabb7-276">За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість.</span><span class="sxs-lookup"><span data-stu-id="cabb7-276">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="cabb7-277">Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="cabb7-277">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="cabb7-278">Якщо в списку немає потрібного колеги, виберіть **Пошук** , щоб виконати пошук онлайн.</span><span class="sxs-lookup"><span data-stu-id="cabb7-278">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="cabb7-279">Виконайте пошук за іменем або перейдіть до пошуку за компанією або посадою.</span><span class="sxs-lookup"><span data-stu-id="cabb7-279">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="cabb7-280">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-280">Select **Done**.</span></span>
 
-    3. Натисніть кнопку **Назад**, щоб повернутися до відомостей про витрату.
+    3. <span data-ttu-id="cabb7-281">Натисніть кнопку **Назад** , щоб повернутися до відомостей про витрату.</span><span class="sxs-lookup"><span data-stu-id="cabb7-281">Select the **Back** button to return to the expense details.</span></span>
 
-19. Якщо політика компанії вимагає деталізації витрат, виберіть **Деталізувати**, а потім виконайте зазначені нижче дії.
+19. <span data-ttu-id="cabb7-282">Якщо політика компанії вимагає деталізації витрат, виберіть **Деталізувати** , а потім виконайте зазначені нижче дії.</span><span class="sxs-lookup"><span data-stu-id="cabb7-282">If company policy requires that the expense be itemized, select **Itemize** , and then follow these steps:</span></span>
 
-    1. Виберіть першу дату для деталізації.
-    2. Виберіть **Додати деталізацію**.
-    3. Виберіть підкатегорію для цієї деталізації витрати. Ви побачите список підкатегорій витрат, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Якщо в списку немає відповідної підкатегорії, виберіть **Пошук**, щоб виконати пошук онлайн. Шукайте за іменем підкатегорії витрат.
-    4. Уведіть суму операції для деталізації.
-    5. Змініть дату операції, якщо це потрібно.
-    6. Виберіть **Готово**.
-    7. Повторюйте попередні кроки, доки не буде завершено додавання всіх деталізації для вибраної дату.
-    8. Для додаткових днів можна вибрати **Скопіювати на наступний день**, щоб скопіювати деталізації на наступний день. Крім того, ви можете вибрати дату для деталізації та додати деталізації, як ви робили для першої дати.
-    9. Після того, як ви закінчили деталізацію витрати, виберіть кнопку **Назад**, щоб повернутися до відомостей про витрату.
+    1. <span data-ttu-id="cabb7-283">Виберіть першу дату для деталізації.</span><span class="sxs-lookup"><span data-stu-id="cabb7-283">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="cabb7-284">Виберіть **Додати деталізацію**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-284">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="cabb7-285">Виберіть підкатегорію для цієї деталізації витрати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-285">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="cabb7-286">Ви побачите список підкатегорій витрат, які завантажуються до вашої програми для використання в автономному режимі.</span><span class="sxs-lookup"><span data-stu-id="cabb7-286">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="cabb7-287">За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість.</span><span class="sxs-lookup"><span data-stu-id="cabb7-287">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="cabb7-288">Розробники можуть знайти додаткові відомості у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span><span class="sxs-lookup"><span data-stu-id="cabb7-288">For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started).</span></span> <span data-ttu-id="cabb7-289">Якщо в списку немає відповідної підкатегорії, виберіть **Пошук** , щоб виконати пошук онлайн.</span><span class="sxs-lookup"><span data-stu-id="cabb7-289">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="cabb7-290">Шукайте за іменем підкатегорії витрат.</span><span class="sxs-lookup"><span data-stu-id="cabb7-290">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="cabb7-291">Уведіть суму операції для деталізації.</span><span class="sxs-lookup"><span data-stu-id="cabb7-291">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="cabb7-292">Змініть дату операції, якщо це потрібно.</span><span class="sxs-lookup"><span data-stu-id="cabb7-292">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="cabb7-293">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-293">Select **Done**.</span></span>
+    7. <span data-ttu-id="cabb7-294">Повторюйте попередні кроки, доки не буде завершено додавання всіх деталізації для вибраної дату.</span><span class="sxs-lookup"><span data-stu-id="cabb7-294">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="cabb7-295">Для додаткових днів можна вибрати **Скопіювати на наступний день** , щоб скопіювати деталізації на наступний день.</span><span class="sxs-lookup"><span data-stu-id="cabb7-295">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="cabb7-296">Крім того, ви можете вибрати дату для деталізації та додати деталізації, як ви робили для першої дати.</span><span class="sxs-lookup"><span data-stu-id="cabb7-296">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="cabb7-297">Після того, як ви закінчили деталізацію витрати, виберіть кнопку **Назад** , щоб повернутися до відомостей про витрату.</span><span class="sxs-lookup"><span data-stu-id="cabb7-297">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. Виберіть кнопку **Назад**, щоб повернутися до сторінки **Звіт про витрату**.
-21. Повторюйте попередні кроки, доки не буде завершено додавання всіх витрат.
-22. Виберіть **Подати**.
-23. Уведіть будь-які коментарі для особи, що виконуватиме затвердження.
-24. Виберіть **Готово**.
+20. <span data-ttu-id="cabb7-298">Виберіть кнопку **Назад** , щоб повернутися до сторінки **Звіт про витрату**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-298">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="cabb7-299">Повторюйте попередні кроки, доки не буде завершено додавання всіх витрат.</span><span class="sxs-lookup"><span data-stu-id="cabb7-299">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="cabb7-300">Виберіть **Подати**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-300">Select **Submit**.</span></span>
+23. <span data-ttu-id="cabb7-301">Уведіть будь-які коментарі для особи, що виконуватиме затвердження.</span><span class="sxs-lookup"><span data-stu-id="cabb7-301">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="cabb7-302">Виберіть **Готово**.</span><span class="sxs-lookup"><span data-stu-id="cabb7-302">Select **Done**.</span></span>
