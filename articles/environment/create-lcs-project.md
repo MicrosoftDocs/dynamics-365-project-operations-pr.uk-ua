@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: f42a5e4dbb9e82d8e635d1fbfb17c49c73f25d60
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930552"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086573"
 ---
 # <a name="start-a-new-project-in-lcs"></a>Початок нового проекту у LCS
 
@@ -21,7 +21,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Використовуйте Lifecycle Services (LCS) для керування середовищами Dynamics 365 Project Operations. Виконайте наведені нижче кроки, щоб створити новий проект LCS.
 
-1. Відкрийте [LCS](https://lcs.dynamics.com/Logon/Index) і виберіть **Увійти**, використовуючи обліковий запис, застосований під час оформлення передплати.
+1. Відкрийте [LCS](https://lcs.dynamics.com/Logon/Index) і виберіть **Увійти** , використовуючи обліковий запис, застосований під час оформлення передплати.
 2. Якщо відобразиться запит, прийміть юридичні умови та положення конфіденційності.
 3. Виберіть знак «плюс» ( **+** ), щоб створити новий проект.
 4. Для ознайомлення виберіть тип проекту **Міграція, створення рішень та навчання**.
@@ -29,7 +29,7 @@ _**Застосовується до:** Project Operations для сценарі
   ![Виберіть тип проекту LCS](./media/create-lcs-1.png)
 
 5. Назвіть проект. 
-6. Виберіть **Finance and Operations**, як назву продукту, а потім виберіть галузь і методологію. 
+6. Виберіть **Finance and Operations** , як назву продукту, а потім виберіть галузь і методологію. 
 7. Виберіть **Створити**.
 
 ![Створення проекту LCS](./media/create-lcs-2.png)

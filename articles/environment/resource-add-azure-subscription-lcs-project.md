@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949131"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086587"
 ---
 # <a name="add-an-azure-subscription-to-lcs-project"></a>Додавання передплати на Azure до проекту LCS
 
@@ -31,7 +31,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![З’єднувачі Azure](./media/2AzureConnectors.png)
 
-3. Знову виберіть **Авторизувати**, щоб надати згоду адміністратора.
+3. Знову виберіть **Авторизувати** , щоб надати згоду адміністратора.
 
 ![Надання згоди адміністратора](./media/3GrantAdminConsent.png)
 
@@ -57,7 +57,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Додавання з’єднувача передплати до проекту LCS
 
-1. У проекті LCS на сторінці **Параметри Microsoft Azure** виберіть **Додати**, щоб додати новий з’єднувач.
+1. У проекті LCS на сторінці **Параметри Microsoft Azure** виберіть **Додати** , щоб додати новий з’єднувач.
 2. Введіть ідентифікатор передплати на Azure. Ідентифікатор передплати на Azure можна знайти на [порталі Azure](https://ms.portal.azure.com/) у розділі **Параметри** в лівому нижньому куті екрана.
 3. У полі **Настроїти на використання Azure Resource Manager** виберіть **Так**.
 4. Переконайтеся, що домен клієнта AAD передплати на Azure відповідає доменній передплаті на Azure, що використовується, а потім натисніть кнопку **Далі**.

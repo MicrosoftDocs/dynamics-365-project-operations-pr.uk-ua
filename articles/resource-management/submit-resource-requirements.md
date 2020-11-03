@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961758"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086610"
 ---
 # <a name="submit-a-resource-request"></a>Надсилання запиту ресурсів
 
@@ -21,7 +21,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Ви можете надсилати згенеровані вимоги до ресурсів як запит ресурсу. Після цього запит буде надіслано керівнику ресурсів для заповнення.
 
-1. У Dynamics 365 Project Operations на сторінці **Проекти** перейдіть на вкладку **Група**, щоб переглянути список планованих ресурсів. 
+1. У Dynamics 365 Project Operations на сторінці **Проекти** перейдіть на вкладку **Група** , щоб переглянути список планованих ресурсів. 
 2. Виберіть загальний ресурс, який відповідає вимозі до ресурсів у списку, а потім натисніть кнопку **Надіслати запит**.
 
 Стан запиту загального учасника робочої групи зміниться на **Надіслано**.

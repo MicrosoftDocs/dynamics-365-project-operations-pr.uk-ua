@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949127"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086581"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Застосування демонстраційних даних налаштування та конфігурації для розгортання Project Operations Lite: від угоди до рахунків-проформ
 
@@ -25,7 +25,7 @@ _**Розгортання Lite: від угоди до рахунків-проф
 
 ![Засіб перенесення конфігурації](./media/1ConfigurationMigration.png)
 
-4. На сторінці 2 Майстра CMT виберіть **Office 365** як **Тип розгортання**.
+4. На сторінці 2 Майстра CMT виберіть **Microsoft 365** як **Тип розгортання**.
 5. Установіть прапорець поруч із пунктами **Відображати список доступних організацій** і **Показувати додаткові відомості**.
 6. Виберіть регіон свого клієнта, введіть свої облікові дані, а тоді виберіть **Увійти**.
 
