@@ -1,0 +1,64 @@
+---
+title: Створення робочої групи проекту
+description: У цьому розділі наведено відомості про створення робочих груп проектів та керування ними.
+author: Yowelle
+manager: AnnBe
+ms.date: 09/01/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ProjProjectsListPage
+audience: Application User
+ms.reviewer: kdwns
+ms.search.scope: Core, Operations
+ms.custom: 82022
+ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
+ms.search.region: Global
+ms.author: andchoi
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7eb9101352afd27b527bf6b8acc6f92198f44ea
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: uk-UA
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086881"
+---
+# <a name="create-a-project-team"></a><span data-ttu-id="7e7ee-103">Створення робочої групи проекту</span><span class="sxs-lookup"><span data-stu-id="7e7ee-103">Create a project team</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="7e7ee-104">Щоб використовувати ролі, які раніше настроєно у проекті, керівник проекту має зв'язати ролі з проектом.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-104">To use the roles that were previously set up in a project, a project manager must associate the roles with the project.</span></span> <span data-ttu-id="7e7ee-105">Проекту можна призначити кілька ролей.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-105">Multiple roles can be assigned for a project.</span></span> <span data-ttu-id="7e7ee-106">Для уникнення плутанини ці ролі автоматично позначаються під час резервування.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-106">To prevent confusion, these roles are automatically labeled during reservation.</span></span> <span data-ttu-id="7e7ee-107">Наприклад, якщо керівнику проекту потрібні три інженери-програмісти, автоматично створюються три ролі інженера-програміста з позначками **інженер-програміст 1** , **інженер-програміст 2** та **інженер-програміст 3**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-107">For example, if the project manager requires three software engineers, three Software engineer roles that have **software engineer 1** , **software engineer 2** , and **software engineer 3** as their labels are automatically generated.</span></span> <span data-ttu-id="7e7ee-108">Якщо для ролі раніше було задано характеристики, вони застосовуються як фільтр під час пошуку ресурсу.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-108">If role characteristics were previously set for the role, they are applied as a filter during searches for a resource.</span></span> <span data-ttu-id="7e7ee-109">Додаткові характеристики можна додавати, якщо це необхідно для подальшого уточнення пошуку.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-109">Additional characteristics can be added as required to further refine the search.</span></span>
+
+<span data-ttu-id="7e7ee-110">Параметри перегляду також можна настроювати для покращення перегляду доступності ресурсів.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-110">View settings can also be customized to give a better view of resource availability.</span></span> <span data-ttu-id="7e7ee-111">Передбачено можливість відображення погодинної, щоденної, тижневої, місячної, квартальної та річної доступності.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-111">There are options to show hourly, daily, weekly, monthly, quarterly, and annual availability.</span></span> <span data-ttu-id="7e7ee-112">Крім того, існує можливість відображення доступної та залишкові спроможності ресурсів.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-112">There is also an option to show available and remaining capacity on resources.</span></span> <span data-ttu-id="7e7ee-113">Така можливість корисна для керування часом, коли оцінюється доступний час для ведення справ або доступність ресурсів.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-113">This option is useful for time management, when you're estimating available time for activities or resource availability.</span></span>
+
+<span data-ttu-id="7e7ee-114">Керівник проекту може вибрати роль на сторінці, а потім, за наявності доступного ресурсу, який відповідає вимогам, вибрати резервування ресурсу для заповнення ролі.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-114">The project manager can select a role on the page and then, if there is an available resource that fits the requirement, select to reserve a resource to fill the role.</span></span> <span data-ttu-id="7e7ee-115">Зверніть увагу на те, що ресурси не потрібно резервувати на цьому етапі стадії планування.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-115">Note that the resources don't have to be reserved at this point in the planning stage.</span></span> <span data-ttu-id="7e7ee-116">Під час створення WBS ролі можна замінювати укомплектованими для проекту ресурсами.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-116">When you create a WBS, you can replace roles with staffed resources for the project.</span></span> <span data-ttu-id="7e7ee-117">Якщо у WBS ролі замінюються укомплектованими ресурсами, то для ресурсів автоматично оновлюється список і розклад робочої групи.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-117">If roles are replaced with staffed resources in the WBS, the resource setup automatically updates the project team listing and scheduling.</span></span>
+
+<span data-ttu-id="7e7ee-118">[![Список робочої групи проекту, який містить ролі та фактичні ресурси](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span><span class="sxs-lookup"><span data-stu-id="7e7ee-118">[![Project team listing that includes both roles and actual resources](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span></span> 
+
+<span data-ttu-id="7e7ee-119">Керівник проекту має різні варіанти резервування ресурсу для проекту, наприклад, **Залишкова виробнича спроможність** , **Повна виробнича спроможність** , **Відсоток виробничої спроможності** та **Зазначення годин**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-119">The project manager has various options for booking a resource for a project, such as **Remaining capacity** , **Full capacity** , **Capacity percentage** , and **Specify hours**.</span></span> <span data-ttu-id="7e7ee-120">Ці варіанти резервування можна скасувати в будь-який час у разі зміни призначень ресурсів.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-120">These booking options can be canceled at any time if resource assignments change.</span></span> <span data-ttu-id="7e7ee-121">Підтримується два типи резервування:</span><span class="sxs-lookup"><span data-stu-id="7e7ee-121">Two types of booking are supported:</span></span>
+
+- <span data-ttu-id="7e7ee-122">**Остаточне резервування** – резервування ресурсів ухвалено та підтверджено для роботи із залученням на визначену тривалість.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-122">**Hard Book** – The resource reservation was approved and confirmed to work on the engagement for the specified duration.</span></span>
+- <span data-ttu-id="7e7ee-123">**Попереднє резервування** — резервування ресурсів попередньо проведено для роботи із залученням на визначену тривалість.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-123">**Soft book** – The resource reservations was tentatively set to work on the engagement for the specified duration.</span></span>
+
+<span data-ttu-id="7e7ee-124">Вказаний нижче процес описує способи створення робочої групи проекту.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-124">The following procedure explains how to create a project team.</span></span>
+
+## <a name="create-a-project-team"></a><span data-ttu-id="7e7ee-125">Створення робочої групи проекту</span><span class="sxs-lookup"><span data-stu-id="7e7ee-125">Create a project team</span></span>
+
+1. <span data-ttu-id="7e7ee-126">На сторінці з переліком **Усі проекти** виберіть проект, а потім натисніть **Редагувати**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-126">On the **All projects** list page, select a project, and then select **Edit**.</span></span>
+2. <span data-ttu-id="7e7ee-127">На вкладці **Робоча група та планування** у полі **Дата завершення розкладу** введіть дату початку розкладу плюс один місяць.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-127">On the **Project team and scheduling** tab, in the **Schedule end date** field, enter the schedule start date plus one month.</span></span> <span data-ttu-id="7e7ee-128">Наприклад, якщо датою початку розкладу є 24 червня 2017 (24.06.2017), введіть **24.07.2017**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-128">For example, if the schedule start date is June 24, 2017 (24/06/2017), enter **24/07/2017**.</span></span>
+3. <span data-ttu-id="7e7ee-129">Виберіть **Додати**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-129">Select **Add**.</span></span>
+4. <span data-ttu-id="7e7ee-130">У області **Додавання ролей до проекту** у полі **Роль** виберіть **Старший керівник проекту**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-130">In the **Add roles to the project** pane, in the **Role** field, select **Senior Project Manager**.</span></span>
+5. <span data-ttu-id="7e7ee-131">Виберіть **Потрібні компетенції**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-131">Select **Required competencies**.</span></span>
+6. <span data-ttu-id="7e7ee-132">На сторінці **Вибір характеристик** за замовчуванням вибрано властивості, які раніше було задано для ролі старшого керівника проекту.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-132">On the **Choose characteristics** page, the characteristics that you previously set for the Senior project manager role are selected by default.</span></span> <span data-ttu-id="7e7ee-133">Виберіть **ОК**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-133">Select **OK**.</span></span>
+7. <span data-ttu-id="7e7ee-134">На сторінці **Додавання ролей до проекту** у полі **Кількість ресурсів** введіть **1**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-134">On the **Add roles to project** page, in the **Number of resources** field, enter **1**.</span></span>
+8. <span data-ttu-id="7e7ee-135">У полі **Ресурс** підстановка відображає всі ресурси, які мають потрібні компетенції.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-135">In the **Resource** field, the lookup shows all resources that have the required competencies.</span></span> <span data-ttu-id="7e7ee-136">Виберіть **Даніель Гольдшмідт** , а потім — **Створити**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-136">Select **Daniel Goldschmidt** , and then select **Create**.</span></span>
+9. <span data-ttu-id="7e7ee-137">На сторінці **Проект** виберіть **Додати**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-137">On the **Project** page, select **Add**.</span></span>
+10. <span data-ttu-id="7e7ee-138">У області **Додавання ролей до проекту** у полі **Роль** виберіть **Учасник робочої групи**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-138">In the **Add roles to the project** pane, in the **Role** field, select **Team member**.</span></span> <span data-ttu-id="7e7ee-139">У полі **Кількість ресурсів** введіть **5**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-139">In the **Number of resources** field, enter **5**.</span></span>
+11. <span data-ttu-id="7e7ee-140">Виберіть **Створити**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-140">Select **Create**.</span></span>
+12. <span data-ttu-id="7e7ee-141">На сторінці **Проекти** виберіть **Заповнити ресурси**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-141">On the **Projects** page, select **Fulfill resource**.</span></span>
+
+## <a name="monitor-project-teams"></a><span data-ttu-id="7e7ee-142">Відстеження робочих груп проекту</span><span class="sxs-lookup"><span data-stu-id="7e7ee-142">Monitor project teams</span></span>
+1. <span data-ttu-id="7e7ee-143">На сторінці **Усі проекти** виберіть посилання **Ідентифікатор проекту** для проекту **XYZ оновлення фази 2**.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-143">On the **All projects** page, select the **Project ID** link for the **XYZ Upgrade Phase 2** project.</span></span>
+2. <span data-ttu-id="7e7ee-144">На швидкій вкладці **Робоча група та планування** переконайтеся правильність зазначених у списку ресурсів проекту.</span><span class="sxs-lookup"><span data-stu-id="7e7ee-144">On the **Project team and scheduling** FastTab, verify that the project resources that are listed are correct.</span></span>
