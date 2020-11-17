@@ -4,12 +4,18 @@
   items:
     - name: Визначення вашого типу розгортання
       href: environment/determine-deployment-type.md
+    - name: Оновлення Project Operations
+      href: whats-new/project-operations-updates.md
 - name: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
   items:
     - name: Почати
       items:
-        - name: Реєстрація для отримання підготовчої версії передплати (на основі ресурсів і відсутності запасів)
+        - name: Огляд розгортання Project Operations для сценаріїв на основі ресурсів і відсутності запасів
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: Реєстрація для отримання підготовчої версії передплати
           href: environment/resource-sign-up-preview-subscription.md
+        - name: Навігація в Project Operations
+          href: environment/navigate-project-operations.md
         - name: Налаштування необхідних компонентів
           items:
             - name: Початок нового проекту LCS
@@ -18,9 +24,9 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Застосування демонстраційних даних
           items:
-            - name: Застосування демонстраційних даних Project Operations до розміщеного в хмарі Finance середовища
+            - name: Застосування демонстраційних даних до розміщеного в хмарі середовища Finance
               href: environment/resource-apply-finance-demo-data.md
-            - name: Застосування даних конфігурації в Common Data Service для Project Operations
+            - name: Застосування даних конфігурації в Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Розгортання середовищ
           items:
@@ -30,11 +36,15 @@
               href: environment/security-model.md
             - name: Налаштування інтеграції Project Operations для кожної юридичної особи
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: Процес збуту
+    - name: Що нового
       items:
-        - name: Огляд збуту
+        - name: 'Листопад 2020: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: Процес збуту за проектом
+      items:
+        - name: Огляд процесу збуту за проектом
           href: sales/sales-overview.md
-        - name: Налаштування
+        - name: Настроювання
           items:
             - name: Продукти
               href: sales/sales-products.md
@@ -42,94 +52,104 @@
               href: sales/sales-units-unit-groups.md
             - name: Грошова одиниця
               href: sales/sales-currency.md
-        - name: Керування потенційними клієнтами
+        - name: Керування потенційними клієнтами проекту
           href: sales/manage-leads.md
-        - name: Керування потенційними угодами
+        - name: Керування потенційними угодами проекту
           items:
-            - name: Керування потенційними угодами на основі проектів
+            - name: Огляд керування потенційними угодами проекту
               href: sales/manage-project-based-opportunities.md
-            - name: Заголовок потенційної угоди
+            - name: Параметри потенційної угоди на основі проекту
               href: sales/opportunity-header.md
-            - name: Позиції на основі проектів
+            - name: Позиції потенційної угоди на основі проекту
               href: sales/project-based-lines.md
-            - name: Копіювання потенційних угод на основі проекту
-              href: sales/copy-project-based-opportunity.md
             - name: Створення цінових пропозицій проекту з потенційних угод
               href: sales/link-quotes-opportunities.md
-            - name: Закриття потенційної угоди
+            - name: Копіювання потенційних угод на основі проекту
+              href: sales/copy-project-based-opportunity.md
+            - name: Закриття потенційної угоди проекту
               href: sales/close-opportunity.md
-        - name: Керування ціновими пропозиціями
+        - name: Керування ціновими пропозиціями проекту
           items:
-            - name: Основні поняття
+            - name: Огляд керування ціновими пропозиціями проекту
+              href: pro/sales/manage-quotes-sales.md
+            - name: Основні поняття цінової пропозиції проекту
               href: sales/quotes-key-concepts.md
-            - name: Зведені відомості про цінову пропозицію проекту
+            - name: Параметри цінових пропозицій проекту
               href: sales/quote-values-budget-limits-contract.md
-            - name: Керування кількома клієнтами за ціновою пропозицією
+            - name: Керування кількома клієнтами в ціновій пропозиції проекту
               href: sales/manage-multiple-customers-quote.md
-            - name: Позиції на основі продуктів у ціновій пропозиції
-              item:
-                - name: Визначення вартості для позицій на основі продуктів у ціновій пропозиції
-                  href: sales/costing-product-based-quote-lines.md
-                - name: Керування складними одиницями вимірювання для позицій на основі продуктів у ціновій пропозиції
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: Керування проектними прайсами у цінової пропозиції
+              href: sales/managing-project-price-lists.md
             - name: Позиції на основі проектів у ціновій пропозиції
               items:
-                - name: Керування проектними прайсами
-                  href: sales/managing-project-price-lists.md
-                - name: Керування кількома клієнтами за позиціями на основі продуктів у ціновій пропозиції
+                - name: Огляд позицій на основі проектів у ціновій пропозиції
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                - name: Керування кількома клієнтами за позиціями на основі проектів у ціновій пропозиції
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: Налаштування платних компонентів позиції цінової пропозиції проекту
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Створення орієнтовних показників для позицій цінової пропозиції
                   href: sales/create-estimate-quote-line.md
-                - name: Імпорт орієнтовних показників для проекту до позицій на основі проектів у ціновій пропозиції
+                - name: Імпорт орієнтовних показників з проекту до позицій на основі проектів у ціновій пропозиції
                   href: sales/import-estimate-quote-line.md
-                - name: 'Керування значеннями, клієнтськими бюджетами та граничними обмеженнями в цінових пропозиціях'
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: Розклади виставлення рахунків за позиціями цінової пропозиції на основі проектів
                   href: sales/invoice-schedule-quote-line.md
-            - name: Копіювання цінових пропозицій на основі проектів
+            - name: Копіювання цінових пропозицій проекту
               href: sales/lose-quote.md
-            - name: Закриття цінової пропозиції
+            - name: Закриття цінових пропозицій проекту
               href: sales/win-quote.md
-        - name: Керування сервісними договорами
+        - name: Керування проектними сервісними договорами
           items:
-            - name: Основні поняття – Проектні сервісні договори
+            - name: Огляд керування проектними сервісними договорами
+              href: pro/sales/manage-contracts-sales.md
+            - name: Основні поняття проектних сервісних договорів
               href: sales/contracts-key-concepts.md
             - name: Настройки проектних сервісних договорів
               href: sales/project-contract-settings.md
+            - name: Керування проектними прайсами у проектних сервісних договорах
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Керування кількома клієнтами за проектними сервісними договорами
+              href: sales/contracts-manage-project-price-lists.md
             - name: Сервісні роботи за договором на основі проектів
               items:
+                - name: Огляд сервісних робіт за договором на основі проектів
+                  href: sales/manage-contract-values-project-based.md
+                - name: Керування кількома клієнтами за позиціями на основі продуктів у сервісному договорі
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: Налаштування платних компонентів сервісної роботи за договором на основі проектів
                   href: sales/configure-chargeable-contract-line.md
-                - name: Імпорт орієнтовного показника до сервісної роботи за договором на основі проектів
+                - name: Оцінка позиції на основі проектів у сервісному договорі
+                  href: sales/create-estimate-contract-line.md
+                - name: Імпорт орієнтовних показників з проекту до позицій на основі проектів у сервісному договорі
                   href: sales/import-estimate-project-contract-line.md
-                - name: Створення розкладу виставлення рахунків за сервісну роботу за договором на основі проектів
+                - name: Створення розкладів виставлення рахунків за сервісні роботи за договором на основі проектів
                   href: sales/invoice-schedules-contract-line.md
             - name: Підтвердження проектного сервісного договору
               href: pro/sales/confirm-contract-sales.md
+            - name: Копіювання проектного сервісного договору
+              href: pro/sales/copy-project-contracts-sales.md
     - name: Визначення цін і вартості
       items:
-        - name: Налаштування прайсів
-          href: pricing-costing/price-list-setup.md
-        - name: Прайси продуктів
-          href: pricing-costing/product-price-list.md
-        - name: Проектні прайси
+        - name: Налаштування прайса
           items:
-            - name: Налаштування прайсів для збуту
-              items:
-                - name: Налаштування прайса для збуту
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Налаштування ставок оплати праці
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: Налаштування норм витрат на працю
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: Налаштування норм вартості та збуту для витрат
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Прайс за замовчуванням
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Вирішення вартості для орієнтовних показників і фактичних даних
-                  href: pricing-costing/cost-price-resolution.md
+            - name: Налаштування прайсів
+              href: pricing-costing/price-list-setup.md
+            - name: Прайси продуктів
+              href: pricing-costing/product-price-list.md
+            - name: Налаштування ставок оплати праці
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: Налаштування норм витрат на працю
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: Налаштування норм вартості та збуту для витрат
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Стандартні значення та перевизначення
           items:
+            - name: Прайс за замовчуванням
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Змінення проектних прайсів збуту
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Вирішення вартості для орієнтовних показників і фактичних даних
+              href: pricing-costing/cost-price-resolution.md
             - name: Вирішення цін збуту для орієнтовних показників і фактичних даних
               href: pricing-costing/sales-price-resolution.md
             - name: Копіювання прайсів
@@ -138,8 +158,10 @@
           items:
             - name: Огляд вимірів визначення цін
               href: pricing-costing/pricing-dimensions-overview.md
-            - name: Використання наявного поля як виміру визначення цін
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Використання наявних полів як вимірів визначення цін
+              items:
+                - name: Поля Project Operations як виміри визначення цін
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: Настроювані поля як виміри визначення цін
               items:
                 - name: Створення настроюваних полів і сутностей як вимірів визначення цін
@@ -242,13 +264,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Керування часовими поясами
               href: resource-management/manage-multiple-time-zones.md
+        - name: Використання ресурсів
+          items:
+            - name: Огляд використання ресурсів
+              href: resource-management/resource-utilization-overview.md
     - name: Час
       items:
         - name: Огляд часу
           href: time/time-entry-overview.md
         - name: Створення записів часу
           items:
-            - name: Поведінка інтерфейсу користувача записів часу
+            - name: Інтерфейс користувача записів часу
               href: time/ui-behavior-time.md
         - name: Нотатки для розробників
           items:
@@ -306,49 +332,67 @@
       items:
         - name: Огляд затверджень
           href: approvals/approvals-overview.md
+        - name: Нотатки для розробників
+          items:
+            - name: Нотатки для розробників для затверджень
+              href: approvals/dev-notes-approvals.md
     - name: Фактичні дані
       items:
         - name: Огляд фактичних даних
           href: actuals/actuals-overview.md
         - name: Журнали виправлень
           items:
-            - name: Створення та підтвердження журналів корекції
+            - name: Створення та підтвердження журналів виправлень
               href: actuals/create-confirm-correction-journals.md
     - name: Виставлення рахунків-проформ
       items:
-        - name: Керування невиконаними завданнями з виставлення рахунків
+        - name: Керування невиконаними завданнями із виставлення рахунків для проектів
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: Створення ручного рахунка-проформи
+        - name: Керування станом і перевірками граничних обмежень
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Створення рахунка-проформи проекту вручну
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Підтвердження рахунка-проформи
+        - name: Керування рахунком-проформою проекту
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Підтвердження рахунка-проформи проекту
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Виправлені рахунки
-          href: proforma-invoicing/corrective-invoices.md
-        - name: Налаштування автоматичного створення рахунків
+        - name: Налаштування автоматизації виставлення рахунків за проектом
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Бухгалтерський облік проектів
       items:
+        - name: Стандартні значення фінансових аналітик
+          href: project-accounting/financial-dimension-defaults.md
         - name: Налаштування категорій проектів
           href: project-accounting/configure-project-categories.md
         - name: Налаштування бухгалтерського обліку для внутрішніх проектів
           href: project-accounting/configure-accounting-internal-projects.md
         - name: Налаштування бухгалтерського обліку для оплачуваних проектів
           href: project-accounting/configure-accounting-billable-projects.md
+        - name: Журнал інтеграції в Project Operations
+          href: project-accounting/project-operations-integration-journal.md
 - name: 'Розгортання Lite: від угоди до рахунків-проформ'
   items:
     - name: Почати
       items:
-        - name: Реєстрація для отримання підготовчої версії передплати (полегшено)
+        - name: Огляд розгортання Lite
+          href: pro/project-operations-overview-lite.md
+        - name: 'Реєстрація для отримання підготовчої версії передплати: Lite'
           href: environment/lite-preview-subscription-sign-up.md
-        - name: 'Розгортання Project Operations Lite: від угоди до рахунків-проформ'
+        - name: 'Розгортання Project Operations: Lite'
           href: environment/lite-deployment.md
-        - name: Застосування демонстраційних даних налаштування та конфігурації
+        - name: 'Застосування демонстраційних даних налаштування та конфігурації: Lite'
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Модель безпеки
           href: environment/security-model.md
-    - name: Процес збуту
+    - name: Що нового
       items:
-        - name: Налаштування
+        - name: 'Нові можливості в листопаді 2020: розгортання Lite від угоди до рахунків-проформ'
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: Процес збуту за проектом
+      items:
+        - name: Огляд процесу збуту за проектом
+          href: sales/sales-overview.md
+        - name: Настроювання
           items:
             - name: Продукти
               href: sales/sales-products.md
@@ -356,119 +400,149 @@
               href: sales/sales-units-unit-groups.md
             - name: Грошова одиниця
               href: sales/sales-currency.md
-        - name: Керування потенційними клієнтами
+        - name: Керування потенційними клієнтами проекту
           href: pro/sales/managing-leads-sales.md
-        - name: Керування потенційними угодами
+        - name: Керування потенційними угодами проекту
           items:
-            - name: Керування потенційними угодами на основі проектів
+            - name: Огляд потенційних угод проекту
               href: sales/manage-project-based-opportunities.md
-            - name: Заголовок потенційної угоди
+            - name: Параметри потенційної угоди проекту
               href: pro/sales/opportunity-header-sales.md
-            - name: Позиції на основі проектів
+            - name: Керування позиціями потенційної угоди на основі продуктів
+              href: pro/sales/product-based-lines-sales.md
+            - name: Керування позиціями потенційної угоди на основі проектів
               href: pro/sales/project-based-lines-sales.md
+            - name: Створення цінових пропозицій з потенційних угод проекту
+              href: sales/link-quotes-opportunities.md
             - name: Копіювання потенційних угод на основі проекту
               href: sales/copy-project-based-opportunity.md
-            - name: Створення цінових пропозицій проекту з потенційних угод
-              href: sales/link-quotes-opportunities.md
-            - name: Позиції потенційної угоди на основі продуктів
-              href: pro/sales/product-based-lines-sales.md
-            - name: Закриття потенційної угоди
+            - name: Закриття потенційної угоди проекту
               href: sales/close-opportunity.md
-        - name: Керування ціновими пропозиціями
+        - name: Керування ціновими пропозиціями на основі проектів
           items:
+            - name: Огляд цінових пропозицій на основі проектів
+              href: pro/sales/manage-quotes-sales.md
             - name: Основні поняття цінової пропозиції
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: Зведені відомості про цінову пропозицію проекту (Збут)
+            - name: Параметри цінової пропозиції проекту
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: Керування кількома клієнтами за ціновими пропозиціями проекту
+            - name: Кілька клієнтів за ціновими пропозиціями проекту
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: Проектні прайси у цінових пропозиціях проекту
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: Позиції на основі продуктів у ціновій пропозиції
               items:
+                - name: Огляд позицій на основі продуктів у ціновій пропозиції
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: Визначення вартості для позицій на основі продуктів у ціновій пропозиції
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: 'Керування складними одиницями вимірювання (наприклад, для кожного користувача, на місяць) для позицій на основі продуктів у ціновій пропозиції'
+                - name: Керування складними одиницями вимірювання для позицій на основі продуктів у ціновій пропозиції
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: Позиції на основі проектів у ціновій пропозиції
               items:
-                - name: Керування проектними прайсами у цінових пропозиціях проекту
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: Керування кількома клієнтами за позиціями на основі продуктів у ціновій пропозиції
+                - name: Огляд позицій на основі проектів у ціновій пропозиції
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: Керування кількома клієнтами
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: Зіставлення проектів і завдань із позиціями цінової пропозиції на основі продуктів
+                - name: Зіставлення проектів і завдань
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: Налаштування платних компонентів
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: Оцінка позиції на основі проектів у ціновій пропозиції
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: Позиції на основі проектів у ціновій пропозиції (збут)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: Імпорт орієнтовних показників для проекту до позицій на основі проектів у ціновій пропозиції
+                - name: Імпортувати оцінки з проекту
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: Розклади виставлення рахунків за позиціями цінової пропозиції на основі проектів
+                - name: Керування розкладами виставлення рахунків
                   href: sales/invoice-schedule-quote-line.md
-                - name: Налаштування платних компонентів позиції цінової пропозиції
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Копіювання цінових пропозицій на основі проектів
-          href: sales/lose-quote.md
-        - name: Закриття цінової пропозиції
-          href: pro/sales/win-quote-sales.md
-    - name: Керування сервісними договорами
-      items:
-        - name: Основні поняття проектних сервісних договорів
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: Поля та дані проектних сервісних договорів
-          href: pro/sales/project-contract-settings-sales.md
-        - name: Сервісні роботи за договором на основі продуктів
+            - name: Копіювання цінових пропозицій на основі проектів
+              href: sales/lose-quote.md
+            - name: Закриття цінових пропозицій на основі проектів
+              href: pro/sales/win-quote-sales.md
+        - name: Керування сервісними договорами на основі проектів
           items:
-            - name: Огляд сервісних робіт за договором на основі продуктів
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: Визначення вартості для сервісних робіт за договором на основі продуктів
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: Сервісні роботи за договором на основі проектів
-          items:
-            - name: Налаштування платних компонентів сервісної роботи за договором на основі проектів
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: Імпорт орієнтовного показника до сервісної роботи за договором на основі проектів
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: Створення розкладів виставлення рахунків за сервісну роботу за договором на основі проектів
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: Копіювання проектних сервісних договорів
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: Підтвердження проектного сервісного договору
-          href: pro/sales/confirm-contract-sales.md
-        - name: Сервісні договори на основі авансових платежів і платежів на основі абонентського внеску
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+            - name: Огляд сервісних договорів на основі проектів
+              href: pro/sales/manage-contracts-sales.md
+            - name: Основні поняття проектного сервісного договору
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: Настройки проектних сервісних договорів
+              href: pro/sales/project-contract-settings-sales.md
+            - name: Кілька клієнтів за проектними сервісними договорами
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: Проектні прайси в проектних сервісних договорах
+              href: sales/contracts-manage-project-price-lists.md
+            - name: Сервісні роботи за договором на основі продуктів
+              items:
+                - name: Огляд сервісних робіт за договором на основі продуктів
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: Визначення вартості для сервісних робіт за договором на основі продуктів
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: Керування складними одиницями вимірювання для сервісних робіт за договором на основі продуктів
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: Сервісні роботи за договором на основі проектів
+              items:
+                - name: Огляд сервісних робіт за договором на основі проектів
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: Керування кількома клієнтами за сервісним договором
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: Зіставлення проектів і завдань із сервісною роботою за проектним договором
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: Налаштування платних компонентів сервісної роботи за проектним договором
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: Оцінка позиції на основі проектів у сервісному договорі
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: Імпорт орієнтовних показників із проекту до сервісної роботи за проектним договором
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: Керування розкладами виставлення рахунків за сервісну роботу за проектним договором
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: Копіювання сервісних проектних договорів
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: Підтвердження проектного сервісного договору
+              href: pro/sales/confirm-contract-sales.md
+            - name: Аванси та абонентські внески
+              items:
+                - name: 'Сервісні договори на основі авансових платежів і платежів на основі абонентського внеску: Lite'
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: 'Налаштування розкладу абонентських внесків: Lite'
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: 'Створення несистемного авансового платежу для сервісного договору: Lite'
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Визначення цін і вартості
       items:
-        - name: Налаштування прайсів
-          href: pricing-costing/price-list-setup.md
-        - name: Проектні прайси
+        - name: Налаштування прайса
           items:
-            - name: Налаштування прайсів для збуту
-              items:
-                - name: Налаштування прайса для збуту
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: Налаштування ставок оплати праці
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: Налаштування відносної вартості праці
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: Налаштування норм вартості та збуту для продуктів у каталозі
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: Налаштування норм вартості та збуту для витрат
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: Прайс за замовчуванням
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: Вирішення вартості для орієнтовних показників і фактичних даних
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: Налаштування прайсів
+              href: pricing-costing/price-list-setup.md
+            - name: Налаштування прайса для збуту
+              href: pricing-costing/sales-price-list-setup.md
+            - name: 'Налаштування ставок оплати праці: Lite'
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: 'Налаштування норм витрат на працю: Lite'
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: 'Налаштування норм вартості та збуту для продуктів у каталозі: Lite'
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: Налаштування норм вартості та збуту для витрат
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Стандартні значення та перевизначення
           items:
-            - name: Вирішення цін збуту для орієнтовних показників і фактичних даних
+            - name: Прайс за замовчуванням
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: Змінення проектних прайсів збуту
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 'Вирішення вартості для орієнтовних показників і фактичних даних: Lite'
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: 'Вирішення цін збуту для орієнтовних показників і фактичних даних: Lite'
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Копіювання прайсів
               href: pricing-costing/copy-price-lists.md
         - name: Виміри визначення цін
           items:
-            - name: Використання наявного поля як виміру визначення цін
-              href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Настроювані поля як вимір визначення цін
+            - name: Огляд вимірів визначення цін
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: Використання наявних полів як вимірів визначення цін
+              items:
+                - name: Використання наявного поля як виміру визначення цін
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: Настроювані поля як виміри визначення цін
               items:
                 - name: Створення настроюваних полів і сутностей як вимірів визначення цін
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
@@ -566,13 +640,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: Керування часовими поясами
               href: resource-management/manage-multiple-time-zones.md
+        - name: Використання ресурсів
+          items:
+            - name: Огляд використання ресурсів
+              href: resource-management/resource-utilization-overview.md
     - name: Час
       items:
         - name: Огляд часу
           href: time/time-entry-overview.md
         - name: Створення записів часу
           items:
-            - name: Поведінка інтерфейсу користувача записів часу
+            - name: Інтерфейс користувача записів часу
               href: time/ui-behavior-time.md
         - name: Нотатки для розробників
           items:
@@ -582,34 +660,50 @@
       items:
         - name: Огляд витрат
           href: expense/expense-overview.md
-        - name: Запис витрат (полегшений)
+        - name: Запис витрат (Lite)
           href: expense/basic-expense.md
     - name: Затвердження
       items:
         - name: Огляд затверджень
           href: approvals/approvals-overview.md
+        - name: Нотатки для розробників
+          items:
+            - name: Нотатки для розробників для затверджень
+              href: approvals/dev-notes-approvals.md
     - name: Фактичні дані
       items:
         - name: Огляд фактичних даних
           href: actuals/actuals-overview.md
         - name: Журнали виправлень
           items:
-            - name: Створення та підтвердження журналів корекції
+            - name: Створення та підтвердження журналів виправлень
               href: actuals/create-confirm-correction-journals.md
-        - name: Виставлення рахунків-проформ
-          items:
-            - name: Керування невиконаними завданнями з виставлення рахунків
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: Створення ручного рахунка-проформи
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: Рахунок-фактура для авансового платежу або абонентського внеску
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: Виправлені рахунки
-              href: proforma-invoicing/corrective-invoices.md
-            - name: Налаштування автоматизованого створення рахунків
-              href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Виставлення рахунків-проформ
+      items:
+        - name: Керування невиконаними завданнями із виставлення рахунків для проектів
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: Керування станом і перевірками граничних обмежень
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: Створення рахунка-проформи проекту вручну
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: Керування рахунком-проформою проекту
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: Рахунок-фактура для авансового платежу або абонентського внеску
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: Підтвердження рахунка-проформи проекту
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: Створення коригувальних рахунків для проекту
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: Налаштування автоматизації виставлення рахунків за проектом
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
   items:
+    - name: Що нового
+      items:
+        - name: 'Нові можливості в листопаді 2020: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами'
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: Огляд розгортання Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Огляд керування проектами та бухгалтерського обліку
       href: prod-pma/overview-project-management-accounting.md
     - name: Внутрішнє виставлення рахунків
@@ -734,12 +828,14 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Огляд Project Service Automation
+    - name: Project Service Automation
       href: psa/overview.md
-    - name: Нові можливості
+    - name: Що нового
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 25, V3'
+          href: psa/whats-new-ur-25.md
         - name: 'Нові можливості або зміни у випуску оновлень 24, V3'
           href: psa/whats-new-ur-24.md
         - name: 'Нові можливості або зміни у випуску оновлень 23, V3'
@@ -768,78 +864,90 @@
           href: psa/whats-new-ur-12.md
         - name: "Нові можливості або зміни в Project Service Automation V3.x хвилі 1 2020\_р."
           href: psa/whats-new-v3-2020-wave1.md
-        - name: 'Нові можливості або зміни в Project Service Automation, V3'
+        - name: Нові можливості або зміни в Project Service Automation V3
           href: psa/whats-new-changed-v3.md
-    - name: Впровадження Project Service Automation 3.x
+    - name: Планування впровадження (програма версії 3.x)
       items:
-        - name: Огляд впровадження
+        - name: Інсталяція прикладів даних
           href: psa/install-sample-data-3-x.md
-    - name: Оновлення
+        - name: Посібник із планування й відстеження проектів
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: 'Базовий посібник зі створення цінових пропозицій, визначення цін і виставлення рахунків.'
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: 'Поглиблений посібник зі створення цінових пропозицій, визначення цін і виставлення рахунків'
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: Посібник із керування ресурсами
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: Посібник зі звітування
+          href: psa/implementation-guides/reporting-guide.md
+    - name: Оновлення Project Service Automation (програма версії 3.x)
       items:
-        - name: Оновлення Project Service Automation (3.x)
+        - name: Оновлення Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: 'Фактори, які потрібно враховувати під час оновлення версії 2.x або 1.x до версії 3'
           href: psa/upgrade-v3.md
         - name: Розробка (3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: Зміни сутностей
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: Час і витрати
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: Керування ресурсами
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: Застарілі веб-ресурси в Project Service Automation версії v3.x
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: Планування проектів
-      items:
-        - name: Огляд планування проектів
-          href: psa/project-planning.md
-        - name: Розклади проектів
-          href: psa/project-creating.md
-        - name: Витрати та дохід проекту
-          href: psa/project-estimating.md
-        - name: Орієнтовні показники й проекти збуту
-          href: psa/project-leveraging.md
-        - name: Перебіг проектів і використання коштів під час них
-          href: psa/project-tracking.md
-        - name: Шаблони проектів
-          href: psa/project-templates.md
-        - name: Стадії проектів
-          href: psa/project-stages.md
-        - name: Параметри проектів
-          href: psa/project-settings.md
-    - name: Виміри визначення цін і витрат
-      items:
-        - name: Огляд вимірів визначення цін і витрат
-          href: psa/pricing-costing-dimensions.md
-        - name: Створення рішення для настроюваних вимірів ціноутворення
-          href: psa/custompricingdimensionssolution.md
-        - name: Створення настроюваних полів і сутностей
-          href: psa/create-custom-fields-entities.md
-        - name: Додавання настроюваних полів до конфігурації цін і транзакційних сутностей
-          href: psa/field-references.md
-        - name: 'Налаштування настроюваних полів як вимірів визначення цін '
-          href: psa/set-up-pricing-dimensions.md
-        - name: Оновлення атрибутів компонентів plug-in для включення нових вимірів визначення цін
-          href: psa/update-plug-in-attributes.md
-        - name: Повторне використання елементів як вимірів ціноутворення
           items:
-            - name: Використання наявного поля в Project Service як виміру визначення цін
-              href: psa/use-existing-field.md
-            - name: Використання планованого ресурсу як виміру визначення цін
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: Використання категорії транзакцій як виміру визначення цін
-              href: psa/transaction-category-pricing-dimension.md
-        - name: Планований ресурс з кількома ролями в проекті
-          href: psa/bookable-resource-multiple-roles.md
-        - name: Вимкнення виміру визначення цін
-          href: psa/turn-off-pricing-dimension.md
-    - name: 'Створення цінових пропозицій, визначення цін і виставлення рахунків'
+            - name: Розробка (програма версії 3.x)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: Зміни сутностей
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: Час і витрати
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: Керування ресурсами
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: Застарілі веб-ресурси в Project Service Automation версії 3.x
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
       items:
-        - name: 'Огляд створення цінових пропозицій, визначення цін і виставлення рахунків'
-          href: psa/quote-bill-price.md
-        - name: Створення цінових пропозицій
+        - name: Планування проектів
           items:
+            - name: Домашня сторінка планування проектів
+              href: psa/project-planning.md
+            - name: Розклади проектів
+              href: psa/project-creating.md
+            - name: Витрати та дохід проекту
+              href: psa/project-estimating.md
+            - name: Орієнтовні показники й проекти збуту
+              href: psa/project-leveraging.md
+            - name: Перебіг проектів і використання коштів під час них
+              href: psa/project-tracking.md
+            - name: Шаблони проектів
+              href: psa/project-templates.md
+            - name: Стадії проектів
+              href: psa/project-stages.md
+            - name: Параметри проектів
+              href: psa/project-settings.md
+        - name: Виміри визначення цін і витрат
+          items:
+            - name: Домашня сторінка вимірів визначення цін і витрат
+              href: psa/pricing-costing-dimensions.md
+            - name: Створення рішення для настроюваних вимірів ціноутворення
+              href: psa/custompricingdimensionssolution.md
+            - name: Створення настроюваних полів і сутностей
+              href: psa/create-custom-fields-entities.md
+            - name: Додавання настроюваних полів до конфігурації цін і транзакційних сутностей
+              href: psa/field-references.md
+            - name: 'Налаштування настроюваних полів як вимірів визначення цін '
+              href: psa/set-up-pricing-dimensions.md
+            - name: Оновлення атрибутів компонентів plug-in для включення нових вимірів визначення цін
+              href: psa/update-plug-in-attributes.md
+            - name: Використання наявного поля як виміру визначення цін
+              items:
+                - name: Використання наявного поля в Project Service як виміру визначення цін
+                  href: psa/use-existing-field.md
+                - name: Використання планованого ресурсу як виміру визначення цін
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: Використання категорії транзакцій як виміру визначення цін
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: Планований ресурс з кількома ролями в проекті
+              href: psa/bookable-resource-multiple-roles.md
+            - name: Вимкнення виміру визначення цін
+              href: psa/turn-off-pricing-dimension.md
+        - name: 'Створення цінових пропозицій, визначення цін і виставлення рахунків'
+          items:
+            - name: 'Домашня сторінка створення цінових пропозицій, визначення цін і виставлення рахунків'
+              href: psa/quote-bill-price.md
             - name: Процеси збуту
               href: psa/basic-sales-process.md
             - name: Одиниці вимірювання та їхні групи
@@ -850,20 +958,14 @@
               href: psa/basic-quote-lines.md
             - name: Позиції на основі продуктів у ціновій пропозиції
               href: psa/product-based-quote-lines.md
-            - name: Аналіз цінових пропозицій проекту
-              href: psa/basic-analyzing-quotes.md
-        - name: Ціноутворення
-          items:
             - name: Визначення цін для проектів
               href: psa/basic-pricing.md
             - name: Визначення цін у каталозі продуктів
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: Ділові транзакції
               href: psa/basic-business-transactions.md
             - name: Оцінювання
               href: psa/estimates.md
-        - name: Виставлення рахунків
-          items:
             - name: Аналіз цінових пропозицій проекту
               href: psa/basic-analyzing-quotes.md
             - name: Відкликання раніше затверджених записів часу або витрат
@@ -880,71 +982,71 @@
               href: psa/invoicing.md
             - name: Багатовалютні сценарії
               href: psa/advanced-currency.md
-    - name: Проекти з підбору ресурсів
-      items:
-        - name: Огляд проектів з підбору ресурсів
-          href: psa/resource-management.md
-        - name: Призначення універсальних планованих ресурсів завданню та створення вимог до ресурсів
-          href: psa/assign-generic-bookable-resource.md
-        - name: Резервування доступних для цього іменованих ресурсів для проектної робочої групи та призначення завдання
-          href: psa/assign-named-bookable-resource.md
-        - name: Призначення ресурсу завданню
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: Резервування іменованих ресурсів із вимог до ресурсів
-          href: psa/book-named-resource.md
-        - name: Резервування ресурсів і зв’язок резервувань із призначенням завдань
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: Надсилання запиту ресурсів
-          href: psa/submit-resource-request.md
-        - name: Приймання або відхилення запропонованого ресурсу
-          href: psa/accept-reject-proposed-resource.md
-        - name: Перегляд інформації про платне використання ресурсів
-          href: psa/FAQ-utilization-view.md
+        - name: Проекти з підбору ресурсів
+          items:
+            - name: Домашня сторінка проектних ресурсів
+              href: psa/resource-management.md
+            - name: Призначення універсальних планованих ресурсів завданню та створення вимог до ресурсів
+              href: psa/assign-generic-bookable-resource.md
+            - name: Резервування доступних для цього іменованих ресурсів для проектної робочої групи та призначення завдання
+              href: psa/assign-named-bookable-resource.md
+            - name: Призначення ресурсу завданню
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: Резервування іменованих ресурсів із вимог до ресурсів
+              href: psa/book-named-resource.md
+            - name: Резервування ресурсів і зв’язок резервувань із призначенням завдань
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: Надсилання запиту ресурсів
+              href: psa/submit-resource-request.md
+            - name: Приймання або відхилення запропонованого ресурсу
+              href: psa/accept-reject-proposed-resource.md
+            - name: Перегляд інформації про платне використання ресурсів
+              href: psa/FAQ-utilization-view.md
         - name: Звірення резервувань і призначень
           href: psa/reconcile-booking-assignment.md
-    - name: Керування ресурсами
-      items:
-        - name: Домашня сторінка керування ресурсами
-          href: psa/resource-management-home-page.md
         - name: Керування ресурсами
-          href: psa/manage-resources.md
-        - name: Основні поняття
-          href: psa/reports-key-concepts.md
-        - name: Виконання запитів ресурсів
-          href: psa/resource-management-fulfill-requests.md
-        - name: Пропонування ресурсів
-          href: psa/resource-management-propose-resources.md
-        - name: Резервування ресурсів
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: Методи виділення для резервування
-          href: psa/FAQ-allocation-methods.md
-        - name: Вимоги до попереднього резервування
-          href: psa/resource-management-softbook-requirements.md
-        - name: Попереднє резервування ресурсів
-          href: psa/FAQ-soft-book.md
-        - name: Створення резервування для проекту з панелі розкладів
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: Уміння та моделі кваліфікації
-          href: psa/resource-management-skills-proficiency.md
-        - name: 'Керування ресурсами: запитання й відповіді'
-          href: psa/resource-management-faq.md
-    - name: Звіти
-      items:
-        - name: Огляд звітів
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: Приладні дошки
-          href: psa/reports-dashboards.md
-        - name: Робота з моделлю даних Project Service Automation
-          href: psa/reports-working-project-service-data-model.md
-    - name: Запис часу
-      items:
-        - name: Створення записів часу
-          href: psa/time-entries.md
-        - name: Календар записів часу
-          href: psa/time-entry-calendar.md
-        - name: Налаштування тижневого запису часу
-          href: psa/time-entry-extensibility-v3.md
-    - name: Запитання й відповіді та усунення несправностей
+          items:
+            - name: Домашня сторінка керування ресурсами
+              href: psa/resource-management-home-page.md
+            - name: Керування ресурсами
+              href: psa/manage-resources.md
+            - name: Основні поняття
+              href: psa/reports-key-concepts.md
+            - name: Виконання запитів ресурсів
+              href: psa/resource-management-fulfill-requests.md
+            - name: Пропозиція ресурсів
+              href: psa/resource-management-propose-resources.md
+            - name: Резервування ресурсів
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: Методи виділення для резервування
+              href: psa/FAQ-allocation-methods.md
+            - name: Вимоги до попереднього резервування
+              href: psa/resource-management-softbook-requirements.md
+            - name: Попереднє резервування ресурсів
+              href: psa/FAQ-soft-book.md
+            - name: Створення резервування для проекту з панелі розкладів
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: Уміння та моделі кваліфікації
+              href: psa/resource-management-skills-proficiency.md
+            - name: 'Керування ресурсами: запитання й відповіді'
+              href: psa/resource-management-faq.md
+        - name: Звітування
+          items:
+            - name: Звітування домашньої сторінки
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: Приладні дошки
+              href: psa/reports-dashboards.md
+            - name: Модель даних Project Service Automation
+              href: psa/reports-working-project-service-data-model.md
+        - name: Записи часу
+          items:
+            - name: Створення записів часу
+              href: psa/time-entries.md
+            - name: Календар записів часу
+              href: psa/time-entry-calendar.md
+            - name: Налаштування тижневого запису часу
+              href: psa/time-entry-extensibility-v3.md
+    - name: Запитання й відповіді та усунення несправностей (3.x)
       items:
         - name: Чому ціна стає нульовою за фактичними даними вартості для витрат?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -971,60 +1073,62 @@
         - name: Офіційні документи
           href: psa/white-papers.md
         - name: Посібник адміністратора
-          href: psa/admin-guide.md
-        - name: Інсталяція й налаштування
-          href: psa/install-customize.md
-        - name: Використання демонстраційних даних
-          href: psa/use-demo-data.md
-        - name: Налаштування Project Service Automation
           items:
-            - name: Налаштування програми Project Service Automation
-              href: psa/configure.md
-            - name: Налаштування одиниць часу
-              href: psa/set-up-time-units.md
-            - name: Налаштування грошових одиниць і обмінних курсів
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: Створення організаційних одиниць
-              href: psa/create-organizational-units.md
-            - name: Налаштування частоти виставлення рахунків-фактур
-              href: psa/set-up-invoice-frequencies.md
-            - name: Налаштування категорій транзакцій
-              href: psa/configure-transaction-categories.md
-            - name: Налаштування категорій витрат
-              href: psa/configure-expense-categories.md
-            - name: Створення елементів каталогу продуктів
-              href: psa/create-product-catalog-items.md
-            - name: Створення прайсу
-              href: psa/create-price-list.md
-        - name: Ресурси
-          items:
+            - name: Посібник адміністратора (Project Service)
+              href: psa/admin-guide.md
+            - name: Інсталяція й налаштування
+              href: psa/install-customize.md
+            - name: Використання демонстраційних даних
+              href: psa/use-demo-data.md
+            - name: Налаштування програми Project Service
+              items:
+                - name: Налаштування Project Service
+                  href: psa/configure.md
+                - name: Налаштування одиниць часу
+                  href: psa/set-up-time-units.md
+                - name: Налаштування грошових одиниць і обмінних курсів
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: Створення організаційних одиниць
+                  href: psa/create-organizational-units.md
+                - name: Налаштування частоти виставлення рахунків-фактур
+                  href: psa/set-up-invoice-frequencies.md
+                - name: Налаштування категорій транзакцій
+                  href: psa/configure-transaction-categories.md
+                - name: Налаштування категорій витрат
+                  href: psa/configure-expense-categories.md
+                - name: Створення елементів каталогу продуктів
+                  href: psa/create-product-catalog-items.md
+                - name: Створення прайсу
+                  href: psa/create-price-list.md
             - name: Налаштування ресурсів
-              href: psa/set-up-resources.md
-            - name: Додавання ресурсів
-              href: psa/add-resources.md
-            - name: Додавання вмінь ресурсів
-              href: psa/add-resource-skills.md
-            - name: Налаштування моделей кваліфікації
-              href: psa/set-up-proficiency-models.md
-            - name: Додавання ролей ресурсів
-              href: psa/add-resource-roles.md
-            - name: Налаштування ролей ресурсів
-              href: psa/configure-resource-roles.md
-            - name: Зіставлення вмінь із ресурсами
-              href: psa/associate-skills-with-resources.md
-            - name: Зіставлення вмінь із ролями ресурсів
-              href: psa/associate-skills-with-resource-roles.md
-            - name: Створення шаблону робочих годин
-              href: psa/create-work-hours-template.md
-            - name: Застосування календаря до ресурсу
-              href: psa/apply-calendar-resource.md
-            - name: Налаштування додаткових параметрів
-              href: psa/configure-additional-parameters-settings.md
-            - name: Увімкнення Project Finder Mobile
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: Керування ресурсами
+              items:
+                - name: Налаштування ресурсів (Project Service)
+                  href: psa/set-up-resources.md
+                - name: Додавання ресурсів
+                  href: psa/add-resources.md
+                - name: Додавання вмінь ресурсів
+                  href: psa/add-resource-skills.md
+                - name: Налаштування моделей кваліфікації
+                  href: psa/set-up-proficiency-models.md
+                - name: Додавання ролей ресурсів
+                  href: psa/add-resource-roles.md
+                - name: Налаштування ролей ресурсів
+                  href: psa/configure-resource-roles.md
+                - name: Зіставлення вмінь із ресурсами
+                  href: psa/associate-skills-with-resources.md
+                - name: Зіставлення вмінь із ролями ресурсів
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: Створення шаблону робочих годин
+                  href: psa/create-work-hours-template.md
+                - name: Застосування календаря до ресурсу
+                  href: psa/apply-calendar-resource.md
+                - name: Налаштування додаткових параметрів
+                  href: psa/configure-additional-parameters-settings.md
+                - name: Увімкнення Project Finder Mobile
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: Посібник керівника ресурсів
           items:
-            - name: Посібник керівника ресурсів
+            - name: Посібник керівника ресурсами (Project Service)
               href: psa/resource-manager-guide.md
             - name: Керування запитами ресурсів
               href: psa/manage-resource-requests.md
@@ -1036,9 +1140,9 @@
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: Керування проектами
+        - name: Посібник керівника проектів
           items:
-            - name: Посібник керівника проектів
+            - name: Посібник керівника проектів (Project Service)
               href: psa/project-manager-guide.md
             - name: Надання орієнтовних показників роботи
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,9 +1178,9 @@
               href: psa/view-dashboards-reports.md
             - name: Використання надбудови для планування роботи в Microsoft Project
               href: psa/add-plan-work-microsoft-project.md
-        - name: Керування бізнес-партнерами
+        - name: Посібник керівника з роботи з бізнес-партнерами
           items:
-            - name: Посібник керівника з роботи з бізнес-партнерами
+            - name: Посібник керівника з роботи з бізнес-партнерами (Project Service)
               href: psa/account-manager-guide.md
             - name: Створення бізнес-партнера
               href: psa/create-customer-account.md
@@ -1086,9 +1190,9 @@
               href: psa/create-project-quote.md
             - name: Створення сервісного договору проекту
               href: psa/create-project-contract.md
-        - name: Час і витрати
+        - name: 'Час, витрати та співпраця'
           items:
-            - name: 'Час, витрати та співпраця'
+            - name: 'Посібник із часу, витрат та співпраці (Project Service)'
               href: psa/time-expense-collaboration-guide.md
             - name: Отримання програм
               href: psa/get-apps.md
@@ -1106,12 +1210,13 @@
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: Планування вільного часу
               href: psa/schedule-time-off.md
-            - name: 'Співпраця з використанням груп Office 365](collaborate-project-team-members-office-365-groups.md'
+            - name: Співпраця з використанням груп Office 365
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: Пошук проектів за допомогою Project Finder Mobile
               href: psa/find-next-project-finder-mobile-app.md
             - name: Посібник із Центру проектних ресурсів
               href: psa/project-resource-hub-users-guide.md
-        - name: Нотатки для розробників
+        - name: Нотатки для розробників (програма версії 2.x)
           items:
             - name: Додавання настроюваних форм для сутностей
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
