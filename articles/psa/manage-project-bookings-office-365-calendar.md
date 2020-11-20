@@ -3,7 +3,7 @@ title: Керування проектами та бронюваннями у к
 description: Як керувати проектами та бронюваннями у календарі Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086750"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129073"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Керування проектами та бронюваннями у вашому календарі (Project Service)
 

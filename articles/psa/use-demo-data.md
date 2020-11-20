@@ -3,7 +3,7 @@ title: Експериментуйте з демонстраційними дан
 description: Як завантажити та експериментувати із демонстраційними даними для Project Service Automation.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d0bc6d171f2f3080b7b1c34222de49e93415a139
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 91cf4150c651794fe38ebf5a406cad936aa5105d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086795"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130538"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>Експериментуйте з демонстраційними даними (Project Service)
 
 Щоб ознайомитися з Dynamics 365 Project Service Automation, корисно мати попередньо сконфігуроване середовище для вивчення. З цією метою ми створили окремий пакет інсталяції з прикладами даних (лише англійською мовою наразі), що дає змогу легше дізнатися про ці рішення. 
 
-Пакет інсталяції доступний в [Центрі завантажень Microsoft ](https://go.microsoft.com/fwlink/?linkid=859966).  
+Пакет інсталяції доступний в [Центрі завантажень Microsoft](https://go.microsoft.com/fwlink/?linkid=859966).  
 
 Запуск інсталяції Package Deployer виконує такі дії: 
   

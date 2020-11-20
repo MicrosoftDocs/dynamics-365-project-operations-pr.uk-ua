@@ -3,7 +3,7 @@ title: Посібник адміністратора
 description: Покрокові інструкції з адміністрування Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7462a57ad750f255cfb48dbbeda7f899f51ecfa7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bce13430f56b4c72453c90a259e3ffb3a63d8a3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086753"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129567"
 ---
 # <a name="administrator-guide-project-service"></a>Посібник для адміністратора (Project Service)
 
@@ -36,7 +36,7 @@ ms.locfileid: "4086753"
 - [Налаштувати Project Service Automation](configure.md)
 - [Встановити одиниці часу](set-up-time-units.md)
 - [Встановити валюту та курси валют](set-up-currencies-exchange-rates.md)
-- [Створити організаційні одиниці](create-organizational-units.md)
+- [Створення організаційних одиниць](create-organizational-units.md)
 - [Налаштування частоти виставлення рахунків-фактур](set-up-invoice-frequencies.md)
 - [Налаштування категорій транзакцій](configure-transaction-categories.md)
 - [Налаштування категорій витрат](configure-expense-categories.md)

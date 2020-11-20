@@ -3,7 +3,7 @@ title: Використовуйте надбудову Project Service, щоб �
 description: У цьому розділі наведено відомості про додавання, настроювання та використання надбудови Microsoft Project для Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086846"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129703"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Використовуйте надбудову Project Service Automation, щоб планувати вашу роботу в Microsoft Project
 
@@ -80,7 +80,7 @@ ms.locfileid: "4086846"
 
 2.  На екрані **Бронювати ресурс** виберіть ресурс, який ви хочете використовувати для проекту.  
 
-3.  Натисніть **Бронювати** , а потім натисніть **ОК**.  
+3.  Натисніть **Бронювати**, а потім натисніть **ОК**.  
 
 ## <a name="publish-your-project"></a>Опублікуйте ваш проект  
 Коли планування проекту завершено, наступним кроком є імпортування та публікування проекту в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
@@ -97,9 +97,9 @@ ms.locfileid: "4086846"
 **Для імпортування та публікації вашого проекту**  
 1. Клацніть на **Опублікувати** > **Новий проект Project Service Automation** у вкладці **Project Service**.  
 
-2. Введіть **Ім'я проекту** в діалогове вікно **Опублікувати до нового проекту в Project Service** , та оберіть **Користувач**.  
+2. Введіть **Ім'я проекту** в діалогове вікно **Опублікувати до нового проекту в Project Service**, та оберіть **Користувач**.  
 
-3. При необхідності поставте галочку навпроти **Пов’язати план проекту з Project Service Automation** , щоб пов’язати файл плану "Проект" із Project Service Automation.  
+3. При необхідності поставте галочку навпроти **Пов’язати план проекту з Project Service Automation**, щоб пов’язати файл плану "Проект" із Project Service Automation.  
 
 4. Натисніть **Опублікувати**.  
 
@@ -141,9 +141,9 @@ ms.locfileid: "4086846"
 
 3. У діалогову вікні **Увімкнути відкриття в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** виберіть **Так** або **Ні**.  
 
-   - Якщо вибрати **Так** , ви зможете натиснути кнопку **Відкрити в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** у Project Service Automation, запустити [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] і завантажити файл Project із бібліотеки документів SharePoint.  
+   - Якщо вибрати **Так**, ви зможете натиснути кнопку **Відкрити в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** у Project Service Automation, запустити [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] і завантажити файл Project із бібліотеки документів SharePoint.  
 
-   - Якщо вибрати **Ні** , посилання на кнопку **Відкрити в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не працюватиме.  
+   - Якщо вибрати **Ні**, посилання на кнопку **Відкрити в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не працюватиме.  
 
 4. Файл [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] можна знайти в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] під **Документами** для конкретного проекту [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -155,9 +155,9 @@ ms.locfileid: "4086846"
 
 3. У діалогову вікні **Увімкнути відкриття в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** виберіть **Так** або **Ні**.  
 
-   - Якщо вибрати **Так** , ви зможете натиснути кнопку **Відкрити в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** у Project Service Automation, запустити [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] і завантажити файл Project із бібліотеки документів SharePoint.  
+   - Якщо вибрати **Так**, ви зможете натиснути кнопку **Відкрити в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** у Project Service Automation, запустити [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] і завантажити файл Project із бібліотеки документів SharePoint.  
 
-   - Якщо вибрати **Ні** , посилання на кнопку **Відкрити в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не працюватиме.  
+   - Якщо вибрати **Ні**, посилання на кнопку **Відкрити в [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** не працюватиме.  
 
 4. Файл [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] можна знайти в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] під **Документами** для конкретного проекту [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -168,7 +168,7 @@ ms.locfileid: "4086846"
 
 2. У діалоговому вікні **Опублікувати в новому шаблоні проекту в Project Service** введіть у **Зазву шаблону проекту**.  
 
-3. За потреби встановіть прапорець **Пов’язати план проекту з Project Service Automation** , щоб пов’язати файл Project із [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+3. За потреби встановіть прапорець **Пов’язати план проекту з Project Service Automation**, щоб пов’язати файл Project із [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 4. Натисніть **Опублікувати**.  
 

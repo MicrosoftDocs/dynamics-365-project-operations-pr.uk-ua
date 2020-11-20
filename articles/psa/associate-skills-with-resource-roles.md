@@ -3,7 +3,7 @@ title: Призначити навички до ролей ресурсів
 description: Як пов'язати навички з ролями ресурсів у Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b4d5fe145fc39afc1a909e0ff274c19e9a36d7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70c4b5cfca1495cb887ad6034542c46fd4cb079c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086833"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130288"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Пов'язування навичок з ролями ресурсів (Project Service)
 
@@ -35,9 +35,9 @@ ms.locfileid: "4086833"
   
 2.  Клацніть на роль ресурсу, до якої ви хочете додати навички.  
   
-3.  Клацніть на **+** в ділянці **Навички** , щоб додати навичку.  
+3.  Клацніть на **+** в ділянці **Навички**, щоб додати навичку.  
   
-4.  На панелі "Вимоги до кваліфікації ролі" клацніть на поле **Навичка** , потім на кнопку **Пошук** , а потім виберіть навичку.  
+4.  На панелі "Вимоги до кваліфікації ролі" клацніть на поле **Навичка**, потім на кнопку **Пошук**, а потім виберіть навичку.  
   
 5.  Виберіть досвідченість для тієї навички та натисніть **Зберегти**.  
   

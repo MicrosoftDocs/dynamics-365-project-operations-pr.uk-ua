@@ -3,7 +3,7 @@ title: Додати ролі ресурсів
 description: Як призначити ролі ресурсам Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086912"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129613"
 ---
 # <a name="add-resource-roles-project-service"></a>Додавання ролей ресурсів (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4086912"
 
 Установлення оцінок цільової утилізації для кожної ролі. Ці параметри визначають доступність ресурсів та утилізацію під час комплектування штату проектів та фактичного аналізу.  
   
-1.  Перейдіть до ролі ресурсу, для якої слід настроїти утилізацію ( **Project Service > Роль ресурсу** ).  
+1.  Перейдіть до ролі ресурсу, для якої слід настроїти утилізацію (**Project Service > Роль ресурсу**).  
   
 2.  Клацніть на стрілку вниз біля ролі ресурсу у верхній частині екрану.  
   

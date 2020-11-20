@@ -3,7 +3,7 @@ title: Схвалюйте час та витрати
 description: Як затвердити час і витрати у Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086894"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127138"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Затвердьте час і витрати (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4086894"
   
 2.  Клацніть на об'єкт для затвердження.  
   
-3.  У вкладках **Записи часу** , **Записи витрат** та **Відсутність/Відпустка** перевірте кожен об'єкт та, за необхідності, внесіть зміни.  
+3.  У вкладках **Записи часу**, **Записи витрат** та **Відсутність/Відпустка** перевірте кожен об'єкт та, за необхідності, внесіть зміни.  
   
 4.  Щоб затвердити елемент, виберіть його та натисніть **Затвердити**. Ви можете вибрати і затвердити кілька елементів одночасно.  
   

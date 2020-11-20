@@ -3,7 +3,7 @@ title: Нові й оновлені можливості в оновленому
 description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 22, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086664"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126643"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation, оновлений випуск 22, V3
 
@@ -69,4 +69,4 @@ ms.locfileid: "4086664"
 - Повідомлення про помилку перевірки не відображається, якщо «Прайс витрат» вибрано у підстановці «Прайс» у формі/сутності «Новий проектний прайс для цінової пропозиції».
 - Закриття цінової пропозиції як реалізованої не переміщує до створеного сервісного договору, якщо до цінової пропозиції вкладено BPF на завершальному етапі.
 - Інвертовані записи **Збут, на який не виставлено рахунок** пов’язуються з вихідною вартістю, якщо відкликається запис часу.
-- Після натискання кнопки **Підтвердити** стан рахунка не змінюється на **Підтверджено** , доки не буде оновлено рахунок.
+- Після натискання кнопки **Підтвердити** стан рахунка не змінюється на **Підтверджено**, доки не буде оновлено рахунок.

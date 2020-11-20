@@ -3,7 +3,7 @@ title: Перегляньте свій розклад
 description: Як переглянути розклад у Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c3f85a8502439322af68a90d8a46bfd0fbe4b65
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35054a46251cbc4a91c7c37405e22287de4a9389
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086787"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125833"
 ---
 # <a name="view-your-schedule-project-service"></a>Перегляд розкладу (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4086787"
   
 1.  Перейдіть у **Project Service > Резервування та завдання**. З’явиться подання календаря у вашому розкладі.  
   
-2.  Натисніть **Назад** або **Далі** , щоб зробити розклад для попереднього або наступного тижня. Натисніть кнопку **Сьогодні** , щоб повернутися на поточний тиждень. Можна клацнути завдання, щоб оновити його, якщо це необхідно.  
+2.  Натисніть **Назад** або **Далі**, щоб зробити розклад для попереднього або наступного тижня. Натисніть кнопку **Сьогодні**, щоб повернутися на поточний тиждень. Можна клацнути завдання, щоб оновити його, якщо це необхідно.  
   
 3.  Якщо ви бачите список того, над чим працюєте, виберіть **Сітка**. Ви можете редагувати завдання, якщо необхідно.  
   

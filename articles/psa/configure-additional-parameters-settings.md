@@ -3,7 +3,7 @@ title: Налаштувати додаткові параметри
 description: Як налаштувати додаткові параметри у Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086716"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129388"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Налаштувати додаткові параметри (Project Service)
 
@@ -52,11 +52,11 @@ ms.locfileid: "4086716"
   
 1. Перейдіть у **Project Service > Параметри**.  
   
-2. Натисніть на налаштування параметру, який ви хочете налаштувати (той, що ви створили при першому встановленні [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), або натисніть на **Новий** , щоб створити новий.  
+2. Натисніть на налаштування параметру, який ви хочете налаштувати (той, що ви створили при першому встановленні [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]), або натисніть на **Новий**, щоб створити новий.  
   
 3. В ділянці **Загальне** виставлено всі опції для параметрів вашого проекту.  
   
-4. В ділянці **Прайс-лист** натисніть на **+** , щоб додати прайс-лист у спливаючому списку **Прайс-лист параметру проекту** , а потім натисніть на **Зберегти**.  
+4. В ділянці **Прайс-лист** натисніть на **+**, щоб додати прайс-лист у спливаючому списку **Прайс-лист параметру проекту**, а потім натисніть на **Зберегти**.  
   
 5. Натисніть кнопку **Зберегти** в нижньому правому куті екрана.  
 
