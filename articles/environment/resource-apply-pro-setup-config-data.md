@@ -1,23 +1,33 @@
 ---
-title: Налаштування та застосування даних конфігурації в Common Data Service для Project Operations
+title: Налаштування та застосування даних та конфігурації в Common Data Service
 description: У цьому розділі наведено відомості про налаштування та застосування даних конфігурації в Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086589"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401153"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Налаштування та застосування даних конфігурації в Common Data Service для Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Налаштування та застосування даних та конфігурації в Common Data Service 
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
+
+## <a name="prerequisites"></a>Вимоги
+
+Перш ніж виконати настроювання даних у Common Data Service (CDS),потрібно виконати наведені нижче передумови.
+
+1.  Надання середовищ CDS і Dynamics 365 Finance для Project Operations.
+2.  Інформація про юридичну особу поширюються від Dynamics 365 Finance до CDS Це означає, що сутність **Компанія** у CDS має такі записи про компанію.
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Встановлення даних налаштування та конфігурації
 
@@ -75,7 +85,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![Відкриття середовища](./media/7OpenEnvironment.png)
 
-2. Відкрийте **Проекти** > **Ресурси** , а потім виберіть **Створити** , щоб створити планований ресурс для користувача.
+2. Відкрийте **Проекти** > **Ресурси**, а потім виберіть **Створити**, щоб створити планований ресурс для користувача.
 
 ![Плановані ресурси](./media/8BookableResources.png)
 
@@ -83,7 +93,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![Новий планований ресурс](./media/9NewBookableResource.png)
 
-4. На вкладці **Планування** в полі **Компанія** виберіть компанію **USPM** , а потім натисніть **Зберегти**. 
+4. На вкладці **Планування** в полі **Компанія** виберіть компанію **USPM**, а потім натисніть **Зберегти**. 
 
 ![Вкладка «Планування»](./media/10SchedulingTab.png)
 
@@ -108,16 +118,16 @@ _**Застосовується до:** Project Operations для сценарі
  
  ![Збереження шаблону календаря](./media/15SaveCalendarTemplate.png)
  
- 11. Відкрийте **Параметри** , а потім двічі клацніть запис. 
+ 11. Відкрийте **Параметри**, а потім двічі клацніть запис. 
  
  ![Параметри проекту](./media/16ProjectParameters.png)
  
 12. Оновіть наведені нижче поля.
 
- - **Стандартна компанія** : USPM.
- - **Організаційна одиниця за замовчуванням** : Contoso Robotics Global.
- - **Частота виставлення рахунків** : сьомий і останній день.
- - **Шаблон робочого часу** : змініть його на щойно створений шаблон.
+ - **Стандартна компанія**: USPM.
+ - **Організаційна одиниця за замовчуванням**: Contoso Robotics Global.
+ - **Частота виставлення рахунків**: сьомий і останній день.
+ - **Шаблон робочого часу**: змініть його на щойно створений шаблон.
 
 13. Виберіть **Зберегти**. 
 
