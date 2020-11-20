@@ -1,21 +1,21 @@
 ---
-title: Реєстрація для отримання підготовчої версії передплати
+title: Реєстрація для отримання підготовчої версії передплати – легка версія
 description: 'У цьому розділі наведено відомості про те, як оформити передплату та здійснити розгортання Project Operations Lite: від угоди до рахунків-проформ.'
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086579"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175916"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Зареєструйтеся для отримання підготовчої версії передплати для розгортання lite: від угоди до рахунків-проформ
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Реєстрація для отримання підготовчої версії передплати – легка версія 
 
 У цьому розділі пояснюється, як оформити передплату на підготовчу версію партнерської пропозиції та здійснити розгортання Dynamics 365 Project Operations Lite: від угоди до рахунків-проформ.
 
@@ -42,7 +42,7 @@ ms.locfileid: "4086579"
 
 Перш ніж почати, переконайтеся, що ви ввійшли до браузера з обліковим записом користувача в клієнта, в якому має відображатися підготовча версія Project Operations.
 
-1. Використайте код першої пропозиції, **Dynamics 365 Project Operations (CRM) - підготовча ознайомлювальна версія** , вставивши його в URL-адресу браузера.
+1. Використайте код першої пропозиції, **Dynamics 365 Project Operations (CRM) - підготовча ознайомлювальна версія**, вставивши його в URL-адресу браузера.
 
 ![Використання пропозиції](./media/16RedeemFirstOfferNew.png)
 
@@ -80,7 +80,7 @@ ms.locfileid: "4086579"
 ![Нове середовище](./media/19CreateEnvironment.png)
 
 2. Виберіть параметр **Увімкнення програм Dynamics 365 Apps** і залиште поле **Автоматично розгортати ці програми** пустим.  
-3. Натисніть **Зберегти** , щоб створити середовище.
+3. Натисніть **Зберегти**, щоб створити середовище.
 
 ![Додати базу даних](./media/20CreateEnvironment1.png)
 

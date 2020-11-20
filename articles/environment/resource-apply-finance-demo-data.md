@@ -1,21 +1,21 @@
 ---
-title: Застосування демонстраційних даних Project Operations до хмарного середовища Finance
+title: Застосування демонстраційних даних до розміщеного в хмарі Finance середовища
 description: У цьому розділі пояснюється, як застосовувати демонстраційні дані з Project Operations до хмарного середовища Dynamics 365 Finance.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096647"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365263"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Застосування демонстраційних даних Project Operations до хмарного середовища Finance
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Застосування демонстраційних даних до розміщеного в хмарі Finance середовища
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
@@ -46,7 +46,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 6. У провіднику об’єктів відкрийте **Бази даних** і знайдіть **AXDB**. Цю базу даних знадобиться замінити на нову базу даних, розміщену в [Центрі завантажень](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Скопіюйте ZIP-файл на віртуальну машину, до якої ви маєте віддалений доступ, і витягніть вміст із ZIP.
-8. У SQL Server Management Studio клацніть правою кнопкою миші **AxDB** , а потім виберіть **Завдання** > **Відновлення** > **База даних**.
+8. У SQL Server Management Studio клацніть правою кнопкою миші **AxDB**, а потім виберіть **Завдання** > **Відновлення** > **База даних**.
 
 ![Відновлення бази даних](./media/5RestoreDatabase.png)
 
@@ -54,7 +54,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![Пристрої-джерела](./media/6SourceDevice.png)
 
-10. Виберіть **Параметри** , а потім – **Перезаписати наявну базу даних** і **Закрити наявні підключення до кінцевої бази даних**. 
+10. Виберіть **Параметри**, а потім – **Перезаписати наявну базу даних** і **Закрити наявні підключення до кінцевої бази даних**. 
 11. Виберіть **ОК**.
 
 ![Відновлення параметрів](./media/7RestoreSetting.png)
@@ -76,6 +76,6 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![Скидання служб IIS](./media/9IISReset.png)
 
-18. Закрийте сеанс віддаленого робочого стола та скористайтеся сторінкою LCS **Відомості про середовища** , щоб увійти до середовища й упевнитися в його належній роботі.
+18. Закрийте сеанс віддаленого робочого стола та скористайтеся сторінкою LCS **Відомості про середовища**, щоб увійти до середовища й упевнитися в його належній роботі.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)

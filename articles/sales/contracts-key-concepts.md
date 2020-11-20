@@ -1,21 +1,21 @@
 ---
-title: Основні поняття – Проектні сервісні договори
+title: Проектні договори – основні поняття
 description: У цьому розділі наведено відомості щодо основних понять для проектних сервісних договорів в Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086652"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175556"
 ---
-# <a name="key-concepts---project-contracts"></a>Основні поняття – Проектні сервісні договори
+# <a name="project-contracts---key-concepts"></a>Проектні договори – основні поняття
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 

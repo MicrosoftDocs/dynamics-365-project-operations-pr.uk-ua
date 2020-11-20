@@ -1,21 +1,21 @@
 ---
-title: Основні поняття проектних договорів
+title: Проектні договори – основні поняття – легка версія
 description: У цьому розділі наведено відомості про основні поняття проектних договорів.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086622"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177086"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Основні поняття проектних договорів
+# <a name="project-contracts---key-concepts---lite"></a>Проектні договори – основні поняття – легка версія
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 

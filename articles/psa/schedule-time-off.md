@@ -3,7 +3,7 @@ title: Планування вільного часу
 description: Як скласти розклад вільного часу у Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12ec70eca468fc17a1a85cfedc67adfecd80b007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eed6103734773e90701853391584c55c1d1704e8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086941"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132223"
 ---
 # <a name="schedule-time-off-project-service"></a>Планування вільного часу (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4086941"
   
 1.  Перейдіть у **Project Service > Значення часу**. Це викликає ваш календар.  
   
-2.  Натисніть **Назад** або **Далі** , щоб переглянути розклад для попереднього або наступного тижня. Натисніть кнопку **Сьогодні** , щоб повернутися на поточний тиждень.  
+2.  Натисніть **Назад** або **Далі**, щоб переглянути розклад для попереднього або наступного тижня. Натисніть кнопку **Сьогодні**, щоб повернутися на поточний тиждень.  
   
 3.  Щоб ввести свій час, натисніть кнопку **Створити** або двічі клацніть календар під днем, для якого потрібно ввести час.  
   

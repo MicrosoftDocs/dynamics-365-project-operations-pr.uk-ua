@@ -3,7 +3,7 @@ title: Розширений посібник із цінових пропози�
 description: У цьому розділі наведено відомості про цінові пропозиції, ціноутворення та надсилання рахунків у Project Service Automation.
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 80d16c0ee9e79d31a52f0b47e59d1b7603f117a5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a40eb80f2e46c1c976e27320cfa30116d19426b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086818"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132817"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Розширений посібник із цінових пропозицій, ціноутворення та виставлення рахунків
 

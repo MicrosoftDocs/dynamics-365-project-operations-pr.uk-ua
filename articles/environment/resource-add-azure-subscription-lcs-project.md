@@ -1,21 +1,21 @@
 ---
-title: Додавання передплати на Azure до проекту LCS
+title: Додавання передплати Azure до проекту LCS
 description: У цьому розділі наведено відомості про те, як підключити передплату на Azure до проекту LCS.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e741f35f9b229d2897cec06054d91ae620397228
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086587"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175826"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Додавання передплати на Azure до проекту LCS
+# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Додавання передплати Azure до проекту LCS
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
@@ -31,7 +31,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![З’єднувачі Azure](./media/2AzureConnectors.png)
 
-3. Знову виберіть **Авторизувати** , щоб надати згоду адміністратора.
+3. Знову виберіть **Авторизувати**, щоб надати згоду адміністратора.
 
 ![Надання згоди адміністратора](./media/3GrantAdminConsent.png)
 
@@ -57,7 +57,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Додавання з’єднувача передплати до проекту LCS
 
-1. У проекті LCS на сторінці **Параметри Microsoft Azure** виберіть **Додати** , щоб додати новий з’єднувач.
+1. У проекті LCS на сторінці **Параметри Microsoft Azure** виберіть **Додати**, щоб додати новий з’єднувач.
 2. Введіть ідентифікатор передплати на Azure. Ідентифікатор передплати на Azure можна знайти на [порталі Azure](https://ms.portal.azure.com/) у розділі **Параметри** в лівому нижньому куті екрана.
 3. У полі **Настроїти на використання Azure Resource Manager** виберіть **Так**.
 4. Переконайтеся, що домен клієнта AAD передплати на Azure відповідає доменній передплаті на Azure, що використовується, а потім натисніть кнопку **Далі**.
