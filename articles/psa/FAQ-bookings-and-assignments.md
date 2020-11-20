@@ -3,7 +3,7 @@ title: Резервування ресурсів і як вони пов’яз�
 description: У цьому розділі наведено відомості про керування названими ресурсами, резервуваннями ресурсів і призначеннями завдань, а також їх співвідношенням.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 03285d324e855ecf933b155559e5a4826420ab25
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086903"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125040"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Резервування ресурсів і як вони пов’язані із призначенням завдань
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086666"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121513"
 ---
 # <a name="booking-allocation-methods"></a>Методи виділення для резервування
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-Незалежно від того, чи ви додаєте члена робочої групи безпосередньо до проекту у вкладці **Робоча група** , чи реєструєте ресурс для проекту або вимог з панелі розкладів, можна використовувати кілька способів розподілу резервування. У цій темі описано принципи кожного способу і які з них можуть призвести до надлишкового резервування ресурсів.
+Незалежно від того, чи ви додаєте члена робочої групи безпосередньо до проекту у вкладці **Робоча група**, чи реєструєте ресурс для проекту або вимог з панелі розкладів, можна використовувати кілька способів розподілу резервування. У цій темі описано принципи кожного способу і які з них можуть призвести до надлишкового резервування ресурсів.
 
 ## <a name="booking-allocation-methods"></a>Методи виділення для резервування
 

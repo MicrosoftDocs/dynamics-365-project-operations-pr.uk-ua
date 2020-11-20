@@ -3,7 +3,7 @@ title: Створення прейскуранта
 description: Як створити прайс у Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086752"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122053"
 ---
 # <a name="create-a-price-list-project-service"></a>Створення прайса (Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "4086752"
   
 2.  Натисніть **Створити**.  
   
-3.  У **Контексті** виберіть, чи є цей прайс-лист **Ціною** , **Покупкою** або **Продажами**.  
+3.  У **Контексті** виберіть, чи є цей прайс-лист **Ціною**, **Покупкою** або **Продажами**.  
   
 4.  В **Ім'я** введіть ім'я для прайс-листа.  
   
@@ -47,9 +47,9 @@ ms.locfileid: "4086752"
   
 6.  В **Одиницях часу** визначте період часу, до якого застосовується ціна, наприклад, день або година.  
   
-7.  Заповніть **Дата початку** , **Дата закінчення** та **Опис** як необхідно.   
+7.  Заповніть **Дата початку**, **Дата закінчення** та **Опис** як необхідно.   
   
-8.  Натисніть кнопку **Зберегти** , щоб створити запис, так щоб ви продовжили його редагування.  
+8.  Натисніть кнопку **Зберегти**, щоб створити запис, так щоб ви продовжили його редагування.  
   
 9. Щоб додати роль до прайс-листа, натисніть на **+** під **Ролі цін**.  
   

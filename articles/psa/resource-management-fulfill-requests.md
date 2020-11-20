@@ -3,7 +3,7 @@ title: Заповнення вимоги до ресурсів
 description: У цьому розділі наведено відомості про заповнення вимог до ресурсів.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 626828b96e110de4dcb6cad4a191994972ec26c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7156e1beb0df033331d91abf9ca7f6ddc18df796
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086939"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124438"
 ---
 # <a name="fulfilling-resource-requests"></a>Заповнення запитів на ресурси
 
@@ -35,7 +35,7 @@ ms.locfileid: "4086939"
 
 > ![Список запитів на ресурси](media/Resource-Management-image59.png)
 
-Щоб виконати запит, виберіть його у списку, а потім виберіть **Знайти ресурси**. Натомість, щоб відкрити запит, двічі клацніть рядок. Потім можна вибрати вкладку **Вимоги до ресурсів** , щоб переглянути вимоги для цього запиту. Щоб почати виконувати запит, виберіть **Знайти ресурси**.
+Щоб виконати запит, виберіть його у списку, а потім виберіть **Знайти ресурси**. Натомість, щоб відкрити запит, двічі клацніть рядок. Потім можна вибрати вкладку **Вимоги до ресурсів**, щоб переглянути вимоги для цього запиту. Щоб почати виконувати запит, виберіть **Знайти ресурси**.
 
 > ![Відомості про вимоги до ресурсів](media/Resource-Management-image60.png)
 

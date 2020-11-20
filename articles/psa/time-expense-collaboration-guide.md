@@ -3,7 +3,7 @@ title: Провідник по часу, витратах та співпрац�
 description: Посібник із часу, витрат та співпраці для Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3404642bf20ee23000202b3447f3167aeb4dee27
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4f975a248c6224bdea72ca1ecdb8a299f0f9254c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086805"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120073"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>Час, витрати та посібник із співпраці (Project Service)
 
@@ -59,7 +59,7 @@ ms.locfileid: "4086805"
   
 -   [Дозвольте комусь іншому ввести ваш час або витрати](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [Планування вільного часу ](../psa/schedule-time-off.md)  
+-   [Планування вільного часу](../psa/schedule-time-off.md)  
   
 -   [Співпрацюйте з членами команди вашого проекту за допомогою Групи Office 365](../psa/collaborate-project-team-members-office-365-groups.md)  
   

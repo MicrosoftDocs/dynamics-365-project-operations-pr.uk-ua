@@ -3,7 +3,7 @@ title: Запитання та відповіді щодо керування р
 description: У цьому розділі наведено відповіді на поширені запитання про керування ресурсами.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086927"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120163"
 ---
 # <a name="resource-management-faq"></a>Запитання та відповіді щодо керування ресурсами
 
@@ -43,11 +43,11 @@ ms.locfileid: "4086927"
 
 ## <a name="how-do-i-change-the-required-hours-and-the-start-and-end-dates-for-a-resource-generic-or-named-that-i-booked"></a>Як змінити потрібні години і дати початку та завершення для ресурсу (загального або названого), якого було заброньовано?
 
-Після того, як ресурси заброньовані, виберіть **Зберегти резервування** , щоб внести необхідні зміни.
+Після того, як ресурси заброньовані, виберіть **Зберегти резервування**, щоб внести необхідні зміни.
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Які типи ресурсів підтримує Project Service Automation?
 
-**Користувач** і **Контактна особа** — це єдині типи ресурсів, які підтримуються в Dynamics 365 Project Service Automation. Незважаючи на те, що можна створити інші типи ресурсів (наприклад, **Засоби** та **Група** ), для них не передбачене використання по всіх процесах.
+**Користувач** і **Контактна особа** — це єдині типи ресурсів, які підтримуються в Dynamics 365 Project Service Automation. Незважаючи на те, що можна створити інші типи ресурсів (наприклад, **Засоби** та **Група**), для них не передбачене використання по всіх процесах.
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>У чому відмінність між призначенням та бронюванням?
 

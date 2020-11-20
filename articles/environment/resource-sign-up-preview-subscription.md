@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086602"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121153"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Реєстрація для отримання підготовчих версій передплат Project Operations для сценаріїв на основі ресурсів і без запасів
 
@@ -42,7 +42,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Перш ніж почати, переконайтеся, що ви ввійшли до браузера з обліковим записом користувача в клієнта, в якому має відображатися підготовча версія Project Operations.
 
-1. Використайте код першої пропозиції, **Dynamics 365 Project Operations (CRM) - підготовча ознайомлювальна версія** , вставивши його в URL-адресу браузера.
+1. Використайте код першої пропозиції, **Dynamics 365 Project Operations (CRM) - підготовча ознайомлювальна версія**, вставивши його в URL-адресу браузера.
 
 ![Використання пропозиції](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +75,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![Призначення ліцензій](./media/15AssignLicenses.png)
 
-3. Переконайтеся в тому, що вибрано ліцензії на **Підготовчу ознайомлювальну версію Dynamics 365 Project Operations (CRM)** і на **Підготовчу ознайомлювальну версію Office 365 Project Operations** , потім виберіть **Зберегти зміни**.
+3. Переконайтеся в тому, що вибрано ліцензії на **Підготовчу ознайомлювальну версію Dynamics 365 Project Operations (CRM)** і на **Підготовчу ознайомлювальну версію Office 365 Project Operations**, потім виберіть **Зберегти зміни**.
 
 > [!NOTE]
 > Ознайомлювальну пропозицію Finance не потрібно призначати користувачу.
