@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Що нового
       items:
+        - name: 'Грудень 2020: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 'Листопад 2020: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Процес збуту за проектом
@@ -87,7 +89,7 @@
                 - name: Керування кількома клієнтами за позиціями на основі проектів у ціновій пропозиції
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Налаштування платних компонентів позиції цінової пропозиції проекту
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Створення орієнтовних показників для позицій цінової пропозиції
                   href: sales/create-estimate-quote-line.md
                 - name: Імпорт орієнтовних показників з проекту до позицій на основі проектів у ціновій пропозиції
@@ -109,7 +111,7 @@
             - name: Керування проектними прайсами у проектних сервісних договорах
               href: sales/contracts-manage-project-price-lists.md
             - name: Керування кількома клієнтами за проектними сервісними договорами
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Сервісні роботи за договором на основі проектів
               items:
                 - name: Огляд сервісних робіт за договором на основі проектів
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Копіювання проектного сервісного договору
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Аванси та абонентські внески
+              items:
+                - name: 'Сервісні договори на основі авансових платежів і платежів на основі абонентського внеску: Lite'
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: 'Налаштування розкладу абонентських внесків: Lite'
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: 'Створення несистемного авансового платежу для сервісного договору: Lite'
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Визначення цін і вартості
       items:
         - name: Налаштування прайса
@@ -158,18 +168,28 @@
           items:
             - name: Огляд вимірів визначення цін
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Створення рішення для настроюваних вимірів ціноутворення
+              href: sales/create-solution-custompd.md
             - name: Використання наявних полів як вимірів визначення цін
               items:
                 - name: Поля Project Operations як виміри визначення цін
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Використання планованого ресурсу як виміру визначення цін
+                  href: sales/use-br-as-pd.md
+                - name: Використання категорії транзакцій як виміру визначення цін
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Планований ресурс з кількома ролями в проекті
+                  href: sales/br-playing-multiple-roles.md
             - name: Настроювані поля як виміри визначення цін
               items:
                 - name: Створення настроюваних полів і сутностей як вимірів визначення цін
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Додавання настроюваних полів до конфігурації цін і транзакційних сутностей
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Налаштування настроюваних полів як вимірів визначення цін
+                - name: 'Налаштування настроюваних полів як вимірів визначення цін '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Оновлення атрибутів компонентів plug-in для включення нових вимірів визначення цін
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Вимкнення виміру визначення цін
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Керування проектами
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Адміністрування ресурсів
           items:
+            - name: Створення ресурсів
+              href: resource-management/create-resources.md
             - name: Визначення вмінь і кваліфікації
               href: resource-management/define-skills-proficiencies.md
+            - name: Визначення ролей
+              href: resource-management/define-roles.md
             - name: Визначення календарів ресурсів
               href: resource-management/define-resource-calendars.md
         - name: Методи виділення для резервування
           href: resource-management/booking-allocation-methods.md
+        - name: Стани резервувань
+          href: resource-management/booking-status.md
         - name: Уміння та моделі кваліфікації
           href: resource-management/skills-proficiency-models.md
         - name: Звірення ресурсів
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Керування рахунком-проформою проекту
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Рахунок-фактура для авансового платежу або абонентського внеску
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Підтвердження рахунка-проформи проекту
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Налаштування автоматизації виставлення рахунків за проектом
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Журнал інтеграції в Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Внутрішнє виставлення рахунків
+          items:
+            - name: Огляд внутрішнього виставлення рахунків
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Налаштування внутрішнього виставлення рахунків
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Створення внутрішнього виставлення рахунків клієнтів і постачальників
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Створення внутрішніх транзакцій
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Визнання доходу
+      items:
+        - name: Огляд визнання доходу
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Налаштування визнання доходу
+          items:
+            - name: Налаштування типів періодів
+              href: project-accounting/period-types.md
+            - name: Налаштування шаблонів витрат
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Керування прогнозами прибутків
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Проекти прогнозування прибутків з фіксованою ціною
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: 'Методи обчислення витрат, необхідних для завершення'
+          href: revenue-recognition/cost-complete-methods.md
 - name: 'Розгортання Lite: від угоди до рахунків-проформ'
   items:
     - name: Почати
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: Що нового
       items:
+        - name: 'Нові можливості в грудні 2020: розгортання Lite від угоди до рахунків-проформ'
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: 'Нові можливості в листопаді 2020: розгортання Lite від угоди до рахунків-проформ'
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Процес збуту за проектом
@@ -538,18 +594,28 @@
           items:
             - name: Огляд вимірів визначення цін
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Створення рішення для настроюваних вимірів ціноутворення
+              href: sales/create-solution-custompd.md
             - name: Використання наявних полів як вимірів визначення цін
               items:
-                - name: Використання наявного поля як виміру визначення цін
+                - name: Поля Project Operations як виміри визначення цін
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Використання планованого ресурсу як виміру визначення цін
+                  href: sales/use-br-as-pd.md
+                - name: Використання категорії транзакцій як виміру визначення цін
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Планований ресурс з кількома ролями в проекті
+                  href: sales/br-playing-multiple-roles.md
             - name: Настроювані поля як виміри визначення цін
               items:
                 - name: Створення настроюваних полів і сутностей як вимірів визначення цін
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Додавання настроюваних полів до конфігурації цін і транзакційних сутностей
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Налаштування настроюваних полів як вимірів визначення цін
+                - name: 'Налаштування настроюваних полів як вимірів визначення цін '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Оновлення атрибутів компонентів plug-in для включення нових вимірів визначення цін
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Вимкнення виміру визначення цін
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Керування проектами
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Адміністрування ресурсів
           items:
+            - name: Створення ресурсів
+              href: resource-management/create-resources.md
             - name: Визначення вмінь і кваліфікації
               href: resource-management/define-skills-proficiencies.md
+            - name: Визначення ролей
+              href: resource-management/define-roles.md
             - name: Визначення календарів ресурсів
               href: resource-management/define-resource-calendars.md
         - name: Методи виділення для резервування
           href: resource-management/booking-allocation-methods.md
+        - name: Стани резервувань
+          href: resource-management/booking-status.md
         - name: Уміння та моделі кваліфікації
           href: resource-management/skills-proficiency-models.md
         - name: Звірення ресурсів
@@ -834,6 +906,8 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Нові можливості або зміни у випуску оновлень 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Нові можливості або зміни у випуску оновлень 24, V3'
