@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086857"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642478"
 ---
 # <a name="project-service-automation-overview"></a>Огляд програми Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 У рішеннях із інтеграції Project Service Automation до Finance використовується функція інтеграції даних для синхронізації даних у екземплярах Dynamics 365 Finance і Dynamics 365 Project Service Automation через Common Data Service. Шаблони інтеграції, доступні з функцією інтеграції даних, забезпечують потік проектів, проектні договори, сервісні роботи за договором проекту, етапи сервісних робіт за договором проекту, завдання проекту, категорії транзакцій витрат, оцінки часу та кошториси витрат з Project Service Automation до Finance.
 

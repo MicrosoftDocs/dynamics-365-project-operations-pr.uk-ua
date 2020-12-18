@@ -1,6 +1,6 @@
 ---
 title: Модель безпеки
-description: У цьому розділі наведено відомості щодо моделі безпеки в Dynamics 365 Project Operations.
+description: У цьому розділі наведено відомості про модель системи безпеки у Dynamics 365 Project Operations.
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124393"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642928"
 ---
 # <a name="security-model"></a>Модель безпеки
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-Microsoft Dynamics 365 Project Operations має унікальну модель безпеки, завдяки якій можна використовувати бізнес-модель безпеки на основі ролей, що співпрацює з Microsoft Office Groups. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations містить унікальну модель безпеки, яка дає змогу використовувати модель бізнес-безпеки на основі ролей, яка співпрацює з Групами Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Ролі безпеки

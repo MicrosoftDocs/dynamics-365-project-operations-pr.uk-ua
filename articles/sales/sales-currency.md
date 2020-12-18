@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121243"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642298"
 ---
 # <a name="currency"></a>Валюта
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Грошові одиниці використовуються для визначення цін на продукти в каталозі продуктів, а також вартості транзакцій, наприклад замовлень на продаж. Якщо ваші клієнти розташовані у різних куточках світу, додайте їхню валюту, щоб керувати транзакціями. Додайте валюту, яка найкраще підходить для ваших поточних і майбутніх бізнес-потреб.  
 

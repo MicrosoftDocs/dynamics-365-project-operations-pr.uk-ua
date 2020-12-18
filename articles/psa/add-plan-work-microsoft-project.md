@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129703"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642793"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Використовуйте надбудову Project Service Automation, щоб планувати вашу роботу в Microsoft Project
 
@@ -174,5 +174,58 @@ ms.locfileid: "4129703"
 
 Пов’язання файлу проекту з [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] робить файл проекту головним і встановлює робочу структуру шаблону в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] на лише читання.  Для того, щоб внести зміни до плану проекту, вам потрібно зробити їх у [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] та опублікувати їх як оновлення до [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
-### <a name="see-also"></a>Див. також  
+## <a name="read-a-resource-loaded-schedule"></a>Читання завантаженого розкладу ресурсу
+
+Під час читання проекту з Project Service Automation календар ресурсу не синхронізується з клієнтом робочого столу. Якщо існують відмінності в тривалості завдання, зусиллях або кінці, імовірно, це тому, що ресурси та настільний клієнт не мають того ж шаблону календаря робочого часу, застосовного до проекту.
+
+
+## <a name="data-synchronization"></a>Синхронізація даних
+
+У наведеній нижче таблиці показано, як виконується синхронізація даних між Project Service Automation та надбудовою Microsoft Project для робочого столу.
+
+| **Сутність** | **Поле** | **Microsoft Project до Project Service Automation** | **Project Service Automation до Microsoft Project** |
+| --- | --- | --- | --- |
+| Проектне завдання | Термін | ● | - |
+| Проектне завдання | Прогнозований обсяг робіт | ● | - |
+| Проектне завдання | Ідентифікатор клієнта MS Project | ● | - |
+| Проектне завдання | Батьківське завдання | ● | - |
+| Проектне завдання | Project | ● | - |
+| Проектне завдання | Проектне завдання | ● | - |
+| Проектне завдання | Ім’я проектного завдання | ● | - |
+| Проектне завдання | Одиниця ресурсів (вилучено у версії 3.0) | ● | - |
+| Проектне завдання | Запланована тривалість | ● | - |
+| Проектне завдання | Дата початку | ● | - |
+| Проектне завдання | Ідентифікатор WBS | ● | - |
+
+| **Сутність** | **Поле** | **Microsoft Project до Project Service Automation** | **Project Service Automation до Microsoft Project** |
+| --- | --- | --- | --- |
+| Учасник робочої групи | Ідентифікатор клієнта MS Project | ● | - |
+| Учасник робочої групи | Ім’я позиції | ● | - |
+| Учасник робочої групи | проект | ● | ● |
+| Учасник робочої групи | Робоча група проекту | ● | ● |
+| Учасник робочої групи | Одиниця ресурсів | - | ● |
+| Учасник робочої групи | Роль | - | ● |
+| Учасник робочої групи | Робочий час | Не синхронізовано | Не синхронізовано |
+
+| **Сутність** | **Поле** | **Microsoft Project до Project Service Automation** | **Project Service Automation до Microsoft Project** |
+| --- | --- | --- | --- |
+| Призначення ресурсів | Від цього дня | ● | - |
+| Призначення ресурсів | години | ● | - |
+| Призначення ресурсів | Ідентифікатор клієнта MS Project | ● | - |
+| Призначення ресурсів | Планована робота | ● | - |
+| Призначення ресурсів | Project | ● | - |
+| Призначення ресурсів | Робоча група проекту | ● | - |
+| Призначення ресурсів | Призначення ресурсів | ● | - |
+| Призначення ресурсів | Завдання | ● | - |
+| Призначення ресурсів | На дату | ● | - |
+
+| **Сутність** | **Поле** | **Microsoft Project до Project Service Automation** | **Project Service Automation до Microsoft Project** |
+| --- | --- | --- | --- |
+| Залежності проектних завдань | Залежність проектного завдання | ● | - |
+| Залежності проектних завдань | Тип зв’язку | ● | - |
+| Залежності проектних завдань | Завдання попередника | ● | - |
+| Залежності проектних завдань | Project | ● | - |
+| Залежності проектних завдань | Завдання наступника | ● | - |
+
+### <a name="see-also"></a>Статті за темою  
  [Провідник керування проектом](../psa/project-manager-guide.md)

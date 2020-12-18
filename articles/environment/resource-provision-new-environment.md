@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121198"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643017"
 ---
 # <a name="provision-a-new-environment"></a>Підготовка нового середовища
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-У цьому розділі наведено відомості про підготовку нового середовища Dynamics 365 Project Operations для сценаріїв на основі ресурсів і без запасів.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+У цьому розділі наведено відомості про підготовку нового середовища Dynamics 365 Project Operations для сценаріїв на основі ресурсів/нескладських матеріалів.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Увімкнення автоматичної підготовки Project Operations у проекті LCS
 
@@ -120,7 +122,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![Застосування рішень](./media/13ApplySolutions.png)
 
-5. Виберіть обидва рішення, **Карта сутності подвійного записування Dynamics 365 Finance and Operations** і **Карти сутностей подвійного записування Dynamics 365 Project Operations**, а потім натисніть кнопку **Застосувати**.
+5. Виберіть обидва рішення, **Подвійне записування зіставлень сутностей Dynamics 365 Finance and Operations** та **Зіставлень сутностей подвійного записування Dynamics 365 Project Operations**, а потім натисніть кнопку **Застосовувати**.
 
 ![Підтвердження рішень](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ _**Застосовується до:** Project Operations для сценарі
 | --- | --- | --- | --- | --- | --- |
 | **Ролі ресурсів проекту для всіх компаній (bookableresourcecategories)** | No | Так | Common Data Service | No | Н/Д |
 | **Юридичні особи (cdm\_companies)** | No | Так | Програми Finance and Operations | No | Н/Д |
+| **Леджер (msdyn_ledgers)** | No | Так | Програми Finance and Operations | Так | Так, програми Finance and Operations |
 | **Фактичні дані про інтеграцію Project Operations (msdyn\_actuals)** | No | No | Н/Д | Так | No |
 | **Проектні сервісні роботи за договором (salesorderdetails)** | No | No | Н/Д | No | No |
 | **Сутність інтеграції для зв'язків між транзакціями проекту (msdyn\_transactionconnections)** | No | No | Н/Д | No | Н/Д |

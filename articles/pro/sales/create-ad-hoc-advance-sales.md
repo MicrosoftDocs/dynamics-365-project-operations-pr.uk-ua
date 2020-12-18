@@ -1,5 +1,5 @@
 ---
-title: Створення спеціального авансу за сервісним договором – легка версія
+title: Створення несистемного авансового платежу для сервісного договору
 description: У цій темі наводяться відомості про створення авансу за сервісним договором у разі необхідності.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181387"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596037"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a>Створення спеціального авансу за сервісним договором – легка версія
+# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Створення несистемного авансового платежу для сервісного договору
 
-_**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
+_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
 У системі Microsoft Dynamics 365 Project Operations підтримуються сценарії виставлення рахунків, які передбачають попередню оплату та аванси. Порядок використання **Авансів** у **Project Operations** є подібним до сервісних договорів із **Абонентським внеском**. 
 

@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121153"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643008"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Реєстрація для отримання підготовчих версій передплат Project Operations для сценаріїв на основі ресурсів і без запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 У цьому розділі описано, як оформити передплату на підготовчу/партнерську пропозицію та розгорнути середовище Project Operations для сценаріїв на основі ресурсів і без запасів.
 
@@ -31,18 +33,18 @@ _**Застосовується до:** Project Operations для сценарі
 
 Коли ваш [запит на підготовчу версію](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) буде затверджено, ви отримаєте електронною поштою три пропозиції від Майкрософт. Ці пропозиції дають змогу розгорнути підготовчу версію Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – підготовча ознайомлювальна версія
+- Підготовча ознайомлювальна версія Dynamics 365 Project Operations (CRM).
 - Office 365 Підготовча ознайомлювальна версія Project Operations
 - Підготовча ознайомлювальна версія Dynamics 365 Finance
 
 > [!IMPORTANT]
 > Виконувати це завдання має лише одна особа в організації – адміністратор клієнта. Якщо ви не є абонентом цього випуску, зачекайте, доки ваша організація не зареєструється і ви не отримаєте облікові дані користувача.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – підготовча ознайомлювальна версія 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Підготовча ознайомлювальна версія Dynamics 365 Project Operations (CRM). 
 
 Перш ніж почати, переконайтеся, що ви ввійшли до браузера з обліковим записом користувача в клієнта, в якому має відображатися підготовча версія Project Operations.
 
-1. Використайте код першої пропозиції, **Dynamics 365 Project Operations (CRM) - підготовча ознайомлювальна версія**, вставивши його в URL-адресу браузера.
+1. Активуйте код першої пропозиції, **Dynamics 365 Project Operations (CRM) — ознайомлювальна пробна версія**, вставивши його до URL-адреси браузера.
 
 ![Використання пропозиції](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ![Призначення ліцензій](./media/15AssignLicenses.png)
 
-3. Переконайтеся в тому, що вибрано ліцензії на **Підготовчу ознайомлювальну версію Dynamics 365 Project Operations (CRM)** і на **Підготовчу ознайомлювальну версію Office 365 Project Operations**, потім виберіть **Зберегти зміни**.
+3. Перевірте, чи вибрано ліцензії для **Підготовчої версії Dynamics 365 Project Operations (CRM)** і **Підготовчої версії Office 365 Project Operations**, а потім виберіть **Зберегти зміни**.
 
 > [!NOTE]
 > Ознайомлювальну пропозицію Finance не потрібно призначати користувачу.
