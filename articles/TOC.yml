@@ -20,12 +20,10 @@
           items:
             - name: Початок нового проекту LCS
               href: environment/create-lcs-project.md
-            - name: Додавання передплати Azure до проекту LCS
+            - name: Додавання передплати на Azure до проекту LCS
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: Застосування демонстраційних даних
           items:
-            - name: Застосування демонстраційних даних до розміщеного в хмарі середовища Finance
-              href: environment/resource-apply-finance-demo-data.md
             - name: Застосування даних конфігурації в Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Розгортання середовищ
@@ -38,7 +36,11 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Що нового
       items:
-        - name: 'Грудень 2020: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
+        - name: "Лютий 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: "Січень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-jan-2021-resource-based.md
+        - name: "Грудень 2020\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
           href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 'Листопад 2020: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
           href: whats-new/whats-new-nov-2020-resource-based.md
@@ -132,11 +134,11 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: Аванси та абонентські внески
               items:
-                - name: 'Сервісні договори на основі авансових платежів і платежів на основі абонентського внеску: Lite'
+                - name: Сервісні договори на основі авансів і абонентських внесків
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: 'Налаштування розкладу абонентських внесків: Lite'
+                - name: Налаштування розкладу абонентських внесків
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: 'Створення несистемного авансового платежу для сервісного договору: Lite'
+                - name: Створення несистемного авансового платежу для сервісного договору
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Визначення цін і вартості
       items:
@@ -210,6 +212,8 @@
           href: project-management/copy-project.md
         - name: Планування робочої структури проекту
           items:
+            - name: Створення робочої структури проекту
+              href: project-management/create-wbs.md
             - name: Створення призначень
               href: project-management/create-assignments.md
         - name: Оцінювальні проекти
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: Ведення учасників робочої групи
               href: project-management/maintain-team-members.md
+        - name: Усунення проблем із роботою в сітці завдань
+          href: project-management/projectplanningUIFAQ.md
         - name: Співпраця
           items:
             - name: Співпраця з Групами Office
@@ -260,8 +266,10 @@
               href: resource-management/submit-resource-requirements.md
             - name: Резервування для проекту
               href: resource-management/book-project.md
-            - name: Перевірка пропонованих ресурсів
+            - name: 'Перевірка ресурсів, що пропонуються'
               href: resource-management/review-proposed-resources.md
+            - name: Редагування резервувань
+              href: resource-management/edit-existing-bookings.md
         - name: Децентралізоване резервування ресурсів (гібридне)
           items:
             - name: Додавання учасників робочої групи із сітки учасників робочої групи
@@ -326,6 +334,8 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: Налаштування категорій витрат
                   href: expense/set-up-expense-categories.md
+            - name: Робота з особистими витратами у звіті про витрати
+              href: expense/personal-expenses-expense-report.md
             - name: Створення звітів про витрати
               items:
                 - name: Розподілення у звіті про витрати
@@ -370,22 +380,28 @@
           items:
             - name: Створення та підтвердження журналів виправлень
               href: actuals/create-confirm-correction-journals.md
-    - name: Виставлення рахунків-проформ
+    - name: Виставлення рахунків
       items:
-        - name: Керування невиконаними завданнями із виставлення рахунків для проектів
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: Керування станом і перевірками граничних обмежень
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: Створення рахунка-проформи проекту вручну
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: Керування рахунком-проформою проекту
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: Рахунок-фактура для авансового платежу або абонентського внеску
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: Підтвердження рахунка-проформи проекту
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: Налаштування автоматизації виставлення рахунків за проектом
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: Огляд виставлення рахунків
+          href: invoicing/post-project-invoices.md
+        - name: Керування пропозиціями щодо рахунків із проекту
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Виставлення рахунків-проформ
+          items:
+            - name: Керування невиконаними завданнями з виставлення рахунків для проектів
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: Керування станом і перевірками граничних обмежень
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: Створення рахунка-проформи проекту вручну
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: Керування рахунком-проформою проекту
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: Рахунок-фактура для авансового платежу або абонентського внеску
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: Підтвердження рахунка-проформи проекту
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: Налаштування автоматизації виставлення рахунків за проектом
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Бухгалтерський облік проектів
       items:
         - name: Стандартні значення фінансових аналітик
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: Налаштування внутрішнього виставлення рахунків
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: Створення внутрішнього виставлення рахунків клієнтів і постачальників
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: Створення внутрішніх транзакцій
               href: project-accounting/create-intercompany-transactions.md
+            - name: Створення внутрішніх рахунків для клієнтів і постачальників
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Визнання доходу
       items:
         - name: Огляд визнання доходу
@@ -418,15 +434,15 @@
               href: project-accounting/period-types.md
             - name: Налаштування шаблонів витрат
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: Керування прогнозами прибутків
-          href: revenue-recognition/rev-rec-completed-contract-method.md
-        - name: Проекти прогнозування прибутків з фіксованою ціною
+        - name: Проекти прогнозування доходу з фіксованою ціною
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: 'Методи обчислення витрат, необхідних для завершення'
           href: revenue-recognition/cost-complete-methods.md
+        - name: Керування прогнозами доходу
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: 'Розгортання Lite: від угоди до рахунків-проформ'
   items:
-    - name: Почати
+    - name: Початок роботи
       items:
         - name: Огляд розгортання Lite
           href: pro/project-operations-overview-lite.md
@@ -440,15 +456,19 @@
           href: environment/security-model.md
     - name: Що нового
       items:
-        - name: 'Нові можливості в грудні 2020: розгортання Lite від угоди до рахунків-проформ'
+        - name: "Що нового в лютому 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: "Що нового в січні 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: "Що нового в грудні 2020\_р.: розгортання Lite"
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: 'Нові можливості в листопаді 2020: розгортання Lite від угоди до рахунків-проформ'
+        - name: "Що нового в листопаді 2020\_р.: розгортання Lite"
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Процес збуту за проектом
       items:
         - name: Огляд процесу збуту за проектом
           href: sales/sales-overview.md
-        - name: Настроювання
+        - name: Налаштування
           items:
             - name: Продукти
               href: sales/sales-products.md
@@ -636,6 +656,8 @@
           href: project-management/copy-project.md
         - name: Планування робочої структури проекту
           items:
+            - name: Створення робочої структури проекту
+              href: project-management/create-wbs.md
             - name: Створення призначень
               href: project-management/create-assignments.md
         - name: Оцінювальні проекти
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: Ведення учасників робочої групи
               href: project-management/maintain-team-members.md
+        - name: Усунення проблем із роботою в сітці завдань
+          href: project-management/projectplanningUIFAQ.md
         - name: Співпраця
           items:
             - name: Співпраця з Групами Office
               href: project-management/collaboration-groups.md
+        - name: Нотатки для розробників
+          items:
+            - name: Розробка шаблонів проектів за допомогою функції копіювання проектів
+              href: project-management/dev-copy-project.md
     - name: Керування ресурсами
       items:
         - name: Основні поняття
@@ -682,8 +710,10 @@
               href: resource-management/submit-resource-requirements.md
             - name: Резервування для проекту
               href: resource-management/book-project.md
-            - name: Перевірка пропонованих ресурсів
+            - name: 'Перевірка ресурсів, що пропонуються'
               href: resource-management/review-proposed-resources.md
+            - name: Редагування резервувань
+              href: resource-management/edit-existing-bookings.md
         - name: Децентралізоване резервування ресурсів (гібридне)
           items:
             - name: Додавання учасників робочої групи із сітки учасників робочої групи
@@ -772,7 +802,11 @@
   items:
     - name: Що нового
       items:
-        - name: 'Нові можливості в листопаді 2020: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами'
+        - name: "Що нового в січні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: "Що нового в грудні 2020\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+        - name: "Що нового в листопаді 2020\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Огляд розгортання Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
       href: prod-pma/project-operations-prod-order-deployment-overview.md
@@ -906,6 +940,14 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни в поточних виправленнях випуску оновлень 28.5, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'Нові можливості або зміни у випуску оновлень 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'Нові можливості або зміни в поточних виправленнях випуску оновлень 27.5, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'Нові можливості або зміни у випуску оновлень 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'Нові можливості або зміни у випуску оновлень 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'Нові можливості або зміни у випуску оновлень 25, V3'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'Нові можливості або зміни у випуску оновлень 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: "Нові можливості або зміни в Project Service Automation V3.x хвилі 1 2021\_р."
+          href: psa/whats-new-2021-wave1.md
         - name: "Нові можливості або зміни в Project Service Automation V3.x хвилі 1 2020\_р."
           href: psa/whats-new-v3-2020-wave1.md
         - name: Нові можливості або зміни в Project Service Automation V3
@@ -992,6 +1036,8 @@
               href: psa/project-stages.md
             - name: Параметри проектів
               href: psa/project-settings.md
+            - name: Планування роботи в Microsoft Project за допомогою надбудови Project Service
+              href: psa/add-in-plan-work-projects.md
         - name: Виміри визначення цін і витрат
           items:
             - name: Домашня сторінка вимірів визначення цін і витрат
