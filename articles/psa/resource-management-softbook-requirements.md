@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124123"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147411"
 ---
 # <a name="soft-book-requirements"></a>Вимоги щодо попередніх резервувань
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Вимоги до ресурсів можуть бути остаточно заброньовані. В остаточному бронюванні буде створено пропозицію, яка споживає виробничу спроможність ресурсу. Після цього пропозицію буде надіслано до заявника на затвердження. Попереднє резервування попередньо додає ресурс робочій групі і має інший статус на панелі розкладів та не споживає виробничу спроможність ресурсу. Щоб попередньо забронювати ресурс з панелі розкладів, установіть поле **Стан резервування** у значення **Попередньо**.
 
