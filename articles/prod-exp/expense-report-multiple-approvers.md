@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b6d07f00fd6c1ba2d860787665d95f95f7b1a89
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086872"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960632"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>Кілька затверджувачів для звіту про витрати
-
-[!include [banner](../includes/banner.md)]
 
 Залежно від політик затвердження витрат організації, може вимагатися затвердження поданого працівником звіту про витрати більш ніж однією особою. Під час настройки процесу робочого циклу для затвердження звітів про витрати можна додати елементи робочого циклу, які міститимуть завдання або кроки для однієї або кількох осіб, що затверджують звіти про витрати. Наприклад, можна вимагати, щоб усі звіти про витрати були схвалені спочатку керівником працівника, який подає звіт, а потім координатором рахунків до сплати.
 
