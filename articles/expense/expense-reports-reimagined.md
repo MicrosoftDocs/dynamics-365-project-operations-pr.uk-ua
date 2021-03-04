@@ -78,3 +78,6 @@ ms.locfileid: "4122834"
 - Робочий цикл на рівні позиції
 - Підтримка проміжного затверджувача
 - Додаткова деталізація
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

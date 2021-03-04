@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Project Service Automation дає змогу органі
 - [Робота з моделлю даних Project Service](reports-working-project-service-data-model.md)
 - [Приладні дошки](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

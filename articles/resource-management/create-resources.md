@@ -20,3 +20,6 @@ ms.locfileid: "4514602"
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
 Dynamics 365 Field Service можна використовувати, щоб створювати ресурси для використання в середовищі Dynamics 365 Project Operations. Щоб створити ці ресурси, див. розділ [Настроювання ресурсів, доступних для резервування](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

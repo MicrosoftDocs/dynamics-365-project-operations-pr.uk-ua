@@ -82,3 +82,6 @@ PSA перевіряє, щоб лише числові властивості а
 
 > ![Позначте кількість користувачів і кількість місяців як фактори кількості.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

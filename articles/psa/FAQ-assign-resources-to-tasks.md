@@ -82,3 +82,6 @@ ms.locfileid: "5150018"
 
 3. Виберіть ресурс, який потрібно призначити на завдання.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

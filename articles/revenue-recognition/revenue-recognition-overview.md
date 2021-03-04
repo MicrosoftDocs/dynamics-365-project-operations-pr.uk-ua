@@ -60,3 +60,6 @@ _**Застосовується до:** Project Operations для сценарі
 [Керування прогнозами прибутків](rev-rec-completed-contract-method.md)
 
 [Методи обчислення витрат, необхідних для завершення](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "5147363"
  [Посібник керівника обліковими записами](../psa/account-manager-guide.md)   
  [Провідник керування проектом](../psa/project-manager-guide.md)   
  [Провідник по часу, витратах та співпраці](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

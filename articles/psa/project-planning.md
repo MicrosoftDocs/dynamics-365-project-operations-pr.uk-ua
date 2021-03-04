@@ -52,3 +52,6 @@ Dynamics 365 Project Service Automation надає підтримку для о�
 - [Шаблони проекту](project-templates.md)
 - [Стадії проекту](project-stages.md)
 - [Настройки проекту](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

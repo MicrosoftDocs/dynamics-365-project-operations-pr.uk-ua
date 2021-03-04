@@ -209,3 +209,6 @@ _**Застосовується до:** Project Operations для сценарі
 
 
 Середовище Project Operations тепер підготовано та налаштовано. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

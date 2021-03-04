@@ -106,3 +106,6 @@ ms.locfileid: "5151458"
 
 8. Повторіть кроки 1 – 7 для другого компонента plug-in.
 9. Закрийте PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

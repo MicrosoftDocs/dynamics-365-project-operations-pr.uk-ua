@@ -55,3 +55,6 @@ ms.locfileid: "4086702"
 - [Ефективність планування ресурсів проекту](project-scheduling-performance.md)
 - [Налаштування ролей у шаблонах робочої структури проекту](set-up-roles-wbs-template.md)
 - [Заповнення ресурсів для запланованих ресурсів](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

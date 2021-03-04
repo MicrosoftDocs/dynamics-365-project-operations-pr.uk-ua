@@ -83,3 +83,6 @@ ms.locfileid: "5150468"
   
 ### <a name="additional-resources"></a>Додаткові ресурси  
  [Посібник керівника ресурсами](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

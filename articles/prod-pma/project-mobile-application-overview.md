@@ -49,3 +49,6 @@ My timesheets (оптимізовано для мобільних пристро
 - [Робоча область Project Time Entry]( project-time-entry-mobile-workspace.md)
 - [Табелі проектів на мобільному пристрої](Mobile-timesheets.md)
 - [Використовуйте настроювані поля в програмі для мобільних пристроїв Microsoft Dynamics 365 Project Timesheet на iOS і Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

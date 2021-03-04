@@ -79,3 +79,6 @@ _**Застосовується до:** Project Operations для сценарі
 7. Щоб закрити діалогове вікно, натисніть кнопку **ОК**, а потім виберіть **Оновити крок**.
 8. Повторіть кроки 1 – 7 для другого компонента plug-in.
 9. Закрийте **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

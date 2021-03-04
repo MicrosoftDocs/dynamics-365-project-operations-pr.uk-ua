@@ -297,3 +297,6 @@ ms.locfileid: "5144528"
 
 > [!div class="mx-imgBorder"]
 > ![Знімок екрану активних резервних ресурсів](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ ms.locfileid: "5147498"
 > ![Визначені мінімальні та максимальні оцінки](media/Resource-Management-image85.png)
 
 Ці значення оцінювання відображаються у **Вимогах до ресурсів**, **Панелі розкладів** і **Помічнику з планування**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

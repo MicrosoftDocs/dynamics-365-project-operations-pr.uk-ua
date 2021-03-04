@@ -96,3 +96,6 @@ Dynamics 365 Project Service Automation покладається на поле *
     ```
 
 6. Збережіть та опублікуйте настроювання.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ ms.locfileid: "5149883"
   
 ### <a name="see-also"></a>Статті за темою  
  [Провідник керування ресурсами](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

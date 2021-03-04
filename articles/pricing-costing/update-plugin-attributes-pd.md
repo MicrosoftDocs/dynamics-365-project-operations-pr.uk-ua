@@ -52,3 +52,6 @@ ms.locfileid: "4643243"
 7. Щоб закрити сторінку, виберіть **ОК**, а потім виберіть **Оновити крок**.
 8. Повторіть кроки 2—7 для другого компонента plug-in, **PreOperationQuoteLineDetail**. Для цього компонента plug-in необхідно оновити крок **Оновити msdyn_quotelinetransaction**.
 9. Закрийте засіб **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

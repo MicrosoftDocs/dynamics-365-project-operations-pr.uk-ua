@@ -70,3 +70,6 @@ _**Застосовується до:** Project Operations для сценарі
 Передплату на Azure успішно підключено. Тепер можна розгортати хмарні середовища Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

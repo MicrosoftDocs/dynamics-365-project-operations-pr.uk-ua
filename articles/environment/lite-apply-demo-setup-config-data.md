@@ -74,3 +74,6 @@ _**Розгортання Lite: від угоди до рахунків-проф
     -   Характеристика планованого ресурсу
 
     ![Завершення імпорту](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

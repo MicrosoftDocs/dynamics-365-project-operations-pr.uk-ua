@@ -42,3 +42,6 @@ ms.locfileid: "5146643"
 
 - Зниження продуктивності під час пошуку допомоги з розкладом
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

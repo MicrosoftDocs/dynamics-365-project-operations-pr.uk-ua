@@ -55,3 +55,6 @@ _**Застосовується до:** Розгортання Lite: від уг
 ## <a name="see-also"></a>Статті за темою:
 
 - [Огляд затверджень](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Dynamics 365 Project Operations складається з двох компон�
 | --- | --- |
 | 10.0.17 | 19 березня 2021 |
 | 10.0.18 | 16 квітня 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

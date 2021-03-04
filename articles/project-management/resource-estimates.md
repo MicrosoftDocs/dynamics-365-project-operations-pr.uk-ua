@@ -34,3 +34,6 @@ _**Застосовується до:** Project Operations для сценарі
 1. Організація
 2. Клієнт
 3. Цінова пропозиція/сервісний договір
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "5144888"
 > ![Приклад даних для сутності стандартної посади ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

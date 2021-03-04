@@ -125,3 +125,6 @@ _**Застосовується до:** Project Operations для сценарі
  
  ![Синхронізація зіставлення Ledger](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

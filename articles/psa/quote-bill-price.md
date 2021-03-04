@@ -44,3 +44,6 @@ ms.locfileid: "5147902"
 - [Одиниці вимірювання та їх групи](advanced-units.md)
 - [Грошові одиниці з кількома валютами](advanced-currency.md)
 - [Запис фактичних даних](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

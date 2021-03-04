@@ -42,3 +42,6 @@ Microsoft Dynamics 365 Project Operations поєднує збут, роботу 
 - [Огляд Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Огляд першої хвилі оновлень Dynamics 365 Project Operations 2020 за 2020 р](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

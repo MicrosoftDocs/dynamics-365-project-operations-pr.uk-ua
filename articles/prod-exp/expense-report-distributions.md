@@ -37,3 +37,6 @@ ms.locfileid: "4960767"
 |Готель         |725 євро              |557 євро                        |168 євро                          |
 |Харчування         |346 євро              |284 євро                        |62 євро                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

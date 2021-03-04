@@ -37,3 +37,6 @@ ms.locfileid: "5144708"
   
 ### <a name="see-also"></a>Статті за темою  
  [Настроювання Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

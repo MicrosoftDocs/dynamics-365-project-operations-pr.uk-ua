@@ -107,3 +107,6 @@ ms.locfileid: "5147882"
 Нижче зображено зміни, які виникають для затверджених записів витрат, коли вони відкликані.
 
 ![Переходи станів записів витрат](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

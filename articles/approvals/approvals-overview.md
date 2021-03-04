@@ -59,3 +59,6 @@ _**Застосовується до:** Project Operations для сценарі
 3. Виберіть **Зберегти**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

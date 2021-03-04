@@ -49,3 +49,6 @@ ms.locfileid: "4086694"
     | Дата завершення    | Введіть дату завершення для процесу синхронізації для зведення з ресурсів. |
 
 [![Процес синхронізації](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

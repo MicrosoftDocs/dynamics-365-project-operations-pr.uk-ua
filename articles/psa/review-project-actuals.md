@@ -35,3 +35,6 @@ ms.locfileid: "5146868"
   
 ### <a name="see-also"></a>Статті за темою  
  [Посібник керування проектом](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

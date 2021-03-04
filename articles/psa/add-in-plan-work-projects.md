@@ -242,3 +242,6 @@ ms.locfileid: "5145968"
 
 ### <a name="additional-resources"></a>Додаткові ресурси
  [Провідник керування проектом](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

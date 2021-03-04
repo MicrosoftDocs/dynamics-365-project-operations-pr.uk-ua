@@ -57,3 +57,6 @@ ms.locfileid: "4086854"
 
 > [!NOTE]
 > Не можна змінювати цінову пропозицію після того, як її стан буде змінено на **Надіслано**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

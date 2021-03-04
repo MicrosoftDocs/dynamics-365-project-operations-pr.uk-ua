@@ -170,3 +170,6 @@ ms.locfileid: "4086844"
 [![Зіставлення шаблону оціночних транзакцій за витратами](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Зіставлення шаблону орієнтовних показників витрат](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

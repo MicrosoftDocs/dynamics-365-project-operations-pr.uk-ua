@@ -20,3 +20,6 @@ ms.locfileid: "4514603"
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
 Можна скористатися функціями, наданими Universal Resource Scheduling для Dynamics 365 Field Service, щоб налаштувати стани резервування для організації. Відомості про те, як виконати це налаштування, див. розділ [Настроювання станів резервування](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

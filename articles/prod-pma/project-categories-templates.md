@@ -124,3 +124,6 @@ ms.locfileid: "4086855"
 > У зіставленні показано інформацію поля, яку буде синхронізовано з Project Service Automation до Finance.
 
 [![Зіставлення шаблонів Project Service Automation до Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

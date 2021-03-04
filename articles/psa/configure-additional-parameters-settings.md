@@ -67,3 +67,6 @@ ms.locfileid: "5151593"
 
 ### <a name="see-also"></a>Статті за темою  
  [Налаштувати ресурси](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

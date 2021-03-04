@@ -105,3 +105,6 @@ ms.locfileid: "5148218"
  [Огляд Project Service](../psa/overview.md)   
  [Провідник по часу, витратах та співпраці](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

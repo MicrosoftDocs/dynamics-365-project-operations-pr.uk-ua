@@ -43,3 +43,6 @@ Dynamics 365 Project Operations використовує такий потік �
 - [Налаштування внутрішнього виставлення рахунків](configure-intercompany-invoicing.md)
 - [Запис внутрішніх транзакцій](create-intercompany-transactions.md)
 - [Створення внутрішнього виставлення рахунків клієнтів і постачальників](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

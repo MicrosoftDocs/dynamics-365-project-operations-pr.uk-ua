@@ -68,3 +68,6 @@ ms.locfileid: "5147093"
 
 9. Закрийте інструмент реєстрації компонента plug-in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

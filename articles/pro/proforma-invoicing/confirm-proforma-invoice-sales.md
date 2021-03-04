@@ -273,3 +273,6 @@ _**Застосовується до:** розгортання Lite: від уг
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

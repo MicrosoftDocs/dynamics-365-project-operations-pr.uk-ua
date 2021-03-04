@@ -41,3 +41,6 @@ ms.locfileid: "5147588"
 - [Вимоги щодо попередніх резервувань](resource-management-softbook-requirements.md)
 - [Моделі навичок та професійних компетенцій](resource-management-skills-proficiency.md)
 - [Запитання та відповіді щодо керування ресурсами](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

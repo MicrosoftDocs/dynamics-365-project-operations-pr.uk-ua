@@ -36,3 +36,6 @@ ms.locfileid: "5149253"
   
 ### <a name="see-also"></a>Див. також  
  [Провідник по часу, витратах та співпраці](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ ms.locfileid: "5150153"
  [Провідник керування обліковими записами](../psa/account-manager-guide.md)   
  [Провідник керування проектом](../psa/project-manager-guide.md)   
  [Провідник керування ресурсами](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

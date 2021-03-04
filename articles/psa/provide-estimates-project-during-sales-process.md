@@ -54,3 +54,6 @@ ms.locfileid: "5147993"
   
 ### <a name="see-also"></a>Див. також  
  [Провідник керування проектом](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

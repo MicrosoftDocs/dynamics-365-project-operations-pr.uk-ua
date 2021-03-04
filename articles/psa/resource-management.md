@@ -53,3 +53,6 @@ ms.locfileid: "5147453"
 - [Зарезервуйте названі ресурси із вимог ресурсів](book-named-resource.md)
 - [Надіслати запит на ресурс](submit-resource-request.md)
 - [Приймання або відхилення запропонованого ресурсу проекту із запиту ресурсу](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

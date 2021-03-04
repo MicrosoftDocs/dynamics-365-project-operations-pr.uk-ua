@@ -48,3 +48,6 @@ Dynamics 365 Project Operations підтримує два режими для
 Резервування ресурсу з вимоги до ресурсів:
 - [Призначення загальних доступних для резервування ресурсів завданню та створення вимог до ресурсів](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Резервування іменованих ресурсів із вимог до ресурсів](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

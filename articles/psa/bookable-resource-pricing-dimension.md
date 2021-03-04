@@ -76,3 +76,6 @@ ms.locfileid: "5145023"
 5. Додайте **msdyn_projectteam** до поля **Логічне ім’я сутності** та **msdyn_bookableresourceid** до поля **Ім'я поля**. Збережіть запис.
 
  ![Форма нового імені поля критерію ціноутворення](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

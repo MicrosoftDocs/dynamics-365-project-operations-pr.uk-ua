@@ -64,3 +64,6 @@ ms.locfileid: "4086775"
 32. У полі **Ціноутворення** введіть цифру.
 33. Виберіть **Зберегти**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

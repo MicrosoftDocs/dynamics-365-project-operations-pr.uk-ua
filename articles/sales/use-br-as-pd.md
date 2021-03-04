@@ -78,3 +78,6 @@ ms.locfileid: "4643108"
 5. Додайте **msdyn_bookableresourceid** до **Імені поля**.
 
  ![Форма нового імені поля критерію ціноутворення](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

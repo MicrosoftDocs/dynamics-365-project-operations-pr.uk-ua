@@ -91,3 +91,6 @@ ms.locfileid: "5146553"
 
 4. Тепер, коли ресурс зарезервовано, треба призначити завдання вручну.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

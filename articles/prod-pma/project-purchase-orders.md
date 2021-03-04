@@ -76,3 +76,6 @@ ms.locfileid: "4086704"
 
 Докладніше див. у розділі [Отримання предметів за замовленням на придбання на основі вимоги щодо закупівлі предмета](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

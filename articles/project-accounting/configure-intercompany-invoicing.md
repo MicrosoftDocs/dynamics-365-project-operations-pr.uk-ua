@@ -101,3 +101,6 @@ _**Застосовується до:** Project Operations для сценарі
           - **Компанія, яка надає ресурс** = **Contoso Robotics UK**
           - **Ставка** = **200 USD**
       9. Відкрийте меню **Збут** > **Сервісний договір проекту** і додайте прайс **Ставки Adventure Works** до прайсу проекту Adventure Works сервісного договору.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

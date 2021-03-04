@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. Програма намагається помістити категорію за замовчуванням із ресурсу проекту. Ця категорія за замовчуванням встановлюється в методах **getCurrentUserResource** та **getDelegatedResourcesForCurrentUser** у класі **TSTimesheetSettingsService**.
 2. Якщо категорія за замовчуванням не надається на рівні ресурсу проекту, програма намагається витягнути її з дії проекту. Ця категорія за замовчуванням встановлюється у методі **getActivitiesForProject** у класі **TSTimesheetProjectService**.
 3. Якщо категорія за замовчуванням не надається на рівні дії проекту, категорія за замовчуванням береться з параметрів проекту. Ця категорія за замовчуванням встановлюється у методі **getProjectDetailsbyRule** у класі **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

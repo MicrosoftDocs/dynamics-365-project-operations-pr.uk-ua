@@ -140,3 +140,6 @@ ms.locfileid: "4086848"
 [![Зіставлення шаблону — оновлення фактичних даних](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Зіставлення шаблону — оновлення транзакцій](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

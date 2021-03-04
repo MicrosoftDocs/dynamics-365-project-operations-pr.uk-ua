@@ -39,3 +39,6 @@ ms.locfileid: "4086693"
 10. Натисніть кнопку OK. 
 
 Після цього кроку кредитове авізо буде доступним для планування рахунка.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

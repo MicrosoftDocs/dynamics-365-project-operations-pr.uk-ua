@@ -134,3 +134,6 @@ _**Застосовується до:** Project Operations для сценарі
 13. Виберіть **Зберегти**. 
 
 ![Оновлені параметри проекту](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

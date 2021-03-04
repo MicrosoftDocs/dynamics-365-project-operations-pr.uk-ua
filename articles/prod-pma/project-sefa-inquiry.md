@@ -104,3 +104,6 @@ ms.locfileid: "4086700"
 - Каталог федеральної підтримки
 - Підтвердження
 - Видатки
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

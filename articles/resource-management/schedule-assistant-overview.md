@@ -57,3 +57,6 @@ _**Застосовується до:** Project Operations для сценарі
 -   Компанія, яка надає ресурс
 -   Типи ресурсів
 -   Рекомендовані ресурси
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

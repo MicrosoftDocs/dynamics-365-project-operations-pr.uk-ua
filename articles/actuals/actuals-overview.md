@@ -342,3 +342,6 @@ Project Operations записує фінансові транзакції, що 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

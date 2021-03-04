@@ -44,3 +44,6 @@ Dynamics 365 Project Operations підтримує можливість обро
 
 ## <a name="determine-your-expense-deployment"></a>Визначення вашого розгортання витрат
 Щоб переконатись, що використовується базове розгортання керування витратами, перевірте, що URL-адреса закінчується на **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

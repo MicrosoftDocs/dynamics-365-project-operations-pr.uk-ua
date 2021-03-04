@@ -113,3 +113,6 @@ ms.locfileid: "4086742"
 Докладніше див. у розділі [Настроювання внутрішнього виставлення рахунків за проектами](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

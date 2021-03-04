@@ -47,3 +47,6 @@ ms.locfileid: "5144843"
   
 ### <a name="see-also"></a>Див. також  
  [Провідник керування обліковими записами](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
