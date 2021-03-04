@@ -3,48 +3,112 @@ title: Розробка шаблонів проектів за допомого�
 description: У цьому розділі наведено відомості про створення шаблонів проектів за допомогою настроюваної дії «Копіювати проект».
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642433"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045034"
 ---
-# <a name="develop-project-templates-with-copy-project"></a><span data-ttu-id="319ca-103">Розробка шаблонів проектів за допомогою функції копіювання проектів</span><span class="sxs-lookup"><span data-stu-id="319ca-103">Develop project templates with Copy Project</span></span>
+# <a name="develop-project-templates-with-copy-project"></a><span data-ttu-id="69ec5-103">Розробка шаблонів проектів за допомогою функції копіювання проектів</span><span class="sxs-lookup"><span data-stu-id="69ec5-103">Develop project templates with Copy Project</span></span>
 
-<span data-ttu-id="319ca-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_</span><span class="sxs-lookup"><span data-stu-id="319ca-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="69ec5-104">_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_</span><span class="sxs-lookup"><span data-stu-id="69ec5-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="319ca-105">Dynamics 365 Project Operations підтримує можливість копіювання проекту та повернення будь-яких призначень до загальних ресурсів, які представляють роль.</span><span class="sxs-lookup"><span data-stu-id="319ca-105">Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role.</span></span> <span data-ttu-id="319ca-106">Клієнти можуть використовувати цю функцію для створення базових шаблонів проекту.</span><span class="sxs-lookup"><span data-stu-id="319ca-106">Customers can use this functionality to build basic project templates.</span></span>
+<span data-ttu-id="69ec5-105">Dynamics 365 Project Operations підтримує можливість копіювання проекту та повернення будь-яких призначень до загальних ресурсів, які представляють роль.</span><span class="sxs-lookup"><span data-stu-id="69ec5-105">Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role.</span></span> <span data-ttu-id="69ec5-106">Клієнти можуть використовувати цю функцію для створення базових шаблонів проекту.</span><span class="sxs-lookup"><span data-stu-id="69ec5-106">Customers can use this functionality to build basic project templates.</span></span>
 
-<span data-ttu-id="319ca-107">Якщо вибрати **Копіювати проект**, стан кінцевого проекту буде змінено.</span><span class="sxs-lookup"><span data-stu-id="319ca-107">When you select **Copy Project**, the status of the target project is updated.</span></span> <span data-ttu-id="319ca-108">Використовуйте **Причину стану**, щоб визначити, що дію копіювання завершено.</span><span class="sxs-lookup"><span data-stu-id="319ca-108">Use **Status Reason** to determine when the copy action is complete.</span></span> <span data-ttu-id="319ca-109">При виборі **Копіювати проект** дата початку проекту зазначається як поточна дата, якщо у кінцевій сутності проекту не вдається визначити дату.</span><span class="sxs-lookup"><span data-stu-id="319ca-109">Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.</span></span>
+<span data-ttu-id="69ec5-107">Якщо вибрати **Копіювати проект**, стан кінцевого проекту буде змінено.</span><span class="sxs-lookup"><span data-stu-id="69ec5-107">When you select **Copy Project**, the status of the target project is updated.</span></span> <span data-ttu-id="69ec5-108">Використовуйте **Причину стану**, щоб визначити, що дію копіювання завершено.</span><span class="sxs-lookup"><span data-stu-id="69ec5-108">Use **Status Reason** to determine when the copy action is complete.</span></span> <span data-ttu-id="69ec5-109">При виборі **Копіювати проект** дата початку проекту зазначається як поточна дата, якщо у кінцевій сутності проекту не вдається визначити дату.</span><span class="sxs-lookup"><span data-stu-id="69ec5-109">Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.</span></span>
 
-## <a name="copy-project-custom-action"></a><span data-ttu-id="319ca-110">Настроювана дія «Копіювати проект»</span><span class="sxs-lookup"><span data-stu-id="319ca-110">Copy Project custom action</span></span> 
+## <a name="copy-project-custom-action"></a><span data-ttu-id="69ec5-110">Настроювана дія «Копіювати проект»</span><span class="sxs-lookup"><span data-stu-id="69ec5-110">Copy Project custom action</span></span> 
 
-### <a name="name"></a><span data-ttu-id="319ca-111">Ім'я</span><span class="sxs-lookup"><span data-stu-id="319ca-111">Name</span></span> 
+### <a name="name"></a><span data-ttu-id="69ec5-111">Ім'я</span><span class="sxs-lookup"><span data-stu-id="69ec5-111">Name</span></span> 
 
-<span data-ttu-id="319ca-112">**msdyn_CopyProjectV2**</span><span class="sxs-lookup"><span data-stu-id="319ca-112">**msdyn_CopyProjectV2**</span></span>
+<span data-ttu-id="69ec5-112">**msdyn_CopyProjectV2**</span><span class="sxs-lookup"><span data-stu-id="69ec5-112">**msdyn_CopyProjectV2**</span></span>
 
-### <a name="input-parameters"></a><span data-ttu-id="319ca-113">Вхідні параметри</span><span class="sxs-lookup"><span data-stu-id="319ca-113">Input parameters</span></span>
-<span data-ttu-id="319ca-114">Існує три вхідних параметри.</span><span class="sxs-lookup"><span data-stu-id="319ca-114">There are three input parameters:</span></span>
+### <a name="input-parameters"></a><span data-ttu-id="69ec5-113">Вхідні параметри</span><span class="sxs-lookup"><span data-stu-id="69ec5-113">Input parameters</span></span>
+<span data-ttu-id="69ec5-114">Існує три вхідних параметри.</span><span class="sxs-lookup"><span data-stu-id="69ec5-114">There are three input parameters:</span></span>
 
-| <span data-ttu-id="319ca-115">Параметр</span><span class="sxs-lookup"><span data-stu-id="319ca-115">Parameter</span></span>          | <span data-ttu-id="319ca-116">Ввести</span><span class="sxs-lookup"><span data-stu-id="319ca-116">Type</span></span>   | <span data-ttu-id="319ca-117">Значення</span><span class="sxs-lookup"><span data-stu-id="319ca-117">Values</span></span>                                                   | 
+| <span data-ttu-id="69ec5-115">Параметр</span><span class="sxs-lookup"><span data-stu-id="69ec5-115">Parameter</span></span>          | <span data-ttu-id="69ec5-116">Ввести</span><span class="sxs-lookup"><span data-stu-id="69ec5-116">Type</span></span>   | <span data-ttu-id="69ec5-117">Значення</span><span class="sxs-lookup"><span data-stu-id="69ec5-117">Values</span></span>                                                   | 
 |--------------------|--------|----------------------------------------------------------|
-| <span data-ttu-id="319ca-118">ProjectCopyOption</span><span class="sxs-lookup"><span data-stu-id="319ca-118">ProjectCopyOption</span></span>  | <span data-ttu-id="319ca-119">String</span><span class="sxs-lookup"><span data-stu-id="319ca-119">String</span></span> | <span data-ttu-id="319ca-120">**{"removeNamedResources":true}** або **{"clearTeamsAndAssignments":true}**</span><span class="sxs-lookup"><span data-stu-id="319ca-120">**{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}**</span></span> |
-| <span data-ttu-id="319ca-121">SourceProject</span><span class="sxs-lookup"><span data-stu-id="319ca-121">SourceProject</span></span>      | <span data-ttu-id="319ca-122">Посилання сутності</span><span class="sxs-lookup"><span data-stu-id="319ca-122">Entity Reference</span></span> | <span data-ttu-id="319ca-123">Вихідний проект</span><span class="sxs-lookup"><span data-stu-id="319ca-123">Source Project</span></span> |
-| <span data-ttu-id="319ca-124">Цільове значення</span><span class="sxs-lookup"><span data-stu-id="319ca-124">Target</span></span>             | <span data-ttu-id="319ca-125">Посилання сутності</span><span class="sxs-lookup"><span data-stu-id="319ca-125">Entity Reference</span></span> | <span data-ttu-id="319ca-126">Кінцевий проект</span><span class="sxs-lookup"><span data-stu-id="319ca-126">Target Project</span></span> |
+| <span data-ttu-id="69ec5-118">ProjectCopyOption</span><span class="sxs-lookup"><span data-stu-id="69ec5-118">ProjectCopyOption</span></span>  | <span data-ttu-id="69ec5-119">String</span><span class="sxs-lookup"><span data-stu-id="69ec5-119">String</span></span> | <span data-ttu-id="69ec5-120">**{"removeNamedResources":true}** або **{"clearTeamsAndAssignments":true}**</span><span class="sxs-lookup"><span data-stu-id="69ec5-120">**{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}**</span></span> |
+| <span data-ttu-id="69ec5-121">SourceProject</span><span class="sxs-lookup"><span data-stu-id="69ec5-121">SourceProject</span></span>      | <span data-ttu-id="69ec5-122">Посилання сутності</span><span class="sxs-lookup"><span data-stu-id="69ec5-122">Entity Reference</span></span> | <span data-ttu-id="69ec5-123">Вихідний проект</span><span class="sxs-lookup"><span data-stu-id="69ec5-123">Source Project</span></span> |
+| <span data-ttu-id="69ec5-124">Цільове значення</span><span class="sxs-lookup"><span data-stu-id="69ec5-124">Target</span></span>             | <span data-ttu-id="69ec5-125">Посилання сутності</span><span class="sxs-lookup"><span data-stu-id="69ec5-125">Entity Reference</span></span> | <span data-ttu-id="69ec5-126">Кінцевий проект</span><span class="sxs-lookup"><span data-stu-id="69ec5-126">Target Project</span></span> |
 
 
-- <span data-ttu-id="319ca-127">**{"clearTeamsAndAssignments":true}**: стандартна поведінка для Project для Інтернету, також видалить усі призначення та усіх учасників робочих груп.</span><span class="sxs-lookup"><span data-stu-id="319ca-127">**{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.</span></span>
-- <span data-ttu-id="319ca-128">**{"removeNamedResources":true}** Поведінка за замовчуванням для Project Operations, також поверне усі призначення універсальним ресурсам.</span><span class="sxs-lookup"><span data-stu-id="319ca-128">**{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.</span></span>
+- <span data-ttu-id="69ec5-127">**{"clearTeamsAndAssignments":true}**: стандартна поведінка для Project для Інтернету, також видалить усі призначення та усіх учасників робочих груп.</span><span class="sxs-lookup"><span data-stu-id="69ec5-127">**{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.</span></span>
+- <span data-ttu-id="69ec5-128">**{"removeNamedResources":true}** Поведінка за замовчуванням для Project Operations, також поверне усі призначення універсальним ресурсам.</span><span class="sxs-lookup"><span data-stu-id="69ec5-128">**{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.</span></span>
 
-<span data-ttu-id="319ca-129">Для отримання додаткових відомостей про дії див. [Використання дій Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span><span class="sxs-lookup"><span data-stu-id="319ca-129">For more defaults on actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span></span>
+<span data-ttu-id="69ec5-129">Для отримання додаткових відомостей про дії див. [Використання дій Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span><span class="sxs-lookup"><span data-stu-id="69ec5-129">For more defaults on actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)</span></span>
 
-## <a name="specify-fields-to-copy"></a><span data-ttu-id="319ca-130">Укажіть поля для копіювання</span><span class="sxs-lookup"><span data-stu-id="319ca-130">Specify fields to copy</span></span> 
-<span data-ttu-id="319ca-131">Після виклику дія **Копіювати проект** розгляне подання проекту **Копіювати стовпці проекту**, щоб визначити, які поля слід копіювати під час копіювання проекту.</span><span class="sxs-lookup"><span data-stu-id="319ca-131">When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.</span></span>
+## <a name="specify-fields-to-copy"></a><span data-ttu-id="69ec5-130">Укажіть поля для копіювання</span><span class="sxs-lookup"><span data-stu-id="69ec5-130">Specify fields to copy</span></span> 
+<span data-ttu-id="69ec5-131">Після виклику дія **Копіювати проект** розгляне подання проекту **Копіювати стовпці проекту**, щоб визначити, які поля слід копіювати під час копіювання проекту.</span><span class="sxs-lookup"><span data-stu-id="69ec5-131">When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.</span></span>
+
+
+### <a name="example"></a><span data-ttu-id="69ec5-132">Приклад</span><span class="sxs-lookup"><span data-stu-id="69ec5-132">Example</span></span>
+<span data-ttu-id="69ec5-133">У наведеному нижче прикладі показано, як викликати настроювану дію **CopyProject** за допомогою набору параметрів **removeNamedResources**.</span><span class="sxs-lookup"><span data-stu-id="69ec5-133">The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.</span></span>
+```C#
+{
+    using System;
+    using System.Runtime.Serialization;
+    using Microsoft.Xrm.Sdk;
+    using Newtonsoft.Json;
+
+    [DataContract]
+    public class ProjectCopyOption
+    {
+        /// <summary>
+        /// Clear teams and assignments.
+        /// </summary>
+        [DataMember(Name = "clearTeamsAndAssignments")]
+        public bool ClearTeamsAndAssignments { get; set; }
+
+        /// <summary>
+        /// Replace named resource with generic resource.
+        /// </summary>
+        [DataMember(Name = "removeNamedResources")]
+        public bool ReplaceNamedResources { get; set; }
+    }
+
+    public class CopyProjectSample
+    {
+        private IOrganizationService organizationService;
+
+        public CopyProjectSample(IOrganizationService organizationService)
+        {
+            this.organizationService = organizationService;
+        }
+
+        public void SampleRun()
+        {
+            // Example source project GUID
+            Guid sourceProjectId = new Guid("11111111-1111-1111-1111-111111111111");
+            var sourceProject = new Entity("msdyn_project", sourceProjectId);
+
+            Entity targetProject = new Entity("msdyn_project");
+            targetProject["msdyn_subject"] = "Example Project";
+            targetProject.Id = organizationService.Create(targetProject);
+
+            ProjectCopyOption copyOption = new ProjectCopyOption();
+            copyOption.ReplaceNamedResources = true;
+
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            Console.WriteLine("Done ...");
+        }
+
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        {
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            req["SourceProject"] = sourceProject;
+            req["Target"] = TargetProject;
+            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+            OrganizationResponse response = organizationService.Execute(req);
+        }
+    }
+}
+```
