@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086907"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148668"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Зміни в керуванні ресурсами (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 У розділах цієї теми наведено відомості про зміни, внесені до області керування ресурсами у Dynamics 365 Project Service Automation версії 3.x.
 
 ## <a name="project-estimates"></a>Кошторис проекту
 
-Замість того, щоб базуватися на сутності **msdyn\_projecttask** ( **Завдання проекту** ), прогнози проекту базуються на сутності **\_resourceassignment** ( **Призначення ресурсів** ). Призначення ресурсів стали "джерелом істини" для планування завдань і ціноутворення.
+Замість того, щоб базуватися на сутності **msdyn\_projecttask** (**Завдання проекту**), прогнози проекту базуються на сутності **\_resourceassignment** (**Призначення ресурсів**). Призначення ресурсів стали "джерелом істини" для планування завдань і ціноутворення.
 
 ## <a name="line-tasks"></a>Позиції завдань
 
@@ -65,7 +67,7 @@ ms.locfileid: "4086907"
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Поля планування в сутності завдання проекту
 
-Поля в сутності **msdyn\_projecttask** були вилучені або переміщені до сутності **msdyn\_resourceassignment** , або ж на них зараз створені посилання з сутності **msdyn\_projectteam** ( **Учасник робочої групи** ).
+Поля в сутності **msdyn\_projecttask** були вилучені або переміщені до сутності **msdyn\_resourceassignment**, або ж на них зараз створені посилання з сутності **msdyn\_projectteam** (**Учасник робочої групи**).
 
 | Вилучене поле в msdyn\_projecttask (завдання проекту) | Нове поле в msdyn\_resourceassignment (призначення ресурсу) | Примітка  |
 |---|---|---|
@@ -77,7 +79,7 @@ ms.locfileid: "4086907"
 
 ## <a name="schedule-contour"></a>Контур планування
 
-Контур планування зберігається в полі **Запланована робота** ( **msdyn\_plannedwork** ) кожної сутності **Призначення ресурсу** ( **msdyn\_resourceassignment** ).
+Контур планування зберігається в полі **Запланована робота** (**msdyn\_plannedwork**) кожної сутності **Призначення ресурсу** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Структура
 
@@ -139,7 +141,7 @@ ms.locfileid: "4086907"
 
 ## <a name="pricing-dimensions"></a>Критерії ціноутворення
 
-В PSA 3.x поля особливих для ресурсу критеріїв (наприклад, **Роль** і **Організаційна одиниця** ) видалено з сутності **msdyn\_projecttask**. Тепер ці поля можуть бути отримані з відповідного члена робочої групи проекту ( **msdyn\_projectteam** ) в призначенні ресурсів ( **msdyn\_resourceassignment** ), коли створюються прогнозу проекту. Нове поле **msdyn\_organizationalunit** було додано до сутності **msdyn\_projectteam**.
+В PSA 3.x поля особливих для ресурсу критеріїв (наприклад, **Роль** і **Організаційна одиниця**) видалено з сутності **msdyn\_projecttask**. Тепер ці поля можуть бути отримані з відповідного члена робочої групи проекту (**msdyn\_projectteam**) в призначенні ресурсів (**msdyn\_resourceassignment**), коли створюються прогнозу проекту. Нове поле **msdyn\_organizationalunit** було додано до сутності **msdyn\_projectteam**.
 
 | Вилучене поле в msdyn\_projecttask (завдання проекту) | Поле з msdyn\_projectteam (учасник робочої групи) використовується натомість |
 |---|---|
@@ -155,7 +157,7 @@ ms.locfileid: "4086907"
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Зазначені нижче поля додано до сутності **msdyn\_resourceassignment** :
+Зазначені нижче поля додано до сутності **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales

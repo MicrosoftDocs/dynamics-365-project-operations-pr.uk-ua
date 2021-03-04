@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086727"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148578"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Вилучені веб-ресурси в Project Service Automation 3.x
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Через новий клієнтський інтерфейс та інші зміни, внесені до рішення Dynamics 365 Project Service Automation, деякі веб-ресурси більше використовуються для цього рішення. Тому вони застаріли (вилучені) у версії 3.0.
 
