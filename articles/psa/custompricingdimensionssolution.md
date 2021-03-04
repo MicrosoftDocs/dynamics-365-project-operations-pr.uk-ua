@@ -17,51 +17,53 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086725"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144664"
 ---
-# <a name="create-custom-solutions-for-pricing-dimensions"></a><span data-ttu-id="1e4e0-103">Створення настроюваних рішень для критеріїв ціноутворення</span><span class="sxs-lookup"><span data-stu-id="1e4e0-103">Create custom solutions for pricing dimensions</span></span>
+# <a name="create-custom-solutions-for-pricing-dimensions"></a><span data-ttu-id="f028d-103">Створення настроюваних рішень для критеріїв ціноутворення</span><span class="sxs-lookup"><span data-stu-id="f028d-103">Create custom solutions for pricing dimensions</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
-> <span data-ttu-id="1e4e0-104">Усі зміни настроюваного критерію ціноутворення мають бути в окремому рішенні.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-104">All custom pricing dimension changes should be in a separate solution.</span></span> <span data-ttu-id="1e4e0-105">Це важливий та найефективніший підхід забезпечує гнучкість в майбутньому для оновлення або вилучення змін за потреби, допоможе під час повторного використання вашої роботи, а також спрощує внесення цих змін до іншої інсталяції.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-105">This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance.</span></span> <span data-ttu-id="1e4e0-106">Після внесення всіх необхідних змін експортуйте це рішення як **Кероване рішення** та імпортуйте його до інших інсталяцій, щоб повторно використати параметри ціноутворення.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-106">After you make the required changes, export this solution as a **Managed solution** , and import it into other instances to reuse your pricing setup.</span></span>
+> <span data-ttu-id="f028d-104">Усі зміни настроюваного критерію ціноутворення мають бути в окремому рішенні.</span><span class="sxs-lookup"><span data-stu-id="f028d-104">All custom pricing dimension changes should be in a separate solution.</span></span> <span data-ttu-id="f028d-105">Це важливий та найефективніший підхід забезпечує гнучкість в майбутньому для оновлення або вилучення змін за потреби, допоможе під час повторного використання вашої роботи, а також спрощує внесення цих змін до іншої інсталяції.</span><span class="sxs-lookup"><span data-stu-id="f028d-105">This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance.</span></span> <span data-ttu-id="f028d-106">Після внесення всіх необхідних змін експортуйте це рішення як **Кероване рішення** та імпортуйте його до інших інсталяцій, щоб повторно використати параметри ціноутворення.</span><span class="sxs-lookup"><span data-stu-id="f028d-106">After you make the required changes, export this solution as a **Managed solution**, and import it into other instances to reuse your pricing setup.</span></span>
 
-1. <span data-ttu-id="1e4e0-107">Виберіть **Настройки** > **Рішення** , а потім виберіть **Створити**.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-107">Select **Settings** > **Solutions** , and then select **New**.</span></span> 
-2. <span data-ttu-id="1e4e0-108">Назвіть рішення, **Критерії визначення цін \<your organization name>** , введіть решту необхідних відомостей, а тоді виберіть **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-108">Name the solution, **\<your organization name> pricing dimensions** , enter the remaining required information, and then select **Save**.</span></span>
+1. <span data-ttu-id="f028d-107">Виберіть **Настройки** > **Рішення**, а потім виберіть **Створити**.</span><span class="sxs-lookup"><span data-stu-id="f028d-107">Select **Settings** > **Solutions**, and then select **New**.</span></span> 
+2. <span data-ttu-id="f028d-108">Назвіть рішення, **Критерії визначення цін \<your organization name>**, введіть решту необхідних відомостей, а тоді виберіть **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="f028d-108">Name the solution, **\<your organization name> pricing dimensions**, enter the remaining required information, and then select **Save**.</span></span>
 
 > ![Створення настроюваного рішення для критеріїв ціноутворення](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
-## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a><span data-ttu-id="1e4e0-110">Додайте всі необхідні сутності та пов’язані компоненти до рішення критеріїв ціноутворення</span><span class="sxs-lookup"><span data-stu-id="1e4e0-110">Add all required entities and related components to the Pricing dimension solution</span></span>
-<span data-ttu-id="1e4e0-111">Для рішення ціноутворення необхідно додати такі сутності як Project Service.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-111">You will need to add the following Project Service entities to your pricing solution.</span></span> <span data-ttu-id="1e4e0-112">Виконайте кроки, указані в цій процедурі, щоб внести важливі зміни до рішення ціноутворення, щоб сутності отримали відомості про нові критерії ціноутворення.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-112">Complete the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.</span></span>
+## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a><span data-ttu-id="f028d-110">Додайте всі необхідні сутності та пов’язані компоненти до рішення критеріїв ціноутворення</span><span class="sxs-lookup"><span data-stu-id="f028d-110">Add all required entities and related components to the Pricing dimension solution</span></span>
+<span data-ttu-id="f028d-111">Для рішення ціноутворення необхідно додати такі сутності як Project Service.</span><span class="sxs-lookup"><span data-stu-id="f028d-111">You will need to add the following Project Service entities to your pricing solution.</span></span> <span data-ttu-id="f028d-112">Виконайте кроки, указані в цій процедурі, щоб внести важливі зміни до рішення ціноутворення, щоб сутності отримали відомості про нові критерії ціноутворення.</span><span class="sxs-lookup"><span data-stu-id="f028d-112">Complete the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.</span></span>
 
-1. <span data-ttu-id="1e4e0-113">Виберіть **Параметри** > **Рішення** , а тоді двічі клацніть пункт **Критерії визначення цін \<your organization name>**.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-113">Select **Settings** > **Solutions** , and then double-click **\<your organization name> pricing dimensions**.</span></span> 
-2. <span data-ttu-id="1e4e0-114">У провіднику рішень на лівій навігаційній панелі виберіть **Додати наявні** > **Сутності**.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-114">In Solution Explorer, on the left navigation pane, select **Add Existing** > **Entities**.</span></span>
-3. <span data-ttu-id="1e4e0-115">У діалоговому вікні **Компонент рішення** виберіть одну із зазначених нижче сутностей.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-115">In the **Solution Components** dialog box, select the following entities:</span></span>
+1. <span data-ttu-id="f028d-113">Виберіть **Параметри** > **Рішення**, а тоді двічі клацніть пункт **Критерії визначення цін \<your organization name>**.</span><span class="sxs-lookup"><span data-stu-id="f028d-113">Select **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.</span></span> 
+2. <span data-ttu-id="f028d-114">У провіднику рішень на лівій навігаційній панелі виберіть **Додати наявні** > **Сутності**.</span><span class="sxs-lookup"><span data-stu-id="f028d-114">In Solution Explorer, on the left navigation pane, select **Add Existing** > **Entities**.</span></span>
+3. <span data-ttu-id="f028d-115">У діалоговому вікні **Компонент рішення** виберіть одну із зазначених нижче сутностей.</span><span class="sxs-lookup"><span data-stu-id="f028d-115">In the **Solution Components** dialog box, select the following entities:</span></span>
 
-- <span data-ttu-id="1e4e0-116">Фактично</span><span class="sxs-lookup"><span data-stu-id="1e4e0-116">Actual</span></span>
-- <span data-ttu-id="1e4e0-117">Планований ресурс</span><span class="sxs-lookup"><span data-stu-id="1e4e0-117">Bookable Resource</span></span>
-- <span data-ttu-id="1e4e0-118">Позиція оцінки</span><span class="sxs-lookup"><span data-stu-id="1e4e0-118">Estimate Line</span></span>
-- <span data-ttu-id="1e4e0-119">Проектне завдання</span><span class="sxs-lookup"><span data-stu-id="1e4e0-119">Project Task</span></span>
-- <span data-ttu-id="1e4e0-120">Відомості про позиції рахунка</span><span class="sxs-lookup"><span data-stu-id="1e4e0-120">Invoice Line Detail</span></span>
-- <span data-ttu-id="1e4e0-121">Рядок у журналі</span><span class="sxs-lookup"><span data-stu-id="1e4e0-121">Journal Line</span></span>
-- <span data-ttu-id="1e4e0-122">Відомості про сервісну роботу за проектним договором</span><span class="sxs-lookup"><span data-stu-id="1e4e0-122">Project Contract Line Detail</span></span>
-- <span data-ttu-id="1e4e0-123">Учасник робочої групи проекту</span><span class="sxs-lookup"><span data-stu-id="1e4e0-123">Project Team Member</span></span>
-- <span data-ttu-id="1e4e0-124">Відомості про позицію в ціновій пропозиції</span><span class="sxs-lookup"><span data-stu-id="1e4e0-124">Quote Line Detail</span></span>
-- <span data-ttu-id="1e4e0-125">Націнка на розцінки ролі</span><span class="sxs-lookup"><span data-stu-id="1e4e0-125">Role Price Markup</span></span>
-- <span data-ttu-id="1e4e0-126">Розцінки ролі</span><span class="sxs-lookup"><span data-stu-id="1e4e0-126">Role Price</span></span> 
-- <span data-ttu-id="1e4e0-127">Запис часу</span><span class="sxs-lookup"><span data-stu-id="1e4e0-127">Time Entry</span></span> 
+- <span data-ttu-id="f028d-116">Фактично</span><span class="sxs-lookup"><span data-stu-id="f028d-116">Actual</span></span>
+- <span data-ttu-id="f028d-117">Планований ресурс</span><span class="sxs-lookup"><span data-stu-id="f028d-117">Bookable Resource</span></span>
+- <span data-ttu-id="f028d-118">Позиція оцінки</span><span class="sxs-lookup"><span data-stu-id="f028d-118">Estimate Line</span></span>
+- <span data-ttu-id="f028d-119">Проектне завдання</span><span class="sxs-lookup"><span data-stu-id="f028d-119">Project Task</span></span>
+- <span data-ttu-id="f028d-120">Відомості про позиції рахунка</span><span class="sxs-lookup"><span data-stu-id="f028d-120">Invoice Line Detail</span></span>
+- <span data-ttu-id="f028d-121">Рядок у журналі</span><span class="sxs-lookup"><span data-stu-id="f028d-121">Journal Line</span></span>
+- <span data-ttu-id="f028d-122">Відомості про сервісну роботу за проектним договором</span><span class="sxs-lookup"><span data-stu-id="f028d-122">Project Contract Line Detail</span></span>
+- <span data-ttu-id="f028d-123">Учасник робочої групи проекту</span><span class="sxs-lookup"><span data-stu-id="f028d-123">Project Team Member</span></span>
+- <span data-ttu-id="f028d-124">Відомості про позицію в ціновій пропозиції</span><span class="sxs-lookup"><span data-stu-id="f028d-124">Quote Line Detail</span></span>
+- <span data-ttu-id="f028d-125">Націнка на розцінки ролі</span><span class="sxs-lookup"><span data-stu-id="f028d-125">Role Price Markup</span></span>
+- <span data-ttu-id="f028d-126">Розцінки ролі</span><span class="sxs-lookup"><span data-stu-id="f028d-126">Role Price</span></span> 
+- <span data-ttu-id="f028d-127">Запис часу</span><span class="sxs-lookup"><span data-stu-id="f028d-127">Time Entry</span></span> 
 
 > ![Додати наявні сутності до рішення «Критерії ціноутворення»](media/Existing-entities-to-PD-solution.png)
 
 > ![Виберіть компоненти рішення](media/Dimension-Components.png)
 
 > [!NOTE]
-> <span data-ttu-id="1e4e0-130">Переконайтеся в тому, щоб включити всі форми та подання для кожної вибраної сутності.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-130">Make sure to include all forms and views for each of the entities selected.</span></span>
+> <span data-ttu-id="f028d-130">Переконайтеся в тому, щоб включити всі форми та подання для кожної вибраної сутності.</span><span class="sxs-lookup"><span data-stu-id="f028d-130">Make sure to include all forms and views for each of the entities selected.</span></span>
 
-4. <span data-ttu-id="1e4e0-131">Коли відобразиться запит на включення будь-яких залежних сутностей для вибраних сутностей, виберіть **Ні**.</span><span class="sxs-lookup"><span data-stu-id="1e4e0-131">When prompted to include any dependent entities for the selected entities, select **No**.</span></span>
+4. <span data-ttu-id="f028d-131">Коли відобразиться запит на включення будь-яких залежних сутностей для вибраних сутностей, виберіть **Ні**.</span><span class="sxs-lookup"><span data-stu-id="f028d-131">When prompted to include any dependent entities for the selected entities, select **No**.</span></span>
 
 > ![Не включати всі пов’язані компоненти](media/Do-not-include-required.png)
 
