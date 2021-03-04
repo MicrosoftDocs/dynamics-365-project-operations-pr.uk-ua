@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120253"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144438"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Резервуйте ресурс для проекту з панелі розкладів
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Крім резервування ресурсів проекту із самого проекту, можна скористатися остаточним або попереднім бронюванням ресурсів з дошки розкладів.
 
