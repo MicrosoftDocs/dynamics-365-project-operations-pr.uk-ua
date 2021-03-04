@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131406"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151638"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Методи виділення для резервувань у Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Незалежно від того, чи ви додаєте члена робочої групи безпосередньо до проекту у вкладці **Робоча група**, чи реєструєте ресурс для проекту або вимог з панелі розкладів, можна використовувати кілька способів розподілу резервування. У цій темі описано принципи кожного способу і які з них можуть призвести до надлишкового резервування ресурсів.
 
