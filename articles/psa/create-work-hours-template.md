@@ -18,50 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 54d7385a2bb161c7dd02d882090790debaef3bdb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148803"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285058"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="5eeb0-103">Створити шаблон годин роботи (Project Service)</span><span class="sxs-lookup"><span data-stu-id="5eeb0-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="69612-103">Створити шаблон годин роботи (Project Service)</span><span class="sxs-lookup"><span data-stu-id="69612-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="5eeb0-104">Перед створення розкладів проектів, потрібне настроювання календаря проекту, який визначає кількість робочих годин для розміщення на день у розкладі та будь-якого неробочого часу.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="5eeb0-105">Для цього з шаблону годин роботи, який містить детальну інформацію про робочі години на день, вихідні дні та будь-який інший неробочий час.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
+<span data-ttu-id="69612-104">Перед створення розкладів проектів, потрібне настроювання календаря проекту, який визначає кількість робочих годин для розміщення на день у розкладі та будь-якого неробочого часу.</span><span class="sxs-lookup"><span data-stu-id="69612-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="69612-105">Для цього з шаблону годин роботи, який містить детальну інформацію про робочі години на день, вихідні дні та будь-який інший неробочий час.</span><span class="sxs-lookup"><span data-stu-id="69612-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
   
- <span data-ttu-id="5eeb0-106">При створенні проекту ви пов'язуєте шаблон з календарем проекту, щоб застосовувати розклад для проекту.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
+ <span data-ttu-id="69612-106">При створенні проекту ви пов'язуєте шаблон з календарем проекту, щоб застосовувати розклад для проекту.</span><span class="sxs-lookup"><span data-stu-id="69612-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
   
- <span data-ttu-id="5eeb0-107">Є два способи якими ви можете створити шаблон годин роботи:</span><span class="sxs-lookup"><span data-stu-id="5eeb0-107">There are two ways you can create a work hours template:</span></span>  
+ <span data-ttu-id="69612-107">Є два способи якими ви можете створити шаблон годин роботи:</span><span class="sxs-lookup"><span data-stu-id="69612-107">There are two ways you can create a work hours template:</span></span>  
   
--   <span data-ttu-id="5eeb0-108">Створити шаблон робочих годин, базуючись на календарі ресурсу.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-108">Create a work hours template based on a resource’s calendar.</span></span>  
+-   <span data-ttu-id="69612-108">Створити шаблон робочих годин, базуючись на календарі ресурсу.</span><span class="sxs-lookup"><span data-stu-id="69612-108">Create a work hours template based on a resource’s calendar.</span></span>  
   
--   <span data-ttu-id="5eeb0-109">Створити новий шаблон робочих годин</span><span class="sxs-lookup"><span data-stu-id="5eeb0-109">Create a new work hours template.</span></span>  
+-   <span data-ttu-id="69612-109">Створити новий шаблон робочих годин</span><span class="sxs-lookup"><span data-stu-id="69612-109">Create a new work hours template.</span></span>  
   
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="5eeb0-110">Створення шаблону годин роботи на основі календаря ресурсу</span><span class="sxs-lookup"><span data-stu-id="5eeb0-110">To create a work hours template based on a resource’s calendar</span></span>  
+#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="69612-110">Створення шаблону годин роботи на основі календаря ресурсу</span><span class="sxs-lookup"><span data-stu-id="69612-110">To create a work hours template based on a resource’s calendar</span></span>  
   
-1.  <span data-ttu-id="5eeb0-111">Перейти до **Project Service > Ресурси**.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-111">Go to **Project Service > Resources**.</span></span>  
+1.  <span data-ttu-id="69612-111">Перейти до **Project Service > Ресурси**.</span><span class="sxs-lookup"><span data-stu-id="69612-111">Go to **Project Service > Resources**.</span></span>  
   
-2.  <span data-ttu-id="5eeb0-112">Виберіть ресурс, на якому ви хочете засновувати робочі години.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-112">Select the resource you want to base your work hours on.</span></span>  
+2.  <span data-ttu-id="69612-112">Виберіть ресурс, на якому ви хочете засновувати робочі години.</span><span class="sxs-lookup"><span data-stu-id="69612-112">Select the resource you want to base your work hours on.</span></span>  
   
-3.  <span data-ttu-id="5eeb0-113">Натисніть **Зберегти календар як**, введіть ім'я для шаблону робочих годин та натисніть **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
+3.  <span data-ttu-id="69612-113">Натисніть **Зберегти календар як**, введіть ім'я для шаблону робочих годин та натисніть **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="69612-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
   
-4.  <span data-ttu-id="5eeb0-114">Коли ви закінчили змінювати опції, натисніть **Зберегти та закрити**.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-114">When you’re done changing options, click **Save and Close**.</span></span>  
+4.  <span data-ttu-id="69612-114">Коли ви закінчили змінювати опції, натисніть **Зберегти та закрити**.</span><span class="sxs-lookup"><span data-stu-id="69612-114">When you’re done changing options, click **Save and Close**.</span></span>  
   
-5.  <span data-ttu-id="5eeb0-115">Натисніть кнопку **Зберегти** в нижньому правому куті екрана.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
+5.  <span data-ttu-id="69612-115">Натисніть кнопку **Зберегти** в нижньому правому куті екрана.</span><span class="sxs-lookup"><span data-stu-id="69612-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
   
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="5eeb0-116">Створення нового шаблону годин роботи</span><span class="sxs-lookup"><span data-stu-id="5eeb0-116">To create a new work hours template</span></span>  
+#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="69612-116">Створення нового шаблону годин роботи</span><span class="sxs-lookup"><span data-stu-id="69612-116">To create a new work hours template</span></span>  
   
-1.  <span data-ttu-id="5eeb0-117">Перейти до **Project Service > Шаблони робочих годин**.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-117">Go to **Project Service > Work Hours Templates**.</span></span>  
+1.  <span data-ttu-id="69612-117">Перейти до **Project Service > Шаблони робочих годин**.</span><span class="sxs-lookup"><span data-stu-id="69612-117">Go to **Project Service > Work Hours Templates**.</span></span>  
   
-2.  <span data-ttu-id="5eeb0-118">Натисніть **Створити**.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-118">Click **New**.</span></span>  
+2.  <span data-ttu-id="69612-118">Натисніть **Створити**.</span><span class="sxs-lookup"><span data-stu-id="69612-118">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="5eeb0-119">Введіть ім'я для шаблону робочих годин.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-119">Enter a name for the work hours template.</span></span>  
+3.  <span data-ttu-id="69612-119">Введіть ім'я для шаблону робочих годин.</span><span class="sxs-lookup"><span data-stu-id="69612-119">Enter a name for the work hours template.</span></span>  
   
-4.  <span data-ttu-id="5eeb0-120">Виберіть ресурс, щоб установити робочі години, а потім натисніть кнопку **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="5eeb0-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
+4.  <span data-ttu-id="69612-120">Виберіть ресурс, щоб установити робочі години, а потім натисніть кнопку **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="69612-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="5eeb0-121">Див. також</span><span class="sxs-lookup"><span data-stu-id="5eeb0-121">See Also</span></span>  
- [<span data-ttu-id="5eeb0-122">Налаштувати ресурси</span><span class="sxs-lookup"><span data-stu-id="5eeb0-122">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="69612-121">Див. також</span><span class="sxs-lookup"><span data-stu-id="69612-121">See Also</span></span>  
+ [<span data-ttu-id="69612-122">Налаштувати ресурси</span><span class="sxs-lookup"><span data-stu-id="69612-122">Set up resources</span></span>](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
