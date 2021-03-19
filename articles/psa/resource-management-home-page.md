@@ -18,26 +18,29 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47d8fcc8b648921df43b9c03999ed27d85823a98
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 016c1691c9005953cc24de7630436923931097e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147588"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283078"
 ---
-# <a name="resource-management-home-page"></a><span data-ttu-id="85eff-103">Головна сторінка керування ресурсами</span><span class="sxs-lookup"><span data-stu-id="85eff-103">Resource management home page</span></span>
+# <a name="resource-management-home-page"></a><span data-ttu-id="547ba-103">Головна сторінка керування ресурсами</span><span class="sxs-lookup"><span data-stu-id="547ba-103">Resource management home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="85eff-104">Ресурси є найважливішим активом організації, що базується на послугах.</span><span class="sxs-lookup"><span data-stu-id="85eff-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="85eff-105">Вміння знаходити та бронювати правильні ресурси, якщо це потрібно, а також забезпечити їх використовувати, допомагає організації досягати цілей щодо прибутків та задоволеності клієнтів.</span><span class="sxs-lookup"><span data-stu-id="85eff-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="85eff-106">Перелічені нижче теми зосереджені на можливостях керування ресурсами Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="85eff-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
+<span data-ttu-id="547ba-104">Ресурси є найважливішим активом організації, що базується на послугах.</span><span class="sxs-lookup"><span data-stu-id="547ba-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="547ba-105">Вміння знаходити та бронювати правильні ресурси, якщо це потрібно, а також забезпечити їх використовувати, допомагає організації досягати цілей щодо прибутків та задоволеності клієнтів.</span><span class="sxs-lookup"><span data-stu-id="547ba-105">The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="547ba-106">Перелічені нижче теми зосереджені на можливостях керування ресурсами Dynamics 365 Project Service Automation:</span><span class="sxs-lookup"><span data-stu-id="547ba-106">The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:</span></span>
 
-- [<span data-ttu-id="85eff-107">Керування ресурсами</span><span class="sxs-lookup"><span data-stu-id="85eff-107">Manage resources</span></span>](manage-resources.md)
-- [<span data-ttu-id="85eff-108">Ключові поняття</span><span class="sxs-lookup"><span data-stu-id="85eff-108">Key concepts</span></span>](reports-key-concepts.md)
-- [<span data-ttu-id="85eff-109">Заповнення запитів на ресурси</span><span class="sxs-lookup"><span data-stu-id="85eff-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
-- [<span data-ttu-id="85eff-110">Пропонування ресурсів</span><span class="sxs-lookup"><span data-stu-id="85eff-110">Proposing resources</span></span>](resource-management-propose-resources.md)
-- [<span data-ttu-id="85eff-111">Резервування ресурсів</span><span class="sxs-lookup"><span data-stu-id="85eff-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
-- [<span data-ttu-id="85eff-112">Вимоги щодо попередніх резервувань</span><span class="sxs-lookup"><span data-stu-id="85eff-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
-- [<span data-ttu-id="85eff-113">Моделі навичок та професійних компетенцій</span><span class="sxs-lookup"><span data-stu-id="85eff-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
-- [<span data-ttu-id="85eff-114">Запитання та відповіді щодо керування ресурсами</span><span class="sxs-lookup"><span data-stu-id="85eff-114">Resource management FAQ</span></span>](resource-management-faq.md)
+- [<span data-ttu-id="547ba-107">Керування ресурсами</span><span class="sxs-lookup"><span data-stu-id="547ba-107">Manage resources</span></span>](manage-resources.md)
+- [<span data-ttu-id="547ba-108">Ключові поняття</span><span class="sxs-lookup"><span data-stu-id="547ba-108">Key concepts</span></span>](reports-key-concepts.md)
+- [<span data-ttu-id="547ba-109">Заповнення запитів на ресурси</span><span class="sxs-lookup"><span data-stu-id="547ba-109">Fulfilling resource requests</span></span>](resource-management-fulfill-requests.md)
+- [<span data-ttu-id="547ba-110">Пропонування ресурсів</span><span class="sxs-lookup"><span data-stu-id="547ba-110">Proposing resources</span></span>](resource-management-propose-resources.md)
+- [<span data-ttu-id="547ba-111">Резервування ресурсів</span><span class="sxs-lookup"><span data-stu-id="547ba-111">Booking resources</span></span>](resource-management-book-resources-scheduleboard.md)
+- [<span data-ttu-id="547ba-112">Вимоги щодо попередніх резервувань</span><span class="sxs-lookup"><span data-stu-id="547ba-112">Soft-book requirements</span></span>](resource-management-softbook-requirements.md)
+- [<span data-ttu-id="547ba-113">Моделі навичок та професійних компетенцій</span><span class="sxs-lookup"><span data-stu-id="547ba-113">Skills and proficiency models</span></span>](resource-management-skills-proficiency.md)
+- [<span data-ttu-id="547ba-114">Запитання та відповіді щодо керування ресурсами</span><span class="sxs-lookup"><span data-stu-id="547ba-114">Resource management FAQ</span></span>](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
