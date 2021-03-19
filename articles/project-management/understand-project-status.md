@@ -1,6 +1,6 @@
 ---
 title: Розуміння стану проектів
-description: У цьому розділі наведено інформацію про стан, призначений проектам у Dynamics 365 Project Operations.
+description: У цій темі наводиться інформація про стан, який призначається проектам у Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bc5bc174518e46b32cf88ea7231bb2df10fde292
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc9b107507008fd2381d3669552d754d2c867a7f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127318"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286498"
 ---
-# <a name="understand-project-status"></a>Розуміння стану проектів
+# <a name="understand-project-status"></a>Ознайомлення зі станом проектів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 

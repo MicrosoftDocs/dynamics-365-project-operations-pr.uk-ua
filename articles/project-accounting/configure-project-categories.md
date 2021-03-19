@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131953"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287533"
 ---
 # <a name="configure-project-categories"></a>Налаштування категорій проектів
 
@@ -37,7 +37,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="shared-categories"></a>Спільні категорії
 
-Dynamics 365 використовує концепцію спільних категорій для категоризації витрат у різних програмах, наприклад Dynamics 365 Finance, Dynamics 365 Supply Chain і Dynamics 365 Project Operations. Для кожної створеної категорії транзакцій Project Operations автоматично створює чотири пов'язані спільні категорії: години, витрати, сплати та товари. Для перегляду та коригування спільних категорій відкрийте **Керування проектами та бухгалтерський облік** \> **Настройка** \> **Категорії** \> **Спільні категорії**.
+У Dynamics 365 застосовується принцип спільних категорій для класифікації витрат у різних програмах, таких як Dynamics 365 Finance, Dynamics 365 Supply Chain і Dynamics 365 Project Operations. Для кожної створеної категорії транзакцій Project Operations автоматично створює чотири пов'язані спільні категорії: години, витрати, сплати та товари. Для перегляду та коригування спільних категорій відкрийте **Керування проектами та бухгалтерський облік** \> **Настройка** \> **Категорії** \> **Спільні категорії**.
 
 ## <a name="project-categories"></a>Категорії проектів
 

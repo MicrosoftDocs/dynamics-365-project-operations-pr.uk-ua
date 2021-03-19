@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841418"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287038"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Створення робочої структури проекту (WBS)
 
@@ -92,6 +92,8 @@ ms.locfileid: "4841418"
 | На початку | Дата та час початку. |
 | Унікальне ім'я | Назва завдання. |
 | ІДЕНТИФІКАТОР | Ідентифікатор завдання в робочій структурі проекту. |
+
+Як адміністратор, ви можете визначати настроювані поля сутності завдання. Проте ці поля не можуть відображатися в сітці розкладу. Щоб переглянути свої настроювані поля, додайте їх до сторінки докладних відомостей **Завдань за проектом**.
 
 ## <a name="staffing-attributes"></a>Атрибути кадрового обслуговування
 
