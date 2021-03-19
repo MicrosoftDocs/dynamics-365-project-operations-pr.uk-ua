@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 429c289c4ec653b81a1c5302b788db8c8ad26d8c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8241e74e8d9fb5a748bedbd5e913adea0bafa450
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086858"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271153"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Табелі проектів на мобільному пристрої
 
@@ -49,7 +49,7 @@ ms.locfileid: "4086858"
 
 7.  Натисніть кнопку **OK**.
 
-8.  Клацніть **+** , щоб додати рядок.
+8.  Клацніть **+**, щоб додати рядок.
 
 9.  Виберіть клієнта та відомості про проект для цього рядка табеля.
 
@@ -61,7 +61,7 @@ ms.locfileid: "4086858"
 
 13. Необов'язково: додайте більше рядків табеля.
 
-14. Після завершення введення рядків табеля виберіть дію **Робочий цикл** \> **Надіслати** , щоб подати табель для процесу затвердження робочого циклу.
+14. Після завершення введення рядків табеля виберіть дію **Робочий цикл** \> **Надіслати**, щоб подати табель для процесу затвердження робочого циклу.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

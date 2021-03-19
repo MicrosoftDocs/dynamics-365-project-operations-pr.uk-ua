@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 4c04ff004febf3a07b329bf375e38acb43d19887
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181169"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277633"
 ---
 # <a name="project-contract-settings"></a>Настройки проектних сервісних договорів
 
@@ -21,7 +21,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 У цьому розділі наведено відомості про поля, які застосовуються до всього проектного сервісного договору, включаючи параметри, які впливають на всі сервісну роботу за договором. Також буде додано відомості про сервісний договір, який узагальнюється за всіма пунктами для керування KPI у проектному сервісному договорі.
 
-Наведена нижче таблиця містить поля проектного сервісного договору, які є унікальними для Dynamics 365 Project Operations або зазнали певних важливих поведінкових змін порівняно з ціновими пропозиціями збуту в Dynamics 365 Sales.
+У наведеній далі таблиці перелічено поля в сервісному договорі проекту, які є унікальними для Dynamics 365 Project Operations або до яких внесені важливі зміни поведінки порівняно із замовленнями на продаж у Dynamics 365 Sales.
 
 | Поле | Розташування | Опис | Вплив на наступні етапи |
 | --- | --- | --- | --- |

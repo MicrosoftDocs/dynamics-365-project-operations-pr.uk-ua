@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124663"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277183"
 ---
 # <a name="extending-time-entries"></a>Подовження записів часу
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-У Dynamics 365 Project Operations передбачено розширюваний елемент керування введенням часу. Цей елемент керування має перелічені нижче функції.
+Dynamics 365 Project Operations включає настроюваний елемент керування часом із можливістю розширення. Цей елемент керування має перелічені нижче функції.
 
 - Введення часу горизонтально в межах тижня
 - Підсумки за днем, рядком або тижнем

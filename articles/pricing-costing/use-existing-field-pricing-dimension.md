@@ -1,6 +1,6 @@
 ---
 title: Поля Project Operations як критерії ціноутворення
-description: У цьому розділі наведено відомості щодо використання полів як критеріїв ціноутворення в Dynamics 365 Project Operations.
+description: У цій темі викладено відомості про використання полів для ціноутворення в Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 59367b35f15f806b109f606e912edc487d9e7685
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04b823e8237590a294ed0706e64d0ecb9d2cf56f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119263"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274663"
 ---
-# <a name="project-operations-fields-as-pricing-dimensions"></a>Поля Project Operations як критерії ціноутворення
+# <a name="project-operations-fields-as-pricing-dimensions"></a>Поля Project Operations як виміри визначення цін
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 

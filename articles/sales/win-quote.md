@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124708"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277273"
 ---
 # <a name="close-a-quote"></a>Закриття цінової пропозиції
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Цінову пропозицію проекту можна закрити як реалізовану або нереалізовану. Оскільки функції «Активувати» і «Перевірити» не підтримуються для цінових пропозицій у Microsoft Dynamics 365 Project Operations, можна закрити чернетку цінової пропозиції.
+Цінову пропозицію проекту можна закрити як реалізовану або нереалізовану. Ви можете втратити чернетку цінової пропозиції, тому що функції «Активувати» та «Переглянути» не підтримуються в Microsoft Dynamics 365 Project Operations.
 
 ## <a name="close-a-quote-as-won"></a>Закриття цінової пропозиції як реалізованої
 

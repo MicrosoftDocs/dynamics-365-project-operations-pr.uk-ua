@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180217"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275518"
 ---
 # <a name="set-up-price-lists"></a>Налаштування прайсів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-У прайсах у Dynamics 365 Project Operations наведено каталог тарифів. Ставки виражають вартість, збут і ціни рахунків. Залежно від того, чи вказані в прайсі ставки витрат або ставки збуту та виставлення рахунків, у вмісті прейскуранта буде **Збут** або **Вартість**.
+Прайси в Dynamics 365 Project Operations є каталогом цін. Ставки виражають вартість, збут і ціни рахунків. Залежно від того, чи вказані в прайсі ставки витрат або ставки збуту та виставлення рахунків, у вмісті прейскуранта буде **Збут** або **Вартість**.
 
 Перелічені нижче розширення відповідають специфікам Project Operations і застосовуються до прайсів з Dynamics 365 Sales.
 

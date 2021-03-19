@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e49a95a04e9506e983d920c49d4c504d9f944c88
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181522"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275743"
 ---
 # <a name="copy-price-lists"></a>Копіювання прайсів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-У Dynamics 365 Project Operations ви можете створювати копії прайсів. Наприклад, можна створити прайси на наступний рік, використовуючи прайс поточного року.  Або ж ви можете скопіювати прайс для ставок оплати та прайсів збуту з прайсів для вартості. 
+У Dynamics 365 Project Operations можна створювати копії прайсів. Наприклад, можна створити прайси на наступний рік, використовуючи прайс поточного року.  Або ж ви можете скопіювати прайс для ставок оплати та прайсів збуту з прайсів для вартості. 
 
 Щоб створити копію прайса, виконайте зазначені нижче кроки.
 

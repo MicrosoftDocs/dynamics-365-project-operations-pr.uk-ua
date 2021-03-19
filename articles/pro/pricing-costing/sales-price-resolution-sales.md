@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176771"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274528"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Вирішення цін збуту для орієнтовних показників і фактичних даних — легка версія
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 
-При закритті цін збуту для орієнтовних показників і фактичних даних у Dynamics 365 Project Operations система спочатку використовує дату та валюту цінової пропозиції пов’язаного проекту або сервісного договору, щоб закрити прайс збуту. Після того, як прайс збуту закрито, система закриває збут або ставку виставлення рахунку.
+Коли ціни збуту закриваються в кошторисах і фактичних даних у Dynamics 365 Project Operations, система спочатку застосовує дату й валюту пов’язаної цінової пропозиції за проектом або договір для закриття прайсу збуту. Після того, як прайс збуту закрито, система закриває збут або ставку виставлення рахунку.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Закривайте ставки збуту за фактичними рядками та рядками оцінки часу
 
