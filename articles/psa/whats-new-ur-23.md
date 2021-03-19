@@ -17,53 +17,56 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 87f89828aeff22d9b473539e294d5cf04d46a203
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 379379ff643baa10417333b4be5e56d56eb5bc26
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150063"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280558"
 ---
-# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="c4505-103">Project Service Automation, оновлений випуск 23, V3</span><span class="sxs-lookup"><span data-stu-id="c4505-103">Project Service Automation Update Release 23, V3</span></span>
+# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="bdae1-103">Project Service Automation, оновлений випуск 23, V3</span><span class="sxs-lookup"><span data-stu-id="bdae1-103">Project Service Automation Update Release 23, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="c4505-104">Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="c4505-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="c4505-105">Цей випуск містить деякі важливі покращення якості, продуктивності та зручності.</span><span class="sxs-lookup"><span data-stu-id="c4505-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="c4505-106">Цей випуск сумісний із Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="c4505-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="c4505-107">Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень.</span><span class="sxs-lookup"><span data-stu-id="c4505-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="c4505-108">Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="c4505-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="bdae1-104">Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="bdae1-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="bdae1-105">Цей випуск містить деякі важливі покращення якості, продуктивності та зручності.</span><span class="sxs-lookup"><span data-stu-id="bdae1-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="bdae1-106">Цей випуск сумісний із Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="bdae1-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="bdae1-107">Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень.</span><span class="sxs-lookup"><span data-stu-id="bdae1-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="bdae1-108">Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="bdae1-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="c4505-109">У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 23 версії 3.</span><span class="sxs-lookup"><span data-stu-id="c4505-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="c4505-110">Ця версія має номер збірки V 3.10.34.30 і зазвичай надається в складі оновлення за серпень 2020 р., яке можна завантажити самостійно.</span><span class="sxs-lookup"><span data-stu-id="c4505-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
+<span data-ttu-id="bdae1-109">У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 23 версії 3.</span><span class="sxs-lookup"><span data-stu-id="bdae1-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="bdae1-110">Ця версія має номер збірки V 3.10.34.30 і зазвичай надається в складі оновлення за серпень 2020 р., яке можна завантажити самостійно.</span><span class="sxs-lookup"><span data-stu-id="bdae1-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
 
-## <a name="update-release-23"></a><span data-ttu-id="c4505-111">Оновлений випуск 23</span><span class="sxs-lookup"><span data-stu-id="c4505-111">Update Release 23</span></span>
+## <a name="update-release-23"></a><span data-ttu-id="bdae1-111">Оновлений випуск 23</span><span class="sxs-lookup"><span data-stu-id="bdae1-111">Update Release 23</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="c4505-112">Виправлення помилок</span><span class="sxs-lookup"><span data-stu-id="c4505-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="bdae1-112">Виправлення помилок</span><span class="sxs-lookup"><span data-stu-id="bdae1-112">Bug fixes</span></span>
 
-<span data-ttu-id="c4505-113">**Час і витрати**</span><span class="sxs-lookup"><span data-stu-id="c4505-113">**Time and Expense**</span></span>
+<span data-ttu-id="bdae1-113">**Час і витрати**</span><span class="sxs-lookup"><span data-stu-id="bdae1-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="c4505-114">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="c4505-114">The following issues have been fixed:</span></span>
-- <span data-ttu-id="c4505-115">Обробка інциденту Microsoft Edge у **Видалити учасника робочої групи** надає зрозумілий виняток.</span><span class="sxs-lookup"><span data-stu-id="c4505-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
-- <span data-ttu-id="c4505-116">Призначення імпортує результати на порожній екран видалення.</span><span class="sxs-lookup"><span data-stu-id="c4505-116">Assignment import results in a blank remove screen.</span></span>
+<span data-ttu-id="bdae1-114">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="bdae1-114">The following issues have been fixed:</span></span>
+- <span data-ttu-id="bdae1-115">Обробка інциденту Microsoft Edge у **Видалити учасника робочої групи** надає зрозумілий виняток.</span><span class="sxs-lookup"><span data-stu-id="bdae1-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
+- <span data-ttu-id="bdae1-116">Призначення імпортує результати на порожній екран видалення.</span><span class="sxs-lookup"><span data-stu-id="bdae1-116">Assignment import results in a blank remove screen.</span></span>
 
-<span data-ttu-id="c4505-117">**Керування ресурсами**</span><span class="sxs-lookup"><span data-stu-id="c4505-117">**Resource Management**</span></span>
+<span data-ttu-id="bdae1-117">**Керування ресурсами**</span><span class="sxs-lookup"><span data-stu-id="bdae1-117">**Resource Management**</span></span>
 
-<span data-ttu-id="c4505-118">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="c4505-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="bdae1-118">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="bdae1-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="c4505-119">На **Картці ресурсів сітки використання ресурсів** відображаються неправильні дані, якщо шкала часу становить більше п’яти днів.</span><span class="sxs-lookup"><span data-stu-id="c4505-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
-- <span data-ttu-id="c4505-120">Коли клієнти створюють доступний для резервування ресурс, компоненту plug-in періодично не вдається автоматично додавати ресурс до групи Microsoft Office 365.</span><span class="sxs-lookup"><span data-stu-id="c4505-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
-- <span data-ttu-id="c4505-121">Подання **Звірення** неправильно відображає контури вручну в поданні **Тиждень** або **Місяць**.</span><span class="sxs-lookup"><span data-stu-id="c4505-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
+- <span data-ttu-id="bdae1-119">На **Картці ресурсів сітки використання ресурсів** відображаються неправильні дані, якщо шкала часу становить більше п’яти днів.</span><span class="sxs-lookup"><span data-stu-id="bdae1-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
+- <span data-ttu-id="bdae1-120">Коли клієнти створюють доступний для резервування ресурс, компоненту plug-in періодично не вдається автоматично додавати ресурс до групи Microsoft Office 365.</span><span class="sxs-lookup"><span data-stu-id="bdae1-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
+- <span data-ttu-id="bdae1-121">Подання **Звірення** неправильно відображає контури вручну в поданні **Тиждень** або **Місяць**.</span><span class="sxs-lookup"><span data-stu-id="bdae1-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
 
-<span data-ttu-id="c4505-122">**Керування проектами**</span><span class="sxs-lookup"><span data-stu-id="c4505-122">**Project Management**</span></span>
+<span data-ttu-id="bdae1-122">**Керування проектами**</span><span class="sxs-lookup"><span data-stu-id="bdae1-122">**Project Management**</span></span>
 
-<span data-ttu-id="c4505-123">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="c4505-123">The following issues have been fixed:</span></span>
+<span data-ttu-id="bdae1-123">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="bdae1-123">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="c4505-124">Надмірна кількість сутностей **RetrieveMultiple for usersettings** викликає погіршення продуктивності для затверджень проекту та інших операцій.</span><span class="sxs-lookup"><span data-stu-id="c4505-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
-- <span data-ttu-id="c4505-125">Підстановку ресурсу сітки **Планування завдань** обмежено лише п’ятьма учасниками з робочої групи проекту.</span><span class="sxs-lookup"><span data-stu-id="c4505-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
-- <span data-ttu-id="c4505-126">Підстановка ресурсу сітки **Планування завдань** не фільтрує неактивні ресурси.</span><span class="sxs-lookup"><span data-stu-id="c4505-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
-- <span data-ttu-id="c4505-127">Ручний режим не працює правильно в робочій структурі проекту планування проекту.</span><span class="sxs-lookup"><span data-stu-id="c4505-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
-- <span data-ttu-id="c4505-128">У сітці **Планування завдань** відображаються **Неактивні категорії транзакцій**.</span><span class="sxs-lookup"><span data-stu-id="c4505-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
-- <span data-ttu-id="c4505-129">Сітка **Призначення ресурсів** неправильно округлює, якщо завдання має кілька призначень.</span><span class="sxs-lookup"><span data-stu-id="c4505-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
-- <span data-ttu-id="c4505-130">Значення округлення відрізняються від запланованих витрат і фактичних витрат для одного завдання.</span><span class="sxs-lookup"><span data-stu-id="c4505-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
+- <span data-ttu-id="bdae1-124">Надмірна кількість сутностей **RetrieveMultiple for usersettings** викликає погіршення продуктивності для затверджень проекту та інших операцій.</span><span class="sxs-lookup"><span data-stu-id="bdae1-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
+- <span data-ttu-id="bdae1-125">Підстановку ресурсу сітки **Планування завдань** обмежено лише п’ятьма учасниками з робочої групи проекту.</span><span class="sxs-lookup"><span data-stu-id="bdae1-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
+- <span data-ttu-id="bdae1-126">Підстановка ресурсу сітки **Планування завдань** не фільтрує неактивні ресурси.</span><span class="sxs-lookup"><span data-stu-id="bdae1-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
+- <span data-ttu-id="bdae1-127">Ручний режим не працює правильно в робочій структурі проекту планування проекту.</span><span class="sxs-lookup"><span data-stu-id="bdae1-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
+- <span data-ttu-id="bdae1-128">У сітці **Планування завдань** відображаються **Неактивні категорії транзакцій**.</span><span class="sxs-lookup"><span data-stu-id="bdae1-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
+- <span data-ttu-id="bdae1-129">Сітка **Призначення ресурсів** неправильно округлює, якщо завдання має кілька призначень.</span><span class="sxs-lookup"><span data-stu-id="bdae1-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
+- <span data-ttu-id="bdae1-130">Значення округлення відрізняються від запланованих витрат і фактичних витрат для одного завдання.</span><span class="sxs-lookup"><span data-stu-id="bdae1-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
 
-<span data-ttu-id="c4505-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="c4505-131">**Sales**</span></span>
+<span data-ttu-id="bdae1-131">**Sales**</span><span class="sxs-lookup"><span data-stu-id="bdae1-131">**Sales**</span></span>
 
-<span data-ttu-id="c4505-132">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="c4505-132">The following issues have been fixed:</span></span>
+<span data-ttu-id="bdae1-132">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="bdae1-132">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="c4505-133">Подвійне клацання елемента **Отримання всіх категорій транзакцій** створює кілька рядків.</span><span class="sxs-lookup"><span data-stu-id="c4505-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+- <span data-ttu-id="bdae1-133">Подвійне клацання елемента **Отримання всіх категорій транзакцій** створює кілька рядків.</span><span class="sxs-lookup"><span data-stu-id="bdae1-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

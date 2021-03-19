@@ -17,41 +17,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2c50d6bdc033836e1259a2fd12b78015280d8093
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 079679302b2d8dac3074732b2392a7b811ac9711
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150648"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280243"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a><span data-ttu-id="d37fc-103">Нові й оновлені можливості в оновленому випуску Project Service Automation 28 версії 3</span><span class="sxs-lookup"><span data-stu-id="d37fc-103">What's new or changed in Project Service Automation Update Release 28, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a><span data-ttu-id="fee94-103">Нові й оновлені можливості в оновленому випуску Project Service Automation 28 версії 3</span><span class="sxs-lookup"><span data-stu-id="fee94-103">What's new or changed in Project Service Automation Update Release 28, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="d37fc-104">Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="d37fc-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="d37fc-105">Цей випуск містить деякі важливі покращення якості, продуктивності та зручності.</span><span class="sxs-lookup"><span data-stu-id="d37fc-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="d37fc-106">Цей випуск сумісний із Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="d37fc-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="d37fc-107">Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень.</span><span class="sxs-lookup"><span data-stu-id="d37fc-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="d37fc-108">Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="d37fc-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="fee94-104">Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="fee94-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="fee94-105">Цей випуск містить деякі важливі покращення якості, продуктивності та зручності.</span><span class="sxs-lookup"><span data-stu-id="fee94-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="fee94-106">Цей випуск сумісний із Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="fee94-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="fee94-107">Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень.</span><span class="sxs-lookup"><span data-stu-id="fee94-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="fee94-108">Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="fee94-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="d37fc-109">У цій статті перелічено нові й оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 28 версії 3. Ця версія має номер збірки V3.10.46.32 та є загальнодоступною в межах самостійного оновлення в січні 2021 р.</span><span class="sxs-lookup"><span data-stu-id="d37fc-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 28 This version has a build number of V3.10.46.32 and is generally available through a self-update in January 2021.</span></span>
+<span data-ttu-id="fee94-109">У цій статті перелічено нові й оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 28 версії 3. Ця версія має номер збірки V3.10.46.32 та є загальнодоступною в межах самостійного оновлення в січні 2021 р.</span><span class="sxs-lookup"><span data-stu-id="fee94-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 28 This version has a build number of V3.10.46.32 and is generally available through a self-update in January 2021.</span></span>
 
-## <a name="update-release-28"></a><span data-ttu-id="d37fc-110">Оновлений випуск 28</span><span class="sxs-lookup"><span data-stu-id="d37fc-110">Update Release 28</span></span>
+## <a name="update-release-28"></a><span data-ttu-id="fee94-110">Оновлений випуск 28</span><span class="sxs-lookup"><span data-stu-id="fee94-110">Update Release 28</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="d37fc-111">Виправлення помилок</span><span class="sxs-lookup"><span data-stu-id="d37fc-111">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="fee94-111">Виправлення помилок</span><span class="sxs-lookup"><span data-stu-id="fee94-111">Bug fixes</span></span>
 
-<span data-ttu-id="d37fc-112">**Час і витрати**</span><span class="sxs-lookup"><span data-stu-id="d37fc-112">**Time and Expense**</span></span>
+<span data-ttu-id="fee94-112">**Час і витрати**</span><span class="sxs-lookup"><span data-stu-id="fee94-112">**Time and Expense**</span></span>
 
-<span data-ttu-id="d37fc-113">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="d37fc-113">The following issues have been fixed:</span></span>
+<span data-ttu-id="fee94-113">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="fee94-113">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="d37fc-114">Користувачі можуть використовувати **групове редагування** для оновлення затверджених і надісланих записів часу.</span><span class="sxs-lookup"><span data-stu-id="d37fc-114">Users can use **Bulk Edit** to update time entries that have been approved and submitted.</span></span>
+- <span data-ttu-id="fee94-114">Користувачі можуть використовувати **групове редагування** для оновлення затверджених і надісланих записів часу.</span><span class="sxs-lookup"><span data-stu-id="fee94-114">Users can use **Bulk Edit** to update time entries that have been approved and submitted.</span></span>
 
-<span data-ttu-id="d37fc-115">**Керування проектами**</span><span class="sxs-lookup"><span data-stu-id="d37fc-115">**Project Management**</span></span>
+<span data-ttu-id="fee94-115">**Керування проектами**</span><span class="sxs-lookup"><span data-stu-id="fee94-115">**Project Management**</span></span>
 
-<span data-ttu-id="d37fc-116">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="d37fc-116">The following issues have been fixed:</span></span>
+<span data-ttu-id="fee94-116">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="fee94-116">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="d37fc-117">Коли завдання GUID інтерпретується як число, завдання не можна відкрити для редагування за допомогою функції **Редагувати завдання** в стрічці на сторінці **Робоча структура проекту**.</span><span class="sxs-lookup"><span data-stu-id="d37fc-117">In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.</span></span>
+- <span data-ttu-id="fee94-117">Коли завдання GUID інтерпретується як число, завдання не можна відкрити для редагування за допомогою функції **Редагувати завдання** в стрічці на сторінці **Робоча структура проекту**.</span><span class="sxs-lookup"><span data-stu-id="fee94-117">In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.</span></span>
 
-<span data-ttu-id="d37fc-118">**Sales**</span><span class="sxs-lookup"><span data-stu-id="d37fc-118">**Sales**</span></span>
+<span data-ttu-id="fee94-118">**Sales**</span><span class="sxs-lookup"><span data-stu-id="fee94-118">**Sales**</span></span>
 
-<span data-ttu-id="d37fc-119">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="d37fc-119">The following issues have been fixed:</span></span>
+<span data-ttu-id="fee94-119">Виправлено зазначені нижче проблеми.</span><span class="sxs-lookup"><span data-stu-id="fee94-119">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="d37fc-120">Під час виклику компонента plug-in **GetEstimatesForProject** створюється виняток із нульовим посиланням.</span><span class="sxs-lookup"><span data-stu-id="d37fc-120">A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.</span></span>
-- <span data-ttu-id="d37fc-121">Параметр **Позначити як готове до виставлення рахунка** на сітці проміжного етапу лише частково оновлює атрибути — оновлюється лише атрибут **InvoiceStatus**.</span><span class="sxs-lookup"><span data-stu-id="d37fc-121">**Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.</span></span>
+- <span data-ttu-id="fee94-120">Під час виклику компонента plug-in **GetEstimatesForProject** створюється виняток із нульовим посиланням.</span><span class="sxs-lookup"><span data-stu-id="fee94-120">A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.</span></span>
+- <span data-ttu-id="fee94-121">Параметр **Позначити як готове до виставлення рахунка** на сітці проміжного етапу лише частково оновлює атрибути — оновлюється лише атрибут **InvoiceStatus**.</span><span class="sxs-lookup"><span data-stu-id="fee94-121">**Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
