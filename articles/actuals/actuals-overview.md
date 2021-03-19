@@ -1,6 +1,6 @@
 ---
 title: Фактичні дані
-description: У цьому розділі міститься інформація про роботу із фактичними даними в Microsoft Dynamics 365 Project Operations.
+description: У цій темі наведено інформацію про те, як працювати з фактичними даними в Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126350"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291824"
 ---
 # <a name="actuals"></a>Фактичні дані 
 
@@ -70,7 +70,7 @@ _**Застосовується до:** Project Operations для сценарі
 Ви можете використовувати журнали записів, щоб записувати витрати або дохід за матеріалами, комісіями, часом, витратами, а також класами транзакції. Журнали можна використовувати для перелічених нижче цілей.
 
 - Запис фактичної вартості матеріалів та збуту для проекту.
-- Перенесення фактичних даних транзакцій з іншої системи до Microsoft Dynamics 365 Project Operations.
+- Виконуйте перенесення фактичних даних із іншої системи до Microsoft Dynamics 365 Project Operations.
 - Запис витрат, що сталися у іншій системі. Ця вартість може складатися з витрат на придбання або вартості субпідрядних витрат.
 
 > [!IMPORTANT]
