@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180487"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278533"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>Оцініть сервісну роботу за договором на основі проекту
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_ 
 
-У системі Dynamics 365 Project Operations сервісна робота за договором на основі проекту має докладні відомості, які дозволяють оцінити вартість і потенційний дохід від забезпечення сервісної роботи за договором.
+У системі Dynamics 365 Project Operations сервісна робота за договором на основі проекту має докладні відомості, які дозволяють оцінити вартість і потенційний дохід від виконання сервісної роботи за договором.
 
 Щоб оцінити сервісну роботу за договором на основі проекту, перейдіть на вкладку **Відомості про виконання сервісної роботи за договором** у розділі **Сервісна роботі за договором** на основі проекту.  Є два способи визначення оцінки сервісної роботи за договором на основі проекту.
 

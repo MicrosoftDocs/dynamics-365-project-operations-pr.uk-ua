@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124798"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279703"
 ---
 # <a name="define-skills-and-proficiencies"></a>Визначення вмінь і кваліфікації
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-Уміння — це характеристики ресурсів, які розподіляються між Dynamics 365 Project Operations і, за наявності, Dynamics 365 Field Service. 
+Навики — це характеристики ресурсів, які розподіляються між Dynamics 365 Project Operations і за наявності Dynamics 365 Field Service. 
 
 - Щоб підтримувати сховище умінь в Project Operations, відкрийте **Ресурси** \> **Уміння ресурсів**. 
 
