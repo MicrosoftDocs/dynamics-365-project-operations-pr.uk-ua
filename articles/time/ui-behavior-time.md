@@ -3,17 +3,17 @@ title: Поведінка інтерфейсу користувача запис
 description: У цьому розділі наведено інформацію про поведінку інтерфейсу користувача для запису часу.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124528"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499639"
 ---
 # <a name="time-entry-ui-behavior"></a>Поведінка інтерфейсу користувача запису часу
 
@@ -22,7 +22,20 @@ _**Застосовується до:** Project Operations для сценарі
 
 Сітка **Тижневий запис часу** — це настроюваний елемент керування, що має два основні розділи: **Виміри** та **Тривалість**.
 
-## <a name="dimensions"></a>Виміри
+## <a name="keyboard-shortcuts"></a>Клавіші швидкого доступу
+| Справа        | Ярлик                  |
+|------------   |------------------------   |
+| Створити           | Alt + Shift + N           |
+| Копіювати рядок      | Alt + Shift + C           |
+| Редагувати запис    | Alt + Shift + E           |
+| Редагувати рядок      | Alt + Shift + Ctrl + E    |
+| Відкрити запис    | Alt + Shift + O           |
+| Надіслати        | Alt + Shift + S           |
+| Відкликати        | Alt + Shift + R           |
+| Delete        | Alt + Shift + D           |
+| Копіювати тиждень     | Alt + Shift + W           |
+
+## <a name="dimensions"></a>Критерії
 У розділі **Виміри** відображаються виміри, для яких можна ввести час. Виміри нижче підтримуються за замовчуванням:
 
   - Project
