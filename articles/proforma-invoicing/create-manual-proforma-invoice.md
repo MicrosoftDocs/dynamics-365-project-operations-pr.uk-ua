@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128083"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287803"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Створення ручного рахунка-проформи
 
@@ -30,7 +30,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Виставлення рахунків надає керівникам проектів другий рівень затвердження перед створенням рахунків-фактури для клієнтів. Перший рівень затвердження завершується, коли буде затверджено записи часу та витрат, які надсилають учасники робочої групи проекту.
 
-Програма Dynamics 365 Project Operations не призначена для створення рахунків-фактур, призначених для клієнтів, з наступних причин:
+Програма Dynamics 365 Project Operations не призначена для створення рахунків-фактур, призначених для клієнтів, із наведених далі причин:
 
 - Вона не містить податкову інформацію.
 - Вона не може перетворити інші грошові одиниці на грошову одиницю рахунка-фактури за допомогою правильно настроєних курсів валют.
