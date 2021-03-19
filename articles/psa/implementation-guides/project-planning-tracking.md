@@ -18,30 +18,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a5859f66536f44d7dbad05e74693200212acebd4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149118"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275203"
 ---
-# <a name="project-planning-and-tracking"></a><span data-ttu-id="4aebc-103">Планування проекту та його відстеження</span><span class="sxs-lookup"><span data-stu-id="4aebc-103">Project planning and tracking</span></span>
+# <a name="project-planning-and-tracking"></a><span data-ttu-id="a03dc-103">Планування проекту та його відстеження</span><span class="sxs-lookup"><span data-stu-id="a03dc-103">Project planning and tracking</span></span>
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="4aebc-104">Програма Project Service допомагає організаціям у сфері обслуговування визначати потенційні угоди, подавати ставки, досягати договірних угод, керувати ресурсами, відстежувати час і витрати, а також надавати клієнтам рахунки-фактури та надавати проекти вчасно та в рамках бюджету.</span><span class="sxs-lookup"><span data-stu-id="4aebc-104">The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget.</span></span> 
+<span data-ttu-id="a03dc-104">Програма Project Service допомагає організаціям у сфері обслуговування визначати потенційні угоди, подавати ставки, досягати договірних угод, керувати ресурсами, відстежувати час і витрати, а також надавати клієнтам рахунки-фактури та надавати проекти вчасно та в рамках бюджету.</span><span class="sxs-lookup"><span data-stu-id="a03dc-104">The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget.</span></span> 
 
-<span data-ttu-id="4aebc-105">Посилання на PDF-файл було видалено з цього розділу, а вміст переміщено до таких розділів:</span><span class="sxs-lookup"><span data-stu-id="4aebc-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
+<span data-ttu-id="a03dc-105">Посилання на PDF-файл було видалено з цього розділу, а вміст переміщено до таких розділів:</span><span class="sxs-lookup"><span data-stu-id="a03dc-105">The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:</span></span>
 
-- [<span data-ttu-id="4aebc-106">Розклади проекту</span><span class="sxs-lookup"><span data-stu-id="4aebc-106">Project schedules</span></span>](../project-creating.md)
-- [<span data-ttu-id="4aebc-107">Витрати та дохід проекту</span><span class="sxs-lookup"><span data-stu-id="4aebc-107">Project costs and revenue</span></span>](../project-estimating.md)
-- [<span data-ttu-id="4aebc-108">Прогнози збуту і проекту</span><span class="sxs-lookup"><span data-stu-id="4aebc-108">Sales estimates and projects</span></span>](../project-leveraging.md)
-- [<span data-ttu-id="4aebc-109">Перебіг проекту та використання коштів</span><span class="sxs-lookup"><span data-stu-id="4aebc-109">Project progress and cost consumption</span></span>](../project-tracking.md)
-- [<span data-ttu-id="4aebc-110">Шаблони проекту</span><span class="sxs-lookup"><span data-stu-id="4aebc-110">Project templates</span></span>](../project-templates.md)
-- [<span data-ttu-id="4aebc-111">Стадії проекту</span><span class="sxs-lookup"><span data-stu-id="4aebc-111">Project stages</span></span>](../project-stages.md)
-- [<span data-ttu-id="4aebc-112">Настройки проекту</span><span class="sxs-lookup"><span data-stu-id="4aebc-112">Project settings</span></span>](../project-settings.md)
+- [<span data-ttu-id="a03dc-106">Розклади проекту</span><span class="sxs-lookup"><span data-stu-id="a03dc-106">Project schedules</span></span>](../project-creating.md)
+- [<span data-ttu-id="a03dc-107">Витрати та дохід проекту</span><span class="sxs-lookup"><span data-stu-id="a03dc-107">Project costs and revenue</span></span>](../project-estimating.md)
+- [<span data-ttu-id="a03dc-108">Прогнози збуту і проекту</span><span class="sxs-lookup"><span data-stu-id="a03dc-108">Sales estimates and projects</span></span>](../project-leveraging.md)
+- [<span data-ttu-id="a03dc-109">Перебіг проекту та використання коштів</span><span class="sxs-lookup"><span data-stu-id="a03dc-109">Project progress and cost consumption</span></span>](../project-tracking.md)
+- [<span data-ttu-id="a03dc-110">Шаблони проекту</span><span class="sxs-lookup"><span data-stu-id="a03dc-110">Project templates</span></span>](../project-templates.md)
+- [<span data-ttu-id="a03dc-111">Стадії проекту</span><span class="sxs-lookup"><span data-stu-id="a03dc-111">Project stages</span></span>](../project-stages.md)
+- [<span data-ttu-id="a03dc-112">Настройки проекту</span><span class="sxs-lookup"><span data-stu-id="a03dc-112">Project settings</span></span>](../project-settings.md)
 
 > [!NOTE]
-> <span data-ttu-id="4aebc-113">Цей розділ буде видалено з майбутньої оновленої документації.</span><span class="sxs-lookup"><span data-stu-id="4aebc-113">This topic will be removed in a future documentation update.</span></span> 
+> <span data-ttu-id="a03dc-113">Цей розділ буде видалено з майбутньої оновленої документації.</span><span class="sxs-lookup"><span data-stu-id="a03dc-113">This topic will be removed in a future documentation update.</span></span> 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
