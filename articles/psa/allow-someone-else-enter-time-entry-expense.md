@@ -18,78 +18,81 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2f13e66915a8e05ee3d314af065c03779582d5a4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 252fff0b60d221233c881e68db176e6763cdcdc0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145563"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291599"
 ---
-# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="175f6-103">Дозвольте іншому користувачу вводити запис часу та витрат (Project Service)</span><span class="sxs-lookup"><span data-stu-id="175f6-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
+# <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a><span data-ttu-id="74ced-103">Дозвольте іншому користувачу вводити запис часу та витрат (Project Service)</span><span class="sxs-lookup"><span data-stu-id="74ced-103">Allow someone else to enter your time entry or expense (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="175f6-104">Настроювання представника, щоб дозволити іншому користувачу вводити записи часу або витрат від вашого імені в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="175f6-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
+<span data-ttu-id="74ced-104">Настроювання представника, щоб дозволити іншому користувачу вводити записи часу або витрат від вашого імені в [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] .</span><span class="sxs-lookup"><span data-stu-id="74ced-104">Set up a delegate to let someone else make time or expense entries on your behalf in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].</span></span>  
   
-## <a name="create-a-delegate"></a><span data-ttu-id="175f6-105">Створення представника</span><span class="sxs-lookup"><span data-stu-id="175f6-105">Create a delegate</span></span>  
+## <a name="create-a-delegate"></a><span data-ttu-id="74ced-105">Створення представника</span><span class="sxs-lookup"><span data-stu-id="74ced-105">Create a delegate</span></span>  
   
-1.  <span data-ttu-id="175f6-106">З головного меню клацніть на **Project Service** > **Делегації**.</span><span class="sxs-lookup"><span data-stu-id="175f6-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="74ced-106">З головного меню клацніть на **Project Service** > **Делегації**.</span><span class="sxs-lookup"><span data-stu-id="74ced-106">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="175f6-107">На панелі команд виберіть **Створити**.</span><span class="sxs-lookup"><span data-stu-id="175f6-107">On the command bar, click **New**.</span></span>  
+2.  <span data-ttu-id="74ced-107">На панелі команд виберіть **Створити**.</span><span class="sxs-lookup"><span data-stu-id="74ced-107">On the command bar, click **New**.</span></span>  
   
-3. <span data-ttu-id="175f6-108">**Назва**: Введіть назву для запису.</span><span class="sxs-lookup"><span data-stu-id="175f6-108">**Name**: Enter a name for the record.</span></span>  
+3. <span data-ttu-id="74ced-108">**Назва**: Введіть назву для запису.</span><span class="sxs-lookup"><span data-stu-id="74ced-108">**Name**: Enter a name for the record.</span></span>  
   
-4. <span data-ttu-id="175f6-109">**Тип**: Вкажіть, чи представник може вводити записи часу або витрат від вашого імені.</span><span class="sxs-lookup"><span data-stu-id="175f6-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
+4. <span data-ttu-id="74ced-109">**Тип**: Вкажіть, чи представник може вводити записи часу або витрат від вашого імені.</span><span class="sxs-lookup"><span data-stu-id="74ced-109">**Type**: Select whether the delegate can enter time or expense entries on your behalf.</span></span>  
   
-5. <span data-ttu-id="175f6-110">**Представник**: Виберіть ім'я користувача, якому ви хочете делегувати це право.</span><span class="sxs-lookup"><span data-stu-id="175f6-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
+5. <span data-ttu-id="74ced-110">**Представник**: Виберіть ім'я користувача, якому ви хочете делегувати це право.</span><span class="sxs-lookup"><span data-stu-id="74ced-110">**Delegate**: Select the name of the person you want to be the delegate.</span></span>  
   
-6. <span data-ttu-id="175f6-111">**Дата початку й завершення**: Виберіть дати, коли починається і закінчується дозвіл представника.</span><span class="sxs-lookup"><span data-stu-id="175f6-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
+6. <span data-ttu-id="74ced-111">**Дата початку й завершення**: Виберіть дати, коли починається і закінчується дозвіл представника.</span><span class="sxs-lookup"><span data-stu-id="74ced-111">**Start and end dates**: Choose dates when delegation starts and ends.</span></span>  
   
-7.  <span data-ttu-id="175f6-112">Завершивши ці дії, натисніть **Зберегти й закрити**.</span><span class="sxs-lookup"><span data-stu-id="175f6-112">When you're done, click **Save & Close**.</span></span>  
+7.  <span data-ttu-id="74ced-112">Завершивши ці дії, натисніть **Зберегти й закрити**.</span><span class="sxs-lookup"><span data-stu-id="74ced-112">When you're done, click **Save & Close**.</span></span>  
   
-## <a name="turn-off-delegation"></a><span data-ttu-id="175f6-113">Вимкнути делегування</span><span class="sxs-lookup"><span data-stu-id="175f6-113">Turn off delegation</span></span>  
+## <a name="turn-off-delegation"></a><span data-ttu-id="74ced-113">Вимкнути делегування</span><span class="sxs-lookup"><span data-stu-id="74ced-113">Turn off delegation</span></span>  
   
-1.  <span data-ttu-id="175f6-114">З головного меню клацніть на **Project Service** > **Делегації**.</span><span class="sxs-lookup"><span data-stu-id="175f6-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
+1.  <span data-ttu-id="74ced-114">З головного меню клацніть на **Project Service** > **Делегації**.</span><span class="sxs-lookup"><span data-stu-id="74ced-114">From the main menu, click **Project Service** > **Delegations**.</span></span>  
   
-2.  <span data-ttu-id="175f6-115">Виберіть запис представника, для якого потрібно вимкнути доступ.</span><span class="sxs-lookup"><span data-stu-id="175f6-115">Select the delegation record you want to turn off.</span></span>  
+2.  <span data-ttu-id="74ced-115">Виберіть запис представника, для якого потрібно вимкнути доступ.</span><span class="sxs-lookup"><span data-stu-id="74ced-115">Select the delegation record you want to turn off.</span></span>  
   
-3.  <span data-ttu-id="175f6-116">На панелі команд натисніть **Вимкнути**.</span><span class="sxs-lookup"><span data-stu-id="175f6-116">On the command bar, click **Deactivate**.</span></span>  
+3.  <span data-ttu-id="74ced-116">На панелі команд натисніть **Вимкнути**.</span><span class="sxs-lookup"><span data-stu-id="74ced-116">On the command bar, click **Deactivate**.</span></span>  
   
-4.  <span data-ttu-id="175f6-117">У діалоговому вікні **Підтвердити вимкнення** натисніть **Вимкнути**.</span><span class="sxs-lookup"><span data-stu-id="175f6-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
+4.  <span data-ttu-id="74ced-117">У діалоговому вікні **Підтвердити вимкнення** натисніть **Вимкнути**.</span><span class="sxs-lookup"><span data-stu-id="74ced-117">On the **Confirm Deactivation** dialog box, click **Deactivate**.</span></span>  
   
-## <a name="enter-time-for-someone-else"></a><span data-ttu-id="175f6-118">Введіть час для іншої особи</span><span class="sxs-lookup"><span data-stu-id="175f6-118">Enter time for someone else</span></span>  
+## <a name="enter-time-for-someone-else"></a><span data-ttu-id="74ced-118">Введіть час для іншої особи</span><span class="sxs-lookup"><span data-stu-id="74ced-118">Enter time for someone else</span></span>  
   
-1.  <span data-ttu-id="175f6-119">З головного меню клацніть на **Project Service** > **Записи часу**.</span><span class="sxs-lookup"><span data-stu-id="175f6-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
+1.  <span data-ttu-id="74ced-119">З головного меню клацніть на **Project Service** > **Записи часу**.</span><span class="sxs-lookup"><span data-stu-id="74ced-119">From the main menu, click **Project Service** > **Time Entries**.</span></span>  
   
-2.  <span data-ttu-id="175f6-120">Виберіть на панелі команд розкривне меню **ІМ'Я РЕСУРСУ** і вкажіть ім'я користувача, для якого ви вводите час.</span><span class="sxs-lookup"><span data-stu-id="175f6-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
+2.  <span data-ttu-id="74ced-120">Виберіть на панелі команд розкривне меню **ІМ'Я РЕСУРСУ** і вкажіть ім'я користувача, для якого ви вводите час.</span><span class="sxs-lookup"><span data-stu-id="74ced-120">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering time for.</span></span>  
   
-3.  <span data-ttu-id="175f6-121">Натисніть кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="175f6-121">Click **OK**.</span></span>  
+3.  <span data-ttu-id="74ced-121">Натисніть кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="74ced-121">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="175f6-122">Це відобразить календар.</span><span class="sxs-lookup"><span data-stu-id="175f6-122">This brings up the calendar.</span></span> <span data-ttu-id="175f6-123">Натисніть **Назад** або **Далі**, щоб переглянути календар для попереднього або наступного тижня.</span><span class="sxs-lookup"><span data-stu-id="175f6-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="175f6-124">Натисніть кнопку **Сьогодні**, щоб повернутися на поточний тиждень.</span><span class="sxs-lookup"><span data-stu-id="175f6-124">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="74ced-122">Це відобразить календар.</span><span class="sxs-lookup"><span data-stu-id="74ced-122">This brings up the calendar.</span></span> <span data-ttu-id="74ced-123">Натисніть **Назад** або **Далі**, щоб переглянути календар для попереднього або наступного тижня.</span><span class="sxs-lookup"><span data-stu-id="74ced-123">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="74ced-124">Натисніть кнопку **Сьогодні**, щоб повернутися на поточний тиждень.</span><span class="sxs-lookup"><span data-stu-id="74ced-124">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="175f6-125">Щоб ввести свій час, натисніть кнопку **Створити** або двічі клацніть календар під днем, для якого потрібно ввести час.</span><span class="sxs-lookup"><span data-stu-id="175f6-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
+5.  <span data-ttu-id="74ced-125">Щоб ввести свій час, натисніть кнопку **Створити** або двічі клацніть календар під днем, для якого потрібно ввести час.</span><span class="sxs-lookup"><span data-stu-id="74ced-125">To enter your time, either click **New** or double-click in the calendar under the day you want to enter time for.</span></span>  
   
-6.  <span data-ttu-id="175f6-126">Заповніть поля в формі **Значення часу** і натисніть кнопку **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="175f6-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
+6.  <span data-ttu-id="74ced-126">Заповніть поля в формі **Значення часу** і натисніть кнопку **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="74ced-126">Fill in the fields in the **Time Entry** form and click **Save**.</span></span>  
   
-7.  <span data-ttu-id="175f6-127">Вказуйте час для тижня.</span><span class="sxs-lookup"><span data-stu-id="175f6-127">Continue entering time for the week.</span></span> <span data-ttu-id="175f6-128">Коли ви закінчите і все виглядає правильним, натисніть **Надіслати**.</span><span class="sxs-lookup"><span data-stu-id="175f6-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
+7.  <span data-ttu-id="74ced-127">Вказуйте час для тижня.</span><span class="sxs-lookup"><span data-stu-id="74ced-127">Continue entering time for the week.</span></span> <span data-ttu-id="74ced-128">Коли ви закінчите і все виглядає правильним, натисніть **Надіслати**.</span><span class="sxs-lookup"><span data-stu-id="74ced-128">When you’re done and everything looks correct, click **Submit**.</span></span>  
   
-## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="175f6-129">Введіть витрати для іншої особи</span><span class="sxs-lookup"><span data-stu-id="175f6-129">Enter expenses for someone else</span></span>  
+## <a name="enter-expenses-for-someone-else"></a><span data-ttu-id="74ced-129">Введіть витрати для іншої особи</span><span class="sxs-lookup"><span data-stu-id="74ced-129">Enter expenses for someone else</span></span>  
   
-1.  <span data-ttu-id="175f6-130">З головного меню клацніть на **Project Service** > **Витрати**.</span><span class="sxs-lookup"><span data-stu-id="175f6-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
+1.  <span data-ttu-id="74ced-130">З головного меню клацніть на **Project Service** > **Витрати**.</span><span class="sxs-lookup"><span data-stu-id="74ced-130">From the main menu, click **Project Service** > **Expenses**.</span></span>  
   
-2.  <span data-ttu-id="175f6-131">Виберіть на панелі команд розкривне меню **ІМ'Я РЕСУРСУ** і вкажіть ім'я користувача, для якого ви вводите витрати.</span><span class="sxs-lookup"><span data-stu-id="175f6-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
+2.  <span data-ttu-id="74ced-131">Виберіть на панелі команд розкривне меню **ІМ'Я РЕСУРСУ** і вкажіть ім'я користувача, для якого ви вводите витрати.</span><span class="sxs-lookup"><span data-stu-id="74ced-131">On the command bar, select the **RESOURCE NAME** drop-down menu, and select the name of the person who you’re entering expenses for.</span></span>  
   
-3.  <span data-ttu-id="175f6-132">Натисніть кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="175f6-132">Click **OK**.</span></span>  
+3.  <span data-ttu-id="74ced-132">Натисніть кнопку **OK**.</span><span class="sxs-lookup"><span data-stu-id="74ced-132">Click **OK**.</span></span>  
   
-4.  <span data-ttu-id="175f6-133">Натисніть **Назад** або **Далі**, щоб переглянути календар для попереднього або наступного тижня.</span><span class="sxs-lookup"><span data-stu-id="175f6-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="175f6-134">Натисніть кнопку **Сьогодні**, щоб повернутися на поточний тиждень.</span><span class="sxs-lookup"><span data-stu-id="175f6-134">Click **Today** to get back to the current week.</span></span>  
+4.  <span data-ttu-id="74ced-133">Натисніть **Назад** або **Далі**, щоб переглянути календар для попереднього або наступного тижня.</span><span class="sxs-lookup"><span data-stu-id="74ced-133">To see the calendar for the previous or next week, click **Previous** or **Next**.</span></span> <span data-ttu-id="74ced-134">Натисніть кнопку **Сьогодні**, щоб повернутися на поточний тиждень.</span><span class="sxs-lookup"><span data-stu-id="74ced-134">Click **Today** to get back to the current week.</span></span>  
   
-5.  <span data-ttu-id="175f6-135">Щоб ввести витрату натисніть кнопку **Створити**</span><span class="sxs-lookup"><span data-stu-id="175f6-135">To enter an expense, either click **New**</span></span>  
+5.  <span data-ttu-id="74ced-135">Щоб ввести витрату натисніть кнопку **Створити**</span><span class="sxs-lookup"><span data-stu-id="74ced-135">To enter an expense, either click **New**</span></span>  
   
-6.  <span data-ttu-id="175f6-136">У формі **Нові витрати** заповніть поля.</span><span class="sxs-lookup"><span data-stu-id="175f6-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="175f6-137">Можна також додати квитанції.</span><span class="sxs-lookup"><span data-stu-id="175f6-137">You can also add receipts.</span></span>  
+6.  <span data-ttu-id="74ced-136">У формі **Нові витрати** заповніть поля.</span><span class="sxs-lookup"><span data-stu-id="74ced-136">Fill in the fields in the **New Expense** form.</span></span> <span data-ttu-id="74ced-137">Можна також додати квитанції.</span><span class="sxs-lookup"><span data-stu-id="74ced-137">You can also add receipts.</span></span>  
   
-7.  <span data-ttu-id="175f6-138">Завершивши ці дії, натисніть кнопку **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="175f6-138">When you’re done, click **Save**.</span></span>  
+7.  <span data-ttu-id="74ced-138">Завершивши ці дії, натисніть кнопку **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="74ced-138">When you’re done, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="175f6-139">Див. також</span><span class="sxs-lookup"><span data-stu-id="175f6-139">See Also</span></span>  
- [<span data-ttu-id="175f6-140">Провідник по часу, витратах та співпраці</span><span class="sxs-lookup"><span data-stu-id="175f6-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="74ced-139">Див. також</span><span class="sxs-lookup"><span data-stu-id="74ced-139">See Also</span></span>  
+ [<span data-ttu-id="74ced-140">Провідник по часу, витратах та співпраці</span><span class="sxs-lookup"><span data-stu-id="74ced-140">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
