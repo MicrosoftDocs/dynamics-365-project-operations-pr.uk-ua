@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147678"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283258"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Робота з моделлю даних Project Service Automation
 
@@ -87,7 +87,7 @@ PSA розширює сутність **Замовлення** в Sales, яка 
 
 ## <a name="reporting-on-resources"></a>Звітування про ресурси
 
-Ресурси проекту використовують сутності **Доступні для бронювання ресурси** із Universal Resource Scheduling (URS) спільно з іншими програмами, такими як Microsoft Dynamics 365 Field Service. Нижче наведено список сутностей, які могли використовуватися під час звітування про ресурси проекту.
+Ресурси проекту використовують сутності **Доступного для бронювання ресурсу** з Universal Resource Scheduling (URS), спільний доступ до яких мають інші програми, наприклад, Microsoft Dynamics 365 Field Service. Нижче наведено список сутностей, які могли використовуватися під час звітування про ресурси проекту.
 
 - **Доступний для резервування ресурс** – ця сутність представляє користувача, контактну особу, загальний ресурс, бізнес-партнера, групу або засоби, які використовуються в робочій групі.
 - **Характеристики доступних для резервування ресурсів** – ця сутність включає в себе навички, сертифікати або навчання ресурсу. Характеристики можуть мати рейтингові значення, визначені рейтинговою моделлю.

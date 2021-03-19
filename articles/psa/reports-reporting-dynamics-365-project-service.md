@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25486b0c153842cab4331f27eea4872f848bea50
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147723"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283303"
 ---
-# <a name="reporting-home-page"></a>Домашня сторінка звітування
+# <a name="reporting-home-page"></a>Звітування домашньої сторінки
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation дає змогу організаціям на основі проектів ефективно керувати операціями своєї компанії. У будь-якому проекті учасники робочої групи повинні керувати потенційною угодою, ціновою пропозицією та планувати роботу, знаходити ресурси для проекту, керувати роботою згідно з планом, виставляти за роботу рахунки, а потім виконувати роботу з метою завершення проекту. Можливість звітування про операції — це ключ до визначення стану організації та ухвалення будь-яких необхідних коригуючих дій. У PSA використовуються методи звітування та технології Microsoft Dynamics 365 для всіх звітувань. Докладні відомості про параметри звітування див. в розділі [Посібник зі складання звітів для Dynamics 365 Customer Engagement (on-premises), версія 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation дає змогу організаціям на основі проектів ефективно керувати діяльністю свого підприємства. У будь-якому проекті учасники робочої групи повинні керувати потенційною угодою, ціновою пропозицією та планувати роботу, знаходити ресурси для проекту, керувати роботою згідно з планом, виставляти за роботу рахунки, а потім виконувати роботу з метою завершення проекту. Можливість звітування про операції — це ключ до визначення стану організації та ухвалення будь-яких необхідних коригуючих дій. У PSA використовуються методи звітування та технології Microsoft Dynamics 365 для всіх звітувань. Докладні відомості про параметри звітування див. в розділі [Посібник зі складання звітів для Dynamics 365 Customer Engagement (on-premises), версія 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## <a name="report-wizard"></a>Майстер звітів
 
@@ -43,7 +43,7 @@ Microsoft Dynamics 365 Project Service Automation дає змогу органі
 
 ## <a name="power-bi-insights-apps"></a>Програми аналітичних звітів Power BI
 
-Разом Microsoft Power BI і Dynamics 365 дають змогу ефективно працювати з даними, у формах програм аналітичних звітів. Для отримання додаткових відомостей про доступність програм аналітичних оглядів див. [сторінку програм аналітичних оглядів Power BI](https://powerbi.microsoft.com/power-bi-insights-apps/).
+Разом Microsoft Power BI і Dynamics 365 забезпечують ефективний спосіб роботи з даними в формі програм аналітичних звітів. Для отримання додаткових відомостей про доступність програм аналітичних оглядів див. [сторінку програм аналітичних оглядів Power BI](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
 
 ## <a name="additional-resources"></a>Додаткові ресурси
