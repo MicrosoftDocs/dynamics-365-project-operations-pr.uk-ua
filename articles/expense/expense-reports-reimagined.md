@@ -3,7 +3,7 @@ title: Переосмислення звітів про витрати
 description: У цій темі роз’яснюється досвід роботи зі звітами про витрати, що сприймається по-новому.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499741"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717720"
 ---
 # <a name="expense-reports-reimagined"></a>Переосмислення звітів про витрати
 
@@ -41,11 +41,7 @@ ms.locfileid: "5499741"
 - Не буде видалено жодних наявних пунктів меню для звітів про витрати (наявна сторінка) або полів звіту про витрати.
 - Робочі цикли та будь-які затвердження переноситимуть вас, як і раніше, на наявну сторінку звітів про витрати.
 
-## <a name="getting-started-video-for-new-users"></a>Відео про початок роботи для нових користувачів
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Відео [Робота із витратами у Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (див. вище) включено до [списку відтворення Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), що доступний на YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Нові можливості
 

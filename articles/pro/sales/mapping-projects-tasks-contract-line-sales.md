@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272818"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858134"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Зіставлення проектів і завдань із сервісною роботою за договором на основі проектів – легка версія
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Зіставлення проектів і завдань із сервісною роботою за договором на основі проекту 
 
-_**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
+_**Застосовується до:** Легке розгортання - виставлення попередніх рахунків, Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
 За сервісною роботою за договором на основі проектів ви можете зіставляти окремі завдання в проекті із сервісною роботою за договором.
 
