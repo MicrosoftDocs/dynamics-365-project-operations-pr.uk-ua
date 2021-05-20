@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278083"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947904"
 ---
 # <a name="manage-leads"></a>Керування потенційними клієнтами
 
@@ -55,7 +55,7 @@ _**Застосовується до:** Project Operations для сценарі
 - Запис контактної особи, зв'язаний з бізнес-партнером на основі значень у полях **Ім'я** і **Прізвище** потенційного клієнта.
 - Потенційна угода на основі проекту, в якій для поля **Тип** установлено значення **На основі робіт**.
 
-Докладні відомості про кваліфікування потенційних клієнтів див. у розділі [Кваліфікування або перетворення потенційних клієнтів](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Докладні відомості про кваліфікування потенційних клієнтів див. у розділі [Кваліфікування або перетворення потенційних клієнтів](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Відомості про кваліфікування потенційних клієнтів та юридичні особи 
 

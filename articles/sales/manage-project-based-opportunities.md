@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277858"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948445"
 ---
 # <a name="manage-project-based-opportunities"></a>Керування потенційними угодами на основі проектів
 
@@ -64,7 +64,7 @@ _**Застосовується до:** Project Operations для сценарі
 >
 > Якщо ваша угода на основі проекту розпочата з потенційної угоди, процес збуту для потенційної угоди має пріоритет.
 
-Можна редагувати потік бізнес-процесу продукту або створити власні потоки бізнес-процесів, щоб відстежувати процес збуту за потреби. Щоб дізнатися більше про те, чому ви використовуєте потоки бізнес-процесу, див. [Огляд потоків бізнес-процесів](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Можна редагувати потік бізнес-процесу продукту або створити власні потоки бізнес-процесів, щоб відстежувати процес збуту за потреби. Щоб дізнатися більше про те, чому ви використовуєте потоки бізнес-процесу, див. [Огляд потоків бізнес-процесів](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

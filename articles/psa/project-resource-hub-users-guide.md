@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283798"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948174"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Посібник користувача центру проектних ресурсів
 
@@ -48,7 +48,7 @@ ms.locfileid: "5283798"
 ## <a name="install-the-mobile-app"></a>Встановіть програму для мобільних пристроїв
 Перш, ніж ви зможете використовувати програму "Центр проектних ресурсів", вам потрібно встановити програму для мобільних пристроїв на вашому пристрої. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Встановлення Dynamics 365 for phones та tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Встановлення Dynamics 365 for phones та tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>Базова навігація
 1.  Під час входу до програми для мобільного пристрою, ви побачите сторінку MyApps зі списком програм, до яких у вас є доступ. 
@@ -70,7 +70,7 @@ ms.locfileid: "5283798"
 
 - Щоб закріпити пункт як елемент списку улюблених, у списку елементів **Нещодавно використані** натисніть "Закріпити". Це закріпить і перемістить елемент до "Улюблених".
 
-  !["Уподобання" й "Недавні"](media/Favs_3.png ""Уподобання" й "Недавні"")
+  !["Уподобання" й "Недавні"](media/Favs_3.png "&quot;Уподобання&quot; й &quot;Недавні&quot;")
  
 ## <a name="enter-time"></a>Введіть час
 Введіть ваші години, принаймні щотижневі, або частоту запитів ваших менеджерів, щоб виставити вашим клієнтам належні рахунки.
@@ -99,7 +99,7 @@ ms.locfileid: "5283798"
 5. Вказуйте витрати для тижня. Коли ви закінчите і все виглядає правильним, натисніть **Надіслати**. Менеджер перегляне і затвердить ваші витрати.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Загальна інформація про те, як використовувати мобільний додаток 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Посібник з основи Mobile](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Посібник з основи Mobile](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide)
 
 ### <a name="see-also"></a>Статті за темою  
  [Огляд Project Service](../psa/overview.md)   

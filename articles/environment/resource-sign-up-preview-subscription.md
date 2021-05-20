@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4c2cd4c5d4dfbb95398932d432864cf0d4d5d54d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276868"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948489"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Реєстрація для отримання підготовчих версій передплат Project Operations для сценаріїв на основі ресурсів і без запасів
 
@@ -92,7 +92,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Розгортання демо-середовища Finance із Project Operations для сценаріїв на основі ресурсів і без запасів
 
-Щоб виконати розгортання, дотримуйтеся вказівок у розділі [Підготовка нового середовища](resource-provision-new-environment.md). Для попереднього перегляду використовуйте тип розгортання [демо-середовище](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
+Щоб виконати розгортання, дотримуйтеся вказівок у розділі [Підготовка нового середовища](resource-provision-new-environment.md). Для попереднього перегляду використовуйте тип розгортання [демо-середовище](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Встановлення даних налаштування та конфігурації CDS
 
