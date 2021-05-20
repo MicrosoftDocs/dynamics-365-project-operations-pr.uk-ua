@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287398"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950154"
 ---
 # <a name="financial-dimension-defaults"></a>Стандартні значення фінансових аналітик
 
@@ -21,7 +21,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-У Dynamics 365 Project Operations використовується структура[фінансових величин](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) у Dynamics 365 Finance задля надання додаткової аналітичної інформації про транзакції головної та допоміжної бухгалтерської книги проекту.
+У Dynamics 365 Project Operations використовується структура[фінансових величин](/dynamics365/finance/general-ledger/financial-dimensions) у Dynamics 365 Finance задля надання додаткової аналітичної інформації про транзакції головної та допоміжної бухгалтерської книги проекту.
 
 Фінансові величини за замовчуванням можна задати щодо клієнта, джерела фінансування проекту, проміжного етапу, сервісної роботи за договором проекту або самого проекту.
 

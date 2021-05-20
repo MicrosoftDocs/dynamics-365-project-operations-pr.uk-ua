@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e5bfd3c790dac51895cde04e08d1fa62f4457e8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ece05f1f551b18a5b30610af57d68baa120948fb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292094"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951009"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -88,7 +88,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="regulatory-updates"></a>Оновлення нормативних вимог
 
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282673"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951459"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Графік ресурсів для проекту (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "5282673"
   
 Графік показує список ресурсів і їх доступність. Виберіть один з режимів перегляду, щоб побачити доступність за **Годинами**, **Днями**, **Тижнями** або **Місяцями**.  
   
-Перш ніж використовувати дошку розкладу, важливо налаштувати її. Додаткові відомості див. в розділі [Налаштування панелі розкладів (Field Service або Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Перш ніж використовувати дошку розкладу, важливо налаштувати її. Додаткові відомості див. в розділі [Налаштування панелі розкладів (Field Service або Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Якщо ви використовуєте старішу версію, відомості про доступність ресурсів див. в розділі [Перегляд доступності ресурсів](../psa/view-resource-availability.md).  
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df5c6bce8a534f4f8b1872e2bd5cc8a58ef11189
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c434356c08e8490931bd60ea5b10fe2706cb0f51
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271603"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951099"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Імпорт і обслуговування операцій з кредитними картками
 
 Ви можете налаштувати автоматичний імпорт операцій із кредитними картками, пов’язаних із витратами, згідно з повторюваним розкладом. Крім того, операції можна імпортувати вручну, коли виникає така потреба. Операції із кредитними картками імпортуються за допомогою сутності даних «Операції із кредитними картками».
 
-Для отримання додаткових відомостей про сутності даних див. [Сутності даних](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
+Для отримання додаткових відомостей про сутності даних див. [Сутності даних](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).
 
 ## <a name="import-credit-card-transactions"></a>Імпорт операцій з кредитними картками
 
