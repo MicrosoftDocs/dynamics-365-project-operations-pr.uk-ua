@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Що нового
       items:
+        - name: "Травень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: "Квітень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: "Березень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Налаштування категорій витрат
               href: expense/set-up-expense-categories.md
+            - name: 'Налаштування відстані, використовуючи ставки за пройдену відстань'
+              href: expense/set-up-mileage.md
         - name: Персональні витрати
           href: expense/personal-expenses-expense-report.md
         - name: Внутрішні витрати
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Що нового
       items:
+        - name: "Що нового в травні 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "Що нового в квітні 2021\_р.: розгортання Lite"
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: "Що нового в березні 2021\_р.: розгортання Lite"
@@ -1028,6 +1034,8 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Нові можливості або зміни у випуску оновлень 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Нові можливості або зміни у випуску оновлень 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Налаштування тижневого запису часу
               href: psa/time-entry-extensibility-v3.md
+            - name: Набори затверджень
+              href: psa/approval-set.md
     - name: Запитання й відповіді та усунення несправностей (3.x)
       items:
         - name: Чому ціна стає нульовою за фактичними даними вартості для витрат?
