@@ -2,18 +2,16 @@
 title: Налаштування категорій проектів
 description: У цьому розділі наведено відомості про настройку категорій проектів.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287533"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995196"
 ---
 # <a name="configure-project-categories"></a>Налаштування категорій проектів
 
@@ -29,7 +27,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="transaction-categories"></a>Категорії транзакцій
 
-Категорії транзакцій представляють базове групування для транзакцій проектів і не залежать від певної компанії або типу транзакцій. Наприклад, Contoso Robotics використовує категорії «Розробка», «Подорожі», «Інсталяція» та «Службова транзакція» для групування транзакцій проектів.
+Категорії транзакцій представляють базове групування для транзакцій проектів і не залежать від певної компанії або типу транзакцій. Наприклад, для групування проектних транзакцій компанія Contoso Robotics використовує такі категорії: «Дизайн», «Відрядження», «Інсталяція» та «Послуга».
 
 Категорії транзакцій визначаються в модулі Project Operations. 
 1. Щоб відкрити форму, виберіть **Параметри** \> **Категорії транзакцій**. 

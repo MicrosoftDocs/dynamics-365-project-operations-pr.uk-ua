@@ -2,19 +2,17 @@
 title: Налаштування нескладських матеріалів та непідтверджених рахунків постачальника
 description: У цьому розділі описано, як увімкнути нескладські матеріали та непідтверджені рахунки постачальника.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880697"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993936"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Налаштування нескладських матеріалів та непідтверджених рахунків постачальника
 
@@ -61,11 +59,11 @@ Dynamics 365 Finance:
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>Активуйте робочий цикл, щоб створювати бізнес-партнерів на основі сутності постачальника.
 
-Оркестраційне рішення для подвійного записування надає [Інтеграцію зразка постачальників](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). Для цієї функції необхідно створити дані постачальника в сутності **Бізнес-партнери**. Запустіть шаблон процесу робочого циклу, щоб створити постачальників в таблиці **Бізнес-партнери** згідно з описом у розділі [Перемикання між макетами постачальників](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+Оркестраційне рішення для подвійного записування надає [Інтеграцію зразка постачальників](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). Для цієї функції необхідно створити дані постачальника в сутності **Бізнес-партнери**. Запустіть шаблон процесу робочого циклу, щоб створити постачальників в таблиці **Бізнес-партнери** згідно з описом у розділі [Перемикання між макетами постачальників](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### <a name="set-products-to-be-created-as-active"></a>Задайте створення продуктів в активному стані
 
-Нескладські матеріали необхідно налаштувати як **Випущені продукти** у Finance. Оркестраційне рішення для подвійного записування за замовчуванням надає [Інтеграцію випущених продуктів до каталогу продуктів Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). За замовчуванням, продукти з Finance синхронізуються у Dataverse у стані чернетки. Щоб синхронізувати продукт в активному стані, що дозволить напряму використовувати його в документах використання продуктів або в непідтверджених рахунках постачальника, перейдіть у меню **Система** > **Адміністрування** > **Адміністрування системи** > **Параметри системи**, та на вкладці **Збут** задайте значення **Так** параметру **Створювати продукти в активному стані**.
+Нескладські матеріали необхідно налаштувати як **Випущені продукти** у Finance. Оркестраційне рішення для подвійного записування за замовчуванням надає [Інтеграцію випущених продуктів до каталогу продуктів Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). За замовчуванням, продукти з Finance синхронізуються у Dataverse у стані чернетки. Щоб синхронізувати продукт в активному стані, що дозволить напряму використовувати його в документах використання продуктів або в непідтверджених рахунках постачальника, перейдіть у меню **Система** > **Адміністрування** > **Адміністрування системи** > **Параметри системи**, та на вкладці **Збут** задайте значення **Так** параметру **Створювати продукти в активному стані**.
 
 ## <a name="configure-prerequisites-in-finance"></a>Налаштування необхідних компонентів у Finance
 
