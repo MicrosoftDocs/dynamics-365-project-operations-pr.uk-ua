@@ -2,18 +2,16 @@
 title: Огляд використання ресурсів
 description: У цьому розділі наведено відомості про використання ресурсів у Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279343"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000821"
 ---
 # <a name="resource-utilization-overview"></a>Огляд використання ресурсів
 

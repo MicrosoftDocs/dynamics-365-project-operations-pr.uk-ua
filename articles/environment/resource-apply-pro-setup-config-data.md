@@ -2,18 +2,16 @@
 title: Налаштування та застосування даних та конфігурації в Common Data Service
 description: У цьому розділі наведено відомості про налаштування та застосування даних конфігурації в Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289844"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001316"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Налаштування та застосування даних та конфігурації в Common Data Service 
 
@@ -23,7 +21,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="prerequisites"></a>Вимоги
 
-Перш ніж виконати настроювання даних у Common Data Service (CDS),потрібно виконати наведені нижче передумови.
+Наведені далі попередні умови мають виконуватися до початку налаштування даних у Common Data Service (CDS).
 
 1.  Надання середовищ CDS і Dynamics 365 Finance для Project Operations.
 2.  Інформація про юридичну особу поширюються від Dynamics 365 Finance до CDS Це означає, що сутність **Компанія** у CDS має такі записи про компанію.
@@ -33,7 +31,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="install-setup-and-configuration-data"></a>Встановлення даних налаштування та конфігурації
 
-1. Завантажте, розблокуйте та розпакуйте [пакет даних налаштування та конфігурації](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Завантажте, розблокуйте та розпакуйте [пакет даних налаштування та конфігурації](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Перейдіть до розпакованої папки та запустіть виконуваний файл *DataMigrationUtility*.
 3. На сторінці 1 майстра перенесення конфігурації Common Data Service (CMT) виберіть **Імпортувати дані** та натисніть **Продовжити**.
 
@@ -57,13 +55,20 @@ _**Застосовується до:** Project Operations для сценарі
 ![Імпортувати дані](./media/5ImportData.png)
 
 10. Імпортування триватиме близько двох-десяти хвилин залежно від швидкості мережі. Після завершення імпортування вийдіть із майстра CMT. 
-11. Перевірте дані організації в зазначених нижче 19 сутностях.
+11. Перевірте дані організації в зазначених нижче 26 сутностях.
 
-  - Валюта
+  - Грошова одиниця
+  - План рахунків
+  - Фінансовий календар
+  - Типи обмінного курсу валют
+  - День оплати
+  - Розклад платежів
+  - Умови оплати
   - Організаційна одиниця
-  - Контактна інформація
+  - Контактна особа
   - Група податків
   - Група клієнтів
+  - Група постачальника
   - Одиниця вимірювання
   - Група одиниць вимірювання
   - Прайс
@@ -127,7 +132,7 @@ _**Застосовується до:** Project Operations для сценарі
 12. Оновіть наведені нижче поля.
 
  - **Стандартна компанія**: USPM.
- - **Організаційна одиниця за замовчуванням**: Contoso Robotics Global.
+ - **Організаційна одиниця за промовчанням**: Contoso Robotics Global
  - **Частота виставлення рахунків**: сьомий і останній день.
  - **Шаблон робочого часу**: змініть його на щойно створений шаблон.
 
