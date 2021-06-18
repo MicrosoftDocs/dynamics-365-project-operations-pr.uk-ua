@@ -2,8 +2,6 @@
 title: Переглянути платне використання ресурсів
 description: У цьому розділі наведено відомості про подання використання ресурсів.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,88 +16,88 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b07af573bc8d312c45ee4aef50c95942401294fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285958"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992859"
 ---
-# <a name="view-chargeable-utilization-for-resources"></a><span data-ttu-id="94502-103">Переглянути платне використання ресурсів</span><span class="sxs-lookup"><span data-stu-id="94502-103">View chargeable utilization for resources</span></span>
+# <a name="view-chargeable-utilization-for-resources"></a><span data-ttu-id="4fd09-103">Переглянути платне використання ресурсів</span><span class="sxs-lookup"><span data-stu-id="4fd09-103">View chargeable utilization for resources</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
  
-<span data-ttu-id="94502-104">**Перегляд використання** на сторінці **Використання ресурсів Project Service** показує платне використання для кожного доступного ресурсу. </span><span class="sxs-lookup"><span data-stu-id="94502-104">The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource.</span></span> <span data-ttu-id="94502-105">Оскільки це подання базується на панелі розкладів, тому тут багато тих самих функцій.</span><span class="sxs-lookup"><span data-stu-id="94502-105">Because the view is based on the schedule board, you’ll find many of the same functions.</span></span>
+<span data-ttu-id="4fd09-104">**Перегляд використання** на сторінці **Використання ресурсів Project Service** показує платне використання для кожного доступного ресурсу. </span><span class="sxs-lookup"><span data-stu-id="4fd09-104">The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource.</span></span> <span data-ttu-id="4fd09-105">Оскільки це подання базується на панелі розкладів, тому тут багато тих самих функцій.</span><span class="sxs-lookup"><span data-stu-id="4fd09-105">Because the view is based on the schedule board, you’ll find many of the same functions.</span></span>
 
 > ![Знімок екрана з подання "Використання"](media/FAQ-utilization-1.png)
  
 
-<span data-ttu-id="94502-107">Як розрахунок платного використання працює наступним чином:</span><span class="sxs-lookup"><span data-stu-id="94502-107">The chargeable utilization calculation works as follows:</span></span>
+<span data-ttu-id="4fd09-107">Як розрахунок платного використання працює наступним чином:</span><span class="sxs-lookup"><span data-stu-id="4fd09-107">The chargeable utilization calculation works as follows:</span></span>
 
-   <span data-ttu-id="94502-108">Платне використання = (фактичний платний час) / (виробнича спроможність ресурсу).</span><span class="sxs-lookup"><span data-stu-id="94502-108">Chargeable utilization = (Chargeable actual hours) / (resource capacity)</span></span>
+   <span data-ttu-id="4fd09-108">Платне використання = (фактичний платний час) / (виробнича спроможність ресурсу).</span><span class="sxs-lookup"><span data-stu-id="4fd09-108">Chargeable utilization = (Chargeable actual hours) / (resource capacity)</span></span>
 
-<span data-ttu-id="94502-109">Ця комірка показує розрахунок платного використання на вибраний період (дні, тижні або місяці).</span><span class="sxs-lookup"><span data-stu-id="94502-109">The cells represent the calculated chargeable utilization for the selected period (days, weeks, or months).</span></span>
+<span data-ttu-id="4fd09-109">Ця комірка показує розрахунок платного використання на вибраний період (дні, тижні або місяці).</span><span class="sxs-lookup"><span data-stu-id="4fd09-109">The cells represent the calculated chargeable utilization for the selected period (days, weeks, or months).</span></span>
 
-<span data-ttu-id="94502-110">Кольори в кожній клітинці показують платне використання для ресурсу в порівнянні з їх цільовим платним використанням.</span><span class="sxs-lookup"><span data-stu-id="94502-110">The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization.</span></span> 
+<span data-ttu-id="4fd09-110">Кольори в кожній клітинці показують платне використання для ресурсу в порівнянні з їх цільовим платним використанням.</span><span class="sxs-lookup"><span data-stu-id="4fd09-110">The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization.</span></span> 
 
-<span data-ttu-id="94502-111">Кінцеве цільове використання можна задати або в ролі ресурсу за замовчуванням, або для самого окремого ресурсу.</span><span class="sxs-lookup"><span data-stu-id="94502-111">The target utilization can be set on the resource’s default role or on the individual resource itself.</span></span> <span data-ttu-id="94502-112">Розрахунок в першу чергу дивиться на особу як ціль, а потім на роль ресурсу за замовчуванням.</span><span class="sxs-lookup"><span data-stu-id="94502-112">The calculation looks at the individual for the target first, and then to the resource’s default role.</span></span>
+<span data-ttu-id="4fd09-111">Кінцеве цільове використання можна задати або в ролі ресурсу за замовчуванням, або для самого окремого ресурсу.</span><span class="sxs-lookup"><span data-stu-id="4fd09-111">The target utilization can be set on the resource’s default role or on the individual resource itself.</span></span> <span data-ttu-id="4fd09-112">Розрахунок в першу чергу дивиться на особу як ціль, а потім на роль ресурсу за замовчуванням.</span><span class="sxs-lookup"><span data-stu-id="4fd09-112">The calculation looks at the individual for the target first, and then to the resource’s default role.</span></span>
 
-## <a name="set-target-on-a-resource"></a><span data-ttu-id="94502-113">Установити кінцеве значення для ресурсу</span><span class="sxs-lookup"><span data-stu-id="94502-113">Set target on a resource</span></span>
+## <a name="set-target-on-a-resource"></a><span data-ttu-id="4fd09-113">Установити кінцеве значення для ресурсу</span><span class="sxs-lookup"><span data-stu-id="4fd09-113">Set target on a resource</span></span>
 
-1. <span data-ttu-id="94502-114">Виберіть **Ресурси** \> **Ресурси**.</span><span class="sxs-lookup"><span data-stu-id="94502-114">Go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="94502-115">Виберіть ресурс, щоб відкрити запис.</span><span class="sxs-lookup"><span data-stu-id="94502-115">Select a resource to open the record.</span></span> 
-3. <span data-ttu-id="94502-116">У вкладці **Project Service** можна задати цільове використання ресурсів.</span><span class="sxs-lookup"><span data-stu-id="94502-116">On the **Project Service** tab, you can set the resource’s target utilization.</span></span>
+1. <span data-ttu-id="4fd09-114">Виберіть **Ресурси** \> **Ресурси**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-114">Go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="4fd09-115">Виберіть ресурс, щоб відкрити запис.</span><span class="sxs-lookup"><span data-stu-id="4fd09-115">Select a resource to open the record.</span></span> 
+3. <span data-ttu-id="4fd09-116">У вкладці **Project Service** можна задати цільове використання ресурсів.</span><span class="sxs-lookup"><span data-stu-id="4fd09-116">On the **Project Service** tab, you can set the resource’s target utilization.</span></span>
 
 > ![Знімок екрана із вкладки Project Service для настроювання цільового використання](media/FAQ-utilization-2.png)
  
-## <a name="set-target-utilization-on-a-role"></a><span data-ttu-id="94502-118">Настроювання цільового використання для ролі</span><span class="sxs-lookup"><span data-stu-id="94502-118">Set target utilization on a role</span></span>
+## <a name="set-target-utilization-on-a-role"></a><span data-ttu-id="4fd09-118">Настроювання цільового використання для ролі</span><span class="sxs-lookup"><span data-stu-id="4fd09-118">Set target utilization on a role</span></span>
 
-1. <span data-ttu-id="94502-119">Перейдіть до **Ресурси** \> **Ролі ресурсів**.</span><span class="sxs-lookup"><span data-stu-id="94502-119">Go to **Resources** \> **Resource Roles**.</span></span> 
-2. <span data-ttu-id="94502-120">Виберіть роль і відкрийте запис.</span><span class="sxs-lookup"><span data-stu-id="94502-120">Select a role and open the record.</span></span> 
-3. <span data-ttu-id="94502-121">Встановіть цільове використання для ролі.</span><span class="sxs-lookup"><span data-stu-id="94502-121">Set the target utilization for the role.</span></span>
+1. <span data-ttu-id="4fd09-119">Перейдіть до **Ресурси** \> **Ролі ресурсів**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-119">Go to **Resources** \> **Resource Roles**.</span></span> 
+2. <span data-ttu-id="4fd09-120">Виберіть роль і відкрийте запис.</span><span class="sxs-lookup"><span data-stu-id="4fd09-120">Select a role and open the record.</span></span> 
+3. <span data-ttu-id="4fd09-121">Встановіть цільове використання для ролі.</span><span class="sxs-lookup"><span data-stu-id="4fd09-121">Set the target utilization for the role.</span></span>
 
 > ![Знімок екрана "Ролі ресурсу" для настроювання цільового використання](media/FAQ-utilization-3.png)
  
-## <a name="calculate-chargeable-utilization-for-a-resource"></a><span data-ttu-id="94502-123">Обчисліть платне використання для ресурсу?</span><span class="sxs-lookup"><span data-stu-id="94502-123">Calculate chargeable utilization for a resource</span></span>
+## <a name="calculate-chargeable-utilization-for-a-resource"></a><span data-ttu-id="4fd09-123">Обчисліть платне використання для ресурсу?</span><span class="sxs-lookup"><span data-stu-id="4fd09-123">Calculate chargeable utilization for a resource</span></span>
 
-<span data-ttu-id="94502-124">Для обчислення платного використання для ресурсу, необхідно заповнити деякі налаштування.</span><span class="sxs-lookup"><span data-stu-id="94502-124">To calculate chargeable utilization for a resource, you will need to complete some pre-requisites.</span></span> 
+<span data-ttu-id="4fd09-124">Для обчислення платного використання для ресурсу, необхідно заповнити деякі налаштування.</span><span class="sxs-lookup"><span data-stu-id="4fd09-124">To calculate chargeable utilization for a resource, you will need to complete some pre-requisites.</span></span> 
 
-### <a name="set-default-role-for-individual-resource"></a><span data-ttu-id="94502-125">Установіть ролі за замовчуванням для окремого ресурсу</span><span class="sxs-lookup"><span data-stu-id="94502-125">Set default role for individual resource</span></span>
+### <a name="set-default-role-for-individual-resource"></a><span data-ttu-id="4fd09-125">Установіть ролі за замовчуванням для окремого ресурсу</span><span class="sxs-lookup"><span data-stu-id="4fd09-125">Set default role for individual resource</span></span>
 
-<span data-ttu-id="94502-126">Перш за все, цільове використання має бути встановлене або для ролі ресурсу, або для самого окремого ресурсу.</span><span class="sxs-lookup"><span data-stu-id="94502-126">First, the target utilization must be set on either the individual resource or on resource roles.</span></span> <span data-ttu-id="94502-127">Якщо ви використовуєте ролі для цілей, кожен окремий ресурс повинен мати роль за замовчуванням.</span><span class="sxs-lookup"><span data-stu-id="94502-127">If you are using resource roles for targets, each individual resource must have a default role.</span></span> 
+<span data-ttu-id="4fd09-126">Перш за все, цільове використання має бути встановлене або для ролі ресурсу, або для самого окремого ресурсу.</span><span class="sxs-lookup"><span data-stu-id="4fd09-126">First, the target utilization must be set on either the individual resource or on resource roles.</span></span> <span data-ttu-id="4fd09-127">Якщо ви використовуєте ролі для цілей, кожен окремий ресурс повинен мати роль за замовчуванням.</span><span class="sxs-lookup"><span data-stu-id="4fd09-127">If you are using resource roles for targets, each individual resource must have a default role.</span></span> 
 
-1. <span data-ttu-id="94502-128">Щоб установити це, перейдіть до **Ресурси** \> **Ресурси**.</span><span class="sxs-lookup"><span data-stu-id="94502-128">To set this, go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="94502-129">Виберіть ресурс, відкрийте запис, а потім перейдіть у вкладку **Project Service**.</span><span class="sxs-lookup"><span data-stu-id="94502-129">Select a resource, open the record, and then select the **Project Service** tab.</span></span> 
-3. <span data-ttu-id="94502-130">У сітці **Роль ресурсу** переконайтеся , що для цього ресурсу існує одна роль і **За замовчуванням** задано значення **Так**.</span><span class="sxs-lookup"><span data-stu-id="94502-130">In the **Resource Role** grid, make sure there’s one role for the resource and **Is Default** is set to **Yes**.</span></span>
+1. <span data-ttu-id="4fd09-128">Щоб установити це, перейдіть до **Ресурси** \> **Ресурси**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-128">To set this, go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="4fd09-129">Виберіть ресурс, відкрийте запис, а потім перейдіть у вкладку **Project Service**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-129">Select a resource, open the record, and then select the **Project Service** tab.</span></span> 
+3. <span data-ttu-id="4fd09-130">У сітці **Роль ресурсу** переконайтеся , що для цього ресурсу існує одна роль і **За замовчуванням** задано значення **Так**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-130">In the **Resource Role** grid, make sure there’s one role for the resource and **Is Default** is set to **Yes**.</span></span>
  
-### <a name="change-billing-type-for-resource-role"></a><span data-ttu-id="94502-131">Виберіть тип виставлення рахунків для цієї ролі ресурсу</span><span class="sxs-lookup"><span data-stu-id="94502-131">Change billing type for resource role</span></span>
+### <a name="change-billing-type-for-resource-role"></a><span data-ttu-id="4fd09-131">Виберіть тип виставлення рахунків для цієї ролі ресурсу</span><span class="sxs-lookup"><span data-stu-id="4fd09-131">Change billing type for resource role</span></span>
 
-<span data-ttu-id="94502-132">Ролі ресурсів слід установити у тип розрахунку **Оплачуваний**.</span><span class="sxs-lookup"><span data-stu-id="94502-132">The resource roles must be set to have a billing type of **Chargeable**.</span></span> 
+<span data-ttu-id="4fd09-132">Ролі ресурсів слід установити у тип розрахунку **Оплачуваний**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-132">The resource roles must be set to have a billing type of **Chargeable**.</span></span> 
 
-1. <span data-ttu-id="94502-133">Перейдіть до **Ресурси** \> **Ролі ресурсів**.</span><span class="sxs-lookup"><span data-stu-id="94502-133">Go to **Resources** \> **Resource Roles**.</span></span> 
-2. <span data-ttu-id="94502-134">Відкрийте запис, який потрібно оновити, а потім встановіть тип розрахунку за замовчуванням в **Оплачуваний**.</span><span class="sxs-lookup"><span data-stu-id="94502-134">Open the record you want to update, and then set the billing type default to **Chargeable**.</span></span>
+1. <span data-ttu-id="4fd09-133">Перейдіть до **Ресурси** \> **Ролі ресурсів**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-133">Go to **Resources** \> **Resource Roles**.</span></span> 
+2. <span data-ttu-id="4fd09-134">Відкрийте запис, який потрібно оновити, а потім встановіть тип розрахунку за замовчуванням в **Оплачуваний**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-134">Open the record you want to update, and then set the billing type default to **Chargeable**.</span></span>
 
-### <a name="set-working-hours-for-resource-role"></a><span data-ttu-id="94502-135">Установлення робочого часу для ролі ресурсу</span><span class="sxs-lookup"><span data-stu-id="94502-135">Set working hours for resource role</span></span>
+### <a name="set-working-hours-for-resource-role"></a><span data-ttu-id="4fd09-135">Установлення робочого часу для ролі ресурсу</span><span class="sxs-lookup"><span data-stu-id="4fd09-135">Set working hours for resource role</span></span>
  
-<span data-ttu-id="94502-136">Ресурс повинен мати робочі години для обчислення виробничої спроможності.</span><span class="sxs-lookup"><span data-stu-id="94502-136">The resource must have working hours for the capacity calculation.</span></span> 
+<span data-ttu-id="4fd09-136">Ресурс повинен мати робочі години для обчислення виробничої спроможності.</span><span class="sxs-lookup"><span data-stu-id="4fd09-136">The resource must have working hours for the capacity calculation.</span></span> 
 
-1. <span data-ttu-id="94502-137">Виберіть **Ресурси** \> **Ресурси**.</span><span class="sxs-lookup"><span data-stu-id="94502-137">Go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="94502-138">Виберіть ресурс, щоб відкрити запис, а потім натисніть кнопку **Показати робочі години**.</span><span class="sxs-lookup"><span data-stu-id="94502-138">Select a resource to open the record, and then select **Show Work Hours**.</span></span> 
-3. <span data-ttu-id="94502-139">Можна зробити групове оновлення списку ресурсів за допомогою шаблону **Робочі години** в поданні **Список ресурсів**.</span><span class="sxs-lookup"><span data-stu-id="94502-139">You can bulk-update the list of resources by applying a **Work Hour Template** from the **Resource List** view.</span></span>
+1. <span data-ttu-id="4fd09-137">Виберіть **Ресурси** \> **Ресурси**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-137">Go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="4fd09-138">Виберіть ресурс, щоб відкрити запис, а потім натисніть кнопку **Показати робочі години**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-138">Select a resource to open the record, and then select **Show Work Hours**.</span></span> 
+3. <span data-ttu-id="4fd09-139">Можна зробити групове оновлення списку ресурсів за допомогою шаблону **Робочі години** в поданні **Список ресурсів**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-139">You can bulk-update the list of resources by applying a **Work Hour Template** from the **Resource List** view.</span></span>
 
-## <a name="troubleshooting-chargeable-actual-hours"></a><span data-ttu-id="94502-140">Виправлення неполадок з оплачуваними фактичними годинами</span><span class="sxs-lookup"><span data-stu-id="94502-140">Troubleshooting chargeable actual hours</span></span>
+## <a name="troubleshooting-chargeable-actual-hours"></a><span data-ttu-id="4fd09-140">Виправлення неполадок з оплачуваними фактичними годинами</span><span class="sxs-lookup"><span data-stu-id="4fd09-140">Troubleshooting chargeable actual hours</span></span>
 
-<span data-ttu-id="94502-141">Фактичні оплачувані години підтягуються із сутності **Фактичні показники**.</span><span class="sxs-lookup"><span data-stu-id="94502-141">The chargeable actual hours are sourced from the **Actuals** entity.</span></span> <span data-ttu-id="94502-142">Фактичні показники з **Оплачуваним** типом розрахунків включаються в обчислення, а тому потрібно мати проекти, де є фактичні дані, які оплачуються.</span><span class="sxs-lookup"><span data-stu-id="94502-142">Actuals with a billing type of **Chargeable** are included in the calculation and, for this reason, you must have projects where the actuals that are chargeable.</span></span>
+<span data-ttu-id="4fd09-141">Фактичні оплачувані години підтягуються із сутності **Фактичні показники**.</span><span class="sxs-lookup"><span data-stu-id="4fd09-141">The chargeable actual hours are sourced from the **Actuals** entity.</span></span> <span data-ttu-id="4fd09-142">Фактичні показники з **Оплачуваним** типом розрахунків включаються в обчислення, а тому потрібно мати проекти, де є фактичні дані, які оплачуються.</span><span class="sxs-lookup"><span data-stu-id="4fd09-142">Actuals with a billing type of **Chargeable** are included in the calculation and, for this reason, you must have projects where the actuals that are chargeable.</span></span>
 
-<span data-ttu-id="94502-143">Якщо ви не бачите платне використання, ось що можна перевірити:</span><span class="sxs-lookup"><span data-stu-id="94502-143">If you are not seeing chargeable utilization, here are some things you can check:</span></span>
+<span data-ttu-id="4fd09-143">Якщо ви не бачите платне використання, ось що можна перевірити:</span><span class="sxs-lookup"><span data-stu-id="4fd09-143">If you are not seeing chargeable utilization, here are some things you can check:</span></span>
 
-- <span data-ttu-id="94502-144">Ресурс має робочі години, визначені для виробничої спроможності.</span><span class="sxs-lookup"><span data-stu-id="94502-144">The resource has working hours defined for capacity.</span></span>
-- <span data-ttu-id="94502-145">Ресурс має або окремо визначене цільове використання, або має роль за замовчуванням, яку йому призначено.</span><span class="sxs-lookup"><span data-stu-id="94502-145">The resource has either an individually defined utilization target or has a default role assigned to it.</span></span> <span data-ttu-id="94502-146">Роль має цільове використання, визначене саме для неї.</span><span class="sxs-lookup"><span data-stu-id="94502-146">The role has a utilization target defined for it.</span></span>
-- <span data-ttu-id="94502-147">Фактичні показники мають **Оплачуваний** тип розрахунків на період, на який очікується розрахувати використання.</span><span class="sxs-lookup"><span data-stu-id="94502-147">Actuals have a billing type of **Chargeable** for the period you are expecting a utilization calculation for.</span></span> <span data-ttu-id="94502-148">Перевірите вказані нижче пункти, якщо ви бачите фактичні показники з іншим типом розрахунків, але не оплачуваним:</span><span class="sxs-lookup"><span data-stu-id="94502-148">Check the following if you are seeing actuals with billing types other than chargeable:</span></span>
+- <span data-ttu-id="4fd09-144">Ресурс має робочі години, визначені для виробничої спроможності.</span><span class="sxs-lookup"><span data-stu-id="4fd09-144">The resource has working hours defined for capacity.</span></span>
+- <span data-ttu-id="4fd09-145">Ресурс має або окремо визначене цільове використання, або має роль за замовчуванням, яку йому призначено.</span><span class="sxs-lookup"><span data-stu-id="4fd09-145">The resource has either an individually defined utilization target or has a default role assigned to it.</span></span> <span data-ttu-id="4fd09-146">Роль має цільове використання, визначене саме для неї.</span><span class="sxs-lookup"><span data-stu-id="4fd09-146">The role has a utilization target defined for it.</span></span>
+- <span data-ttu-id="4fd09-147">Фактичні показники мають **Оплачуваний** тип розрахунків на період, на який очікується розрахувати використання.</span><span class="sxs-lookup"><span data-stu-id="4fd09-147">Actuals have a billing type of **Chargeable** for the period you are expecting a utilization calculation for.</span></span> <span data-ttu-id="4fd09-148">Перевірите вказані нижче пункти, якщо ви бачите фактичні показники з іншим типом розрахунків, але не оплачуваним:</span><span class="sxs-lookup"><span data-stu-id="4fd09-148">Check the following if you are seeing actuals with billing types other than chargeable:</span></span>
 
-  - <span data-ttu-id="94502-149">Роль, що використовується для фактичних показників, має тип розрахунків за замовчуванням якийсь іншим, але не оплачуваний.</span><span class="sxs-lookup"><span data-stu-id="94502-149">The role used on the actual has a default billing type of something other than chargeable.</span></span>
-  - <span data-ttu-id="94502-150">Роль у сервісній роботі за договором для проекту встановлена як неоплачувана.</span><span class="sxs-lookup"><span data-stu-id="94502-150">The role on the project contract line backing the project has been set to non-chargeable.</span></span>
-  - <span data-ttu-id="94502-151">Цей проект не має пов’язаної сервісної роботи за договором.</span><span class="sxs-lookup"><span data-stu-id="94502-151">The project does not have an associated contract line.</span></span>
+  - <span data-ttu-id="4fd09-149">Роль, що використовується для фактичних показників, має тип розрахунків за замовчуванням якийсь іншим, але не оплачуваний.</span><span class="sxs-lookup"><span data-stu-id="4fd09-149">The role used on the actual has a default billing type of something other than chargeable.</span></span>
+  - <span data-ttu-id="4fd09-150">Роль у сервісній роботі за договором для проекту встановлена як неоплачувана.</span><span class="sxs-lookup"><span data-stu-id="4fd09-150">The role on the project contract line backing the project has been set to non-chargeable.</span></span>
+  - <span data-ttu-id="4fd09-151">Цей проект не має пов’язаної сервісної роботи за договором.</span><span class="sxs-lookup"><span data-stu-id="4fd09-151">The project does not have an associated contract line.</span></span>
 
 
 
