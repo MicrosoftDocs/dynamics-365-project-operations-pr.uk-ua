@@ -2,18 +2,16 @@
 title: Режими планування
 description: У цьому розділі наведено відомості про режими планування.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981460"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116732"
 ---
 # <a name="scheduling-modes"></a>Режими планування
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations надає організаціям можлив
 В Project Operations доступні три режими планування:
 
   - Фіксована тривалість (це режим за замовчуванням).
-  - Фіксована робота
+  - Фіксований обсяг зусиль (*Робота*)
   - Фіксовані одиниці
 
 Значення, на які впливає визначення конкретного режиму планування визначаються за наступною формулою:
 
-  Обсяг роботи (*Робота*) = Тривалість х Одиниці
+  Зусилля = Тривалість x Одиниці вимірювання
 
 Визначивши режим планування проекту, ви задаєте одне з цих значень, і його більше не можна змінити. Утримання цього значення в якості константи надає йому пріоритет, і повідомляє системі, що його не слід міняти, коли змінюються інші два значення. Наведена таблиця містить відомості про вплив вибору певного режиму.
 
