@@ -2,18 +2,16 @@
 title: Визначення календарів ресурсів
 description: У цьому розділі наведено відомості про визначення календарів робочого часу для ресурсів у Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a7b7c45ad2116519b0369bfd3d7cf6743704f4e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac834e16afc2f559bee6e10434f7015e8a8e51f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279838"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012206"
 ---
 # <a name="define-resource-calendars"></a>Визначення календарів ресурсів
 
