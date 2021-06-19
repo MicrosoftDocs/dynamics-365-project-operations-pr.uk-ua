@@ -2,8 +2,6 @@
 title: Переглядайте та редагуйте попередні підрахунки проекту
 description: Як здійснювати перегляд і редагування оцінок проектів у Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,33 +16,33 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 79e72a3678ac2292cd61653dc1d44ea61bd7e2e6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 96eec162ecbc3e40a923d00cb6377feebc02b3c7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281458"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015536"
 ---
-# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="6d5e4-103">Перегляд і редагування оцінок проектів (Project Service)</span><span class="sxs-lookup"><span data-stu-id="6d5e4-103">View and edit project estimates (Project Service)</span></span>
+# <a name="view-and-edit-project-estimates-project-service"></a><span data-ttu-id="9ed27-103">Перегляд і редагування оцінок проектів (Project Service)</span><span class="sxs-lookup"><span data-stu-id="9ed27-103">View and edit project estimates (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="6d5e4-104">За допомогою можливостей [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] в [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] ви можете переглянути оцінки для проекту, включаючи вартість, збут і обсяг роботи.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
+<span data-ttu-id="9ed27-104">За допомогою можливостей [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] в [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] ви можете переглянути оцінки для проекту, включаючи вартість, збут і обсяг роботи.</span><span class="sxs-lookup"><span data-stu-id="9ed27-104">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can view estimates for a project, including estimates by cost, sales, or effort.</span></span>  
   
-1.  <span data-ttu-id="6d5e4-105">Перейти до **Project Service > Проекти**.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-105">Go to **Project Service > Projects**.</span></span>  
+1.  <span data-ttu-id="9ed27-105">Перейти до **Project Service > Проекти**.</span><span class="sxs-lookup"><span data-stu-id="9ed27-105">Go to **Project Service > Projects**.</span></span>  
   
-2.  <span data-ttu-id="6d5e4-106">Натисніть на проект, над яким ви хочете працювати.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-106">Click the project you want to work on.</span></span>  
+2.  <span data-ttu-id="9ed27-106">Натисніть на проект, над яким ви хочете працювати.</span><span class="sxs-lookup"><span data-stu-id="9ed27-106">Click the project you want to work on.</span></span>  
   
-3.  <span data-ttu-id="6d5e4-107">В смужці у верхній частині екрану виберіть стрілку вниз біля назви проекту і потім натисніть **Попередні підрахунки проекту**.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
+3.  <span data-ttu-id="9ed27-107">В смужці у верхній частині екрану виберіть стрілку вниз біля назви проекту і потім натисніть **Попередні підрахунки проекту**.</span><span class="sxs-lookup"><span data-stu-id="9ed27-107">In the bar across the top of the screen, select the down arrow next to the project name, and then click **Project Estimates**.</span></span>  
   
-4.  <span data-ttu-id="6d5e4-108">У **Time-phase By**, виберіть **Зусилля**, **Ціна**, або **Продажі**, щоб змінити, які підрахунки проекту відображувати.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
+4.  <span data-ttu-id="9ed27-108">У **Time-phase By**, виберіть **Зусилля**, **Ціна**, або **Продажі**, щоб змінити, які підрахунки проекту відображувати.</span><span class="sxs-lookup"><span data-stu-id="9ed27-108">In **Time-phase By**, select **Effort**, **Cost**, or **Sales** to change which project estimates to display.</span></span>  
   
-5.  <span data-ttu-id="6d5e4-109">Щоб додати або видалити витрати, натисніть **Показати подання сітки**.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="6d5e4-110">Щоб створити нові витрати, натисніть кнопку **Створити витрати**.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="6d5e4-111">Щоб видалити витрати, виберіть його зі списку та натисніть кнопку **Видалити витрати**.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="6d5e4-112">Завершивши додавання чи видалення витрати, виберіть **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="6d5e4-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
+5.  <span data-ttu-id="9ed27-109">Щоб додати або видалити витрати, натисніть **Показати подання сітки**.</span><span class="sxs-lookup"><span data-stu-id="9ed27-109">To add or delete expenses, click **Show Grid View**.</span></span> <span data-ttu-id="9ed27-110">Щоб створити нові витрати, натисніть кнопку **Створити витрати**.</span><span class="sxs-lookup"><span data-stu-id="9ed27-110">To create a new expense, click **New Expense**.</span></span> <span data-ttu-id="9ed27-111">Щоб видалити витрати, виберіть його зі списку та натисніть кнопку **Видалити витрати**.</span><span class="sxs-lookup"><span data-stu-id="9ed27-111">To delete an expense, select it from the list, and then click **Delete Expense**.</span></span> <span data-ttu-id="9ed27-112">Завершивши додавання чи видалення витрати, виберіть **Зберегти**.</span><span class="sxs-lookup"><span data-stu-id="9ed27-112">When you’re done adding or deleting expenses, click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="6d5e4-113">Див. також</span><span class="sxs-lookup"><span data-stu-id="6d5e4-113">See Also</span></span>  
- [<span data-ttu-id="6d5e4-114">Провідник керування проектом</span><span class="sxs-lookup"><span data-stu-id="6d5e4-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="9ed27-113">Див. також</span><span class="sxs-lookup"><span data-stu-id="9ed27-113">See Also</span></span>  
+ [<span data-ttu-id="9ed27-114">Провідник керування проектом</span><span class="sxs-lookup"><span data-stu-id="9ed27-114">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
