@@ -2,8 +2,6 @@
 title: Переглянути доступність ресурсу
 description: Як переглянути доступність ресурсів у Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,36 +16,36 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b7890b9036817f7427adaa838b39163f3295d261
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e71fa745103b5d40d8a0056fe894d791c1213dac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281368"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012926"
 ---
-# <a name="view-resource-availability-project-service"></a><span data-ttu-id="2dfcf-103">Перегляд доступності ресурсів (Project Service)</span><span class="sxs-lookup"><span data-stu-id="2dfcf-103">View resource availability (Project Service)</span></span>
+# <a name="view-resource-availability-project-service"></a><span data-ttu-id="5983f-103">Перегляд доступності ресурсів (Project Service)</span><span class="sxs-lookup"><span data-stu-id="5983f-103">View resource availability (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="2dfcf-104">Ви можете перевірити наявність ресурсів, щоб отримати загальне уявлення про те, як замовити свої ресурси, або можете відфільтрувати подання за навичками, робочою групою, розташуванням та іншими параметрами.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
+<span data-ttu-id="5983f-104">Ви можете перевірити наявність ресурсів, щоб отримати загальне уявлення про те, як замовити свої ресурси, або можете відфільтрувати подання за навичками, робочою групою, розташуванням та іншими параметрами.</span><span class="sxs-lookup"><span data-stu-id="5983f-104">You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.</span></span>  
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_2016_update_1](../includes/cc-feature-included-with-2016-update-1.md)]  
 > 
->  <span data-ttu-id="2dfcf-105">Якщо ви використовуєте новішу версію, див. [Переглянути ресурси для проекту (Project Service Automation)](../psa/schedule-resources-project.md) для доступності ресурсів.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-105">If you are using an newer version, for resource availability see, [Schedule resources for a project (Project Service Automation)](../psa/schedule-resources-project.md).</span></span>  
+>  <span data-ttu-id="5983f-105">Якщо ви використовуєте новішу версію, див. [Переглянути ресурси для проекту (Project Service Automation)](../psa/schedule-resources-project.md) для доступності ресурсів.</span><span class="sxs-lookup"><span data-stu-id="5983f-105">If you are using an newer version, for resource availability see, [Schedule resources for a project (Project Service Automation)](../psa/schedule-resources-project.md).</span></span>  
 
-1. <span data-ttu-id="2dfcf-106">Перейти до **Project Service > Доступність ресурсів**.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-106">Go to **Project Service > Resource Availability**.</span></span>  
+1. <span data-ttu-id="5983f-106">Перейти до **Project Service > Доступність ресурсів**.</span><span class="sxs-lookup"><span data-stu-id="5983f-106">Go to **Project Service > Resource Availability**.</span></span>  
 
-    <span data-ttu-id="2dfcf-107">Буде відображено подання календаря усіх ресурсів і їх доступність.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-107">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="2dfcf-108">Виберіть подання або порядок сортування у верхній частині екрана.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-108">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="2dfcf-109">Ви можете також вибрати, чи слід показати доступність на **день**, **тиждень** або **місяць**. Використовуйте стрілки, щоб переглянути попередній або наступний період часу.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-109">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="2dfcf-110">Скористайтеся полем пошуку, щоб знайти певний ресурс.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-110">Use the search box to find a specific resource.</span></span>  
+    <span data-ttu-id="5983f-107">Буде відображено подання календаря усіх ресурсів і їх доступність.</span><span class="sxs-lookup"><span data-stu-id="5983f-107">This shows a calendar view of all resources and their availability.</span></span> <span data-ttu-id="5983f-108">Виберіть подання або порядок сортування у верхній частині екрана.</span><span class="sxs-lookup"><span data-stu-id="5983f-108">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="5983f-109">Ви можете також вибрати, чи слід показати доступність на **день**, **тиждень** або **місяць**. Використовуйте стрілки, щоб переглянути попередній або наступний період часу.</span><span class="sxs-lookup"><span data-stu-id="5983f-109">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="5983f-110">Скористайтеся полем пошуку, щоб знайти певний ресурс.</span><span class="sxs-lookup"><span data-stu-id="5983f-110">Use the search box to find a specific resource.</span></span>  
 
-2. <span data-ttu-id="2dfcf-111">Натисніть кнопку **Параметри**, щоб змінити відображуване.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-111">Click **Options** to change what displays.</span></span> <span data-ttu-id="2dfcf-112">Наприклад, можна відобразити легенду, що показує колірну схему для різних типів резервувань, або ви можете вибрати для відображення лише певні типи резервувань (наприклад, негнучке чи гнучке резервування).</span><span class="sxs-lookup"><span data-stu-id="2dfcf-112">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
+2. <span data-ttu-id="5983f-111">Натисніть кнопку **Параметри**, щоб змінити відображуване.</span><span class="sxs-lookup"><span data-stu-id="5983f-111">Click **Options** to change what displays.</span></span> <span data-ttu-id="5983f-112">Наприклад, можна відобразити легенду, що показує колірну схему для різних типів резервувань, або ви можете вибрати для відображення лише певні типи резервувань (наприклад, негнучке чи гнучке резервування).</span><span class="sxs-lookup"><span data-stu-id="5983f-112">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
 
-3. <span data-ttu-id="2dfcf-113">Натисніть кнопку **Фільтр** для відображення області **Фільтр**, яка дає змогу фільтрувати результати за організаційною одиницею, роллю, навичками або іншими атрибутами.</span><span class="sxs-lookup"><span data-stu-id="2dfcf-113">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
+3. <span data-ttu-id="5983f-113">Натисніть кнопку **Фільтр** для відображення області **Фільтр**, яка дає змогу фільтрувати результати за організаційною одиницею, роллю, навичками або іншими атрибутами.</span><span class="sxs-lookup"><span data-stu-id="5983f-113">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
 
-### <a name="see-also"></a><span data-ttu-id="2dfcf-114">Див. також</span><span class="sxs-lookup"><span data-stu-id="2dfcf-114">See Also</span></span>  
- [<span data-ttu-id="2dfcf-115">Провідник керування ресурсами</span><span class="sxs-lookup"><span data-stu-id="2dfcf-115">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="5983f-114">Див. також</span><span class="sxs-lookup"><span data-stu-id="5983f-114">See Also</span></span>  
+ [<span data-ttu-id="5983f-115">Провідник керування ресурсами</span><span class="sxs-lookup"><span data-stu-id="5983f-115">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

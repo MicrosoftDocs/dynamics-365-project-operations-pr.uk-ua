@@ -2,8 +2,6 @@
 title: Зарезервуйте названі ресурси із вимог ресурсів
 description: У цьому розділі наведено відомості про резервування названих ресурсів для загальних вимог до ресурсів.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,54 +16,54 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 50858d4fc55285b2e91117c6cbfb2419931b4197
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291059"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013421"
 ---
-# <a name="book-named-resources-from-resource-requirements"></a><span data-ttu-id="15d0a-103">Зарезервуйте названі ресурси із вимог ресурсів</span><span class="sxs-lookup"><span data-stu-id="15d0a-103">Book named resources from resource requirements</span></span>
+# <a name="book-named-resources-from-resource-requirements"></a><span data-ttu-id="e2083-103">Зарезервуйте названі ресурси із вимог ресурсів</span><span class="sxs-lookup"><span data-stu-id="e2083-103">Book named resources from resource requirements</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="15d0a-104">Можна зарезервувати названий ресурс, щоб замінити загальний ресурс, який має вимоги до ресурсів.</span><span class="sxs-lookup"><span data-stu-id="15d0a-104">You can book a named resource to replace generic resource that has a resource requirement.</span></span>
+<span data-ttu-id="e2083-104">Можна зарезервувати названий ресурс, щоб замінити загальний ресурс, який має вимоги до ресурсів.</span><span class="sxs-lookup"><span data-stu-id="e2083-104">You can book a named resource to replace generic resource that has a resource requirement.</span></span>
 
-1. <span data-ttu-id="15d0a-105">У Project Service Automation (PSA) на сторінці **Проекти** перейдіть на вкладку **Робоча група**.</span><span class="sxs-lookup"><span data-stu-id="15d0a-105">In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.</span></span>
-2. <span data-ttu-id="15d0a-106">Виберіть загальний ресурс, який має вимоги до ресурсів у списку, а потім натисніть кнопку **Зарезервувати**.</span><span class="sxs-lookup"><span data-stu-id="15d0a-106">Select the generic resource that has a resource requirement from the list and then click **Book**.</span></span> <span data-ttu-id="15d0a-107">Або відкрийте вимоги до ресурсів, а потім натисніть кнопку **Зарезервувати**.</span><span class="sxs-lookup"><span data-stu-id="15d0a-107">Or, open the resource requirement and then click **Book**.</span></span>
+1. <span data-ttu-id="e2083-105">У Project Service Automation (PSA) на сторінці **Проекти** перейдіть на вкладку **Робоча група**.</span><span class="sxs-lookup"><span data-stu-id="e2083-105">In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.</span></span>
+2. <span data-ttu-id="e2083-106">Виберіть загальний ресурс, який має вимоги до ресурсів у списку, а потім натисніть кнопку **Зарезервувати**.</span><span class="sxs-lookup"><span data-stu-id="e2083-106">Select the generic resource that has a resource requirement from the list and then click **Book**.</span></span> <span data-ttu-id="e2083-107">Або відкрийте вимоги до ресурсів, а потім натисніть кнопку **Зарезервувати**.</span><span class="sxs-lookup"><span data-stu-id="e2083-107">Or, open the resource requirement and then click **Book**.</span></span>
 
 
 ![Резервування загальних учасників робочої групи](media/RM-how-to-14.png)
 
 
-3. <span data-ttu-id="15d0a-109">На сторінці **Помічник з планування** виберіть названий ресурс, щоб забронювати робочу групу проекту, а потім натисніть кнопку **Зарезервувати**.</span><span class="sxs-lookup"><span data-stu-id="15d0a-109">On the **Schedule Assistant** page, select a named resource to book onto your project team and then click **Book**.</span></span>
+3. <span data-ttu-id="e2083-109">На сторінці **Помічник з планування** виберіть названий ресурс, щоб забронювати робочу групу проекту, а потім натисніть кнопку **Зарезервувати**.</span><span class="sxs-lookup"><span data-stu-id="e2083-109">On the **Schedule Assistant** page, select a named resource to book onto your project team and then click **Book**.</span></span>
 
 ![Резервування загальних учасників робочої групи за допомогою помічника з планування](media/RM-how-to-15.png)
 
-<span data-ttu-id="15d0a-111">Коли резервування завершено та виконано загальним ресурсом, загальний ресурс буде замінено на названий ресурс.</span><span class="sxs-lookup"><span data-stu-id="15d0a-111">When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.</span></span>
+<span data-ttu-id="e2083-111">Коли резервування завершено та виконано загальним ресурсом, загальний ресурс буде замінено на названий ресурс.</span><span class="sxs-lookup"><span data-stu-id="e2083-111">When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.</span></span>
 
 ![Названий учасник робочої групи, який замінює загального учасника](media/RM-how-to-16.png)
 
-<span data-ttu-id="15d0a-113">Призначення в розкладі так само оновлюються разом із названим ресурсом.</span><span class="sxs-lookup"><span data-stu-id="15d0a-113">The assignments on the schedule are updated with the named resource as well.</span></span>
+<span data-ttu-id="e2083-113">Призначення в розкладі так само оновлюються разом із названим ресурсом.</span><span class="sxs-lookup"><span data-stu-id="e2083-113">The assignments on the schedule are updated with the named resource as well.</span></span>
 
 ![Названий член робочої групи призначений на завдання проекту](media/RM-how-to-17.png)
 
-## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a><span data-ttu-id="15d0a-115">Заповнення загального ресурсу кількома названими ресурсами</span><span class="sxs-lookup"><span data-stu-id="15d0a-115">Fulfill a generic resource with multiple named resources</span></span>
-<span data-ttu-id="15d0a-116">Виконання вимог для загального ресурсу з багатьма названими ресурсами схоже на призначення одного названого ресурсу.</span><span class="sxs-lookup"><span data-stu-id="15d0a-116">Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource.</span></span> <span data-ttu-id="15d0a-117">Наприклад, є завдання тривалістю п’ять днів і 120 годин обсягу робіт.</span><span class="sxs-lookup"><span data-stu-id="15d0a-117">For example, there is a task with a duration of five days and 120 hours of effort.</span></span> <span data-ttu-id="15d0a-118">Це завдання не можна виконати одним ресурсом, який працює за звичайний восьмигодинний день і п'ятиденний тиждень.</span><span class="sxs-lookup"><span data-stu-id="15d0a-118">This task can't be completed by one resource that works a typical eight-hour day over a five day week.</span></span> 
+## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a><span data-ttu-id="e2083-115">Заповнення загального ресурсу кількома названими ресурсами</span><span class="sxs-lookup"><span data-stu-id="e2083-115">Fulfill a generic resource with multiple named resources</span></span>
+<span data-ttu-id="e2083-116">Виконання вимог для загального ресурсу з багатьма названими ресурсами схоже на призначення одного названого ресурсу.</span><span class="sxs-lookup"><span data-stu-id="e2083-116">Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource.</span></span> <span data-ttu-id="e2083-117">Наприклад, є завдання тривалістю п’ять днів і 120 годин обсягу робіт.</span><span class="sxs-lookup"><span data-stu-id="e2083-117">For example, there is a task with a duration of five days and 120 hours of effort.</span></span> <span data-ttu-id="e2083-118">Це завдання не можна виконати одним ресурсом, який працює за звичайний восьмигодинний день і п'ятиденний тиждень.</span><span class="sxs-lookup"><span data-stu-id="e2083-118">This task can't be completed by one resource that works a typical eight-hour day over a five day week.</span></span> 
 
 ![Завдання, яке потребує 120 годин обсягів робіт протягом п'яти днів](media/RM-how-to-21.png)
 
-<span data-ttu-id="15d0a-120">Вимога містить 120 годин інженерних робіт з роботизації упродовж п'яти днів, тобто 24 години на добу.</span><span class="sxs-lookup"><span data-stu-id="15d0a-120">The requirement is for 120 hours of robotics engineering over five days, which is 24 hours per day.</span></span>
+<span data-ttu-id="e2083-120">Вимога містить 120 годин інженерних робіт з роботизації упродовж п'яти днів, тобто 24 години на добу.</span><span class="sxs-lookup"><span data-stu-id="e2083-120">The requirement is for 120 hours of robotics engineering over five days, which is 24 hours per day.</span></span>
 
 ![Вимога по днях](media/RM-how-to-22.png)
 
-<span data-ttu-id="15d0a-122">Це приклад того, коли потрібні кілька названих ресурсів для виконання загальних запитів ресурсів.</span><span class="sxs-lookup"><span data-stu-id="15d0a-122">This is an example of when multiple named resources are needed to fulfill a generic resource request.</span></span> <span data-ttu-id="15d0a-123">Вам потрібно буде забронювати кілька ресурсів, щоб виконати вимоги.</span><span class="sxs-lookup"><span data-stu-id="15d0a-123">You will need to book multiple resources to fulfill the requirement.</span></span>
+<span data-ttu-id="e2083-122">Це приклад того, коли потрібні кілька названих ресурсів для виконання загальних запитів ресурсів.</span><span class="sxs-lookup"><span data-stu-id="e2083-122">This is an example of when multiple named resources are needed to fulfill a generic resource request.</span></span> <span data-ttu-id="e2083-123">Вам потрібно буде забронювати кілька ресурсів, щоб виконати вимоги.</span><span class="sxs-lookup"><span data-stu-id="e2083-123">You will need to book multiple resources to fulfill the requirement.</span></span>
 
 ![Бронювання кількох ресурсів для виконання вимог](media/RM-how-to-23.png)
 
-<span data-ttu-id="15d0a-125">Основна відмінність у цьому сценарії полягає в тому, що загальний ресурс лишається в робочій групі, призначеним на завдання, а зарезервовані названі учасники робочої групи не призначаються на частину цієї посади.</span><span class="sxs-lookup"><span data-stu-id="15d0a-125">The main difference in this scenario is that the generic resource remains on the team assigned to the task, and the booked named resource team members are not assigned as part of the position.</span></span> <span data-ttu-id="15d0a-126">Керівник проекту може призначати їм роботу як відповідну для названих ресурсів.</span><span class="sxs-lookup"><span data-stu-id="15d0a-126">The project manager can assign the work as appropriate to the named resources.</span></span> <span data-ttu-id="15d0a-127">Подання **Звірення** може допомогти керівнику проекту в розбиванні резервувань кількох ресурсів на призначення завдань.</span><span class="sxs-lookup"><span data-stu-id="15d0a-127">The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments.</span></span> <span data-ttu-id="15d0a-128">Це не робиться автоматично, оскільки будь-який сценарій буде більш складний порівняно з простим прикладом вище, де у вас є набір завдань, які заповнюють вимогу, а наміри щодо того, як керівник проекту хоче призначити, робляться у вигляді припущення системи.</span><span class="sxs-lookup"><span data-stu-id="15d0a-128">This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system.</span></span> <span data-ttu-id="15d0a-129">Оскільки система не може зрозуміти наміри, припущення програми можуть відрізнятися від реальних намірів і програма може видати хибний чи непередбачуваний результат.</span><span class="sxs-lookup"><span data-stu-id="15d0a-129">Because the system can't understand intent, chances are that the assumptions will be different than intended and an incorrect or unpredictable result will happen.</span></span> <span data-ttu-id="15d0a-130">Передбачуваним результатом є те, що загальний ресурс залишається призначеним до того, як керівник проекту навмисно створює завдання, за допомогою подання **Звірення**.</span><span class="sxs-lookup"><span data-stu-id="15d0a-130">The predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.</span></span>
+<span data-ttu-id="e2083-125">Основна відмінність у цьому сценарії полягає в тому, що загальний ресурс лишається в робочій групі, призначеним на завдання, а зарезервовані названі учасники робочої групи не призначаються на частину цієї посади.</span><span class="sxs-lookup"><span data-stu-id="e2083-125">The main difference in this scenario is that the generic resource remains on the team assigned to the task, and the booked named resource team members are not assigned as part of the position.</span></span> <span data-ttu-id="e2083-126">Керівник проекту може призначати їм роботу як відповідну для названих ресурсів.</span><span class="sxs-lookup"><span data-stu-id="e2083-126">The project manager can assign the work as appropriate to the named resources.</span></span> <span data-ttu-id="e2083-127">Подання **Звірення** може допомогти керівнику проекту в розбиванні резервувань кількох ресурсів на призначення завдань.</span><span class="sxs-lookup"><span data-stu-id="e2083-127">The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments.</span></span> <span data-ttu-id="e2083-128">Це не робиться автоматично, оскільки будь-який сценарій буде більш складний порівняно з простим прикладом вище, де у вас є набір завдань, які заповнюють вимогу, а наміри щодо того, як керівник проекту хоче призначити, робляться у вигляді припущення системи.</span><span class="sxs-lookup"><span data-stu-id="e2083-128">This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system.</span></span> <span data-ttu-id="e2083-129">Оскільки система не може зрозуміти наміри, припущення програми можуть відрізнятися від реальних намірів і програма може видати хибний чи непередбачуваний результат.</span><span class="sxs-lookup"><span data-stu-id="e2083-129">Because the system can't understand intent, chances are that the assumptions will be different than intended and an incorrect or unpredictable result will happen.</span></span> <span data-ttu-id="e2083-130">Передбачуваним результатом є те, що загальний ресурс залишається призначеним до того, як керівник проекту навмисно створює завдання, за допомогою подання **Звірення**.</span><span class="sxs-lookup"><span data-stu-id="e2083-130">The predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.</span></span>
 
 
 
