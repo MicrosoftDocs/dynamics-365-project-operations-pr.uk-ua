@@ -2,8 +2,6 @@
 title: Переглядайте членів команди проекту та керуйте бронюваннями
 description: Як переглянути учасників робочих груп проектів і керувати резервуваннями у Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d831418e1d9409622874f11d9c222dc26414797b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dd9fea4806e654048c94a826160e678fe2bb188e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281413"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015446"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Перегляд учасників робочих груп проектів і керування резервуваннями (Project Service)
 

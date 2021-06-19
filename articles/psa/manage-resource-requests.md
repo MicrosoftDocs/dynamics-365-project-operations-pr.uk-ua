@@ -2,8 +2,6 @@
 title: Керувати запитами на ресурси
 description: Як керувати запитами ресурсів у Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e19f3a710191e3a5b41ffb89b289e357e574207f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284248"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015041"
 ---
 # <a name="manage-resource-requests-project-service"></a>Керування запитів ресурсів (Project Service)
 
@@ -45,7 +43,7 @@ ms.locfileid: "5284248"
   
    -   Натисніть кнопку **Фільтр** для відображення області **Фільтр**, яка дає змогу фільтрувати результати за організаційною одиницею, роллю, навичками або іншими атрибутами.  
   
-       ![Екран "Запити ресурсів" у Project Service](../psa/media/project-service-resource-request-screen.png "Екран "Запити ресурсів" у Project Service")  
+       ![Екран "Запити ресурсів" у Project Service](../psa/media/project-service-resource-request-screen.png "Екран &quot;Запити ресурсів&quot; у Project Service")  
   
 3. В календарі для ресурсів, які ви хочете забронювати, виберіть період резервування ресурсів, а потім або клацнути **Резервувати**, щоб зарезервувати ресурс або **Запропонувати резервування**, щоб запропонувати резервування та затвердити його. Під час бронюванні ресурсу ви можете виконати гнучке чи негнучке резервування.  
   
