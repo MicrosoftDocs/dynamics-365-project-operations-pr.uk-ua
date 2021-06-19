@@ -2,19 +2,17 @@
 title: Огляд вимірів визначення цін
 description: У цьому розділі наведено відомості про виміри ціноутворення у Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275428"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005006"
 ---
 # <a name="pricing-dimensions-overview"></a>Огляд вимірів визначення цін
 
@@ -61,16 +59,16 @@ Dynamics 365 Project Operations поставляється з набором з�
 
 | Роль        | Організаційна одиниця    |Одиниця вимірювання      |Ціна      |Грошова одиниця  |
 | ------------|-------------|----------|----------:|----------|
-| Розробник   | Contoso US  |Hour | 200|USD     |
-| Розробник   | Contoso India |Hour|   112|USD     |
+| Розробник   | Contoso (США)  |година | 200|USD     |
+| Розробник   | Contoso Індія |година|   112|USD     |
 
 
 **Приклад цін витрат**
 
 | Група заробітної плати     | Організаційна одиниця    |Одиниця вимірювання      |Ціна      |Грошова одиниця  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|USD     |
-| My company_Band2 | Contoso India |Hour|   67|USD     |
+| My company_Band1 | Contoso (США)  |година | 145|USD     |
+| My company_Band2 | Contoso Індія |година|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
