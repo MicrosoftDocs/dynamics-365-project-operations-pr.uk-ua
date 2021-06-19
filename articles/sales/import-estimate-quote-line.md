@@ -2,18 +2,16 @@
 title: Імпортуйте кошториси для проекту до позиції цінової пропозиції
 description: У цій темі наведено інформацію про те, як імпортувати кошториси проекту до позиції цінової пропозиції проекту.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 40facf002ca8aa77cbd7f1cfa29dab24842fd932
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: ae491495575ce2a5e4aaf0d8f22a14ea4b5e72de
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858768"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010226"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Імпортуйте кошториси для проекту до позиції цінової пропозиції
 

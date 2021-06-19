@@ -2,12 +2,10 @@
 title: Головна сторінка ціноутворення та калькуляції
 description: У цьому розділі наведено огляд критеріїв ціноутворення.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284158"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009281"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Головна сторінка ціноутворення та калькуляції
 
@@ -67,16 +65,16 @@ PSA поставляється з набором значень за замов�
 
 | Роль        | Організаційна одиниця    |Одиниця вимірювання      |Ціна      |Грошова одиниця  |
 | ------------|-------------|----------|----------:|----------|
-| Розробник   | Contoso US  |Hour | 200|USD     |
-| Розробник   | Contoso India |Hour|   112|USD     |
+| Розробник   | Contoso (США)  |година | 200|USD     |
+| Розробник   | Contoso Індія |година|   112|USD     |
 
 
 **Приклад цін витрат**
 
 | Група заробітної плати     | Організаційна одиниця    |Одиниця вимірювання      |Ціна      |Грошова одиниця  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hour | 145|USD     |
-| My company_Band2 | Contoso India |Hour|   67|USD     |
+| My company_Band1 | Contoso (США)  |година | 145|USD     |
+| My company_Band2 | Contoso Індія |година|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

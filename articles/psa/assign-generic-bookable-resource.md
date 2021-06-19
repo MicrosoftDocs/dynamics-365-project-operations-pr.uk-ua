@@ -2,8 +2,6 @@
 title: Призначення загальних ресурсів на завдання і до проектної групи
 description: У цьому розділі наведено відомості про резервування загальних ресурсів для завдань і проектних команд.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b4c47513b96310745fd2cdb296988a57df0e966
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291419"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009416"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Призначення загальних доступних ресурсів на завдання та створення вимог до ресурсів 
 
