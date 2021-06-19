@@ -2,18 +2,16 @@
 title: Огляд внутрішнього виставлення рахунків
 description: У цьому розділі наведено відомості та приклади внутрішнього виставлення рахунка-фактури для проектів.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287353"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002666"
 ---
 # <a name="intercompany-invoicing-overview"></a>Огляд внутрішнього виставлення рахунків
 
@@ -21,7 +19,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 У вашій організацій може бути багато відділень, дочірніх компаній та інших юридичних осіб, які передають одна одній продукти та послуги для реалізації проектів. Юридична особа, яка надає послугу або продукт, називається *юридичною особою, яка надає позику*. Юридична особа, яка отримує послугу або продукт, називається *юридичною особою, яка бере позику*.
 
-Нижче зображено типовий сценарій, в якому дві юридичні особи Contoso Robotics USA (бере позику) і Contoso Robotics UK (дає позику) ділять ресурси, щоб доставити проект до клієнта, Adventure works. Для цього сценарію Contoso Robotics USA зобов'язана за контрактом виконати роботу для Adventure Works.
+У наведеному далі сценарії показано типовий розвиток подій, коли дві юридичних особи Contoso Robotics США (юридична особа – позичальник) і Contoso Robotics (юридична особа – кредитор) спільно користуються ресурсами для виконання проекту для клієнта – компанії Adventure Works. За цим сценарієм компанія Contoso Robotics США є підрядником за сервісним договором для виконання роботи для компанії Adventure Works.
 
 ![Внутрішнє виставлення рахунків](./media/IntercompanyScenario.png) 
 
