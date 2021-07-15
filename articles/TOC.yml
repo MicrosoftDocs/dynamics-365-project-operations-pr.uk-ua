@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Розгортання середовищ
           items:
+            - name: Розгортання вручну програми Project Operations Dataverse з підтримкою подвійного запису
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Підготовка нового середовища
               href: environment/resource-provision-new-environment.md
             - name: Модель безпеки
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Що нового
       items:
+        - name: "Липень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: "Червень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: "Травень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: "Квітень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
@@ -282,7 +288,7 @@
           items:
             - name: Розробка шаблонів проектів за допомогою функції копіювання проектів
               href: project-management/dev-copy-project.md
-            - name: Використання API Schedule (загальнодоступна підготовча версія)
+            - name: Використання API Розкладів проектів (загальнодоступна підготовча версія)
               href: project-management/schedule-api-preview.md
     - name: Керування ресурсами
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Огляд виставлення рахунків
           href: invoicing/post-project-invoices.md
-        - name: Керування пропозиціями щодо рахунків із проекту
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Виставлення рахунків-проформ
           items:
             - name: Керування невиконаними завданнями з виставлення рахунків на основі проектів
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Налаштування автоматизації виставлення рахунків на основі проекту
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Керування пропозиціями щодо рахунків із проекту
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: Виставлення рахунків клієнтам
+          items:
+            - name: Керування пропозиціями щодо рахунків із проекту
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Правильний бухгалтерський облік за допомогою чернеток пропозицій щодо рахунків із проекту
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: Внутрішнє виставлення рахунків
+          items:
+            - name: Огляд внутрішнього виставлення рахунків
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Налаштування внутрішнього виставлення рахунків
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Створення внутрішніх транзакцій
+              href: project-accounting/create-intercompany-transactions.md
+            - name: Створення внутрішніх рахунків для клієнтів і постачальників
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Бухгалтерський облік проектів
       items:
         - name: Стандартні значення фінансових аналітик
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Журнал інтеграції в Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: Внутрішнє виставлення рахунків
-          items:
-            - name: Огляд внутрішнього виставлення рахунків
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: Налаштування внутрішнього виставлення рахунків
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: Створення внутрішніх транзакцій
-              href: project-accounting/create-intercompany-transactions.md
-            - name: Створення внутрішніх рахунків для клієнтів і постачальників
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: Визнання доходу
       items:
         - name: Огляд визнання доходу
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Що нового
       items:
+        - name: "Що нового в липні 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: "Що нового в червні 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: "Що нового в травні 2021\_р.: розгортання Lite"
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: "Що нового в квітні 2021\_р.: розгортання Lite"
@@ -762,7 +774,7 @@
           items:
             - name: Розробка шаблонів проектів за допомогою функції копіювання проектів
               href: project-management/dev-copy-project.md
-            - name: Використання API Schedule (загальнодоступна підготовча версія)
+            - name: Використання API Розкладів проектів (загальнодоступна підготовча версія)
               href: project-management/schedule-api-preview.md
     - name: Керування ресурсами
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Що нового
       items:
+        - name: "Що нового в липні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: "Що нового в травні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: "Що нового у квітні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: "Що нового в березні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
@@ -1034,6 +1050,10 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Нові можливості або зміни у випуску оновлень 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Нові можливості або зміни у випуску оновлень 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Нові можливості або зміни у випуску оновлень 31, V3'
