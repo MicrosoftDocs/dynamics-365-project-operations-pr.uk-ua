@@ -5,6 +5,7 @@ author: rumant
 ms.author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
@@ -16,32 +17,32 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0923dbca91e2975d0fd90dde012122a85e5ac700
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f519df7304749c8d88fa9f313a3b85d3cf765
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008966"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368816"
 ---
-# <a name="quoting-pricing-and-billing-home-page"></a><span data-ttu-id="c81b1-103">Головна сторінка цінових пропозицій, ціноутворення та виставлення рахунків</span><span class="sxs-lookup"><span data-stu-id="c81b1-103">Quoting, pricing, and billing home page</span></span>
+# <a name="quoting-pricing-and-billing-home-page"></a><span data-ttu-id="29a7d-103">Головна сторінка цінових пропозицій, ціноутворення та виставлення рахунків</span><span class="sxs-lookup"><span data-stu-id="29a7d-103">Quoting, pricing, and billing home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="c81b1-104">Цінові пропозиції, ціноутворення та виставлення рахунків — це функції, які використовуються як малими, так і великими організаціями.</span><span class="sxs-lookup"><span data-stu-id="c81b1-104">Quoting, pricing, and billing are features that are used by both small and large organizations.</span></span> <span data-ttu-id="c81b1-105">Розуміючи, як ці функції працюють у програмі, організації можуть спростити настроювання конфігурацій.</span><span class="sxs-lookup"><span data-stu-id="c81b1-105">By understanding how these features work in the application, organizations can more easily customize configurations.</span></span>
+<span data-ttu-id="29a7d-104">Цінові пропозиції, ціноутворення та виставлення рахунків — це функції, які використовуються як малими, так і великими організаціями.</span><span class="sxs-lookup"><span data-stu-id="29a7d-104">Quoting, pricing, and billing are features that are used by both small and large organizations.</span></span> <span data-ttu-id="29a7d-105">Розуміючи, як ці функції працюють у програмі, організації можуть спростити настроювання конфігурацій.</span><span class="sxs-lookup"><span data-stu-id="29a7d-105">By understanding how these features work in the application, organizations can more easily customize configurations.</span></span>
 
-<span data-ttu-id="c81b1-106">У зазначених нижче розділах наведено додаткові відомості щодо функцій цінових пропозицій, ціноутворення та виставлення рахунків у PSA.</span><span class="sxs-lookup"><span data-stu-id="c81b1-106">The following topics provide more information about the quoting, pricing, and billing functionality in PSA:</span></span>
+<span data-ttu-id="29a7d-106">У зазначених нижче розділах наведено додаткові відомості щодо функцій цінових пропозицій, ціноутворення та виставлення рахунків у PSA.</span><span class="sxs-lookup"><span data-stu-id="29a7d-106">The following topics provide more information about the quoting, pricing, and billing functionality in PSA:</span></span>
 
-- [<span data-ttu-id="c81b1-107">Процес збуту</span><span class="sxs-lookup"><span data-stu-id="c81b1-107">Sales process</span></span>](basic-sales-process.md)
-- [<span data-ttu-id="c81b1-108">Позиції цінової пропозиції</span><span class="sxs-lookup"><span data-stu-id="c81b1-108">Quote lines</span></span>](basic-quote-lines.md)
-- [<span data-ttu-id="c81b1-109">Ціноутворення</span><span class="sxs-lookup"><span data-stu-id="c81b1-109">Pricing</span></span>](basic-pricing.md)
-- [<span data-ttu-id="c81b1-110">Ділові транзакції</span><span class="sxs-lookup"><span data-stu-id="c81b1-110">Business transactions</span></span>](basic-business-transactions.md)
-- [<span data-ttu-id="c81b1-111">Аналіз цінові пропозиції проекту</span><span class="sxs-lookup"><span data-stu-id="c81b1-111">Analyzing project quotes</span></span>](basic-analyzing-quotes.md)
-- [<span data-ttu-id="c81b1-112">Організаційні одиниці</span><span class="sxs-lookup"><span data-stu-id="c81b1-112">Organizational units</span></span>](advanced-organizational.md)
-- [<span data-ttu-id="c81b1-113">Одиниці вимірювання та їх групи</span><span class="sxs-lookup"><span data-stu-id="c81b1-113">Unit groups and units</span></span>](advanced-units.md)
-- [<span data-ttu-id="c81b1-114">Грошові одиниці з кількома валютами</span><span class="sxs-lookup"><span data-stu-id="c81b1-114">Multi-unit currency</span></span>](advanced-currency.md)
-- [<span data-ttu-id="c81b1-115">Запис фактичних даних</span><span class="sxs-lookup"><span data-stu-id="c81b1-115">Recording actuals</span></span>](advanced-actuals.md)
+- [<span data-ttu-id="29a7d-107">Процес збуту</span><span class="sxs-lookup"><span data-stu-id="29a7d-107">Sales process</span></span>](basic-sales-process.md)
+- [<span data-ttu-id="29a7d-108">Позиції цінової пропозиції</span><span class="sxs-lookup"><span data-stu-id="29a7d-108">Quote lines</span></span>](basic-quote-lines.md)
+- [<span data-ttu-id="29a7d-109">Ціноутворення</span><span class="sxs-lookup"><span data-stu-id="29a7d-109">Pricing</span></span>](basic-pricing.md)
+- [<span data-ttu-id="29a7d-110">Ділові транзакції</span><span class="sxs-lookup"><span data-stu-id="29a7d-110">Business transactions</span></span>](basic-business-transactions.md)
+- [<span data-ttu-id="29a7d-111">Аналіз цінові пропозиції проекту</span><span class="sxs-lookup"><span data-stu-id="29a7d-111">Analyzing project quotes</span></span>](basic-analyzing-quotes.md)
+- [<span data-ttu-id="29a7d-112">Організаційні одиниці</span><span class="sxs-lookup"><span data-stu-id="29a7d-112">Organizational units</span></span>](advanced-organizational.md)
+- [<span data-ttu-id="29a7d-113">Одиниці вимірювання та їх групи</span><span class="sxs-lookup"><span data-stu-id="29a7d-113">Unit groups and units</span></span>](advanced-units.md)
+- [<span data-ttu-id="29a7d-114">Грошові одиниці з кількома валютами</span><span class="sxs-lookup"><span data-stu-id="29a7d-114">Multi-unit currency</span></span>](advanced-currency.md)
+- [<span data-ttu-id="29a7d-115">Запис фактичних даних</span><span class="sxs-lookup"><span data-stu-id="29a7d-115">Recording actuals</span></span>](advanced-actuals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
