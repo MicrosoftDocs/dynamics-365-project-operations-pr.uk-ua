@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992456"
 ---
 # <a name="create-custom-fields-and-entities"></a>Створення настроюваних полів і сутностей 
 
@@ -43,7 +43,7 @@ ms.locfileid: "5998976"
 2. У провіднику рішень в області переходів зліва розгорніть виберіть **Сутності**.
 3. Натисніть кнопку **Створити**, щоб створити нову сутність з назвою **Стандартна назва**. Введіть решту відомостей, а потім натисніть **Зберегти**.
 
-> ![Визначення сутності стандартної посади](media/Standard-Title-entity-definition.png)
+> ![Визначення сутності стандартної посади.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Критерії на основі набору параметрів 
@@ -54,9 +54,9 @@ ms.locfileid: "5998976"
 2. У провіднику рішень на лівій навігаційній панелі виберіть **Набір параметрів**. 
 3. Натисніть кнопку **Створити**, щоб створити новий набір параметрів, введіть решту відомостей, а потім натисніть кнопку **Зберегти**.
 
-> ![Критерій ціноутворення на основі набору параметрів називається "Місце роботи ресурсу" ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Критерій ціноутворення на основі набору параметрів називається "Місце роботи ресурсу".](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Критерій ціноутворення на основі набору параметрів називається "Години роботи ресурсу" ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Критерій ціноутворення на основі набору параметрів називається "Години роботи ресурсу".](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Створення даних для критеріїв на основі сутностей
@@ -68,7 +68,7 @@ ms.locfileid: "5998976"
 3. Закрийте форму. 
 4. Повторіть кроки 1-3, щоб створити ще одну стандартну назву для "Провідний системний інженер".
 
-> ![Приклад даних для сутності стандартної посади ](media/ST-data.png)
+> ![Приклад даних для сутності стандартної посади.](media/ST-data.png)
 
 
 

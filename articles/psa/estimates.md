@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007616"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992411"
 ---
 # <a name="estimates"></a>Прогнозування
 
@@ -83,24 +83,24 @@ ms.locfileid: "6007616"
 1. Відкрийте PluginRegistrationTool і підключіться до інсталяції в онлайновому режимі.
 2. Виберіть **Пошук**, а потім знайдіть компонент Plug-in для оновлення.
 
-    ![Діалогове вікно "Дерево пошуку"](media/basic-guide-19.png)
+    ![Діалогове вікно "Дерево пошуку".](media/basic-guide-19.png)
 
 3. Виберіть компонент Plug-In, а потім на основній сторінці натисніть **Вибрати.**
 4. Виберіть крок компонента plug-in для оновлення, клацніть правою кнопкою миші, а потім виберіть **Оновити**.
 
-    ![Вибір кроку в компоненті plug-in](media/basic-guide-20.png)
+    ![Вибір кроку в компоненті plug-in.](media/basic-guide-20.png)
 
 5. У діалоговому вікні **Оновлення наявного кроку** в полі **Атрибути фільтрації** натисніть кнопку "три крапки" (**...**):
  
-    ![Діалогове вікно «Оновлення наявного кроку»](media/basic-guide-21.png)
+    ![Діалогове вікно "Оновлення наявного кроку".](media/basic-guide-21.png)
 
 6. У діалоговому вікні **Вибрати атрибути** встановіть прапорці поруч із настроюваними атрибутами.
 
-    ![Діалогове вікно вибору атрибутів](media/basic-guide-22.png)
+    ![Діалогове вікно вибору атрибутів.](media/basic-guide-22.png)
 
 7. Щоб закрити діалогове вікно, натисніть кнопку **ОК**, а потім виберіть **Оновити крок**.
  
-    ![Кнопка "Оновити крок"](media/basic-guide-23.png)
+    ![Кнопка "Оновити крок".](media/basic-guide-23.png)
 
 8. Повторіть кроки 1 – 7 для другого компонента plug-in.
 9. Закрийте PluginRegistrationTool.

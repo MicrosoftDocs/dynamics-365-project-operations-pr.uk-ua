@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997176"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993311"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Застосування демонстраційного налаштування та даних конфігурації до Project Operations – легка версія 
 
@@ -30,24 +30,24 @@ _**Розгортання Lite: від угоди до рахунків-проф
 2. Перейдіть до папки *ProjOpsSampleSetupData - CE лише CMT* і запустіть виконуваний файл *DataMigrationUtility*.
 3. На сторінці 1 майстра перенесення конфігурації Common Data Service (CMT) виберіть **Імпортувати дані** та натисніть **Продовжити**.
 
-    ![Засіб перенесення конфігурації](./media/1ConfigurationMigration.png)
+    ![Перенесення конфігурації.](./media/1ConfigurationMigration.png)
 
 4. На сторінці 2 Майстра CMT виберіть **Microsoft 365** як **Тип розгортання**.
 5. Установіть прапорець поруч із пунктами **Відображати список доступних організацій** і **Показувати додаткові відомості**.
 6. Виберіть регіон свого клієнта, введіть свої облікові дані, а тоді виберіть **Увійти**.
 
-   ![Отримання доступу до конфігурації](./media/2ConfigurationSignin.png)
+   ![Отримання доступу до конфігурації.](./media/2ConfigurationSignin.png)
 
 7. На сторінці 3 у списку організацій у клієнті виберіть організацію, до якої потрібно імпортувати демонстраційні дані, а тоді виберіть **Увійти**.
 8. На сторінці 4 виберіть файл zip *SampleSetupAndConfigData* із не розпакованої папки, *ProjOpsSampleSetupData - CE лише CMT*.
 
-   ![ZIP-файл](./media/3ZipFile.png)
+   ![ZIP-файл.](./media/3ZipFile.png)
 
-   ![Виберіть файл](./media/4SelectAFile.png)
+   ![Виберіть файл.](./media/4SelectAFile.png)
 
 9. Після вибору ZIP-файлу натисніть **Імпортувати дані**.
 
-   ![Імпорт даних](./media/5ImportData.png)
+   ![Імпорт даних.](./media/5ImportData.png)
 
 10. Імпортування триватиме близько двох-десяти хвилин залежно від швидкості мережі. Після завершення вийдіть із майстра CMT. 
 11. Перевірте дані організації в зазначених нижче 18 сутностях.
@@ -71,7 +71,7 @@ _**Розгортання Lite: від угоди до рахунків-проф
     -   Зв’язок категорій планованих ресурсів
     -   Характеристика планованого ресурсу
 
-    ![Завершення імпорту](./media/6CompleteImport.png)
+    ![Завершення імпорту.](./media/6CompleteImport.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

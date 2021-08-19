@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008696"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990521"
 ---
 # <a name="skills-and-proficiency-models"></a>Моделі навичок та професійних компетенцій
 
@@ -33,7 +33,7 @@ ms.locfileid: "6008696"
 
 Щоб підтримувати сховище умінь в Project Service Automation, перейдіть за значеннями **Ресурси** \> **Навички ресурсів**. 
 
-> ![Уміння ресурсів](media/Resource-Management-image84.png)
+> ![Уміння ресурсів.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Використання кваліфікаційних моделей для оцінювання ресурсів
 
@@ -43,7 +43,7 @@ ms.locfileid: "6008696"
 2. У моделі новій моделі оцінки вкажіть мінімальне значення рейтингу, максимальне значення за рейтингом та сутність, для якої виконується оцінка.
 3. У вкладеній сітці **Оцінки** можна визначити різні оцінки, від мінімальної до максимальної.
 
-> ![Визначені мінімальні та максимальні оцінки](media/Resource-Management-image85.png)
+> ![Визначені мінімальні та максимальні оцінки.](media/Resource-Management-image85.png)
 
 Ці значення оцінювання відображаються у **Вимогах до ресурсів**, **Панелі розкладів** і **Помічнику з планування**.
 
