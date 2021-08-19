@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012341"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995291"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Створення настроюваних рішень для критеріїв ціноутворення
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012341"
 1. Виберіть **Настройки** > **Рішення**, а потім виберіть **Створити**. 
 2. Назвіть рішення, **Критерії визначення цін \<your organization name>**, введіть решту необхідних відомостей, а тоді виберіть **Зберегти**.
 
-> ![Створення настроюваного рішення для критеріїв ціноутворення](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Створення настроюваного рішення для критеріїв ціноутворення.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Додайте всі необхідні сутності та пов’язані компоненти до рішення критеріїв ціноутворення
 Для рішення ціноутворення необхідно додати такі сутності як Project Service. Виконайте кроки, указані в цій процедурі, щоб внести важливі зміни до рішення ціноутворення, щоб сутності отримали відомості про нові критерії ціноутворення.
@@ -54,16 +54,16 @@ ms.locfileid: "6012341"
 - Розцінки ролі 
 - Запис часу 
 
-> ![Додати наявні сутності до рішення «Критерії ціноутворення»](media/Existing-entities-to-PD-solution.png)
+> ![Додати наявні сутності до рішення «Критерії ціноутворення».](media/Existing-entities-to-PD-solution.png)
 
-> ![Виберіть компоненти рішення](media/Dimension-Components.png)
+> ![Виберіть компоненти рішення.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Переконайтеся в тому, щоб включити всі форми та подання для кожної вибраної сутності.
 
 4. Коли відобразиться запит на включення будь-яких залежних сутностей для вибраних сутностей, виберіть **Ні**.
 
-> ![Не включати всі пов’язані компоненти](media/Do-not-include-required.png)
+> ![Не включати всі пов’язані компоненти.](media/Do-not-include-required.png)
 
 
 

@@ -16,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012071"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995426"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Пакетні виправлення фактичних даних, створених затвердженими записами часу та витрат
 
@@ -62,7 +62,7 @@ ms.locfileid: "6012071"
 
 Наприклад, на наведеному нижче малюнку містяться дві позиції продуктів з кількістю 8.00, які мають дебети, записані в стовпці «Сума». Крім того, існує дві позиції продукту з кількістю -8.00, які показують суму кредитів у стовпці «Сума». Ці виправлення дають у сумі кількість «нуль».
 
-![Зв’язане подання фактичних даних](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Зв’язане подання фактичних даних.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Виправлення затверджених записів витрат
 
@@ -87,7 +87,7 @@ ms.locfileid: "6012071"
 
 8. На сторінці проекту на вкладці **Фактичні дані** перегляньте **Зв’язане подання фактичних даних**. Вихідні та виправлені записи відобразяться в списку. Нижче показано вихідні суми запису витрат і відповідні виправлені суми запису витрат. 
 
-![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

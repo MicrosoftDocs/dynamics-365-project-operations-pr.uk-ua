@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008021"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995246"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Додати нові настроювані форми сутності (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Dynamics 365 Project Service Automation покладається на поле *
     - Експортуйте форму **Відомості про мій проект** як частину некерованого рішення, а потім знайдіть у файлі настроювань значення **formId** у файлі customization.xml експортованого рішення.
     - Відкрийте форму **Відомості про мій проект** в редакторі форм, а потім знайдіть глобальний унікальний ідентифікатор (GUID) поруч із параметром **fromId** в URL-адресі, як показано на вкладці в наведеній нижче ілюстрації.
 
-    ![Значення formId нової форми в URL-адресі](media/how-to-add-custom-forms-in-v2.0.png)
+    ![Значення formId нової форми в URL-адресі.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Створіть зіставлення **msdyn\_ordertype** для значення **formId** шляхом редагування веб-ресурсу msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Вилучіть код з ресурсу, а потім замініть його на наведений нижче код.
 
