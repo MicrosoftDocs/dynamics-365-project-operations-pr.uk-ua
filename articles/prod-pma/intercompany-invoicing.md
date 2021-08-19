@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002801"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995831"
 ---
 # <a name="intercompany-invoicing"></a>Внутрішнє виставлення рахунків
 
@@ -33,7 +33,7 @@ ms.locfileid: "6002801"
 
 На наведеній далі ілюстрації показано типовий сценарій, за яким дві юридичні особи – SI FR (юридична особа-позичальник) і SI USA (юридична особа-надавач) спільно користуються ресурсами задля виконання проекту для клієнта А. За цим сценарієм SI FR є підрядником, який виконує роботу для клієнта А. 
 
-[![Приклад внутрішнього виставлення рахунків](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Приклад внутрішнього виставлення рахунків.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 Більша гнучкість і потужність є ціллю контролю затрат, визнання доходів, сплати податків і трансфертних цін за транзакціями внутрішнього проекту компанії. Окрім цього забезпечуються наведені далі можливості.
 

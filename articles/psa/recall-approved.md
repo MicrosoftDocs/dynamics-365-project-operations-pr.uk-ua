@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998351"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Відкликання затверджених записів часу або витрат
 
@@ -98,13 +98,13 @@ ms.locfileid: "5998211"
 
 Нижче зображено зміни, які виникають для затверджених записів часу, коли вони відкликані.
 
-![Переходи стану запису часу](media/TimeEntryStateTransitions.png)
+![Переходи стану запису часу.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Зміни записів витрат
 
 Нижче зображено зміни, які виникають для затверджених записів витрат, коли вони відкликані.
 
-![Переходи станів записів витрат](media/ExpenseEntryStateTransitions.png)
+![Переходи станів записів витрат.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

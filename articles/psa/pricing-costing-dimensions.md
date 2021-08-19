@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368906"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998486"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Головна сторінка ціноутворення та калькуляції
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368906"
 
 PSA поставляється з набором значень за замовчуванням. Ці дані можна переглянути, вибравши **Project Service** > **Параметри**. У записі параметра у вкладці **Критерії ціноутворення на основі суми** переконайтеся, що роль **msdyn_resourcecategory** та організаційна одиниця ресурсів **msdyn_organizationalunit** мають поля **Застосовується до збуту** та **Застосовується до вартості**, встановлені у значення **Так**. Це дасть змогу встановлювати ціни та вартість для кожної комбінації ролі та організаційної одиниці.
 
-![Знімок екрана параметра Project Service із виділеним параметром "Застосовується до збуту"](media/PS-OOB-parameters.png)
+![Знімок екрана параметра Project Service із виділеним параметром "Застосовується до збуту".](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Якщо ви використовуєте готові поля ролей і організаційної одиниці як критерії ціноутворення до версії 3 у PSA, то не будуть спостерігатися жодні зміни. Можна продовжувати користуватися Project Service як звичайно. 
