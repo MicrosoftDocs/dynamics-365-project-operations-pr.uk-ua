@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368501"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001996"
 ---
 # <a name="pricing-dimensions-overview"></a>Огляд вимірів визначення цін
 
@@ -33,7 +33,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Dynamics 365 Project Operations поставляється з набором значень за замовчуванням. Ці критерії можна переглянути, вибравши **Project Operations** > **Параметри**. У записі параметра у вкладці **Критерії ціноутворення на основі суми** переконайтеся, що роль **msdyn_resourcecategory** та організаційна одиниця ресурсів **msdyn_organizationalunit** мають поля **Застосовується до збуту** та **Застосовується до вартості**, встановлені у значення **Так**. Якщо ці поля увімкнуто, ви можете встановлювати ціни та вартість для кожної комбінації ролі та організаційної одиниці.
 
-![Знімок екрана параметра Project Service із виділеним параметром "Застосовується до збуту"](media/PS-OOB-parameters.png)
+![Знімок екрана параметра Project Service із виділеним параметром "Застосовується до збуту".](media/PS-OOB-parameters.png)
 
 Якщо потрібно, щоб ціна або вартість ресурсів використовували додаткові атрибути, можна створити настроювані поля, сутності та виміри. Для отримання додаткових відомостей див. наступні розділи. 
   

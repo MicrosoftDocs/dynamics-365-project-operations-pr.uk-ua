@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025799"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003841"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Версії зіставлень з подвійним записуванням Project Operations
 
@@ -32,7 +32,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 1. У списку зіставлень виберіть зіставлення "Книга" **(msdyn\_ledgers)** з усіма необхідними компонентами та встановіть прапорець **Початкова синхронізація**. У полі **Основний для початкової синхронізації** виберіть **Програми Finance and Operations** для зіставлення книги та всіх необхідних зіставлень. Виберіть **Запустити**.
 
-![Синхронізація зіставлення Ledger](media/DW6.png)
+![Синхронізація зіставлення Ledger.](media/DW6.png)
 
 2. Виконайте ті самі кроки для всіх інших зіставлень таблиць у наведеній вище таблиці. Не ставте прапорець **Початкова синхронізація** при виконанні цих зіставлень.
 
@@ -65,7 +65,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 1. Увімкніть ролі ресурсів проекту для зіставлення таблиці **Всі компанії (bookableresourcecategories)**, оскільки це зіставлення потребує початкової синхронізації. В полі **Основний для початкової синхронізації** виберіть **Common data service**. 
 
- ![Синхронізація зіставлення таблиці ролі ресурсу](media/6ResourceInitialSync.jpg)
+ ![Синхронізація зіставлення таблиці ролі ресурсу.](media/6ResourceInitialSync.jpg)
 
  Перш ніж переходити до наступного кроку, дочекайтесь зміни статусу зіставлення на **Виконується**.
 

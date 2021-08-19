@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999831"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001096"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Синхронізація проектних сервісних договорів і проектів безпосередньо з Project Service Automation до Finance 
 
@@ -42,7 +42,7 @@ ms.locfileid: "5999831"
 
 Наведена далі ілюстрація показує, як синхронізуються дані між Project Service Automation і Finance.
 
-[![Потік даних для інтеграції Project Service Automation з Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Потік даних для інтеграції Project Service Automation з Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Шаблони й завдання
 
@@ -140,17 +140,17 @@ ms.locfileid: "5999831"
 
 Наведені далі ілюстрації показують приклади зіставлення завдань шаблону в інтеграції даних. У зіставленні показано інформацію поля, яку буде синхронізовано з Project Service Automation до Finance.
 
-[![Зіставлення шаблону проекту для проектної угоди](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Зіставлення шаблону проектного сервісного договору.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Зіставлення шаблону проекту](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Зіставлення шаблону проекту.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Зіставлення шаблону сервісної роботи за договором проекту](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Зіставлення шаблону сервісної роботи за договором проекту.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Зіставлення шаблону проміжних етапів сервісної роботи за договором проекту](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Зіставлення шаблону проміжних етапів сервісної роботи за договором проекту.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Зіставлення проміжного етапу сервісної роботи за договором у проектах та сервісних договорах (PSA 3. x до Dynamics) — шаблон v2.
 
-[![Зіставлення шаблону проміжних етапів сервісної роботи за договором проекту з шаблоном версії 2](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![Зіставлення шаблону проміжних етапів сервісної роботи за договором проекту з шаблоном версії 2.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
