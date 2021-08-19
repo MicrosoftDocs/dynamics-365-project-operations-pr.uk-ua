@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012116"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988991"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Використання доступного для резервування ресурсу як критерію ціноутворення
 
@@ -62,18 +62,18 @@ ms.locfileid: "6012116"
 1. Для цього двічі клацніть рядок у сітці **Критерії ціноутворення**, щоб відкрити сторінку критерію **msdyn_bookableresource.**
 2. На сторінці критерію у вкладці **Пов’язані** натисніть кнопку **Назви полів критеріїв ціноутворення**.
 
- ![Вкладка назв полів критеріїв ціноутворення](media/PD-fieldname.png)
+ ![Вкладка назв полів критеріїв ціноутворення.](media/PD-fieldname.png)
 
 4. У пов'язаному поданні, яке відкриється, натисніть **Додати нове ім'я поля критерію ціноутворення**.
 
- ![Додати нові імена полів критеріїв ціноутворення](media/Add-NewPD-fieldname.png)
+ ![Додати нові імена полів критеріїв ціноутворення.](media/Add-NewPD-fieldname.png)
 
 
 Відкриється сторінка **Нове ім’я поля критерію ціноутворення** для **msdyn_bookableresource**. 
 
 5. Додайте **msdyn_projectteam** до поля **Логічне ім’я сутності** та **msdyn_bookableresourceid** до поля **Ім'я поля**. Збережіть запис.
 
- ![Форма нового імені поля критерію ціноутворення](media/PD-fieldname-Added.png)
+ ![Форма нового імені поля критерію ціноутворення.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015041"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985166"
 ---
 # <a name="manage-resource-requests-project-service"></a>Керування запитів ресурсів (Project Service)
 
@@ -43,7 +43,7 @@ ms.locfileid: "6015041"
   
    -   Натисніть кнопку **Фільтр** для відображення області **Фільтр**, яка дає змогу фільтрувати результати за організаційною одиницею, роллю, навичками або іншими атрибутами.  
   
-       ![Екран "Запити ресурсів" у Project Service](../psa/media/project-service-resource-request-screen.png "Екран &quot;Запити ресурсів&quot; у Project Service")  
+       ![Екран "Запити ресурсів" у Project Service.](../psa/media/project-service-resource-request-screen.png "Екран &quot;Запити ресурсів&quot; у Project Service")  
   
 3. В календарі для ресурсів, які ви хочете забронювати, виберіть період резервування ресурсів, а потім або клацнути **Резервувати**, щоб зарезервувати ресурс або **Запропонувати резервування**, щоб запропонувати резервування та затвердити його. Під час бронюванні ресурсу ви можете виконати гнучке чи негнучке резервування.  
   

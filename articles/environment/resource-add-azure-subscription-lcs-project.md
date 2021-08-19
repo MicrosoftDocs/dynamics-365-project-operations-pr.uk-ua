@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000641"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986696"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Додавання передплати Azure до проекту LCS
 
@@ -23,35 +23,35 @@ _**Застосовується до:** Project Operations для сценарі
 
 1. У проекті LCS у розділі **Середовища** виберіть **Параметри Microsoft Azure**.
 
-![Параметри Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Параметри Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. На сторінці **Параметри проектів** на вкладці **З’єднувачі Azure** виберіть **Авторизувати**. Це дасть змогу розгортати середовища в цьому проекті.
 
-![З’єднувачі Azure](./media/2AzureConnectors.png)
+![З’єднувачі Azure.](./media/2AzureConnectors.png)
 
 3. Знову виберіть **Авторизувати**, щоб надати згоду адміністратора.
 
-![Надання згоди адміністратора](./media/3GrantAdminConsent.png)
+![Надання згоди адміністратора.](./media/3GrantAdminConsent.png)
 
 4. Прийміть запит на надання дозволів.
 
-![Прийняття запиту на надання дозволу](./media/4AcceptPermissionRequest.png)
+![Прийняття запиту на надання дозволу.](./media/4AcceptPermissionRequest.png)
 
 Тепер авторизацію завершено. 
 
-![Успішне здійснення авторизації](./media/5AuthorizationComplete.png)
+![Успішне здійснення авторизації.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Надання службам розгортання Dynamics доступу до передплати на Azure
 
 1. Відкрийте [Виставлення рахунків Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) і виберіть відповідну передплату. Службам розгортання Dynamics необхідний доступу до цієї передплати для забезпечення можливості розгортання середовищ.
 
-![Відомості про передплату на Azure](./media/6AzureSubscription.png)
+![Відомості про передплату на Azure.](./media/6AzureSubscription.png)
 
 2. Виберіть **Керування доступом (IAM)** в області переходів, а потім – **Додати призначення ролей**.
 3. На повзунку справа виберіть **Роль співавтора** та в списку, що відобразиться, знайдіть і виберіть **Служби розгортання Dynamics**. 
 4. Виберіть **Зберегти**.
 
-![Доступ до передплати](./media/7SubscriptionAccess.png)
+![Доступ до передплати.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Додавання з’єднувача передплати до проекту LCS
 
