@@ -4,6 +4,8 @@
   items:
     - name: Визначення вашого типу розгортання
       href: environment/determine-deployment-type.md
+    - name: Реєстрація для отримання ознайомлювальних версій Project Operations
+      href: environment/admin-trials.md
     - name: Оновлення Project Operations
       href: whats-new/project-operations-updates.md
 - name: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Що нового
       items:
+        - name: "Серпень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Липень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: "Червень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
@@ -418,6 +422,8 @@
       items:
         - name: Огляд затверджень
           href: approvals/approvals-overview.md
+        - name: Набори затверджень
+          href: approvals/approval-sets.md
         - name: Нотатки для розробників
           items:
             - name: Нотатки для розробників для затверджень
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: Що нового
       items:
+        - name: 'Що нового в оновлені 2021, випуск 2 із завчасним доступом – розгортання Lite'
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Що нового в серпні 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Що нового в липні 2021\_р.: розгортання Lite"
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: "Що нового в червні 2021\_р.: розгортання Lite"
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Керування субпідрядними сервісними договорами в Project Operations
       items:
-        - name: Огляд керування субпідрядними сервісними договорами
+        - name: Керування субпідрядними сервісними договорами в Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: "Субпідрядні сервісні роботи в жовтні 2021\_р. з раннім доступом"
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: Основні поняття в субпідрядних сервісних договорах
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: Керування постачальниками та проектними прайсами
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: Підрядники як доступні для резервування ресурси
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Відомості про заголовок для субпідрядних сервісних договорів
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Субпідрядні сервісні роботи за договором для кількості часу
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Субпідрядні сервісні роботи за договором для витрат
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Субпідрядні сервісні роботи за договором для продуктів
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ресурси субпідрядної сервісної роботи за договором
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Проміжні етапи субпідрядної сервісної роботи за договором
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: Час
       items:
         - name: Огляд часу
@@ -868,6 +892,8 @@
       items:
         - name: Огляд затверджень
           href: approvals/approvals-overview.md
+        - name: Набори затверджень
+          href: approvals/approval-sets.md
         - name: Нотатки для розробників
           items:
             - name: Нотатки для розробників для затверджень
@@ -1060,6 +1086,8 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 35, V3'
+          href: psa/whats-new-ur-35.md
         - name: 'Нові можливості або зміни у випуску оновлень 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Нові можливості або зміни у випуску оновлень 33, V3'
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: Налаштування тижневого запису часу
               href: psa/time-entry-extensibility-v3.md
-            - name: Набори затверджень
+            - name: Набори затверджень в Project Service Automation
               href: psa/approval-set.md
     - name: Запитання й відповіді та усунення несправностей (3.x)
       items:
