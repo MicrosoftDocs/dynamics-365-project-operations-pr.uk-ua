@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003841"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547134"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Версії зіставлень з подвійним записуванням Project Operations
 
@@ -49,8 +49,8 @@ _**Застосовується до:** Project Operations для сценарі
 | Таблиця інтеграції Project Operations для матеріальних кошторисів (msdyn\_estimatelines) | 1.0.0.0 | Не обов'язково для підготовки. |
 | Пропозиціями рахунків проекту V2 (рахунки-фактури) | 1.0.0.3 | Не обов'язково для підготовки. |
 | Фактичні дані про інтеграцію Project Operations (msdyn_actuals) | 1.0.0.14 | Не обов'язково для підготовки. |
-| Проміжні етапи сервісної роботи за договором інтеграції Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Не обов'язково для підготовки. |
-| Сутність інтеграції Project Operations для орієнтовних показників витрат (msdyn_estimateslines) | 1.0.0.2 | Не обов'язково для підготовки. |
+| Етапи сервісної роботи за договором при інтеграції Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Не обов'язково для підготовки. |
+| Сутність інтеграції Project Operations для кошторисів витрат (msdyn_estimatelines) | 1.0.0.2 | Не обов'язково для підготовки. |
 | Сутність інтеграції Project Operations для оцінки часу (msdyn_resourceassignments) | 1.0.0.5 | Не обов'язково для підготовки. |
 | Сутність експорту категорій витрат за проектом інтеграції Project Operations (msdyn_expensecategories) | 1.0.0.1 | Не обов'язково для підготовки. |
 | Сутність експорту витрат за проектом інтеграції Project Operations (msdyn_expenses) | 1.0.0.2 | Не обов'язково для підготовки. |

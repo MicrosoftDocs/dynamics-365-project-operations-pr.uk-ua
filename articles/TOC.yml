@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Що нового
       items:
+        - name: "Жовтень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: "Вересень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: "Серпень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: "Липень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
@@ -292,7 +296,7 @@
           items:
             - name: Розробка шаблонів проектів за допомогою функції копіювання проектів
               href: project-management/dev-copy-project.md
-            - name: Використання API Розкладів проектів (загальнодоступна підготовча версія)
+            - name: Використання API Розкладів проектів
               href: project-management/schedule-api-preview.md
     - name: Керування ресурсами
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Закупівля нескладських матеріалів для проектів із використанням необроблених рахунків постачальників
           href: procurement/pending-vendor-invoices.md
+        - name: Замовлення нескладських матеріалів для проектів із використанням замовлень на придбання для проекту
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Зберігання постачальників
+          items:
+            - name: Огляд зберігання постачальників
+              href: procurement/vendor-retention-overview.md
+            - name: Налаштування зберігання постачальників
+              href: procurement/set-up-vendor-retention.md
     - name: Виставлення рахунків
       items:
         - name: Огляд виставлення рахунків
@@ -528,6 +540,10 @@
       items:
         - name: 'Що нового в оновлені 2021, випуск 2 із завчасним доступом – розгортання Lite'
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Що нового в жовтні 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: "Що нового у вересні 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: "Що нового в серпні 2021\_р.: розгортання Lite"
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: "Що нового в липні 2021\_р.: розгортання Lite"
@@ -784,7 +800,7 @@
           items:
             - name: Розробка шаблонів проектів за допомогою функції копіювання проектів
               href: project-management/dev-copy-project.md
-            - name: Використання API Розкладів проектів (загальнодоступна підготовча версія)
+            - name: Використання API Розкладів проектів
               href: project-management/schedule-api-preview.md
     - name: Керування ресурсами
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Субпідрядні сервісні роботи за договором для кількості часу
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Субпідрядні сервісні роботи за договором для витрат
+        - name: Категорії субпідрядних сервісних робіт за договором для витрат
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Субпідрядні сервісні роботи за договором для продуктів
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Нові можливості або зміни у випуску оновлень 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Нові можливості або зміни у випуску оновлень 34, V3'

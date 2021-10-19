@@ -2,16 +2,16 @@
 title: Реєстрація для отримання ознайомлювальних версій Project Operations
 description: У цьому розділі наведено відомості про розгортання ознайомлювальної версії Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418482"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599238"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Реєстрація для отримання ознайомлювальних версій Project Operations 
 
@@ -85,15 +85,9 @@ _**Застосовується до:** Project Operations для сценарі
 
    Після запуску підготовки вас буде переспрямовано до списку середовищ у Центрі адміністрування Power Platform. Під час виконання підготовки стан середовища буде **PreparingInstance**.
  
-  Після завершення підготовки стан середовища буде **Готово**.
+  Після завершення підготовки станом середовища є **Готово**. Підготовка середовища включає розгортання демонстраційних даних.
  
-4.  Після завершення підготовки виберіть відповідну URL-адресу Microsoft Dataverse і URL-адреси програм Finance and Operations, щоб перевірити розгортання.
-
-## <a name="demo-data-installation"></a>Інсталяція демонстраційних даних
-
-Використовуйте надані нижче посилання для доступу до пакетів демонстраційних даних для нескладських матеріалів і для сценаріїв розгортання Lite. 
-- [Демонстраційні дані нескладських матеріалів](resource-apply-pro-setup-config-data.md)
-- [Демонстраційні дані Lite](lite-apply-demo-setup-config-data.md)
+4.  Виберіть відповідну URL-адресу Microsoft Dataverse і URL-адреси програм Finance and Operations для підтвердження розгортання.
 
 ## <a name="configuring-dual-write"></a>Налаштування подвійного записування
 Лише для розгортань нескладських матеріалів налаштуйте зіставлення для подвійного записування. Додаткові відомості див. в розділі [Версії зіставлень із подвійним записуванням у Project Operations](resource-dual-write-maps.md).

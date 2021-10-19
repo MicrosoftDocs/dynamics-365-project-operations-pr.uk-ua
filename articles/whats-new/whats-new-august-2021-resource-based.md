@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323486"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501396"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового в серпні 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -31,7 +31,7 @@ ms.locfileid: "7323486"
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Оновлення зіставлень з подвійним записуванням в Project Operations
 
-У цьому випуску оновлення для зіставлень Project Operations із подвійним записуванням відсутні. 
+У цьому випуску оновлення для зіставлень Project Operations із подвійним записуванням відсутні.
 
 Поточний список та версії зіставлень Project Operations із подвійним записуванням ви можете знайти тут: [Версії зіставлень Project Operations із подвійним записуванням](../environment/resource-dual-write-maps.md).
 
