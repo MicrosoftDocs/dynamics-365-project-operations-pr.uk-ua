@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003886"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679234"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового в червні 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -30,6 +30,7 @@ _**Застосовується до:** Project Operations для сценарі
 - Можливість видалення [позицій пропозиції рахунків-фактур проекту для сценаріїв настроювання](../invoicing/correct-project-invoice-proposals.md).
 - Деталізовані позиції витрат відображають імена підкатегорій у звіті про витрати [Переосмислення звітів про витрати — Нові функції](../expense/expense-reports-reimagined.md#new-features).
 - Спосіб оплати можна використовувати в області «Нова витрата» під час створення нових витрат.
+- Загальна доступність API планування проектів. Ця нова функціональність дозволяє клієнтам програмно виконувати операції створення, оновлення та видалення із завданнями проекту, призначеннями ресурсів, залежностями завдань і записами учасників робочої групи проекту. Для отримання додаткових відомостей див. [Використання API планування проектів із сутностями планування](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Оновлення зіставлень з подвійним записуванням в Project Operations
 
