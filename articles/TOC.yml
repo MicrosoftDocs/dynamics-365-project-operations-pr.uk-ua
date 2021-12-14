@@ -58,6 +58,8 @@
           href: environment/uninstall-project-operations.md
     - name: Що нового
       items:
+        - name: 'Листопад 2021: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Жовтень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: "Вересень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Продуктивність API Розкладів проектів
               href: project-management/project-schedule-api-performance.md
+            - name: Журнали планування проектів
+              href: project-management/schedule-api-logs.md
     - name: Керування ресурсами
       items:
         - name: Основні поняття
@@ -544,6 +548,8 @@
       items:
         - name: 'Що нового в оновлені 2021, випуск 2 із завчасним доступом – розгортання Lite'
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Що нового в листопаді 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Що нового в жовтні 2021\_р.: розгортання Lite"
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: "Що нового у вересні 2021\_р.: розгортання Lite"
@@ -952,6 +958,10 @@
   items:
     - name: Що нового
       items:
+        - name: "Що нового в жовтні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: "Що нового у вересні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: "Що нового в липні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: "Що нового в травні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
@@ -1108,6 +1118,8 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Нові можливості або зміни у випуску оновлень 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Нові можливості або зміни у випуску оновлень 36, V3'
