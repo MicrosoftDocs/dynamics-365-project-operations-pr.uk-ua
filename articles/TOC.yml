@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Оновлення Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Вилучені або застарілі функції
+      items:
+        - name: Вилучені або застарілі функції в Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
   items:
     - name: Почати
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Що нового
       items:
+        - name: "Грудень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 'Листопад 2021: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: "Жовтень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
@@ -398,8 +404,10 @@
               href: expense/set-up-credit-card-integration.md
             - name: Налаштування категорій витрат
               href: expense/set-up-expense-categories.md
-            - name: 'Налаштування відстані, використовуючи ставки за пройдену відстань'
+            - name: Налаштування відстані з використанням тарифів за пройдену відстань
               href: expense/set-up-mileage.md
+        - name: Деталізація витрат
+          href: prod-exp/expense-itemization.md
         - name: Персональні витрати
           href: expense/personal-expenses-expense-report.md
         - name: Внутрішні витрати
@@ -530,9 +538,15 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Керування прогнозами доходу
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Виправлення неполадок
+      items:
+        - name: Процес збуту за проектом
+          items:
+            - name: 'Помилка через невідповідність грошової одиниці під час створення проекту, сервісного договору, цінової пропозиції або планованого ресурсу'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 'Розгортання Lite: від угоди до рахунків-проформ'
   items:
-    - name: Початок роботи
+    - name: Почати
       items:
         - name: Огляд розгортання Lite
           href: pro/project-operations-overview-lite.md
@@ -546,8 +560,10 @@
           href: environment/security-model.md
     - name: Що нового
       items:
-        - name: 'Що нового в оновлені 2021, випуск 2 із завчасним доступом – розгортання Lite'
+        - name: "Що нового в другій хвилі оновлення 2021 року із завчасним доступом\_– розгортання Lite"
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: "Що нового в грудні 2021\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: "Що нового в листопаді 2021\_р.: розгортання Lite"
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: "Що нового в жовтні 2021\_р.: розгортання Lite"
@@ -894,13 +910,27 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Проміжні етапи субпідрядної сервісної роботи за договором
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Учасники робочої групи субпідрядного проекту
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Параметри субпідрядної сервісної роботи для учасників робочої групи проекту
+          href: pro/subcontracting/subcon-options.md
+        - name: Оцінка вартості ресурсів для субпідрядної сервісної роботи
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Відображення працівників за сервісним договором і виробничої спроможності субпідрядної сервісної роботи на панелі розкладів
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Підбір працівників для роботи за сервісним договором і визначення виробничої спроможності субпідрядної сервісної роботи для проекту
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Фіксування часу, витрат і використання матеріалів для компонентів субпідрядної сервісної роботи'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Змінення стану субпідрядного сервісного договору
+          href: pro/subcontracting/subcon-states.md
     - name: Час
       items:
         - name: Огляд часу
           href: time/time-entry-overview.md
         - name: Створення записів часу
           items:
-            - name: Інтерфейс користувача записів часу
+            - name: Інтерфейс користувача для записів часу
               href: time/ui-behavior-time.md
         - name: Нотатки для розробників
           items:
@@ -1118,6 +1148,8 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Нові можливості або зміни у випуску оновлень 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Нові можливості або зміни у випуску оновлень 37, V3'
@@ -1198,12 +1230,14 @@
           href: psa/implementation-guides/project-planning-tracking.md
         - name: 'Базовий посібник зі створення цінових пропозицій, визначення цін і виставлення рахунків.'
           href: psa/implementation-guides/begin-quoting-pricing-billing.md
-        - name: 'Поглиблений посібник зі створення цінових пропозицій, визначення цін і виставлення рахунків'
+        - name: 'Розширений посібник зі створення цінових пропозицій, визначення цін і виставлення рахунків'
           href: psa/implementation-guides/adv-quoting-pricing-billing.md
         - name: Посібник із керування ресурсами
           href: psa/implementation-guides/resource-management-guide.md
         - name: Посібник зі звітування
           href: psa/implementation-guides/reporting-guide.md
+    - name: "Перехід від Project Service Automation до Project Operations\_– Lite"
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Оновлення Project Service Automation (програма версії 3.x)
       items:
         - name: Оновлення Project Service Automation
