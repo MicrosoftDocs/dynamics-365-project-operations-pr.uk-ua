@@ -2,16 +2,18 @@
 title: Копіювання цінових пропозицій на основі проектів
 description: У цьому розділі наведено відомості щодо того, як копіювати цінові пропозиції на основі проектів у Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992186"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181837"
 ---
 # <a name="copy-project-based-quotes"></a>Копіювання цінових пропозицій на основі проектів
 
@@ -43,6 +45,3 @@ _**Застосовується до:** Project Operations для сценарі
 > - Посилання на проект у позиціях цінових пропозицій на основі проектів — відомості про бюджет клієнта
 >
 >Оскільки ці відомості будуть помітно відрізнятися для різних цінових пропозицій, ці поля та записи не копіюватимуться. Позиції цінових пропозицій для проектів і продуктів, оцінки для відомостей про позиції цінових пропозицій та граничні значення на рівні цінової пропозиції будуть скопійовані. Значення за замовчуванням для цін та вартості залежать від значення параметра **Копіювати ціни**, вибраного на сторінці діалогу **Копіювання параметрів**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Аналіз цінових пропозицій проекту
 description: У цьому розділі наведено відомості про аналіз цінових пропозицій.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b50f419d2c13cff4914f4b589c8d7ad9099c8734834d75f8d17104d2db40049b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 361a940261811467c46222c3d58c9504434ec882
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002851"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145248"
 ---
 # <a name="analysis-of-project-quotes"></a>Аналіз цінових пропозицій проекту
 
@@ -58,6 +60,3 @@ Project Service Automation аналізує рентабельність за д
 Аналіз очікувань клієнтів щодо розкладу виконується шляхом порівняння останньої дати завершення позиції цінової пропозиції з запитаною датою доставки в усіх позиціях цінової пропозиції.
 
 Аналіз очікувань клієнтів щодо бюджету здійснюється шляхом порівняння сум загального бюджету клієнта з сумою, що пропонується у всіх позиціях цінової пропозиції.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

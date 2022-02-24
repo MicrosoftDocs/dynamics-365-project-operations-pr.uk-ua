@@ -2,6 +2,8 @@
 title: Переглянути утилізацію ресурсу
 description: Як переглянути використання ресурсів у Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae03b5e800add32286fe2226878621fe7286ec00efa131aba32957a63c9783cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ffd41aba98156d990956908d0a04b8d598c92ade
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999926"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150738"
 ---
 # <a name="view-resource-utilization-project-service"></a>Перегляд використання ресурсів (Project Service)
 
@@ -41,6 +43,3 @@ ms.locfileid: "6999926"
   
 ### <a name="see-also"></a>Див. також  
  [Провідник керування ресурсами](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

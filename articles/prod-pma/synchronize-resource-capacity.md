@@ -2,9 +2,11 @@
 title: Синхронізація виробничої спроможності ресурсів
 description: У цьому розділі наведено відомості про синхронізацію виробничої спроможності ресурсу за різними календарями та проектами.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005641"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086694"
 ---
 # <a name="synchronize-resource-capacity"></a>Синхронізація виробничої спроможності ресурсів
 
@@ -29,7 +31,7 @@ ms.locfileid: "7005641"
 
 Процеси синхронізації ресурсів допомагають забезпечити досяжність відомостей про календар і основний календар до планування ресурсів проекту. Якщо календар змінюється, процеси забезпечують впровадження оновлень до розкладу ресурсів проекту. Крім того, процеси дозволяють підвищити продуктивність, оскільки відомості про ресурс календаря синхронізуються заздалегідь. Тому оновлення відомостей про планування ресурсів відбувається швидше. Рекомендується планувати процеси у пакетному режимі, а не по одному. У іншому разі існує ризик, що хтось забуде дати останньої синхронізації інформації. Якщо інклюзивні дати не використовуються, під час синхронізації можуть виникати проміжки.
 
-![Синхронізація календаря.](./media/projectresourcing04-1024x471.jpg)
+![Синхронізація календаря](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Синхронізація зведень виробничої спроможності ресурсу
 
@@ -46,7 +48,4 @@ ms.locfileid: "7005641"
     | Дата початку  | Введіть дату початку для процесу синхронізації для зведення з ресурсів. |
     | Дата завершення    | Введіть дату завершення для процесу синхронізації для зведення з ресурсів. |
 
-[![Процес синхронізації.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Процес синхронізації](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)

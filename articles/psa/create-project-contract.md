@@ -2,6 +2,8 @@
 title: Створити контракт проекту
 description: Як створити сервісний договір проекту у Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c5530e746d802cfa00e16206817e7d12accbe5ad0762f1051869f1ca35397222
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e26e5193353d7bbb594f9f31d95c18130d614517
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008656"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150873"
 ---
 # <a name="create-a-project-contract-project-service"></a>Створення проектного сервісного договору (Project Service)
 
@@ -45,6 +47,3 @@ ms.locfileid: "7008656"
   
 ### <a name="see-also"></a>Див. також  
  [Провідник керування обліковими записами](../psa/account-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

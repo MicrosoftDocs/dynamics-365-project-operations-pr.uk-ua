@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987641"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992991"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Створення резервування для проекту з панелі розкладів
 
@@ -43,7 +43,7 @@ ms.locfileid: "6987641"
 
 1.  На панелі розкладів, цей ресурс відобразиться у вкладці **Відкриті вимоги**. Можливо, потрібно буде використовувати фільтри стовпця у сітці за наявності багатьох відкритих вимог. 
 
-    ![Перейдіть на вкладку "Вимоги" на панелі "Розклад".](media/FAQ-Project-Booking-Schedule-Board-1.png "Знімок екрана з таблиці резервувань та призначень")
+    ![Перейдіть на вкладку "Вимоги" на панелі "Розклад"](media/FAQ-Project-Booking-Schedule-Board-1.png "Знімок екрана з таблиці резервувань та призначень")
 
 2. Виберіть вимогу. Вкладка **Перевірити доступність** відображається у верхній частині вибраного рядка.
  
@@ -53,7 +53,7 @@ ms.locfileid: "6987641"
 
     Вибір **Резервувати** зберігає ресурс у робочій групі проекту.
 
-![Панель "Створити резервування ресурсу".](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Панель "Створити резервування ресурсу"](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Резервування з основної вимоги
@@ -62,7 +62,7 @@ ms.locfileid: "6987641"
 
 1. Щоб зарезервувати ресурс з основною вимогою на панелі розкладу, виберіть вкладку **Проект**. Може бути зручніше використовувати фільтр у стовпці **Проект**, якщо у вас багато проектів.
 
-   ![Фільтри стовпців на панелі розкладів.](media/FAQ-Project-Booking-Schedule-Board-2.png "Знімок екрана з таблиці резервувань та призначень")
+   ![Фільтри стовпців на панелі розкладів](media/FAQ-Project-Booking-Schedule-Board-2.png "Знімок екрана з таблиці резервувань та призначень")
 
 2. Виберіть вимогу, яка має лише назву проекту як свою назву і нульову (0) тривалість.
 

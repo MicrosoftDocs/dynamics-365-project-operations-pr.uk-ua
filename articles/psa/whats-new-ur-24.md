@@ -2,6 +2,8 @@
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 24 версії 3
 description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 24, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 51d08dd147b7804cb5c9255159aeab2ecd94f4597d6e99c5fa92efe1246c44d0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 15fe1c3482de66331dd543ee73391638919b2595
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998081"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146733"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, оновлений випуск 24, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
+Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 24 версії 3. Ця версія має номер збірки V 3.10.42.43 і зазвичай надається в складі оновлення за жовтень 2020 р., яке можна завантажити самостійно.
 
@@ -79,6 +81,3 @@ ms.locfileid: "6998081"
 - Кнопка **Оновити фактичні дані** неправильно обчислює підсумкові завдання.
 - Надбудова Microsoft Project: виправлено помилку порожнього посилання, що виникала, якщо будь-який учасник робочої групи мав пусту одиницю ресурсів.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

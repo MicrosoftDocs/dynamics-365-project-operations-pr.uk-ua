@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: ce4395c37d3339a5aec81c691c7372d020445005ec501c669927ce1fbee2faae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5bdb3f4ab35380d4b94d7405489fb7ab27d8bb85
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986336"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070403"
 ---
 > [!IMPORTANT]
 > Система Dynamics 365 for Finance and Operations еволюціонувала в спеціалізовані програми, які допомагають керувати певними бізнес-функціями. Докладні відомості про відповідні зміни див. в [Посібнику з ліцензування Dynamics 365](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).

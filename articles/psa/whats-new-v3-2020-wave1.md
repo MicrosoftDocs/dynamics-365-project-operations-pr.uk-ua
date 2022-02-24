@@ -1,6 +1,8 @@
 ---
 title: Що нового або що змінилося в Project Service Automation версії 3.x, 1-го випуску 2020 р.
 description: У цій статті наведено відомості про нові й оновлені можливості Project Service Automation версії 3, 1-го випуску 2020 р.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002131"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150963"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Що нового або що змінилося в Project Service Automation версії 3, 1-го випуску 2020 р.
 
@@ -41,6 +43,3 @@ ms.locfileid: "7002131"
 
 ### <a name="currently-extended-time-entry-changes"></a>Змінення записів тимчасово подовженого часу
 Щоб обмежити вплив цієї зміни наявними користувачами запису часу, продовжити роботу із записом часу можна відразу після оновлення цієї ролі. У разі створення настоюваних подань або окремих записів часу потрібно встановити для полів форми **Настройки запису часу** правильне значення PSA.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

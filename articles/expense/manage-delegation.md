@@ -2,9 +2,11 @@
 title: Керування делегуванням
 description: У цьому розділі наведено відомості щодо того, як представник з витрат може створювати звіти про витрати для іншого працівника та керувати ними.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997811"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122728"
 ---
 # <a name="manage-delegation"></a>Керування делегуванням
 Представник з витрат може створювати звіти про витрати для іншого працівника та керувати ними.
@@ -37,6 +39,3 @@ ms.locfileid: "6997811"
 Представники можуть швидко виконувати фільтрування та пошук у доручених ним наявних звітах про витрати. Крім того, представник може швидко створити новий звіти про витрати для іншого користувача, вибравши **Новий звіт про витрати**.
 
 Щоб створити звіт про витрати для іншого працівника та керувати такими звітами, представник може перейти до **Керування витратами** > **Мої витрати** > **Звіти про витрати**, а тоді вибрати **Відкрити витрати інших користувачів**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

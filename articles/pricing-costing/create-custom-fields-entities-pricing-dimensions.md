@@ -2,9 +2,11 @@
 title: Створення настроюваних полів і сутностей як вимірів визначення цін
 description: У цьому розділі наведено відомості про створення настроюваних наборів параметрів або сутностей.
 author: rumant
+manager: AnnBe
 ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fc5917856b8f28d36dc55593a68eba7823a00b36
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003661"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642838"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Створення настроюваних полів і сутностей як вимірів визначення цін
 
@@ -44,7 +46,7 @@ _**Застосовується до:** Project Operations для сценарі
 3. Виберіть **Створити**, щоб створити нову сутність із назвою **Стандартна посада**. 
 4. Уведіть решту відомостей, а потім виберіть **Зберегти**.
 
-> ![Визначення сутності стандартної посади.](media/Standard-Title-entity-definition.png)
+> ![Визначення сутності стандартної посади](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Критерії на основі набору параметрів 
 Можна створити два критерії на основі набору параметрів. 
@@ -54,11 +56,11 @@ _**Застосовується до:** Project Operations для сценарі
 
 У наведеному нижче зображенні наведено подання **Місце роботи ресурсу**. 
 
-> ![Критерій ціноутворення на основі набору параметрів називається "Місце роботи ресурсу".](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Критерій ціноутворення на основі набору параметрів називається "Місце роботи ресурсу"](media/Option-set-PD-called-Resource-Work-Location.png)
 
 У наведеному нижче зображенні наведено подання **Робочий час ресурсу**. 
 
-> ![Критерій ціноутворення на основі набору параметрів називається "Години роботи ресурсу".](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Критерій ціноутворення на основі набору параметрів називається "Години роботи ресурсу"](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Відкрийте **Параметри** > **Рішення**, а тоді двічі клацніть пункт **Критерії визначення цін \<your organization name>**. 
 2. У провіднику рішень на лівій навігаційній панелі виберіть **Набір параметрів**. 
@@ -74,7 +76,4 @@ _**Застосовується до:** Project Operations для сценарі
 4. Закрийте сторінку. 
 5. Повторіть кроки 1-3, щоб створити ще одну стандартну назву для "Провідний системний інженер".
 
-> ![Приклад даних для сутності стандартної посади.](media/ST-data.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Приклад даних для сутності стандартної посади](media/ST-data.png)

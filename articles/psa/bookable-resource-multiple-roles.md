@@ -2,10 +2,12 @@
 title: Оцінка збуту та вартості проекту в разі, коли резервований ресурс виконує кілька ролей у проекті.
 description: У цьому розділі описано, як можна використовувати виміри ціноутворення для підтримки ціноутворення та кошторисних оцінок для ресурсу, який виконує кілька ролей у проекті.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987506"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145068"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Оцінка збуту та вартості проекту в разі, коли резервований ресурс виконує кілька ролей у проекті. 
 
@@ -72,6 +74,3 @@ ms.locfileid: "6987506"
 Після переходу до сітки **Оцінки** можна помітити, що обидва призначення для одного ресурсу мають різну ціну.
 Для призначення ресурсу в Завданні А встановлено ціну за допомогою значення атрибута **Роль** **Потенційний клієнт-консультант**. Для призначення того ж ресурсу в Завданні Б встановлено ціну за допомогою значення атрибута **Роль** **Інженер мережі**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

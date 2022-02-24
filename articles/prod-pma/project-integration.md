@@ -2,9 +2,11 @@
 title: Інтеграція Microsoft Project Client
 description: Планування та ведення розкладу проекту може бути складним завданням, отже керівникам проектів потрібні інструменти, які допоможуть керувати цим завданням. Інтеграція з Microsoft Project Client забезпечує підтримку, яка дозволяє відкривати робочу структуру проекту та керувати нею.
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988046"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086777"
 ---
 # <a name="microsoft-project-client-integration"></a>Інтеграція Microsoft Project Client
 
@@ -125,13 +127,3 @@ ms.locfileid: "6988046"
 8.  Виберіть **Календар**, який використовуватиметься для мобілізації ресурсів.
 
 11. Натисніть кнопку **OK**.
-
-> [!NOTE]
-> Надбудова «Клієнт Project» не підтримує перелічені нижче символи у форматі ідентифікатора проекту.
-> 
->   - Символ підкреслення
->   - Період
->   - ПРОБІЛ
->   - Скісна риска
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

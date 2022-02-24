@@ -2,10 +2,12 @@
 title: Використання доступного для резервування ресурсу як критерію ціноутворення
 description: У цьому розділі наведено відомості про використання доступного дня бронювання ресурсу як критерію для ціноутворення.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988991"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145023"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Використання доступного для резервування ресурсу як критерію ціноутворення
 
@@ -62,18 +64,15 @@ ms.locfileid: "6988991"
 1. Для цього двічі клацніть рядок у сітці **Критерії ціноутворення**, щоб відкрити сторінку критерію **msdyn_bookableresource.**
 2. На сторінці критерію у вкладці **Пов’язані** натисніть кнопку **Назви полів критеріїв ціноутворення**.
 
- ![Вкладка назв полів критеріїв ціноутворення.](media/PD-fieldname.png)
+ ![Вкладка назв полів критеріїв ціноутворення](media/PD-fieldname.png)
 
 4. У пов'язаному поданні, яке відкриється, натисніть **Додати нове ім'я поля критерію ціноутворення**.
 
- ![Додати нові імена полів критеріїв ціноутворення.](media/Add-NewPD-fieldname.png)
+ ![Додати нові імена полів критеріїв ціноутворення](media/Add-NewPD-fieldname.png)
 
 
 Відкриється сторінка **Нове ім’я поля критерію ціноутворення** для **msdyn_bookableresource**. 
 
 5. Додайте **msdyn_projectteam** до поля **Логічне ім’я сутності** та **msdyn_bookableresourceid** до поля **Ім'я поля**. Збережіть запис.
 
- ![Форма нового імені поля критерію ціноутворення.](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![Форма нового імені поля критерію ціноутворення](media/PD-fieldname-Added.png)

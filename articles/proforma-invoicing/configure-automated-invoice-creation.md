@@ -2,16 +2,18 @@
 title: Налаштування автоматичного створення рахунків
 description: У цьому розділі наведено відомості про налаштування системи для автоматичного створення рахунків-фактур.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992681"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122458"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Налаштування автоматичного створення рахунків
 
@@ -43,6 +45,3 @@ _**Застосовується до:** Project Operations для сценарі
 
 > [!NOTE]
 > Пакетне виставлення рахунків-фактур запускається лише для сервісних робіт за договором проекту, налаштованих у розкладі виставлення рахунків-фактур. Для способу виставлення рахунків за сервісну роботу за договором із фіксованою ціною мають бути налаштовані на основні етапи. Для сервісної роботи за договором в рамках проекту з методом виставлення рахунків за час та матеріали буде потрібно налаштувати розклад виставлення рахунків на основі дати. Те саме стосується сервісної роботи за договором на основі проекту.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

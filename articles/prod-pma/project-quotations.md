@@ -2,9 +2,11 @@
 title: Цінові пропозиції проекту
 description: У цій статті вводиться поняття цінових пропозицій проекту, якими ви можете користуватися задля надання привабливої пропозиції клієнту, що може стати першим кроком тієї або іншої фази проекту. Цінова пропозиція проекту може включати товари та послуги, ціни на які пропонуються, основну договірну інформацію, спеціальні торговельні угоди та знижки, а також можливі податки та додаткову плату.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 987444e66bb1b151065bfc8a92a021cd8fdd9cf07aee31780bf7607dc4de221c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ffb8d4bfefac52f65245f4ed6e4be216f5dc10e7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086703"
 ---
 # <a name="project-quotations"></a>Цінові пропозиції проекту
 
@@ -39,6 +41,3 @@ ms.locfileid: "7008971"
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

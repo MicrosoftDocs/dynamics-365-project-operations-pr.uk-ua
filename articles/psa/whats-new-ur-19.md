@@ -2,6 +2,8 @@
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 19, V3
 description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 19, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993671"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143676"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation, оновлений випуск 19, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
+Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу випуску PSA 19 версії 3. Ця версія має номер збірки V3.10.30.41 і загальнодоступна у складі самостійного оновлення у травні 2020.
 
@@ -64,6 +66,3 @@ ms.locfileid: "6993671"
 - Клієнти можуть потерпати від погіршення продуктивності під час створення проекту, оскільки **GetBookableResourceIdFromUser** отримує всі стовпці планованих ресурсів а не тільки первинний ідентифікатор.
 - Сутність **TransactionType** відсутня в плагіні оновлення попередньої перевірки, щоб уникнути введення користувачами **одиниць** і **груп одиниць**, які не є дійсними для типів транзакцій.
 - Крок **Видалення** не працює для імпорту записів часу.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 23 версії 3
 description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 23, V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ec27d2344f14e61a50be2771ee3d7952f16abd736927de7c3c5a019351a3e067
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87f89828aeff22d9b473539e294d5cf04d46a203
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996641"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150063"
 ---
 # <a name="project-service-automation-update-release-23-v3"></a>Project Service Automation, оновлений випуск 23, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
+Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 23 версії 3. Ця версія має номер збірки V 3.10.34.30 і зазвичай надається в складі оновлення за серпень 2020 р., яке можна завантажити самостійно.
 
@@ -65,6 +67,3 @@ ms.locfileid: "6996641"
 Виправлено зазначені нижче проблеми.
 
 - Подвійне клацання елемента **Отримання всіх категорій транзакцій** створює кілька рядків.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

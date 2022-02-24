@@ -2,17 +2,19 @@
 title: 'Що нового у випуску за грудень 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
 description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску Project Operations за грудень 2020 року для сценаріїв на основі ресурсів і відсутності запасів.
 author: sigitac
+manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984896"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727905"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за грудень 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -106,7 +108,4 @@ _**Застосовується до:** Project Operations для сценарі
 | Подорожі і витрати                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Робочий цикл автоматичної публікації звітів про витрати завершено, але рахунок-фактура не публікується.                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.

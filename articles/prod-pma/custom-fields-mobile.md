@@ -2,9 +2,11 @@
 title: Використовуйте настроювані поля в програмі для мобільних пристроїв Microsoft Dynamics 365 Project Timesheet у iOS та Android
 description: У цьому розділі наведено загальні шаблони для використання розширень для використання настроюваних полів.
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005776"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271018"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Використовуйте настроювані поля в програмі для мобільних пристроїв Microsoft Dynamics 365 Project Timesheet у iOS та Android
 
@@ -153,13 +155,13 @@ ms.locfileid: "7005776"
 
 Нижче наводиться знімок екрана створення запису табеля з програми для мобільних пристроїв. У ньому відображаються стандартні поля та настроюване поле в розділі «Запис часу» з назвою «Тестовий рядок» зі значенням перелічення «Другий варіант» уже встановлено.
 
-![Настроюване поле тестового рядка в програмі.](media/timesheet-entry.jpg)
+![Настроюване поле тестового рядка в програмі](media/timesheet-entry.jpg)
 
 
 
 Нижче наводиться знімок екрана з програми для мобільних пристроїв, на якому зображено користувача, який вибирає один із варіантів перелічення, доступних для настроюваного поля «Тестовий рядок».  Два варіанти — це «Перший варіант» і «Другий варіант» відображаються як перемикачі. На цей час вибрано другий варіант.
 
-![Перемикачі параметрів (перемикачі) для настроюваного поля «Тестовий рядок».](media/enum-option.jpg)
+![Перемикачі параметрів (перемикачі) для настроюваного поля «Тестовий рядок»](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ ms.locfileid: "7005776"
 
 Нижче наведено знімок екрана дерева об’єктів програми з Visual Studio. На ньому показано розширення таблиці TSTimesheetLine з полем TestLineString, доданим як настроюване поле.
 
-![Рядок позиції.](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Рядок позиції](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Використання ланцюжку команд у методі buildCustomFieldList класу TSTimesheetSettings для відображення поля в розділі запису табеля
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 Нижче наводиться знімок екрана з програми для мобільних пристроїв, на якому зображено, як користувач переглядає табель. Кнопка «Додаткові відомості» була натиснута у верхньому правому куті, щоб відобразити параметр «Переглянути додаткові відомості».  
 
-![Команда «Переглянути додаткові відомості».](media/show-more.png)
+![Команда «Переглянути додаткові відомості»](media/show-more.png)
 
 Нижче наводиться знімок екрана з програми для мобільних пристроїв, на якому зображено розділ табелю «Додатково». Настроюване поле з назвою «Оцінка використання цього табеля (обчислене настроюване поле)» додано до розділу заголовка табеля. У настроюваному полі задано значення лише для читання «0,667».
 
-![Розділ «Додатково».](media/more-section.jpg)
+![Розділ «Додатково»](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Розширення таблиці TSTimesheetTable для включення настроюваного поля
 
@@ -414,7 +416,7 @@ final class TSTimesheetDetails_Extension
 
 За допомогою параметрів проекту можна зробити стандартні поля доступними лише для читання або приховати у програмі для мобільних пристроїв. Задайте параметри в розділі **Мобільні табелі** на вкладці **Табель** сторінки **Параметри керування проектами та бухгалтерського обліку**.
 
-![Параметри проекту.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Параметри проекту](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Змінення дій, які доступні для вибору за допомогою розширень
 

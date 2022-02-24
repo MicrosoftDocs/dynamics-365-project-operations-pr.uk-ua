@@ -2,6 +2,8 @@
 title: Нові можливості й зміни в оновленому випуску Project Service Automation 26 версії 3
 description: У цій статті перелічено функції й виправлення, доступні в оновленому випуску Project Service Automation 26 версії 3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa526e97a366c01dae2547d79d0eda2fb204e07d0f6383b991165b9eecd836e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14fcccf5804e5da0926dbc69bdfa040229a7f068
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004291"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143583"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Project Service Automation, оновлений випуск 26, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
+Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 26 версії 3. Ця версія має номер випуску V3.10.44.59 і є загальнодоступною в межах самостійного оновлення в грудні 2020.
 
@@ -72,6 +74,3 @@ ms.locfileid: "7004291"
 - Під час вибору позицій на основі проекту у ціновій пропозиції або роботи у сервісному договорі кнопка **Пропозиція** має відображатися лише при виборі позицій на основі проекту, пов’язаних із наявним продуктом.
 - Відокремити право **Create_Product** (Створити продукт) від права **Create_ProjectContract** (Створити проектний договір).
 - Видалення рядка рахунка призводить до збою із нульовим посиланням для **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

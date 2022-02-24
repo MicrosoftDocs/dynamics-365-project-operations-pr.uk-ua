@@ -2,10 +2,12 @@
 title: Використання категорії транзакції як критерію ціноутворення
 description: У цьому розділі наведено відомості про використання категорії транзакції як критерію ціноутворення.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 776327ddca9b5013ca05eb4058145f4196e4143509098c82d0f452bc9709b673
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988900"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150783"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Використання категорії транзакції як критерію ціноутворення
 
@@ -51,6 +53,3 @@ ms.locfileid: "6988900"
 2. На сторінці **Параметри** у вкладці **Критерії ціноутворення на основі суми** зверніть увагу на те, що сітка у вкладці відображає записи в сутності **Критерії ціноутворення**.
 3. Додайте **Категорію транзакції** до цього списку та настройте поля **Застосовується до витрат** та **Застосовується до збуту** у значення **Так**.
 4. У полі **Тип критерію** виберіть **На основі суми**, а потім виберіть пріоритет для **Категорії транзакції**, пов'язаної з витратами та збутом.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

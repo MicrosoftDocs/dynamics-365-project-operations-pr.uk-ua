@@ -2,22 +2,24 @@
 title: Подовження записів часу
 description: У цьому розділі наведено відомості про те, як розробники можуть розширити елемент керування введенням часу.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993356"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124663"
 ---
 # <a name="extending-time-entries"></a>Подовження записів часу
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-Dynamics 365 Project Operations включає настроюваний елемент керування часом із можливістю розширення. Цей елемент керування має перелічені нижче функції.
+У Dynamics 365 Project Operations передбачено розширюваний елемент керування введенням часу. Цей елемент керування має перелічені нижче функції.
 
 - Введення часу горизонтально в межах тижня
 - Підсумки за днем, рядком або тижнем
@@ -142,6 +144,3 @@ Dynamics 365 Project Operations включає настроюваний елем
 
 ### <a name="copying-time-entries"></a>Копіювання записи часу
 Використовуйте подання **Копіювати стовпці із записами часу**, щоб визначити список полів для копіювання при введенні часу. **Дата** й **Тривалість** є обов'язковими полями, їх не слід видаляти з подання.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

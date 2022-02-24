@@ -2,16 +2,18 @@
 title: Прайси за замовчуванням
 description: У цій темі міститься інформація про прайси збуту та вартості у Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989891"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130963"
 ---
 # <a name="default-price-lists"></a>Прайси за замовчуванням
 
@@ -19,7 +21,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="sales-price-lists"></a>Прайси збуту
 
-У Dynamics 365 Project Operations кожна цінова пропозиція та сервісний договір містять прайс збуту за замовчуванням. 
+Кожна цінова пропозиція проекту та кожний сервісний договір проекту у Dynamics 365 Project Operations містять прайс за замовчуванням. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Прайс за замовчуванням для цінових пропозицій проекту
 Система виконує описаний нижче процес для визначення того, який прайс використати за замовчуванням для цінової пропозиції проекту.
@@ -55,6 +57,3 @@ _**Застосовується до:** Project Operations для сценарі
 5. Далі система розглядає дати чинності прайсів, які відповідають даті позиції вхідної оцінки або позиції фактичних витрат. 
 6. Якщо є кілька прайсів, які є чинними на дату вхідної оцінки або фактичних даних, буде вибрано найновіший прайс.
 7. Якщо до параметрів проекту на прикріплено прайсів, які відповідають грошовій одиниці та даті чинності, система зазначить ставку витрат за замовчуванням як нуль (0) у позиції вхідної оцінки або фактичних даних.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

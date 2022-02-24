@@ -2,9 +2,11 @@
 title: Створення робочої групи проекту
 description: У цьому розділі наведено відомості про створення робочих груп проектів та керування ними.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005821"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270883"
 ---
 # <a name="create-a-project-team"></a>Створення робочої групи проекту
 
@@ -33,7 +35,7 @@ ms.locfileid: "7005821"
 
 Керівник проекту може вибрати роль на сторінці, а потім, за наявності доступного ресурсу, який відповідає вимогам, вибрати резервування ресурсу для заповнення ролі. Зверніть увагу на те, що ресурси не потрібно резервувати на цьому етапі стадії планування. Під час створення WBS ролі можна замінювати укомплектованими для проекту ресурсами. Якщо у WBS ролі замінюються укомплектованими ресурсами, то для ресурсів автоматично оновлюється список і розклад робочої групи.
 
-[![Список робочої групи проекту, який містить ролі та фактичні ресурси.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Список робочої групи проекту, який містить ролі та фактичні ресурси](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Керівник проекту має різні варіанти резервування ресурсу для проекту, наприклад, **Залишкова виробнича спроможність**, **Повна виробнича спроможність**, **Відсоток виробничої спроможності** та **Зазначення годин**. Ці варіанти резервування можна скасувати в будь-який час у разі зміни призначень ресурсів. Підтримується два типи резервування:
 

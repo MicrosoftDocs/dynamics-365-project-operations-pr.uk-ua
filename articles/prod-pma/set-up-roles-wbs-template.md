@@ -2,9 +2,11 @@
 title: Налаштування ролей у шаблонах робочої структури проекту
 description: У цій темі наводяться відомості про налаштування інформації ролі в шаблонах робочої структури проекту.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008926"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086696"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Налаштування ролей у шаблонах робочої структури проекту
 
@@ -89,7 +91,7 @@ ms.locfileid: "7008926"
 
 4. Встановіть дати та зусилля (години), як показано на наведеній нижче ілюстрації.
 
-    [![Установлення дат і зусиль.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Установлення дат і зусиль](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Виберіть рядок завдання **Ініціювання** і потім у полі **Роль** виберіть **Старший керівник проекту**.
 6. Виберіть **Опублікувати**.
@@ -105,6 +107,3 @@ ms.locfileid: "7008926"
     > Ви не отримуєте попередження про те, що вказаних ресурсів тепер 2, оскільки кількість ресурсів залишається 1.
 
 14. На сторінці **Робоча структура проекту** перевірте призначення ресурсів у WBS і виберіть **Зберегти**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

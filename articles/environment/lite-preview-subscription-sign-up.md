@@ -2,40 +2,60 @@
 title: Реєстрація для отримання підготовчої версії передплати – легка версія
 description: 'У цьому розділі наведено відомості про те, як оформити передплату та здійснити розгортання Project Operations Lite: від угоди до рахунків-проформ.'
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991556"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175916"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a>Реєстрація для отримання підготовчої версії передплати: Lite 
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Реєстрація для отримання підготовчої версії передплати – легка версія 
 
-У цьому розділі ви дізнаєтесь, як підписатися на ознайомлювальну пропозицію та виконати розгортання Dynamics 365 Project Operations Lite: від угоди до рахунків-проформ.
+У цьому розділі пояснюється, як оформити передплату на підготовчу версію партнерської пропозиції та здійснити розгортання Dynamics 365 Project Operations Lite: від угоди до рахунків-проформ.
 
 > [!NOTE]
 > Цей процес буде змінено в майбутніх випусках Project Operations.
 
 ## <a name="prerequisites"></a>Вимоги
-- Користувач, який розгортає підготовчу версію, повинен мати глобальні права адміністратора клієнта Azure. При першому прийнятті пропозиції ви можете створити клієнт.
+
+- Ви отримаєте електронною поштою запрошення до участі в підготовчій версії. Можна надіслати запит на підготовчу версію на [веб-сайті Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- Користувач, який розгортає підготовчу версію, повинен мати глобальні права адміністратора клієнта Azure.
+- Перегляньте всі положення та умови.
+
+## <a name="subscribe"></a>Підписатися
+
+Коли ваш [запит підготовчої версії](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) буде затверджено, ви отримаєте електронною поштою дві пропозиції від Microsoft. Ці пропозиції дають змогу розгорнути підготовчу версію Project Operations:
+
+- Dynamics 365 Project Operations (CRM) – підготовча ознайомлювальна версія
+- Office 365 Підготовча ознайомлювальна версія Project Operations
 
 > [!IMPORTANT]
 > Виконувати це завдання має лише одна особа в організації – адміністратор клієнта. Якщо ви не є абонентом цього випуску, зачекайте, доки ваша організація не зареєструється і ви не отримаєте облікові дані користувача.
-> 
-> Ознайомлювальні версії використовуються в клієнті лише один раз. Можна використовувати тільки одну ознайомлювальну програму у кожний момент часу. Радимо створити новий клієнт для використання ознайомлювальної версії.
 
-### <a name="dynamics-365-project-operations-trial"></a>Ознайомлювальна версія Dynamics 365 Project Operations 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – підготовча ознайомлювальна версія 
 
 Перш ніж почати, переконайтеся, що ви ввійшли до браузера з обліковим записом користувача в клієнта, в якому має відображатися підготовча версія Project Operations.
 
-1. Перейдіть до [ознайомлювального випуску Project Operations](https://aka.ms/try-po), використати код першої пропозиції, **Dynamics 365 Project Operations**.
-2. Підтвердьте замовлення.
+1. Використайте код першої пропозиції, **Dynamics 365 Project Operations (CRM) - підготовча ознайомлювальна версія**, вставивши його в URL-адресу браузера.
 
-  Після успішного використання пропозиції відобразиться відповідне підтвердження.
+![Використання пропозиції](./media/16RedeemFirstOfferNew.png)
+
+2. Підтвердьте замовлення.
+![Підтвердьте замовлення](./media/17ConfirmOrderNew.png)
+
+Ви побачите, що пропозицію підтвердження успішно використано.
+
+![Підтвердження](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Підготовча ознайомлювальна версія Project Operations
+
+Повторіть такі самі кроки, що й для коду першої пропозиції. Обов'язково додайте код другої пропозиції, використовуючи той самий обліковий запис користувача, який використовувався з кодом першої пропозиції пропозиції.
 
 ## <a name="assign-licenses"></a>Призначення ліцензій
 
@@ -44,28 +64,30 @@ ms.locfileid: "6991556"
 
 
 1. Відкрийте [Центр адміністрування Microsoft 365](https://portal.office.com/), щоб призначити ліцензії користувачам.
+
+![Головна сторінка центру адміністрування](./media/14AdminPortal.png)
+
 2. На сторінці **Активні користувачі** виберіть користувачів, яким потрібно призначити ліцензію.
-3. Переконайтеся, що вибрано ліцензію **Dynamics 365 Project Operations**. 
+
+![Призначення ліцензій](./media/15AssignLicenses.png)
+
+3. Переконайтеся, що вибрано ліцензії **Dynamics 365 Project Operations (CRM) - підготовча версія** і **Office 365 Project Operations - підготовча версія**. 
 4. Виберіть **Зберегти зміни**.
 
-## <a name="create-a-new-dataverse-environment"></a>Створіть нове середовище Dataverse
+## <a name="create-a-new-cds-environment"></a>Створити нове середовище CDS
 
-1. Підготуйте нове середовище Dataverse для розгортання Project Operations, дотримуючись вказівок у розділі [Модель розгортання Dataverse](lite-deployment.md). Під час вибору типу середовища переконайтеся, що використовуєте **Ознайомлювальну версію (на основі підписки)**.
-
-  ![Нове середовище.](./media/19CreateEnvironment.png)
+1. Підготуйте нове середовище CDS для розгортання Project Operations, дотримуючись вказівок у розділі [Модель розгортання CDS](lite-deployment.md). Під час вибору типу середовища переконайтеся, що використовуєте **Ознайомлювальну версію (на основі підписки)**.
+![Нове середовище](./media/19CreateEnvironment.png)
 
 2. Виберіть параметр **Увімкнення програм Dynamics 365 Apps** і залиште поле **Автоматично розгортати ці програми** пустим.  
 3. Натисніть **Зберегти**, щоб створити середовище.
 
-  ![Додати базу даних.](./media/20CreateEnvironment1.png)
+![Додати базу даних](./media/20CreateEnvironment1.png)
 
-4. Після створення середовища інсталюйте рішення **Microsoft Dynamics 365 Project Operations**. 
+4. Після створення середовища встановіть рішення **Microsoft Dynamics 365 Project Operations**. 
 
-![Інсталяція рішення.](./media/21InstallSolution.png)
+![Інсталяція рішення](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Інсталюйте конфігурацію CDS та настройте демонстраційні дані
 
 Інсталюйте конфігурацію CDS і настройте демонстраційні дані, дотримуючись вказівок у розділі [Застосування демонстраційних даних налаштування та конфігурації](lite-apply-demo-setup-config-data.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

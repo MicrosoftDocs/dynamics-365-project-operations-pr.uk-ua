@@ -2,9 +2,11 @@
 title: Публікація звітів про витрати
 description: У цьому розділі описано способи публікації звітів про витрати.
 author: suvaidya
+manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d799fd8d87ea254bfa288d210d203760f9347248006cdb644e79bcfd9e1aa678
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cfae54933f07d60ff52f29af45af239ea7c06f3d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007711"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124303"
 ---
 # <a name="post-expense-reports"></a>Публікація звітів про витрати
 
@@ -29,6 +31,3 @@ ms.locfileid: "7007711"
 Щоб опублікувати звіт про видатки, на сторінці **Затверджені звіти про витрати**, виберіть звіт про витрати, а потім в області дій натисніть кнопку **Опублікувати**.
 
 Крім того, ви також можете опублікувати всі звіти про витрати в списку одночасно. Виберіть усі звіти про витрати, а потім натисніть кнопку **Опублікувати**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

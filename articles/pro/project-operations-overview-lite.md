@@ -1,24 +1,25 @@
 ---
 title: Огляд розгортання Lite
-description: У цьому розділі наведено відомості про розгортання легкої версії Dynamics 365 Project Operations.
+description: У цьому розділі наведено відомості про розгортання Lite Dynamics 365 Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: bc6385ea53091ac396daee37d8b5174092406cfc42d34c356a112f665cd63456
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997406"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365663"
 ---
 # <a name="lite-deployment-overview"></a>Огляд розгортання Lite
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 
-Тип розгортання легкої версії програми Dynamics 365 Project Operations має наведені далі можливості для компаній, що базуються на проектах:
+Тип розгортання Lite Dynamics 365 Project Operations, має такі можливості для компаній, що базуються на проектах:
 
 - Планування проектів за допомогою Microsoft Project для Інтернету
 - Багатовимірні визначення ціни й витрат для трудових ресурсів
@@ -36,6 +37,3 @@ _**Застосовується до:** розгортання Lite: від уг
 - Інтегрована система, яка керує внутрішніми і оплачуваними проектами для розкладів і фінансових звітів від збуту проекту до виставлення рахунку.
 - Стороння система керування підприємством (ERP) і фінансового обліку для інтеграції з Project Operations.
 - Стороння система для роботи з податками на збут, курсами валют, відшкодування витрат і позапроектних витрат.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

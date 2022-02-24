@@ -2,9 +2,11 @@
 title: Визначення календарів проектів
 description: У цьому розділі наведено відомості про застосування шаблону календаря до проекту для відстеження розкладу проекту.
 author: ruhercul
+manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9c2ea49e008d6cde40f152320face073c7e5f548
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487665"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981325"
 ---
 # <a name="define-project-calendars"></a>Визначення календарів проектів
 
@@ -46,7 +48,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 1. Виберіть **Ресурси** \> **Ресурси**.
 2. Створіть новий ресурс, на який буде посилання в шаблоні календаря, або оберіть наявний ресурс.
-3. Виберіть вкладку ресурсу **Робочий час** та виконайте інструкції у розділі [Установлення робочого часу для ресурсу](/dynamics365/field-service/set-work-hours-resource), щоб налаштувати правила календаря.
+3. Виберіть вкладку ресурсу **Робочий час** та виконайте інструкції у розділі [Установлення робочого часу для ресурсу](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource), щоб налаштувати правила календаря.
 
 **Створення нового шаблону календаря**
 

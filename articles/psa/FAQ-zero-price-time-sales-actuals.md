@@ -2,6 +2,8 @@
 title: Чому ціна знижується до нульового значення за рахунок фактичних показників вартості збуту?
 description: Вирішення проблеми з ціною, що знижується до нульового значення за рахунок фактичних показників вартості збуту.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992591"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146238"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Чому ціна знижується до нульового значення за рахунок фактичних показників вартості збуту?
 
@@ -55,6 +57,3 @@ ms.locfileid: "6992591"
 
 Якщо ви і надалі не бачите дійсну ціну у фактичних витратах часу після виконання вказаних вище трьох перевірок, будь ласка, створіть квиток підтримки. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

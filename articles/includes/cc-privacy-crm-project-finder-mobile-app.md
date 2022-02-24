@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004847"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070416"
 ---
 Увімкнувши програму Project Finder Mobile, ви надаєте користувачам в організації можливість переглядати роботу за проектом і реєструватися на її виконання. Крім того, програма Project Finder надає користувачам можливість переглядати й оновлювати свої вміння. Програма Project Finder Mobile активується в настройці параметрів Project Service. Щоб увімкнути її, потрібно встановити для атрибутів «Вимоги до ресурсів видимі для ресурсів» і «Дозволити оновлювати вміння за ресурсами» значення «Так». Якщо для цих атрибутів встановити значення «Ні», програму буде відключено.  
   

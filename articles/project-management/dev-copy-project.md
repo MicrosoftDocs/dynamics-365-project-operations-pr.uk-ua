@@ -2,16 +2,18 @@
 title: Розробка шаблонів проектів за допомогою функції копіювання проектів
 description: У цьому розділі наведено відомості про створення шаблонів проектів за допомогою настроюваної дії «Копіювати проект».
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989304"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045034"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Розробка шаблонів проектів за допомогою функції копіювання проектів
 
@@ -42,7 +44,7 @@ Dynamics 365 Project Operations підтримує можливість копі
 - **{"clearTeamsAndAssignments":true}**: стандартна поведінка для Project для Інтернету, також видалить усі призначення та усіх учасників робочих груп.
 - **{"removeNamedResources":true}** Поведінка за замовчуванням для Project Operations, також поверне усі призначення універсальним ресурсам.
 
-Для отримання додаткових відомостей про дії див. [Використання дій Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Для отримання додаткових відомостей про дії див. [Використання дій Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Укажіть поля для копіювання 
 Після виклику дія **Копіювати проект** розгляне подання проекту **Копіювати стовпці проекту**, щоб визначити, які поля слід копіювати під час копіювання проекту.
@@ -110,6 +112,3 @@ Dynamics 365 Project Operations підтримує можливість копі
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 14 версії 3
 description: У цій статті наведено відомості про нові й оновлені можливості Project Service Automation 14 версії 3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71971b96ea6955b95fa519884356a310b2885d0667d60ca07856a444de77dc64
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987056"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147183"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation, оновлений випуск 14, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ми з радістю повідомляємо про випуск останнього оновлення програми Dynamics 365 Project Service Automation (PSA). Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
+Ми з радістю повідомляємо про випуск останнього оновлення програми Dynamics 365 Project Service Automation (PSA). Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу випуску PSA 14 версії 3. Ця версія має номер збірки V3.10.4.21 і надається за таким розкладом:
 
@@ -62,6 +64,3 @@ ms.locfileid: "6987056"
      - Виправлено: загальна ціна продажу не розраховується, якщо користувач також не вводить вартість для оцінки витрат за проектом.
      - Виправлено: не вдається закрити цінову пропозицію зі станом **Успіх**, якщо стан пов’язаної проектної угоди відрізняється від **Чернетка**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

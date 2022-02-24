@@ -2,6 +2,8 @@
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 16 версії 3
 description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 16 версії 3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f577cd8407b0f12607c56891eeadb1071f659cff67bd9f086a6b3bbec6376e9d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 882ee6c25e5d88db22e051254c7fd82dc787ab73
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004426"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143658"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation, оновлений випуск 16, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності.  Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція та оновлення основного рішення](/dynamics365/project-service/upgrade-psa-home-page).
+Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності.  Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція та оновлення основного рішення](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page).
 У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу випуску PSA 16 версії 3. Ця версія має номер збірки V3.10.6.34 і зазвичай надається в складі оновлення за січень 2020 р., яке можна завантажити самостійно.
 
 
@@ -62,6 +64,3 @@ ms.locfileid: "7004426"
 
     -   Виправлено: коли користувачі оновлять програму з версії 2.X до 3.X, будуть дозволені проекти з NULL-значенням для імені проекту.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

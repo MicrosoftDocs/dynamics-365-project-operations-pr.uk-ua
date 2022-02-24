@@ -2,16 +2,18 @@
 title: Створення цінових пропозицій проекту з потенційних угод
 description: У цьому розділі наведено відомості про створення цінових пропозицій проекту з потенційних угод.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999656"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118138"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Створення цінових пропозицій проекту з потенційних угод
 
@@ -54,6 +56,3 @@ _**Застосовується до:** Project Operations для сценарі
    Під час переведення потенційної угоди на цю стадію ви можете вибрати цю цінову пропозицію зі списку цінових пропозицій, зв'язаних із цією потенційною угодою. Якщо ви виберете цю цінову пропозицію, це означатиме, що ви використовуватимете її надалі.
 
    Усі інші цінові пропозиції, зв'язані з потенційною угодою, залишаться доступними та активними, доки одну з них не буде виграно. Процес збуту можна повернути на попередню стадію, **Кваліфікація**, та вибрати іншу цінову пропозицію для подальшого використання.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

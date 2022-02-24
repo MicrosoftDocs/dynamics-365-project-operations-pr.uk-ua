@@ -2,16 +2,18 @@
 title: Керуйте ціновими пропозиціями проекту
 description: У цьому розділі наведено відомості про цінові пропозиції проекту.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001546"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177851"
 ---
 # <a name="manage-project-quotes"></a>Керуйте ціновими пропозиціями проекту
 
@@ -31,6 +33,3 @@ _**Застосовується до:** Project Operations для сценарі
 2. За допомогою **Перемикача подання** виберіть інші відфільтровані подання цінових пропозицій. За допомогою спеціальних критеріїв фільтрування ви можете налаштувати власні подання та параметри навігації.
 
 На цій сторінці списку або на сторінках відомостей можна створювати або видаляти цінові пропозиції.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

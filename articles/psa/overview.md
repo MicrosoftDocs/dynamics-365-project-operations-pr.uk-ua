@@ -2,9 +2,10 @@
 title: Що таке Dynamics 365 Project Service Automation?
 description: Ознайомолення та огляд Project Service
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000286"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150558"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Що таке Dynamics 365 Project Service Automation?
 
@@ -46,10 +47,10 @@ ms.locfileid: "7000286"
 ## <a name="whats-new-in-psa"></a>Нові можливості PSA
 Команда розробників рада представити останнє оновлення! Починаючи з вдосконалення інтерфейсу користувача, виправлення помилок і додавання важливих нових функцій і можливостей. Ви просили; ми слухали.
 
-Погляньте на [Інформацію про випуск за жовтень 2019 р.](/dynamics365-release-plan/2019wave2/index), щоб побачити найновіші вдосконалення і доповнення.
+Погляньте на [Інформацію про випуск за жовтень 2019 р.](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index), щоб побачити найновіші вдосконалення і доповнення.
 
 ### <a name="in-development"></a>У розробці
-Щоб дізнатися, що ми запланували в найближчому майбутньому, перейдіть до інформації про випуск [Dynamics 365: випуск 2020 року, план 1 хвилі](/dynamics365-release-plan/2020wave1/index).
+Щоб дізнатися, що ми запланували в найближчому майбутньому, перейдіть до інформації про випуск [Dynamics 365: випуск 2020 року, план 1 хвилі](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Отримайте допомогу із програмою PSA версії 3.x
 Шукаєте ресурси, які допоможуть спланувати впровадження програми? Перевірте ці посібники, що доступні для завантаження.
@@ -79,12 +80,9 @@ ms.locfileid: "7000286"
 
  [Інформаційні бюлетені (програма версії 2.x або 1.x)](../psa/white-papers.md)
 
- [Нотатки для розробників (програма версії 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Примітки для розробників (версія 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Переглянути 2-хвилинний відеоогляд
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

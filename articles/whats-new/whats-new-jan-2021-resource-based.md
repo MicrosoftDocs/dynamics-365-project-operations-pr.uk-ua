@@ -2,17 +2,19 @@
 title: 'Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
 description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску Project Operations за січень 2021 року для сценаріїв на основі ресурсів і відсутності запасів.
 author: sigitac
+manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008116"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958963"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -86,7 +88,4 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="regulatory-updates"></a>Оновлення нормативних вимог
 
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.

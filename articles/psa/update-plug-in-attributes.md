@@ -2,9 +2,11 @@
 title: Оновлення компонентів Plug-in для включення нових критеріїв ціноутворення
 description: У цьому розділі наведено відомості про оновлення атрибутів компонента plug-in для критеріїв ціноутворення.
 author: Rumant
+manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988811"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147093"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Оновлення компонентів Plug-in для включення нових критеріїв ціноутворення
 
@@ -42,30 +44,27 @@ ms.locfileid: "6988811"
 1. Відкрийте **PluginRegistrationTool** і підключіться до інсталяції в онлайновому режимі.
 2. Натисніть кнопку **Пошук** та знайдіть компоненти Plug-in, які потрібно оновити.
 
- ![Знімок екрану дерева пошуку.](media/PRT-1.png)
+ ![Знімок екрану дерева пошуку](media/PRT-1.png)
 
 3. Після того, як компонент Plug-in буде знайдено, виберіть його , а потім натисніть кнопку **Вибрати в основній формі**.
 
 4. Виберіть крок компонента plug-in для оновлення, клацніть правою кнопкою миші, а потім виберіть **Оновити**.
 
- ![Знімок екрана компонента plug-in для оновлення.](media/PRT-2.png)
+ ![Знімок екрана компонента plug-in для оновлення](media/PRT-2.png)
  
 5. У вікні оновлення клацніть три крапки (**...**) в атрибутах фільтрації.
 
- ![Знімок екрану відомостей конфігурації оновлення наявного кроку.](media/PRT-3.png)
+ ![Знімок екрану відомостей конфігурації оновлення наявного кроку](media/PRT-3.png)
  
 6. Установіть прапорці атрибуту ціноутворення.
 
- ![Знімок екрана, який показує прапорці вибору атрибутів ціноутворення.](media/PRT-4.png)
+ ![Знімок екрана, який показує прапорці вибору атрибутів ціноутворення](media/PRT-4.png)
 
 7. Щоб закрити сторінку, натисніть кнопку **ОК** , а потім – кнопку **Оновити крок**.
 
- ![Знімок екрана з кнопкою «Оновити крок».](media/PRT-5.png)
+ ![Знімок екрана з кнопки «Оновити крок»](media/PRT-5.png)
  
 8. Повторіть цей процес для другого компонента plug-in, **PreOperationQuoteLineDetail — оновлення msdyn_quotelinetransaction**.
 
 9. Закрийте інструмент реєстрації компонента plug-in.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
