@@ -2,8 +2,6 @@
 title: Знайдіть ваш наступний проект за допомогою мобільного додатка Project Finder Mobile
 description: Як знайти наступний проект за допомогою програми Project Finder Mobile for Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149298"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990829"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Знайдіть наступний проект за допомогою програми Project Finder Mobile (Project Service)
 
@@ -40,12 +38,15 @@ ms.locfileid: "5149298"
   
  Торкніться стрілки праворуч від проекту, у якому ви зацікавлені, щоб побачити більше деталей і зареєструватися на нього.  
   
- ![Список відповідних навичок у програмі Project Finder Mobile](../psa/media/project-service-project-finder-list.png "Список відповідних навичок у програмі Project Finder Mobile")  
+ ![Список відповідних навичок у програмі Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Список відповідних навичок у програмі Project Finder Mobile")  
   
 ## <a name="update-your-skills"></a>Оновити свої навички  
  Натисніть кнопку профілю у правому нижньому куті екрану, щоб оновити ваші навички і кваліфікаційні рівні.  
   
- ![Кнопка профілю у програмі Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "Кнопка профілю у програмі Project Finder Mobile")  
+ ![Кнопка профілю у програмі Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Кнопка профілю у програмі Project Finder Mobile")  
   
 ### <a name="see-also"></a>Статті за темою  
  [Провідник по часу, витратах та співпраці](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

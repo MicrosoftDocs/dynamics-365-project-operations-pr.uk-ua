@@ -2,24 +2,23 @@
 title: Огляд розгортання Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 description: У цьому розділі наведено відомості про тип розгортання, операції Project для сценаріїв на основі ресурсів і відсутності запасів.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.custom: intro-internal
+ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365657"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009736"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Огляд розгортання Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Тип розгортання, Dynamics 365 Project Operations для сценаріїв на основі ресурсів і відсутності запасів має такі можливості для компаній на основі проектів.
+Тип розгортання Dynamics 365 Project Operations для сценаріїв на основі ресурсів і відсутності запасів має наведені далі можливості для компаній на основі проектів.
 
 - Планування проектів за допомогою Microsoft Project для Інтернету
 - Багатовимірні визначення ціни й витрат для трудових ресурсів
@@ -43,3 +42,6 @@ _**Застосовується до:** Project Operations для сценарі
 - Для створення рахунків проектів, призначених для клієнта, потрібен форматований механізм податку на збут корпоративного класу й курс обміну.
 - Система бухгалтерського обліку проекту і визначення доходу, що відповідає міжнародним стандартам Financial Reporting.
 - Програми Finance або Supply Chain Management і інтеграція проектних транзакцій.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642388"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950154"
 ---
 # <a name="financial-dimension-defaults"></a>Стандартні значення фінансових аналітик
 
@@ -21,7 +21,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-У Dynamics 365 Project Operations використовується структура[фінансових величин](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) у Dynamics 365 Finance задля надання додаткової аналітичної інформації про транзакції головної та допоміжної бухгалтерської книги проекту.
+У Dynamics 365 Project Operations використовується структура[фінансових величин](/dynamics365/finance/general-ledger/financial-dimensions) у Dynamics 365 Finance задля надання додаткової аналітичної інформації про транзакції головної та допоміжної бухгалтерської книги проекту.
 
 Фінансові величини за замовчуванням можна задати щодо клієнта, джерела фінансування проекту, проміжного етапу, сервісної роботи за договором проекту або самого проекту.
 
@@ -62,3 +62,6 @@ _**Застосовується до:** Project Operations для сценарі
 4. Перегляньте значення фінансових величин за замовчуванням. Зверніть увагу на те, що джерелом фінансових величин за замовчуванням є обліковий запис клієнта. Якщо проект пов’язаний із сервісною роботою за договором, яка має кілька клієнтів за проектними договорами, для визначення фінансових величин за замовчуванням використовується основний клієнт.
 
 Фінансові величини проекту за замовчуванням використовуються для налаштування значень рядків у журналі щодо часу, витрат і вільних транзакцій за замовчуванням у **Журналі інтеграції Project Operations** і в пов’язаних рядках рахунку за проектом.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

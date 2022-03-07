@@ -2,19 +2,17 @@
 title: Нові можливості або зміни в Project Operations від квітня 2021 р. для сценаріїв на основі замовлень на виробництво та з матеріалами
 description: У цьому розділі наведено відомості про покращення, доступні у випуску Project Operations від квітня 2021 р. для сценаріїв на основі замовлень на виробництво та з матеріалами.
 author: andchoi
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 2e2e3c1c717b5296964e0921aeec4999dd2f6e29
-ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
-ms.translationtype: HT
+ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005596"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Нові можливості або зміни в Project Operations від квітня 2021 р. для сценаріїв на основі замовлень на виробництво та з матеріалами
 

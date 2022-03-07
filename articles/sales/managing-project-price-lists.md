@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177221"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277768"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Керування проектними прайсами за ціновою пропозицією
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-Dynamics 365 Project Operations розширяє сутність прайса проекту, що доступна в Dynamics 365 Sales. 
+Dynamics 365 Project Operations розширює сутність «Прайс» у Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Ключові сутності
 
@@ -120,3 +120,6 @@ Project Operations відстежує витрати на використанн
     1. Прайс витрат прикріплений до організаційної одиниці.
     2. Прайс витрат, який додається до параметрів Project Operations. Оскільки до параметрів можна прикріпити прайси витрат у різних грошових одиницях, виконується зіставлення валют між грошовою одиницею договірної організаційної проекту, сервісним договором або ціновою пропозицією та грошовою одиницею прайса витрат.
     3. Для витрат ціноутворення за собівартістю та ціни з націнкою не застосовуються у прайсі витрат. Навіть якщо ці методи ціноутворення використовуються у рядках прайс витрат для настроювання витрат категорії транзакцій, система ігнорує їх, і не вводиться ціна за промовчанням.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

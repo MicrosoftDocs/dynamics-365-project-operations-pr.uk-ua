@@ -17,16 +17,14 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151323"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086757"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Головна сторінка ціноутворення та калькуляції
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Критерії, що використовуються для встановлення оплати праці та вартості в організаціях на основі проектів, залежать від описаних нижче атрибутів.
 

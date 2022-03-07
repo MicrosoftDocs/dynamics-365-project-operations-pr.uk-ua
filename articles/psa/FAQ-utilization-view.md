@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992859"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007171"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Переглянути платне використання ресурсів
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992859"
  
 **Перегляд використання** на сторінці **Використання ресурсів Project Service** показує платне використання для кожного доступного ресурсу.  Оскільки це подання базується на панелі розкладів, тому тут багато тих самих функцій.
 
-> ![Знімок екрана з подання "Використання"](media/FAQ-utilization-1.png)
+> ![Знімок екрана з подання "Використання".](media/FAQ-utilization-1.png)
  
 
 Як розрахунок платного використання працює наступним чином:
@@ -48,7 +48,7 @@ ms.locfileid: "5992859"
 2. Виберіть ресурс, щоб відкрити запис. 
 3. У вкладці **Project Service** можна задати цільове використання ресурсів.
 
-> ![Знімок екрана із вкладки Project Service для настроювання цільового використання](media/FAQ-utilization-2.png)
+> ![Знімок екрана із вкладки Project Service для налаштування цільового використання.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Настроювання цільового використання для ролі
 
@@ -56,7 +56,7 @@ ms.locfileid: "5992859"
 2. Виберіть роль і відкрийте запис. 
 3. Встановіть цільове використання для ролі.
 
-> ![Знімок екрана "Ролі ресурсу" для настроювання цільового використання](media/FAQ-utilization-3.png)
+> ![Знімок екрана "Ролі ресурсу" для налаштування цільового використання.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Обчисліть платне використання для ресурсу?
 

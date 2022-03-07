@@ -18,16 +18,14 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144978"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086892"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Пакетні виправлення фактичних даних, створених затвердженими записами часу та витрат
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Іноді запис часу або витрат може бути введений неправильно. Наприклад, консультант може вибрати неправильну дату під час створення запису часу або перенести числа під час введення витрат. Якщо консультант не може зробити оновлення надісланих записів, адміністратор може безпосередньо виправити запис для проекту.
 

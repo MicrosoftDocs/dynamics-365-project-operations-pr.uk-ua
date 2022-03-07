@@ -1,8 +1,6 @@
 ---
 title: Надіслати запит на ресурс
 description: У цьому розділі наведено відомості про надсилання запиту для ресурсу проекту.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149748"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985031"
 ---
 # <a name="submitting-a-resource-request"></a>Надіслати запит на ресурс
 
@@ -36,8 +34,11 @@ ms.locfileid: "5149748"
 1. У Project Service Automation (PSA) на сторінці **Проекти** перейдіть на вкладку **Група**, щоб переглянути список, в якому можна забронювати ресурси. 
 2. Виберіть загальний ресурс, який має вимоги до ресурсів у списку, а потім натисніть кнопку **Надіслати запит**.
 
-![Надіслати запит на ресурс](media/RM-how-to-18.png)
+![Надіслати запит на ресурс.](media/RM-how-to-18.png)
 
 Стан запиту загального учасника робочої групи зміниться на **Надіслано**.
 
 Після виконання запиту диспетчером ресурсів загальний ресурс буде замінено названим ресурсом, якщо диспетчер ресурсів виконує запит із резервування названого ресурсу. В іншому разі загальний ресурс залишиться в робочій групі, а його стан буде змінено на **Потребує перегляду**, якщо диспетчер ресурсів запропонував названий ресурс.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

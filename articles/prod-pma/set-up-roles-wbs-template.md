@@ -2,11 +2,9 @@
 title: Налаштування ролей у шаблонах робочої структури проекту
 description: У цій темі наводяться відомості про налаштування інформації ролі в шаблонах робочої структури проекту.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ec952021f9da4d83520d29d68d040675f7933df7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086696"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997626"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Налаштування ролей у шаблонах робочої структури проекту
 
@@ -107,3 +105,6 @@ ms.locfileid: "4086696"
     > Ви не отримуєте попередження про те, що вказаних ресурсів тепер 2, оскільки кількість ресурсів залишається 1.
 
 14. На сторінці **Робоча структура проекту** перевірте призначення ресурсів у WBS і виберіть **Зберегти**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

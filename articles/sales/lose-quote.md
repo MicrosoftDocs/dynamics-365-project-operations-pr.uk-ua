@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b1ce6c2b644319f2d822010a34c57c591f82edc9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181837"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278173"
 ---
 # <a name="copy-project-based-quotes"></a>Копіювання цінових пропозицій на основі проектів
 
@@ -45,3 +45,6 @@ _**Застосовується до:** Project Operations для сценарі
 > - Посилання на проект у позиціях цінових пропозицій на основі проектів — відомості про бюджет клієнта
 >
 >Оскільки ці відомості будуть помітно відрізнятися для різних цінових пропозицій, ці поля та записи не копіюватимуться. Позиції цінових пропозицій для проектів і продуктів, оцінки для відомостей про позиції цінових пропозицій та граничні значення на рівні цінової пропозиції будуть скопійовані. Значення за замовчуванням для цін та вартості залежать від значення параметра **Копіювати ціни**, вибраного на сторінці діалогу **Копіювання параметрів**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

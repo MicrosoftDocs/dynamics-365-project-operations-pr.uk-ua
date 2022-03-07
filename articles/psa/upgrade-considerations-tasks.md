@@ -2,7 +2,7 @@
 title: Міркування щодо оновлення робочої структури проекту
 description: У цьому розділі наведено відомості про оновлення робочої структури проекту з Project Service Automation 2.x до 3.x.
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,17 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149568"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086798"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Міркування щодо оновлення робочої структури проекту
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 У цьому розділі наведено відомості про оновлення робочої структури проекту з Project Service Automation 2.x до 3.x. У цьому розділі визначено здоровий стан проекту в Project Service Automation (PSA), який потрібен для успішного оновлення. Існує також інформація про поширені умови блокування, що призведе до невдалого оновлення. Для отримання додаткових відомостей про визначення завдань проекту та їхніх функцій у розкладі проекту див. розділ [Розклади проекту](project-creating.md).
 
 ## <a name="key-entities"></a>Ключові сутності

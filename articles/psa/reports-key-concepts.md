@@ -2,8 +2,6 @@
 title: Ключові поняття
 description: У цьому розділі наведено відомості про ключові поняття керування ресурсами в Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995111"
 ---
 # <a name="key-concepts"></a>Ключові поняття
 
@@ -48,3 +46,6 @@ ms.locfileid: "5147768"
 | Контур                    | Завдання, вимоги або години призначення в розбивці на щоденний розподіл. Наприклад, 5-денне, 40-годинне завдання можна перевести в контур на вісім годин на день протягом п'яти днів. |
 | Подання звірення        | Подання, в якому відображаються замовлення та призначення для кожного з учасників робочої групи. У цьому поданні можна переглянути будь-яку невідповідність між бронюваннями і завданнями, а також вжити заходів з виправлення, якщо виникне помилка. |
 | Робочі години                 | Сутність, що використовуватиметься для визначення виробничої спроможності ресурсів, робочих і неробочих годин. Ця сутність також називається календарем ресурсів. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

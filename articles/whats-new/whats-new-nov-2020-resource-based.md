@@ -2,24 +2,22 @@
 title: 'Що нового у випуску за листопад 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
 description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску Project Operations в листопаді 2020 р. для сценаріїв на основі ресурсів і відсутності запасів.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
-ms.translationtype: HT
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367291"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007981"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за листопад 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations:
+Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
 - Project Operations у середовищі CDS версії 4.4.0.70
 - Керування проектами та бухгалтерський облік в середовищах програм Dynamics 365 Finance версії 10.0.14
@@ -67,4 +65,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Бухгалтерський облік проектів  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Якщо ввімкнути функцію, то кілька сервісних робіт за договором не можливо виконати без інтеграції з CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Копіювання потенційних угод на основі проекту
 description: У цьому розділі наведено відомості щодо копіювання потенційних угод на основі проектів у Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ae724d18e768b838f388b6fd089bfa657c937da1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181714"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013466"
 ---
 # <a name="copy-project-based-opportunities"></a>Копіювання потенційних угод на основі проекту
 
@@ -34,3 +32,6 @@ _**Застосовується до:** Project Operations для сценарі
     | Копіювати ціни | Значення «Так/Ні», яке вказує, чи слід копіювати ціни для потенційної угоди з вихідної потенційної угоди. | Якщо вибрано **Так**, прайси копіюються з вихідної до кінцевої потенційної угоди. Якщо вибрано **Ні**, прайси отримають значення за замовчуванням з останніх заданих прайсів. |
 
 3. Виберіть **ОК**. Система створює копію потенційної угоди проекту на основі вибраних параметрів, і після цього відкривається нова потенційна угода проекту.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

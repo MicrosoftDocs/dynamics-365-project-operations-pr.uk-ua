@@ -2,8 +2,6 @@
 title: Керування проектами та бронюваннями у календарі Office 365
 description: Як керувати проектами та бронюваннями у календарі Office 365
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144483"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985459"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Керування проектами та бронюваннями у вашому календарі (Project Service)
 
@@ -52,7 +50,7 @@ ms.locfileid: "5144483"
   
 - Вам знадобляться облікові дані глобального або системного адміністратора [!INCLUDE[pn_office_365](../includes/pn-office-365.md)].  
   
-- Ваш адміністратор має налаштувати профіль сервера електронної пошти, а кожен користувач – свою поштову скриньку. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Налаштувати обробку електронної пошти через серверну синхронізацію](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- Ваш адміністратор має налаштувати профіль сервера електронної пошти, а кожен користувач – свою поштову скриньку. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Налаштувати обробку електронної пошти через серверну синхронізацію](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Увімкніть синхронізацію для своєї організації (завдання адміністратора)  
   
@@ -91,3 +89,6 @@ ms.locfileid: "5144483"
   
 ### <a name="see-also"></a>Див. також  
  [Провідник по часу, витратах та співпраці](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

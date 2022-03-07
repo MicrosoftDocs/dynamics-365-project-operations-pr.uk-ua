@@ -2,11 +2,9 @@
 title: Налаштування прайсу для збуту
 description: У цій темі наведено відомості про прайси збуту для ціноутворення проекту.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 712dedb6766ff36181e261a66f3af99469449574
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176276"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004916"
 ---
 # <a name="set-up-a-sales-price-list"></a>Налаштування прайсу для збуту
 
@@ -59,3 +57,6 @@ _**Застосовується до:** Project Operations для сценарі
 У разі введення прайса проекту за замовчуванням, система перевіряє, чи грошова одиниця збігається з грошовою одиницею клієнта, а також чи введений прайс за замовчуванням має контекст **збуту**.
 
 Можна прив’язати кілька проектних прайсів до сутностей клієнта, потенційних угод, цінових пропозицій і проектного сервісного договору. Ця можливість підтримує відповідні для дати ціни за замовчуванням для тривалої проектної угоди, де, можливо, буде потрібно кілька прайсів для врахування оновлень цін, що виникають через інфляцію. Проте, якщо прайси, які ви пов’язали з сутностями клієнта, потенційної угоди, ціновою пропозицією або проектним договором, мають однакові дати введення в дію, ціни за замовчуванням можуть бути неправильними. Тому слід переконатися, що прайси проекту, дати введення в дію яких збігаються, не пов'язуються з цими сутностями.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Запитання та відповіді щодо керування ресурсами
 description: У цьому розділі наведено відповіді на поширені запитання про керування ресурсами.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144393"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002401"
 ---
 # <a name="resource-management-faq"></a>Запитання та відповіді щодо керування ресурсами
 
@@ -54,3 +52,6 @@ ms.locfileid: "5144393"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>У чому відмінність між призначенням та бронюванням?
 
 Призначення — це призначення ресурсів на проектні завдання у розкладі проекту. Ресурси можуть бути реальними або загальними ресурсами. Бронювання — це остаточний або попередній розподіл ресурсів для проекту. Остаточні бронювання споживають виробничу спроможність ресурсів. В ідеалі, для реальних ресурсів, бронювання та призначення повинні узгоджуватися, тому що вони не відрізняються. Однак, в PSA це узгодження не є обов’язковим. У поданні «Звірення» відображаються місця менеджера проекту, в якому є не узгоджені резервування ресурсів та призначення.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

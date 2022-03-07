@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857573c0c2ffaf1ce4bdeaf109a20c6c777b2288
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8850a8d3f2efc699bc95d4cb4fc76428badb10f1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271783"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086873"
 ---
 # <a name="expense-report-distributions"></a>Розподілення у звітах про витрати
+
+[!include [banner](../includes/banner.md)]
 
 Під час введення витрат у звіті про витрати ви можете розподілити витрату між кількома проектами, фінансовими критеріями або бізнес-партнерами у своїй організації.
 
@@ -37,6 +39,3 @@ ms.locfileid: "5271783"
 |Готель         |725 євро              |557 євро                        |168 євро                          |
 |Харчування         |346 євро              |284 євро                        |62 євро                           |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

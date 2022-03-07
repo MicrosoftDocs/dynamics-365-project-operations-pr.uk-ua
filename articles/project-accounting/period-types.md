@@ -2,18 +2,16 @@
 title: Типи періодів
 description: У цьому розділі наведено відомості про настроювання типів періодів для оцінювання прибутку.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998801"
 ---
 # <a name="period-types"></a>Типи періодів
 
@@ -34,3 +32,6 @@ _**Застосовується до:** Project Operations для сценарі
 4. Виберіть запис типу періоду, а потім натисніть **Створення періодів** для створення періодів для типу періоду. Залежно від вибраної частоти періоду, може знадобитися вказати дату початку або кількість періодів для створення.
 5. Виберіть **Періоди** для перегляду створених періодів.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

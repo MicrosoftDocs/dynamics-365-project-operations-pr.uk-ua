@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c55d0f4c8f8db231a995d91a46a582bca2e1e6e3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148173"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283753"
 ---
 # <a name="project-settings"></a>Настройки проекту
 
@@ -68,3 +68,6 @@ ms.locfileid: "5148173"
 ## <a name="price-lists"></a>Прейскуранти
 
 Прайси дають вам змогу встановити вартість і ціну збуту для ролей ресурсів категорій витрат, продуктів та інших категорій у вашій організації. Преш ніж створити фінансовий прогноз на роботу, яку слід виконати в рамках проекту, потрібно створити базовий прайс витрат та збуту. У розділі параметрів також слід настроїти вартість і прайс збуту за замовчуванням, які застосовуються до всіх проектів, створених в організації. На сторінці **Активні параметри проекту** переконайтеся, що настроєно прайс витрат і прайс збуту за замовчуванням.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

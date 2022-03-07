@@ -2,11 +2,9 @@
 title: Проектні збутові замовлення за проектами часу та матеріалів
 description: У цій темі роз’яснюється, як створювати збутові замовлення на основі проектів часу та матеріалів.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086701"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992861"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>Проектні збутові замовлення за проектами часу та матеріалів
 
@@ -41,3 +39,6 @@ ms.locfileid: "4086701"
 - Перейдіть до самого проекту. У області дій виберіть **Керувати > Предметні завдання > Збутове замовлення**. У інформації про проект за замовчуванням використовуватиметься збутове замовлення цього проекту. Якщо сервісним договором проекту передбачено більше одного джерела фінансування, потрібно буде вибрати джерело фінансування, щоб налаштувати клієнта для відповідного збутового замовлення. Якщо за проектом є лише одне джерело фінансування, клієнта буде налаштовано автоматично.
 - Перейдіть до сторінки зі списком **Усі збутові замовлення** та створінь нове збутове замовлення. Для збутового замовлення потрібно буде вибрати проект. Після вибору проекту клієнта буде налаштовано залежно від джерела фінансування, або вам потрібно буде вибрати джерело фінансування, якщо сервісним договором проекту передбачено кілька джерел фінансування.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Проекти прогнозування прибутків з фіксованою ціною
 description: У цьому розділі наведено інформацію про прибуток із фіксованою ціною в проектах.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531588"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006451"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Проекти прогнозування прибутків з фіксованою ціною 
 
@@ -35,3 +33,6 @@ _**Застосовується до:** Project Operations для сценарі
 
   Вартість проекту, профіль прибутку, шаблон витрат і код періоду можна задати вручну. Якщо вони не встановлюються вручну, значення за замовчуванням використовуються під час першого підрахунку прогнозування для проекту, використовуючи правила, настроєні для профілів витрат і прибутків.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

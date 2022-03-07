@@ -2,18 +2,16 @@
 title: Добові
 description: У цьому розділі наведено відомості про правила добових витрат, що використовуються в керуванні витратами.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128533"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986426"
 ---
 # <a name="per-diems"></a>Добові
 
@@ -31,3 +29,6 @@ _**Застосовується до:** Project Operations для сценарі
     
 ## <a name="submit-expenses-using-per-diem"></a>Надсилання витрат з використанням добових
 Для надсилання витрат, які використовують добові, використовуйте категорію витрат **Добові** під час створення звіту про витрати. Введіть значення параметрів **Добові з дати**, **Добові до дати** та **Розташування добових**. Суму буде обчислено на основі ставок добових для вибраного розташування, а зменшення витрат на їжу обчислюватиметься на основі рівнів ставок добових.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

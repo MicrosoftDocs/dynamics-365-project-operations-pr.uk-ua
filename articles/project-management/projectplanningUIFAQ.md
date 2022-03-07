@@ -9,12 +9,12 @@ ms.product: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 89bbad62c2a0a5693a57cf5c9a812ab644486469
-ms.sourcegitcommit: c9edb4fc3042d97cb1245be627841e0a984dbdea
+ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5031562"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286588"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Усунення проблем із роботою в сітці завдань 
 
@@ -106,3 +106,6 @@ Project Operations залежать від зовнішньої служби п�
   - Система Project Operations
   - Проектна система
   - Система подвійного записування Project Operations (ця роль потрібна, якщо розгорнуто сценарій на основі ресурсів і відсутності запасів у Project Operations).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

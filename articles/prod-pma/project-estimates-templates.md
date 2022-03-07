@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a6955dcd1ebe494e0171c30ac4384089da6a8745
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988226"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999741"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронізуйте кошториси безпосередньо з Project Service Automation до Finance and Operations
 
@@ -38,7 +38,7 @@ ms.locfileid: "6988226"
 
 Наведена далі ілюстрація показує, як синхронізуються дані між Project Service Automation і Finance.
 
-[![Потік даних для інтеграції Project Service Automation з Finance.](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Потік даних для інтеграції Project Service Automation з Finance](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>Оцінки часу проекту
 
@@ -95,7 +95,7 @@ ms.locfileid: "6988226"
 
 Наведена далі ілюстрація показує приклад зіставлення завдань шаблону в інтеграції даних. У зіставленні показано інформацію поля, яку буде синхронізовано з Project Service Automation до Finance.
 
-[![Зіставлення завдань шаблонів у інтеграції даних.](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![Зіставлення завдань шаблонів у інтеграції даних](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>Кошториси витрат за проектом
 
@@ -165,9 +165,9 @@ ms.locfileid: "6988226"
 
 Наведені далі ілюстрації показують приклади зіставлення завдань шаблону в інтеграції даних. У зіставленні показано інформацію поля, яку буде синхронізовано з Project Service Automation до Finance.
 
-[![Зіставлення шаблону оціночних транзакцій за витратами.](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![Зіставлення шаблону оціночних транзакцій за витратами](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![Зіставлення шаблону орієнтовних показників витрат.](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![Зіставлення шаблону орієнтовних показників витрат](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

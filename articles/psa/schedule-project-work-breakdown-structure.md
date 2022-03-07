@@ -2,8 +2,6 @@
 title: Заплануйте проект зі структурою декомпозиції робіт
 description: Як запланувати проект з робочою структурою проекту у Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cf12cc3bcf061e1daffafb248cfd76809c6444ec
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 027bcbc8995ed39af78c7ff9b1028f401c3b0d4d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149838"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008606"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Планування проекту з робочою структурою проекту (Project Service)
 
@@ -152,3 +150,6 @@ ms.locfileid: "5149838"
   
 ### <a name="see-also"></a>Статті за темою  
  [Посібник керування проектом](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

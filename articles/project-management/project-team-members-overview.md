@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3526c5e2c968bdaa4d957592aed8d1b21c64b799
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127453"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286678"
 ---
 # <a name="project-team-members"></a>Учасники робочої групи проекту
 
@@ -60,3 +60,6 @@ _**Застосовується до:** Project Operations для сценарі
 
 - **Створити**: крім додавання ресурсів безпосередньо з розкладів, керівники проектів можуть додавати нових іменованих або загальних учасників робочої групи із сітки учасників робочої групи.
 - **Видалити**: вибравши одного або кілька учасників робочої групи, керівник проекту може видалити ресурси, які більше не будуть брати участь у проекті. Видалення учасників робочої групи також призведе до видалення всіх пов’язаних призначень ресурсів і скасування всіх наявних резервувань.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

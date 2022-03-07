@@ -2,18 +2,16 @@
 title: Створення рішення для настроюваних вимірів ціноутворення
 description: У цьому розділі наведено відомості про створення рішень для настроювань вимірів ціноутворення.
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514035"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992231"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Створення рішення для настроюваних вимірів ціноутворення
 
@@ -28,7 +26,7 @@ ms.locfileid: "4514035"
 2.  Назвіть рішення, *<your organization name> виміри ціноутворення*.
 3. Уведіть решту відомостей, а потім виберіть **Зберегти**.
 
-  ![Створення рішення для настроюваних вимірів ціноутворення](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Створення рішення для настроюваних вимірів ціноутворення.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Додайте всі необхідні сутності та пов’язані компоненти до рішення критеріїв ціноутворення
 
@@ -51,16 +49,19 @@ ms.locfileid: "4514035"
    - **Розцінки ролі**
    - **Запис часу**
  
-   ![Додати наявні рішення для настроюваних вимірів ціноутворення сутності](./media/Existing-entities-to-PD-solution.png)
+   ![Додати наявні рішення для настроюваних вимірів ціноутворення сутності.](./media/Existing-entities-to-PD-solution.png)
  
  4. Для кожної сутності перегляньте компоненти, які додаються, і кінцевий список активів сутності для кожної сутності. 
 
    >[!NOTE]
    > Включіть всі форми та подання для кожної вибраної сутності.
 
-  ![Сутності додано](./media/solution-component-selection.png)
+  ![Сутності додано.](./media/solution-component-selection.png)
 
 
 5.  Коли відобразиться запит на включення будь-яких залежних сутностей для вибраних сутностей, виберіть **Ні, не включати обов'язкових компонентів.**
 
-    ![Включно з залежними сутностями](./media/Do-not-include-required.png)
+    ![Включно з залежними сутностями.](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Нові й змінені можливості в оновленому випуску Project Service Automation 29.5, виправлення, версія 3
 description: У цій статті перелічено функції й виправлення, доступні в оновленому випуску Project Service Automation 29.5, виправлення, версія 3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/26/2021
 ms.topic: article
@@ -17,16 +15,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 99ba353236ad88b8bdff2c1b25e1247fa4bf3455
-ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
-ms.translationtype: HT
+ms.openlocfilehash: ac8e17dddd48eed61070bb93660e0c1ccf6d0bafb78a64cecf1b6ab45da7d1a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "5715719"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002221"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-295-v3"></a>Нові й змінені можливості в оновленому випуску Project Service Automation 29.5, версія 3
 
-Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution.md).
 
 У цій статті перелічено нові та змінені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 29.5, версія 3. Ця версія має номер збірки V3.10.47.150 і зазвичай надається в складі оновлення за січень 2021 р., яке можна завантажити самостійно.
 

@@ -2,24 +2,22 @@
 title: Налаштування інтеграції Project Operations для кожної юридичної особи
 description: У цьому розділі наведено відомості про налаштування інтеграції за юридичними особами в Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122908"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999431"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Налаштування інтеграції Project Operations для кожної юридичної особи 
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Ця тема містить покрокову інструкцію з етапами, що необхідні для налаштування Dynamics 365 Project Operations для кожної юридичної особи.
+У цій темі надається покрокове роз’яснення налаштування Dynamics 365 Project Operations для кожної юридичної особи.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Увімкніть клавіші функцій у Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ _**Застосовується до:** Project Operations для сценарі
   - **Типи виставлення рахунків за замовчуванням**: у Project Operations використовується фіксований набір типів виставлення рахунків за замовчуванням, що має зіставлятися з властивостями рядків у Finance. Створіть запис для кожного типу виставлення рахунків: **Не вказано**, **Підлягає оплаті**, **Не підлягає оплаті**, **Допоміжний** і **Не доступно**.
   - **Категорії проектів за замовчуванням**: виберіть категорії проектів за замовчуванням, що використовуватимуться для кожного типу транзакції. Ці значення за замовчуванням використовуватимуться в **Журналі інтеграції Project Operations**, а також у оцінках, коли для фактичного проекту не визначена категорія транзакції.
   - **Прогнози** : виберіть модель прогнозу, яка використовуватиметься для оцінки часу та витрат.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Змінюйте проектні прайси збуту
 description: У цій темі наводяться відомості про створення настроюваних прайсів збуту.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
-ms.translationtype: HT
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672256"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009601"
 ---
 # <a name="override-project-sales-price-lists"></a>Змінюйте проектні прайси збуту
 
@@ -52,3 +50,6 @@ _**Застосовується до:** Project Operations для сценарі
 За проектним сервісним договором проектні ціни завжди визначаються за замовчуванням як настроюваний прайс, при цьому до імені додаються назва сервісного договору та позначка дати й часу створення. Ситуація є такою, незалежно від того, чи створено сервісний договір, коли цінова пропозиція перемогла в конкурсі, чи його створено з нуля. Якщо потрібно, ви можете видалити цей зв’язок із настроюваним прайсом і натомість пов’язати з проектним договором стандартний прайс.
 
 При пов’язанні стандартного прайса з проектними прайсами за ціновою пропозицією або сервісним договором будь-які зміни, внесені до цін у прайсі, впливатимуть на цінові пропозиції та сервісні договори, в яких використовується цей прайс.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

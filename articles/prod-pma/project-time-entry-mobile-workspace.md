@@ -2,11 +2,9 @@
 title: Мобільна робоча область для введення часу проекту
 description: У цій темі наведено інформацію про мобільну робочу область для введення часу проекту. У цій робочій області користувачі можуть вводити та зберігати в мобільному пристрої час, затрачений за проектом.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086697"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989576"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Мобільна робоча область для введення часу проекту
 
@@ -48,7 +46,7 @@ ms.locfileid: "4086697"
 Необхідні компоненти відрізняються залежно від версії Microsoft Dynamics 365, яку розгорнуто у вашій організації.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Необхідні компоненти при використанні Dynamics 365 Finance
-Якщо у вашій організації розгорнуто Finance, системний адміністратор має опублікувати мобільну робочу область **Project time entry**. Інструкцію див. у розділі [Публікуйте мобільну робочу область](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Якщо у вашій організації розгорнуто Finance, системний адміністратор має опублікувати мобільну робочу область **Project time entry**. Інструкцію див. у розділі [Публікуйте мобільну робочу область](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Необхідні компоненти, якщо ви використовуєте версію 1611 з оновленням платформи 3 або пізнішого випуску
 Якщо у вашій організації розгорнуто версію 1611 з оновленням платформи 3 або пізнішого випуску, системний адміністратор має забезпечити наведені далі необхідні компоненти. 
@@ -68,17 +66,17 @@ ms.locfileid: "4086697"
 <td>Системний адміністратор</td>
 <td>База знань KB 4018050 – це оновлення X++ або виправлення метаданих, яке містить мобільну робочу область для введення часу проекту <strong>Project time entry</strong>. Щоб реалізувати базу знань KB 4018050, системний адміністратор має дотримуватися наведених далі кроків.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Завантажити виправлення метаданих із Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Інсталювати виправлення метаданих</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Створіть пакет для розгортання,</a> який містить моделі <strong>ApplicationSuite</strong> і <strong>ProjectMobile</strong>, потім передайте цей пакет для розгортання до LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Застосуйте цей пакет для розгортання</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Завантажити виправлення метаданих із Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Інсталювати виправлення метаданих</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Створіть пакет для розгортання,</a> який містить моделі <strong>ApplicationSuite</strong> і <strong>ProjectMobile</strong>, потім передайте цей пакет для розгортання до LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Застосуйте цей пакет для розгортання</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Опублікуйте мобільну робочу область для введення часу проекту <strong>Project time entry</strong>.</td>
 <td>Системний адміністратор</td>
-<td>Див. розділ <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публікуйте мобільну робочу область</a>.</td>
+<td>Див. розділ <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Публікуйте мобільну робочу область</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -96,20 +94,23 @@ ms.locfileid: "4086697"
 3.  При першому вході ви отримаєте підказку щодо введення імені користувача та паролю. Введіть свої облікові дані.
 4.  Після того, як ви виконаєте вхід, відобразяться доступні для вашої компанії робочі області. Зверніть увагу, що якщо пізніше системний адміністратор опублікує нову робочу область, вам доведеться оновити список мобільних робочих областей.
 
-[![Проведення для оновлення](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Проведення для оновлення.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Введіть час із використанням мобільної робочої області для запису часу проекту
 1.  На мобільному пристрої виберіть мобільну робочу область для запису часу проекту **Project time entry**.
 2.  Виберіть **Запис часу**. Відобразяться календарні дати поточного тижня.
 3.  Щодо відповідної дати виберіть **Справи** &gt; **Новий запис**.
 4.  Введіть кількість годин, які потрібно записати.
-5.  Для запису часу виберіть проект. У списку відображаються проекти, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Докладніше див. у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Для запису часу виберіть проект. У списку відображаються проекти, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Докладніше див. у розділі [Мобільна платформа](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Якщо у списку вашого проекту немає, виберіть **Пошук**. Пошук за іменем або перехід до пошуку за найменуванням проекту чи клієнтом.
-7.  Виберіть категорію. У списку відображаються категорії, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Докладніше див. у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Виберіть категорію. У списку відображаються категорії, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Докладніше див. у розділі [Мобільна платформа](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Якщо в списку відповідної категорії немає, виберіть **Пошук**. Виконайте пошук за категорією або перейдіть до пошуку за іменем категорії.
-9.  Виберіть справу. У списку відображаються справи, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Докладніше див. у розділі [Мобільна платформа](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Виберіть справу. У списку відображаються справи, які завантажуються до вашої програми для використання в автономному режимі. За замовчуванням завантажуються 50 елементів, але розробник може змінити цю кількість. Докладніше див. у розділі [Мобільна платформа](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Якщо в списку відповідної справи немає, виберіть **Пошук**. Виконайте пошук за номером справи або перейдіть до пошуку за ціллю.
 
 11. Виберіть властивість рядка.
 12. Додатково: введіть будь-які зовнішні та внутрішні зауваження.
 13. Виберіть **Готово**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

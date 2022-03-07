@@ -2,8 +2,6 @@
 title: Позиції в ціновій пропозиції на основі продуктів
 description: У цьому розділі наведено відомості про позиції цінової пропозиції на основі продукту.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151278"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008611"
 ---
 # <a name="product-based-quote-lines"></a>Позиції в ціновій пропозиції на основі продуктів
 
@@ -60,7 +58,7 @@ ms.locfileid: "5151278"
 
 Після інсталяції PSA ціни зі збуту за замовчуванням вводяться в позиції на основі продукту у ціновій пропозиції. Тоді поле **Ціноутворення** настроюється у значення **Змінення ціноутворення**, щоб можна було змінювати ціну за замовчуванням у позиціях цінової пропозиції.
 
-> ![Налаштування змінення ціноутворення](media/basic-guide-10.png)
+> ![Налаштування змінення ціноутворення.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Кількісні фактори для продуктів
 
@@ -82,3 +80,6 @@ PSA перевіряє, щоб лише числові властивості а
 
 > ![Позначте кількість користувачів і кількість місяців як фактори кількості.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

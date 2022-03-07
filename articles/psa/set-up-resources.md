@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4ff49d5dfdfa184cf437677109d1228f3b4cd571
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a4c16ce551c659be2c27fd125d97a74a9dfb3295
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150333"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282403"
 ---
 # <a name="set-up-resources-project-service"></a>Настроювання ресурсів (Project Service)
 
@@ -55,3 +55,6 @@ ms.locfileid: "5150333"
   
 ### <a name="see-also"></a>Статті за темою  
  [Настроювання Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

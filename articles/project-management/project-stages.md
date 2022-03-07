@@ -2,11 +2,9 @@
 title: Стадії проектів
 description: У цьому розділі наведено відомості про стадії проекту, що доступні в Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 079c3d2d16cf802d2b9ecc779577e6e390d92ddc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127498"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996951"
 ---
 # <a name="project-stages"></a>Стадії проектів
 
@@ -63,3 +61,6 @@ _**Застосовується до:** Project Operations для сценарі
 
 Коли всі транзакції будуть записані для проекту, керівник проекту може оновити стадію до **Закрито**. У цей момент не можна записати транзакції, і для цього проекту встановлено атрибут «лише для читання».
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Ділові транзакції
 description: У цьому розділі наведено відомості про бізнес-транзакції.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149928"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987551"
 ---
 # <a name="business-transactions"></a>Ділові транзакції
 
@@ -90,7 +88,7 @@ PSA обробляє записи в цих п'яти сутностях як д
 
 У наведеному нижче прикладі показано типову обробку записів часу в життєвому циклі проекту PSA.
 
-> ![Обробка записів часу в життєвому циклі програми Project Service](media/basic-guide-17.png)
+> ![Обробка записів часу в життєвому циклі програми Project Service.](media/basic-guide-17.png)
  
 1. Надсилання запису часу призводить до створення двох рядків у журналі: один для витрат та один для неоплаченого збуту.
 2. Можливе затвердження запису часу призводить до створення двох фактичних даних: одні для витрат і одні для неоплаченого збуту.
@@ -149,3 +147,6 @@ PSA обробляє записи в цих п'яти сутностях як д
 | Корекція чернетки рахунка       | GUID транзакції позиції рахунка | Заміна          | msdyn_invoicelinetransaction | GUID збуту, на який виставлено рахунок            | Вихідний           | msdyn_actual       |
 | Підтвердити корекцію рахунка     | GUID повернення збуту, на який виставлено рахунок    | Повернення          | msdyn_actual                 | GUID збуту, на який виставлено рахунок            | Вихідний           | msdyn_actual       |
 | Новий GUID для фактичного збуту з невиставленим рахунком | Заміна                     | msdyn_actual       | GUID збуту, на який виставлено рахунок            | Вихідний                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

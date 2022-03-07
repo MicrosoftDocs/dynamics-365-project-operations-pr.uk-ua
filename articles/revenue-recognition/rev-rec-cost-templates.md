@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 4d9dcc54e62682a02ea6cf8caca90586b4217908
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642748"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278983"
 ---
 # <a name="set-up-cost-templates"></a>Налаштування шаблонів витрат
 
@@ -79,3 +79,6 @@ _**Застосовується до:** Project Operations для сценарі
 7. На вкладці **Категорії** виберіть категорії проекту, які додаватимуться до рядка шаблону витрат.
 8. На вкладці **Загальні** виберіть, чи враховуватиметься цей рядок під час обчислення відсотку виконання.
 9. Виберіть вартість, щоб провести розрахунки за вибраним для обрахунку відсотку виконання методом.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

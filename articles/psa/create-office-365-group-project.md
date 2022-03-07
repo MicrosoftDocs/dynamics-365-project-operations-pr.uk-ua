@@ -2,8 +2,6 @@
 title: Створити групу Office 365 для проекту
 description: Як створити групу Office 365 у Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a66658b353af40601909a9eff45b44e3ab8bff7f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144798"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006176"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>Створення групи Office 365 для проекту (Project Service)
 
@@ -43,3 +41,6 @@ ms.locfileid: "5144798"
   
 ### <a name="see-also"></a>Статті за темою  
  [Провідник керування проектом](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

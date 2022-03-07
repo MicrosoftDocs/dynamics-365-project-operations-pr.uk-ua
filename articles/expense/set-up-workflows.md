@@ -2,11 +2,9 @@
 title: Налаштування робочих циклів для керування витратами
 description: Ви можете налаштувати процес робочого циклу, який використовуватиметься для перевірки та затвердження документів щодо витрат та подорожей.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 883e871b434c910747e45904cc9dc0c46bb4e2df788f503b848ad41984884edd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127723"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997766"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Налаштування робочих циклів для керування витратами
 
@@ -48,3 +46,6 @@ _**Застосовується до:** Project Operations для сценарі
 |       <strong>Заявка для подорожі</strong>       |          Створення робочих циклів затвердження для заявок на подорожі.           |
 |      <strong>Запит готівкового авансу</strong>      |         Створення робочих циклів затвердження для запитів готівкових авансів.          |
 |        <strong>Відшкодування ПДВ</strong>        | Створення робочих циклів затвердження для відшкодування податку на додану вартість (ПДВ).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

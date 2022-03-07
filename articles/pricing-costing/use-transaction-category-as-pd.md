@@ -2,18 +2,16 @@
 title: Використання категорії транзакцій як виміру визначення цін
 description: У цьому розділі наведено відомості про використання поля «Категорія транзакції» в якості виміру визначення цін.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
-ms.translationtype: HT
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514036"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996146"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Використання категорії транзакцій як виміру визначення цін
 
@@ -50,3 +48,6 @@ _**Застосовується до:** Project Operations для сценарі
 2. На сторінці **Параметри** у вкладці **Критерії ціноутворення на основі суми** переконайтесь, що сітка відображає записи в сутності **Виміри визначення цін**.
 3. Додайте **Категорію транзакції** до цього списку та вкажіть для полів **Застосовується до витрат** та **Застосовується до збуту** значення **Так**.
 4. У полі **Тип виміру** виберіть **На основі суми**, а потім виберіть пріоритет для **Категорії транзакції**, оскільки її пов’язано із витратами та збутом.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

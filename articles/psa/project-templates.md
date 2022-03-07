@@ -2,8 +2,6 @@
 title: Шаблони проекту
 description: У цьому розділі наведено відомості про використання шаблонів проекту для швидкого настроювання проекту.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148083"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998301"
 ---
 # <a name="project-templates"></a>Шаблони проекту 
 
@@ -69,3 +67,6 @@ ms.locfileid: "5148083"
 ### <a name="copying-a-project-team"></a>Копіювання робочої групи проекту
 
 Під час копіювання робочої групи проекту із шаблона проекту до нового проекту, загальні ресурси копіюються разом із навичками та кваліфікацією, визначеними у шаблоні. Призначення загальних ресурсів також підтримується, як і в шаблоні проекту. Названі ресурси не підтримуються в шаблонах проекту.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

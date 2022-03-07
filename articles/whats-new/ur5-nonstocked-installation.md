@@ -2,19 +2,17 @@
 title: Оновлення Project Operations у середовищі Finance
 description: У цьому розділі наведено відомості про оновлення Project Operations у середовищі Dynamics 365 Finance .
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
-ms.translationtype: HT
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816650"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986786"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Оновлення Project Operations у середовищі Finance
 
@@ -35,7 +33,7 @@ _**Застосовується до:** Project Operations для сценарі
 4. Переконайтеся, що середовище запущено. Якщо не запущене, запустіть середовище.
 5. У розділі **Новий випуск** у **Доступних оновленнях**, натисніть **Переглянути оновлення** для 10.0.15.
 
-![Кнопка «Переглянути оновлення»](media/view-update.png)
+![Кнопка «Переглянути оновлення».](media/view-update.png)
 
 6. На сторінці **Двійкові оновлення** виберіть **Зберегти пакет**.
 7. На сторінці **Перегляд і збереження оновлень** виберіть **Зберегти пакет**.
@@ -49,11 +47,11 @@ _**Застосовується до:** Project Operations для сценарі
 2. У списку виберіть пакет, який було збережено раніше, і натисніть кнопку **Застосувати**.
 3. Натисніть **Так** для підтвердження розгортання пакета.
 
-![Діалогове вікно «Підтвердження розгортання пакета»](media/confirm-package-deployment.png)
+![Діалогове вікно «Підтвердження розгортання пакета».](media/confirm-package-deployment.png)
 
 4. Натисніть **Так** для підтвердження оновлення програми.
 
-![Діалогове вікно «Підтвердження оновлення програми»](media/confirm-application-update.png)
+![Діалогове вікно «Підтвердження оновлення програми».](media/confirm-application-update.png)
 
 Розгортання та оновлення програми розпочнуться. 
 
@@ -86,7 +84,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 1. У середовищі Dataverse відкрийте **настройки** і в групі **Система** натисніть **Безпека**.
 
-![Параметри середовища Dataverse](media/Picture21.png)
+![Параметри середовища Dataverse.](media/Picture21.png)
 
 2. Виберіть **Ролі безпеки**.
 3. У списку ролей натисніть **користувач програми подвійного записування** і виберіть вкладку **Настроювані сутності**. 
@@ -123,5 +121,8 @@ _**Застосовується до:** Project Operations для сценарі
 6. У списку карт виберіть зіставлення з усіма потребами **Ledger (msdyn_ledgers)** та встановіть прапорець **Початкова синхронізація**. 
 7. У полі **Основний для початкової синхронізації** натисніть **Програми Finance and Operations** і потім виберіть **Запустити**.
  
- ![Синхронізація зіставлення Ledger](media/DW6.png)
+ ![Синхронізація зіставлення Ledger.](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
