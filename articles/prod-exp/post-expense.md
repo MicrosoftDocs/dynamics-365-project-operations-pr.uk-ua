@@ -2,11 +2,9 @@
 title: Публікація звіту про витрати
 description: У цьому розділі описується процедура публікації звіту про витрати для головної бухгалтерської книги.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 982b7621c35547448b5d756f77f3873b9fbbcb9d
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
-ms.translationtype: HT
+ms.openlocfilehash: e6df49bb6831b08611b05e02bbb1a5a2a80a34193497e3020ccddd5370cf37a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960137"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993041"
 ---
 # <a name="post-an-expense-report"></a>Публікація звіту про витрати
 
@@ -32,3 +30,6 @@ ms.locfileid: "4960137"
 Щоб опублікувати звіт про видатки, на сторінці **Затверджені звіти про витрати**, виберіть звіт про витрати, а потім в області дій натисніть кнопку **Опублікувати**.
 
 Крім того, ви також можете опублікувати всі звіти про витрати в списку одночасно. Виберіть усі звіти про витрати, а потім натисніть кнопку **Опублікувати**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Розподілення у звітах про витрати
 description: Під час введення витрат у звіті про витрати ви можете розподілити витрати між кількома проектами, юридичними особами або бізнес-партнерами у своїй організації.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,16 +13,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8850a8d3f2efc699bc95d4cb4fc76428badb10f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: a00ea4337e59e5412bd885db9e80c82a34e4eb638a7482c98a4946c44c4d734e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086873"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001366"
 ---
 # <a name="expense-report-distributions"></a>Розподілення у звітах про витрати
-
-[!include [banner](../includes/banner.md)]
 
 Під час введення витрат у звіті про витрати ви можете розподілити витрату між кількома проектами, фінансовими критеріями або бізнес-партнерами у своїй організації.
 
@@ -39,3 +35,6 @@ ms.locfileid: "4086873"
 |Готель         |725 євро              |557 євро                        |168 євро                          |
 |Харчування         |346 євро              |284 євро                        |62 євро                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

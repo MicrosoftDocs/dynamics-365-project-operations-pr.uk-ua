@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000191"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009691"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Застосування демонстраційних даних до розміщеного в хмарі Finance середовища
 
@@ -22,40 +22,40 @@ _**Застосовується до:** Project Operations для сценарі
 
 1. У проекті LCS відкрийте сторінку **Відомості про середовища**. Зверніть увагу, що вона містить відомості, необхідні для підключення до середовища за допомогою протоколу віддаленого робочого стола (RDP).
 
-![Відомості про середовище ](./media/1EnvironmentDetails.png)
+![Відомості про середовище.](./media/1EnvironmentDetails.png)
 
 Першим набором виділених облікових даних є облікові дані локальних облікових записів, які містять посилання на підключення до віддаленого робочого стола. Облікові дані включають ім’я користувача та пароль адміністратора середовища. Другий набір облікових даних використовується для входу на сервер SQL у цьому середовищі.
 
 2. Отримайте віддалений доступ до середовища за допомогою посилання в **локальних облікових записах** і скористайтеся **обліковими даними локальних облікових записів** для автентифікації.
 3. Відкрийте **Інформаційні служби Інтернету** > **Пули програм** > **Служба AOS** і зупиніть цю службу. Зупинка служби на цьому етапі необхідна для продовження заміни бази даних SQL.
 
-![Зупинка AOS](./media/2StopAOS.png)
+![Зупинка AOS.](./media/2StopAOS.png)
 
 4. Відкрийте **Служби** та зупиніть ці дві служби:
 
 - Microsoft Dynamics 365 Unified Operations: Batch Management Service;
 - Microsoft Dynamics 365 Unified Operations: Data Import Export Framework.
 
-![Зупинка служб](./media/3StopServices.png)
+![Зупинка служб.](./media/3StopServices.png)
 
 5. Відкрийте Microsoft SQL Server Management Studio. Увійдіть до системи за допомогою облікових даних сервера SQL і використайте користувача axdbadmin і пароль зі сторінки **Відомості про середовища**.
 
-![SQL Server Management Studio](./media/4SSMS.png)
+![SQL Server Management Studio.](./media/4SSMS.png)
 
 6. У провіднику об’єктів відкрийте **Бази даних** і знайдіть **AXDB**. Цю базу даних знадобиться замінити на нову базу даних, розміщену в [Центрі завантажень](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Скопіюйте ZIP-файл на віртуальну машину, до якої ви маєте віддалений доступ, і витягніть вміст із ZIP.
 8. У SQL Server Management Studio клацніть правою кнопкою миші **AxDB**, а потім виберіть **Завдання** > **Відновлення** > **База даних**.
 
-![Відновлення бази даних](./media/5RestoreDatabase.png)
+![Відновлення бази даних.](./media/5RestoreDatabase.png)
 
 9. Виберіть **Пристрій-джерело** та перейдіть до скопійованого файлу, витягнутого із ZIP-архіву.
 
-![Пристрої-джерела](./media/6SourceDevice.png)
+![Пристрої-джерела.](./media/6SourceDevice.png)
 
 10. Виберіть **Параметри**, а потім – **Перезаписати наявну базу даних** і **Закрити наявні підключення до кінцевої бази даних**. 
 11. Виберіть **ОК**.
 
-![Відновлення параметрів](./media/7RestoreSetting.png)
+![Відновлення параметрів.](./media/7RestoreSetting.png)
 
 Ви отримаєте підтвердження того, що відновлення AXDB було успішним. Після отримання цього підтвердження можна закрити SQL Services Management Studio.
 
@@ -66,17 +66,17 @@ _**Застосовується до:** Project Operations для сценарі
 15. Запустіть файл .ext за допомогою адреси користувача, що міститься в полі **Адреса електронної пошти**. 
 16. Виберіть **Подати**.
 
-![Підготовка адміністратора](./media/8AdminUserProvisioning.png)
+![Підготовка адміністратора.](./media/8AdminUserProvisioning.png)
 
 Для завершення цього процесу знадобиться кілька хвилин. Необхідно отримати підтвердження того, що адміністратора було успішно оновлено.
 
 17. Нарешті, запустіть командний рядок як адміністратор і виконайте команду iisreset.
 
-![Скидання служб IIS](./media/9IISReset.png)
+![Скидання служб IIS.](./media/9IISReset.png)
 
 18. Закрийте сеанс віддаленого робочого стола та скористайтеся сторінкою LCS **Відомості про середовища**, щоб увійти до середовища й упевнитися в його належній роботі.
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![Finance and Operations.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

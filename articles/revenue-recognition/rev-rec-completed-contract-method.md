@@ -2,18 +2,16 @@
 title: Керування прогнозами прибутків
 description: У цьому розділі наведено відомості про те, як робити прогнозування прибутку для проекту.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
-ms.translationtype: HT
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531585"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996551"
 ---
 # <a name="manage-revenue-estimates"></a>Керування прогнозами прибутків
 
@@ -90,3 +88,6 @@ _**Застосовується до:** Project Operations для сценарі
 На цій сторінці можна скасувати всі дії з указаною датою оцінки та зі станом прогнозування **Ліквідовані**. Після вибору відвідних полів буде змінено статус транзакції.
 
 Це також автоматично змінює стан проекту на **У процесі**, якщо стадія проекту має значення «завершено». Статус прогнозу періоду проекту знову змінюється на **Опублікований**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

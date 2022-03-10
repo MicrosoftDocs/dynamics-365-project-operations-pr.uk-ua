@@ -2,8 +2,6 @@
 title: Керувати запитами на ресурси
 description: Як керувати запитами ресурсів у Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086715"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985166"
 ---
 # <a name="manage-resource-requests-project-service"></a>Керування запитів ресурсів (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -43,9 +43,12 @@ ms.locfileid: "4086715"
   
    -   Натисніть кнопку **Фільтр** для відображення області **Фільтр**, яка дає змогу фільтрувати результати за організаційною одиницею, роллю, навичками або іншими атрибутами.  
   
-       ![Екран "Запити ресурсів" у Project Service](../psa/media/project-service-resource-request-screen.png "Екран &quot;Запити ресурсів&quot; у Project Service")  
+       ![Екран "Запити ресурсів" у Project Service.](../psa/media/project-service-resource-request-screen.png "Екран &quot;Запити ресурсів&quot; у Project Service")  
   
 3. В календарі для ресурсів, які ви хочете забронювати, виберіть період резервування ресурсів, а потім або клацнути **Резервувати**, щоб зарезервувати ресурс або **Запропонувати резервування**, щоб запропонувати резервування та затвердити його. Під час бронюванні ресурсу ви можете виконати гнучке чи негнучке резервування.  
   
 ### <a name="see-also"></a>Статті за темою  
  [Провідник керування ресурсами](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

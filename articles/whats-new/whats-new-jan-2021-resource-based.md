@@ -2,19 +2,17 @@
 title: 'Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
 description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску Project Operations за січень 2021 року для сценаріїв на основі ресурсів і відсутності запасів.
 author: sigitac
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ece05f1f551b18a5b30610af57d68baa120948fb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008116"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 

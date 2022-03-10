@@ -2,8 +2,6 @@
 title: Розклади проекту
 description: У цьому розділі наведено відомості про створення розкладів.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
-ms.translationtype: HT
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148443"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998441"
 ---
 # <a name="project-schedules"></a>Розклади проекту 
 
@@ -96,7 +94,7 @@ ms.locfileid: "5148443"
 
 Назва завдання описує роботу, яку необхідно закінчити. У PSA атрибути, пов'язані з завданням, описують розклад завдань і вимоги до персоналу.
 
-> ![Атрибути завдання](media/project-2.png)
+> ![Атрибути завдання.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Атрибути розкладу
 
@@ -149,3 +147,6 @@ ms.locfileid: "5148443"
 ### <a name="manual-scheduling"></a>Планування вручну
 
 Якщо правила автоматичного планування не відповідають вашим вимогам, можна задати режим завдання для **Планування вручну**. Цей параметр відключає механізм планування, щоб він не розраховував значення для інших атрибутів планування. Незалежно від режиму завдань, якщо у завдань є попередники, ви завжди впливатимете на дату початку залежного завдання.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

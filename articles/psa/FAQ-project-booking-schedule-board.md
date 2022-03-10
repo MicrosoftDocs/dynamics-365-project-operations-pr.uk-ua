@@ -2,8 +2,6 @@
 title: Створення резервування для проекту з панелі розкладів
 description: У цьому розділі наведено відомості про створення резервування проекту з дошки розкладів.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5d815210ee78f3c728c0722e03bab2f790c953ee
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286138"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987641"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Створення резервування для проекту з панелі розкладів
 
@@ -45,7 +43,7 @@ ms.locfileid: "5286138"
 
 1.  На панелі розкладів, цей ресурс відобразиться у вкладці **Відкриті вимоги**. Можливо, потрібно буде використовувати фільтри стовпця у сітці за наявності багатьох відкритих вимог. 
 
-    ![Перейдіть на вкладку "Вимоги" на панелі "Розклад"](media/FAQ-Project-Booking-Schedule-Board-1.png "Знімок екрана з таблиці резервувань та призначень")
+    ![Перейдіть на вкладку "Вимоги" на панелі "Розклад".](media/FAQ-Project-Booking-Schedule-Board-1.png "Знімок екрана з таблиці резервувань та призначень")
 
 2. Виберіть вимогу. Вкладка **Перевірити доступність** відображається у верхній частині вибраного рядка.
  
@@ -55,7 +53,7 @@ ms.locfileid: "5286138"
 
     Вибір **Резервувати** зберігає ресурс у робочій групі проекту.
 
-![Панель "Створити резервування ресурсу"](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Панель "Створити резервування ресурсу".](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Резервування з основної вимоги
@@ -64,7 +62,7 @@ ms.locfileid: "5286138"
 
 1. Щоб зарезервувати ресурс з основною вимогою на панелі розкладу, виберіть вкладку **Проект**. Може бути зручніше використовувати фільтр у стовпці **Проект**, якщо у вас багато проектів.
 
-   ![Фільтри стовпців на панелі розкладів](media/FAQ-Project-Booking-Schedule-Board-2.png "Знімок екрана з таблиці резервувань та призначень")
+   ![Фільтри стовпців на панелі розкладів.](media/FAQ-Project-Booking-Schedule-Board-2.png "Знімок екрана з таблиці резервувань та призначень")
 
 2. Виберіть вимогу, яка має лише назву проекту як свою назву і нульову (0) тривалість.
 

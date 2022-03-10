@@ -2,11 +2,9 @@
 title: Керування проектними прайсами за ціновою пропозицією
 description: У цьому розділі наведено відомості про сутність прайса проекту.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4bd4e9cb22bfd6a86fd86e5fc403cb185aab140a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003931"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Керування проектними прайсами за ціновою пропозицією
 

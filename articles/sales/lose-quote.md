@@ -2,18 +2,16 @@
 title: Копіювання цінових пропозицій на основі проектів
 description: У цьому розділі наведено відомості щодо того, як копіювати цінові пропозиції на основі проектів у Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b1ce6c2b644319f2d822010a34c57c591f82edc9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278173"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992186"
 ---
 # <a name="copy-project-based-quotes"></a>Копіювання цінових пропозицій на основі проектів
 

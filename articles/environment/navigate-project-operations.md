@@ -2,18 +2,16 @@
 title: Виконуйте навігацію програмою Project Operations
 description: У цьому розділі наведено відомості про те, як отримати доступ до Project Operations із Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50b44b014fcbb730b273322390227ae82cbdcefc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290024"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994616"
 ---
 # <a name="navigate-project-operations"></a>Виконуйте навігацію програмою Project Operations
 
@@ -30,11 +28,11 @@ Dynamics 365 Project Operations для сценаріїв ресурсів/не�
 
 Використовуйте ім’я середовища в цьому розділі, **Ім’я середовища Common Data Service**, щоб перейти до Project Operations у середовищі CDS. 
 
-  ![Ім’я середовища Common Data Service](./media/environment-name.PNG)
+  ![Ім’я середовища Common Data Service.](./media/environment-name.PNG)
 
 Виберіть **Вхід** > **Вхід до середовища**, щоб перейти до модуля **Керування проектами та бухгалтерський облік** у Finance.  
 
-   ![Виконайте вхід до Finance](./media/environment-login.PNG)
+   ![Виконайте вхід до Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > Ви можете отримати доступ до Project Operations у Common Data Service і в модулі **Керування проектами та бухгалтерський облік** безпосередньо, скориставшись їхніми відповідними URL-адресами. 

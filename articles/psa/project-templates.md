@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
-ms.translationtype: HT
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998301"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002536"
 ---
 # <a name="project-templates"></a>Шаблони проекту 
 
@@ -47,7 +47,7 @@ ms.locfileid: "5998301"
 
 - При створенні проекту з цінової пропозиції ви можете вибрати шаблон проекту з діалогового вікна **Швидке створення: проект**.
 
-> ![Діалогове вікно "Швидке створення: проект"](media/project-11.png)
+> ![Діалогове вікно "Швидке створення: проект".](media/project-11.png)
 
 - Під час створення проекту шляхом вибору **Новий проект** відображається сторінка **Проект** перед збереженням запису. У полі **Виберіть шаблон**, виберіть один із попередньо визначених шаблонів проекту в організації.
 - Скористайтеся параметром **Створити проект з шаблону** на сторінці **Сутність шаблону**.

@@ -2,8 +2,6 @@
 title: Слідкуйте за прогресом та вартістю проекту
 description: Як відстежувати поступ проекту та вартість у Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ede8902a29bed224d7934a79e30f8c7e7fb9023b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: fe8a8e1776b10fff0dc137e329c58eb530591a6e6adde0ac58ca83d323c5da4f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121918"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992321"
 ---
 # <a name="track-project-progress-and-cost-project-service"></a>Відстежуйте поступ проекту та вартість (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -38,3 +38,6 @@ ms.locfileid: "4121918"
   
 ### <a name="see-also"></a>Див. також  
  [Провідник керування проектом](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

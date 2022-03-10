@@ -2,10 +2,9 @@
 title: Що таке Dynamics 365 Project Service Automation?
 description: Ознайомолення та огляд Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128038"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000286"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Що таке Dynamics 365 Project Service Automation?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
@@ -45,10 +46,10 @@ ms.locfileid: "4128038"
 ## <a name="whats-new-in-psa"></a>Нові можливості PSA
 Команда розробників рада представити останнє оновлення! Починаючи з вдосконалення інтерфейсу користувача, виправлення помилок і додавання важливих нових функцій і можливостей. Ви просили; ми слухали.
 
-Погляньте на [Інформацію про випуск за жовтень 2019 р.](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index), щоб побачити найновіші вдосконалення і доповнення.
+Погляньте на [Інформацію про випуск за жовтень 2019 р.](/dynamics365-release-plan/2019wave2/index), щоб побачити найновіші вдосконалення і доповнення.
 
 ### <a name="in-development"></a>У розробці
-Щоб дізнатися, що ми запланували в найближчому майбутньому, перейдіть до інформації про випуск [Dynamics 365: випуск 2020 року, план 1 хвилі](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Щоб дізнатися, що ми запланували в найближчому майбутньому, перейдіть до інформації про випуск [Dynamics 365: випуск 2020 року, план 1 хвилі](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Отримайте допомогу із програмою PSA версії 3.x
 Шукаєте ресурси, які допоможуть спланувати впровадження програми? Перевірте ці посібники, що доступні для завантаження.
@@ -78,9 +79,12 @@ ms.locfileid: "4128038"
 
  [Інформаційні бюлетені (програма версії 2.x або 1.x)](../psa/white-papers.md)
 
- [Примітки для розробників (версія 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Нотатки для розробників (програма версії 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Переглянути 2-хвилинний відеоогляд
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

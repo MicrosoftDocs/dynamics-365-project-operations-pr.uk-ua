@@ -2,18 +2,16 @@
 title: Керування складними одиницями вимірювання для сервісних робіт за договором на основі продуктів – легка версія
 description: У цьому розділі наведено відомості про підтримку збуту продуктів на основі передплати.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273358"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003391"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Керування складними одиницями вимірювання для сервісних робіт за договором на основі продуктів – легка версія
 

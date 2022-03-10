@@ -2,19 +2,17 @@
 title: 'Нові можливості в грудні 2020 р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами'
 description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску Project Operations у грудні 2020 р. для сценаріїв на основі замовлень на виробництво та з матеріалами.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288177"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008836"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Нові можливості або зміни в Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами в грудні 2020 р.
 
@@ -141,7 +139,7 @@ _Застосовується до: Project Operations для сценаріїв
 
 ## <a name="regulatory-updates"></a>Оновлення нормативних вимог
 
-Щоб отримати додаткові відомості про оновлення нормативних вимог для програм Dynamics 365 Finance, див. розділ [Оновлення нормативних вимог](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Ще один спосіб дізнатися про регуляторні оновлення — увійти в Lifecycle Services (LCS) і переглянути заплановані оновлення нормативних вимог за допомогою засобу пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Щоб отримати додаткові відомості про оновлення нормативних вимог для програм Dynamics 365 Finance, див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Ще один спосіб дізнатися про регуляторні оновлення — увійти в Lifecycle Services (LCS) і переглянути заплановані оновлення нормативних вимог за допомогою засобу пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

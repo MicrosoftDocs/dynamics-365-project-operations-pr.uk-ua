@@ -2,8 +2,6 @@
 title: Встановити валюту та курси валют
 description: Як настроювати грошові одиниці і обмінні курси у Project Service
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ba26a304f1906a12a2d38f17787534bd024720e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: fc3f7c5d2ba3ea33a99dcbec029deabcf932ef05f632938fb6d804e7f5405d3d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086934"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995021"
 ---
 # <a name="set-up-currencies-and-exchange-rates-project-service"></a>Настроювання грошових одиниць і обмінними курсами (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -41,3 +41,6 @@ ms.locfileid: "4086934"
   
 ### <a name="see-also"></a>Статті за темою  
  [Настроювання Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

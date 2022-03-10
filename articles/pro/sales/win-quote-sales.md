@@ -2,19 +2,17 @@
 title: Закриття цінової пропозиції — легка версія
 description: У цій темі міститься інформація про закриття цінової пропозиції у Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d387816f51f63ecd95df6534c7c012b323e6ddc
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
-ms.translationtype: HT
+ms.openlocfilehash: 8ae5e14220ffecab5bcfa016d8d18e6ccfbc5b04be9a4e66cee26f8885125d31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764889"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994346"
 ---
 # <a name="close-a-quote---lite"></a>Закриття цінової пропозиції — легка версія
 
@@ -40,3 +38,6 @@ _**Застосовується до:** розгортання Lite: від уг
 
 > [!NOTE]
 > Якщо закрити цінову пропозицію як реалізовану або нереалізовану у Project Operations, це не вплине на стан потенційної угоди, яка залишиться відкритою, поки її не буде закрито вручну.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

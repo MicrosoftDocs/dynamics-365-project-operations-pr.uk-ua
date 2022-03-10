@@ -1,57 +1,74 @@
 ---
-title: Налаштування та застосування даних конфігурації в Common Data Service для Project Operations
+title: Налаштування та застосування даних та конфігурації в Common Data Service
 description: У цьому розділі наведено відомості про налаштування та застосування даних конфігурації в Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 10/01/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086589"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986651"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Налаштування та застосування даних конфігурації в Common Data Service для Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Налаштування та застосування даних та конфігурації в Common Data Service 
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+## <a name="prerequisites"></a>Вимоги
+
+Наведені далі попередні умови мають виконуватися до початку налаштування даних у Common Data Service (CDS).
+
+1.  Надання середовищ CDS і Dynamics 365 Finance для Project Operations.
+2.  Інформація про юридичну особу поширюються від Dynamics 365 Finance до CDS Це означає, що сутність **Компанія** у CDS має такі записи про компанію.
+  - THPM
+  - USPM
+  - GBPM
+
 ## <a name="install-setup-and-configuration-data"></a>Встановлення даних налаштування та конфігурації
 
-1. Завантажте, розблокуйте та розпакуйте [пакет даних налаштування та конфігурації](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Завантажте, розблокуйте та розпакуйте [пакет даних налаштування та конфігурації](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Перейдіть до розпакованої папки та запустіть виконуваний файл *DataMigrationUtility*.
 3. На сторінці 1 майстра перенесення конфігурації Common Data Service (CMT) виберіть **Імпортувати дані** та натисніть **Продовжити**.
 
-![Засіб перенесення конфігурації](./media/1ConfigurationMigration.png)
+![Перенесення конфігурації.](./media/1ConfigurationMigration.png)
 
 4. На сторінці 2 Майстра CMT виберіть **Microsoft 365** як **Тип розгортання**.
 5. Установіть прапорець поруч із пунктами **Відображати список доступних організацій** і **Показувати додаткові відомості**.
 6. Виберіть регіон свого клієнта, введіть свої облікові дані й натисніть **Увійти**.
 
-![Отримання доступу до конфігурації](./media/2ConfigurationSignin.png)
+![Отримання доступу до конфігурації.](./media/2ConfigurationSignin.png)
 
 7. На сторінці 3 у списку організацій у клієнті виберіть організацію, до якої потрібно імпортувати демонстраційні дані, і натисніть **Увійти**.
 8. На сторінці 4 виберіть ZIP-файл *SampleSetupAndConfigData* з розпаковані папки.
 
-![Вибір ZIP-файлу](./media/3ZipFile.png)
+![Вибір ZIP-файлу.](./media/3ZipFile.png)
 
-![Вибрати файл](./media/4SelectAFile.png)
+![Виберіть файл.](./media/4SelectAFile.png)
 
 9. Після вибору ZIP-файлу натисніть **Імпортувати дані**.
 
-![Імпортувати дані](./media/5ImportData.png)
+![Імпорт даних.](./media/5ImportData.png)
 
 10. Імпортування триватиме близько двох-десяти хвилин залежно від швидкості мережі. Після завершення імпортування вийдіть із майстра CMT. 
-11. Перевірте дані організації в зазначених нижче 19 сутностях.
+11. Перевірте дані організації в зазначених нижче 26 сутностях.
 
-  - Валюта
+  - Грошова одиниця
+  - План рахунків
+  - Фінансовий календар
+  - Типи обмінного курсу валют
+  - День оплати
+  - Розклад платежів
+  - Умови оплати
   - Організаційна одиниця
-  - Контактна інформація
+  - Контактна особа
   - Група податків
   - Група клієнтів
+  - Група постачальника
   - Одиниця вимірювання
   - Група одиниць вимірювання
   - Прайс
@@ -67,58 +84,61 @@ _**Застосовується до:** Project Operations для сценарі
   - Зв’язок категорій планованих ресурсів
   - Характеристика планованого ресурсу
 
-![Завершення імпорту](./media/6CompleteImport.png)
+![Завершення імпорту.](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>Оновлення конфігурацій Project Operations
 
 1. Перейдіть до середовища CE. Його можна знайти, відкривши [Центр адміністрування Power Platform](https://admin.powerplatform.microsoft.com/environments), вибравши середовище, а потім – елемент **Відкрити середовище**. 
 
-![Відкриття середовища](./media/7OpenEnvironment.png)
+![Відкриття середовища.](./media/7OpenEnvironment.png)
 
 2. Відкрийте **Проекти** > **Ресурси**, а потім виберіть **Створити**, щоб створити планований ресурс для користувача.
 
-![Плановані ресурси](./media/8BookableResources.png)
+![Плановані ресурси.](./media/8BookableResources.png)
 
 3. На вкладці **Загальні** виберіть адміністратора. Переконайтеся, що часовий пояс збігається з вашим часовим поясом. 
 
-![Новий планований ресурс](./media/9NewBookableResource.png)
+![Новий планований ресурс.](./media/9NewBookableResource.png)
 
 4. На вкладці **Планування** в полі **Компанія** виберіть компанію **USPM**, а потім натисніть **Зберегти**. 
 
-![Вкладка «Планування»](./media/10SchedulingTab.png)
+![Вкладка «Планування».](./media/10SchedulingTab.png)
 
 5. Виберіть вкладку **Робочий час**.  
 
-![Робочий час](./media/11WorkHours.png)
+![Робочий час.](./media/11WorkHours.png)
 
 6. Двічі клацніть будь-яке значення в календарі та виберіть **Змінити** > **Усі події в цій серії**. 
 
-![Робочий календар](./media/12WorkCalendar.png)
+![Робочий календар.](./media/12WorkCalendar.png)
 
 7. Змініть робочий час на восьмигодинний робочий день, позначте вихідні як неробочі дні, а потім переконайтеся, що часовий пояс збігається з вашим часовим поясом. 
 8. Виберіть **Зберегти й закрити**.
 
-![Оновлення календаря](./media/13UpdateCalendar.png)
+![Оновлення календаря.](./media/13UpdateCalendar.png)
 
 9. Відкрийте **Параметри** > **Шаблони календаря** та виберіть **Створити**.
  
- ![Шаблони календаря](./media/14CalendarTemplates.png)
+ ![Шаблони календаря.](./media/14CalendarTemplates.png)
  
  10. Введіть ім’я, виберіть створений ресурс шаблону, а потім натисніть **Зберегти**. 
  
- ![Збереження шаблону календаря](./media/15SaveCalendarTemplate.png)
+ ![Збереження шаблону календаря.](./media/15SaveCalendarTemplate.png)
  
  11. Відкрийте **Параметри**, а потім двічі клацніть запис. 
  
- ![Параметри проекту](./media/16ProjectParameters.png)
+ ![Параметри проекту.](./media/16ProjectParameters.png)
  
 12. Оновіть наведені нижче поля.
 
  - **Стандартна компанія**: USPM.
- - **Організаційна одиниця за замовчуванням**: Contoso Robotics Global.
+ - **Організаційна одиниця за промовчанням**: Contoso Robotics Global
  - **Частота виставлення рахунків**: сьомий і останній день.
  - **Шаблон робочого часу**: змініть його на щойно створений шаблон.
 
 13. Виберіть **Зберегти**. 
 
-![Оновлені параметри проекту](./media/17UpdatedProjectParameters.png)
+![Оновлені параметри проекту.](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

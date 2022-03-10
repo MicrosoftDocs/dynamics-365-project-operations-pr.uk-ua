@@ -1,21 +1,19 @@
 ---
-title: Імпортування оцінок для проекту до позицій цінової пропозиції на основі проекту
-description: У цьому розділі наведено відомості про імпортування оцінок з проекту до позиції цінової пропозиції.
+title: Імпортуйте кошториси для проекту до позиції цінової пропозиції
+description: У цій темі наведено інформацію про те, як імпортувати кошториси проекту до позиції цінової пропозиції проекту.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b32ac22188922a56fa13ea67e0ead77b9b045d9f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: a9ac27b7694927f9cea88b49310f3106fbc6542cc0f7f1756744b970358c1057
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278353"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993536"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Імпортування оцінок для проекту до позицій цінової пропозиції на основі проекту
+# <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>Імпортуйте кошториси для проекту до позиції цінової пропозиції
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 

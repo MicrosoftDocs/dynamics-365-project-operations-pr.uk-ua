@@ -2,8 +2,6 @@
 title: Настройки проекту
 description: У цьому розділі наведено відомості про настройки керування проектами.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c55d0f4c8f8db231a995d91a46a582bca2e1e6e3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283753"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996956"
 ---
 # <a name="project-settings"></a>Настройки проекту
 
@@ -49,7 +47,7 @@ ms.locfileid: "5283753"
   - Графік робіт на один день
   - Вільний час
 
-> ![Параметри настроювання](media/project-13.png)
+> ![Параметри налаштування.](media/project-13.png)
 
 4. Виберіть **Новий щотижневий розклад**, а потім задайте параметри для цього розкладу ресурсів. Можна задати повторюваний щотижневий розклад, параметри щоденних годин, неробочий час тощо.
 5. Установіть діапазон дат, виберіть **Зберегти**, а потім натисніть кнопку **Закрити**. 

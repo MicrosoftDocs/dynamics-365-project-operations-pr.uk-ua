@@ -2,8 +2,6 @@
 title: Налаштувати ресурси
 description: Як налаштувати ресурси у Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a4c16ce551c659be2c27fd125d97a74a9dfb3295
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
-ms.translationtype: HT
+ms.openlocfilehash: 62fc0ad741940c2d3046bb1b89f99cd490cbd6e1aa6015f1df3b92afb2f107ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282403"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006856"
 ---
 # <a name="set-up-resources-project-service"></a>Настроювання ресурсів (Project Service)
 

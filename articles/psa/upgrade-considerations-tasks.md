@@ -1,8 +1,6 @@
 ---
 title: Міркування щодо оновлення робочої структури проекту
 description: У цьому розділі наведено відомості про оновлення робочої структури проекту з Project Service Automation 2.x до 3.x.
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,33 +16,36 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
-ms.translationtype: HT
+ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992366"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Міркування щодо оновлення робочої структури проекту
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 У цьому розділі наведено відомості про оновлення робочої структури проекту з Project Service Automation 2.x до 3.x. У цьому розділі визначено здоровий стан проекту в Project Service Automation (PSA), який потрібен для успішного оновлення. Існує також інформація про поширені умови блокування, що призведе до невдалого оновлення. Для отримання додаткових відомостей про визначення завдань проекту та їхніх функцій у розкладі проекту див. розділ [Розклади проекту](project-creating.md).
 
 ## <a name="key-entities"></a>Ключові сутності
 Для точної робочої структури проекту, яку вже завантажено з ресурсами, необхідно виконати зазначені нижче сутності.
 
-- [Проект](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Робоча група проекту](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Проектне завдання](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Призначення ресурсів](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Залежність проектного завдання](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Плановані ресурси](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Проект](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Робоча група проекту](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Проектне завдання](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Призначення ресурсів](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Залежність проектного завдання](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Плановані ресурси](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Щоб визначити ресурс із завантаженою робочою структурою проекту, слід виконати зазначені нижче кроки.
 
-1. Створіть новий проект. Для отримання додаткових відомостей про те, як створити новий проект див. розділ [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Створіть однин або кілька завдань. Для отримання додаткових відомостей про те, як створити завдання див. [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Визначте залежності завдань. Докладні відомості див. в статті [Залежності завдань Project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Призначте учасників робочої групи до проекту. Для отримання додаткових відомостей див. [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Призначте учасників робочої групи проекту на завдання. Для отримання додаткових відомостей див. розділ [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Створіть новий проект. Для отримання додаткових відомостей про те, як створити новий проект див. розділ [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Створіть однин або кілька завдань. Для отримання додаткових відомостей про те, як створити завдання див. [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Визначте залежності завдань. Докладні відомості див. в статті [Залежності завдань Project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Призначте учасників робочої групи до проекту. Для отримання додаткових відомостей див. [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Призначте учасників робочої групи проекту на завдання. Для отримання додаткових відомостей див. розділ [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Зв’язки учасників робочої групи
 
@@ -93,3 +94,6 @@ ms.locfileid: "4086798"
 
 - Усі залежності для завдань проекту мають бути пов'язані з тим самим проектом.
 - Завдання не може мати однакову залежність, на яку посилаються кілька разів.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

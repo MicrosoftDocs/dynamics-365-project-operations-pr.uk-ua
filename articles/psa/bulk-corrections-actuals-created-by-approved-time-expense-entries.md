@@ -2,10 +2,8 @@
 title: Пакетні виправлення фактичних даних, створених затвердженими записами часу та витрат
 description: У цьому розділі пояснюється, як адміністратор може робити одноразові або пакетні виправлення до раніше затверджених записів часу або витрат, якщо виставлення рахунка не завершено.
 author: rumant
-manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -18,14 +16,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086892"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995426"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Пакетні виправлення фактичних даних, створених затвердженими записами часу та витрат
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Іноді запис часу або витрат може бути введений неправильно. Наприклад, консультант може вибрати неправильну дату під час створення запису часу або перенести числа під час введення витрат. Якщо консультант не може зробити оновлення надісланих записів, адміністратор може безпосередньо виправити запис для проекту.
 
@@ -62,7 +62,7 @@ ms.locfileid: "4086892"
 
 Наприклад, на наведеному нижче малюнку містяться дві позиції продуктів з кількістю 8.00, які мають дебети, записані в стовпці «Сума». Крім того, існує дві позиції продукту з кількістю -8.00, які показують суму кредитів у стовпці «Сума». Ці виправлення дають у сумі кількість «нуль».
 
-![Зв’язане подання фактичних даних](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Зв’язане подання фактичних даних.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Виправлення затверджених записів витрат
 
@@ -87,4 +87,7 @@ ms.locfileid: "4086892"
 
 8. На сторінці проекту на вкладці **Фактичні дані** перегляньте **Зв’язане подання фактичних даних**. Вихідні та виправлені записи відобразяться в списку. Нижче показано вихідні суми запису витрат і відповідні виправлені суми запису витрат. 
 
-![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

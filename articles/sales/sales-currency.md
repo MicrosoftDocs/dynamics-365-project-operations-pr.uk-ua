@@ -2,11 +2,9 @@
 title: Валюта
 description: У цьому розділі наведено відомості про додавання та вилучення типів грошових одиниць у Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642298"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999611"
 ---
 # <a name="currency"></a>Валюта
 
@@ -71,3 +69,6 @@ _**Застосовується до:** Project Operations для сценарі
 
 > [!IMPORTANT]
 >  Неможливо видалити грошові одиниці, які використовуються для інших записів, видалити не можна; їх можна тільки вимкнути. У разі вимкнення записів грошових одиниць відомості про грошові одиниці, які зберігаються в наявних записах, наприклад у потенційних угодах і замовленнях, видалено не буде. Однак не можна вибрати вимкнену валюту для нових транзакцій.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

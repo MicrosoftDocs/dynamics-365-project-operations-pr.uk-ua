@@ -2,18 +2,16 @@
 title: Редагувати вимогу до ресурсів
 description: У цьому розділі наведено інформацію про оновлення відомостей вимоги до ресурсів.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
-ms.translationtype: HT
+ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128803"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999791"
 ---
 # <a name="edit-a-resource-requirement"></a>Редагувати вимогу до ресурсів
 
@@ -37,3 +35,5 @@ _**Застосовується до:** Project Operations для сценарі
 ## <a name="edit-resource-assignment-contours"></a>Редагування контурів призначення ресурсів
 
 Окрім редагування деталей вимог до ресурсів, менеджер проектів може оновлювати окремі контури вимоги до ресурсів за допомогою функції **Вказати шаблон**. У разі вибору функції **Вказати шаблон** відкриється сторінка, і можна буде переглянути контури за шкалою дня, тижня або місяця. Кожен контур можна відрегулювати за часом початку, часом завершення та загальним обсягом роботи за певний період.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

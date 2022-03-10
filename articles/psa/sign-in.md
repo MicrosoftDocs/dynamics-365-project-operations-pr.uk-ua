@@ -2,8 +2,6 @@
 title: Увійдіть до Project Service Automation
 description: Як увійти до Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 4302b922e3ed9a2d01f12473c272c58f888e19825424c319c0c49b80e79a8bea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951414"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990476"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Увійдіть до Project Service Automation
 

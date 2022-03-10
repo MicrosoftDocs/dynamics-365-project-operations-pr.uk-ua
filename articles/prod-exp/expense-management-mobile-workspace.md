@@ -2,12 +2,8 @@
 title: Мобільна робоча область керування витратами
 description: У цій темі наведено відомості про мобільну робочу область для керування витратами. У цій робочій області користувачі можуть збирати та передавати квитанції, щоб їх можна було пізніше вкласти до звіту про витрати. Користувачі також можуть швидко створювати рядки витрат, використовуючи для цього вкладені квитанції, а ще створювати звіти про витрати та керувати ними.
 author: suvaidya
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -17,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
-ms.translationtype: HT
+ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950504"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001501"
 ---
 # <a name="expense-management-mobile-workspace"></a>Мобільна робоча область керування витратами
 
@@ -104,7 +100,7 @@ ms.locfileid: "5950504"
 5. Після того, як ви виконаєте вхід, відобразяться доступні для вашої компанії робочі області. Зверніть увагу, що якщо пізніше системний адміністратор опублікує нову робочу область, вам доведеться оновити список мобільних робочих областей.
 
 
-[![Проведення для оновлення](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Проведення для оновлення.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Отримання квитанції за допомогою робочої області Керування витратами для мобільних пристроїв
 
