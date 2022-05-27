@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,22 +15,22 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986876"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574133"
 ---
 # <a name="products"></a>Продукти
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-Продукти є основою вашого бізнесу. Каталог продуктів у Dynamics 365 Sales Professional – це набір продуктів та відомості про ціни. Швидко створюйте каталог продуктів, щоб полегшити збільшення продажів для ваших торгових представників.
+Продукти є основою вашого бізнесу. Каталог продуктів Dynamics 365 Sales Professional – це набір продуктів та відомості про ціни. Швидко створюйте каталог продуктів, щоб полегшити збільшення продажів для ваших торгових представників.
 
 ## <a name="add-a-product"></a>Додавання продукту
 
-1.  Переконайтеся, що ви маєте роль професійного менеджера зі збуту або системного адміністратора, щоб можна було додавати продукти в Dynamics 365 Sales Professional.
+1.  Переконайтеся в наявності професійного керівника або ролі системного адміністратора, щоб можна було додавати продукти в Dynamics 365 Sales Professional.
 2.  На карті сайту в області **Настроювання** виберіть **Продукти**.
 3.  Виберіть **Додати продукт** і введіть зазначені нижче відомості.
 

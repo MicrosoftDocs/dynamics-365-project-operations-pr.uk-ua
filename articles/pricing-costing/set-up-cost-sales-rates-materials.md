@@ -2,16 +2,16 @@
 title: Налаштування норм вартості та збуту для матеріалів
 description: У цій темі викладаються відомості про те, як налаштувати норми вартості та збуту для матеріалів, що використовуються за проектами.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999206"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576893"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Налаштування норм вартості та збуту для матеріалів
 
@@ -25,6 +25,9 @@ _**Застосовується до:** Project Operations для сценарі
 2. У розділі **Позиції прайса** в меню вкладеної сітки виберіть **Нова позиція прайса**. 
 3. На сторінці **Швидке створення** введіть найменування продукту та одиницю, щодо яких ви створюєте нову ціну.
 
-Докладніше про те, як визначати ціни за статтями каталогу, див. у розділі [Налаштовуйте ціни для продуктів](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) і [Десяткова точність щодо валюти та ціноутворення](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Для отримання додаткових відомостей про визначення цін на товари каталогу [див](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products)[...](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations не підтримує всі методи ціноутворення для продуктів, як Dynamics 365 продажів. Єдиним методом ціноутворення, який підтримується для продуктів, які будуть використовуватися в проектах, є *сума валюти*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

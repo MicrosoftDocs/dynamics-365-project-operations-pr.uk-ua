@@ -4,20 +4,20 @@ description: У цьому розділі наведено відомості п
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
-ms.translationtype: HT
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323441"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575835"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Реєстрація для отримання підготовчих версій передплат Project Operations для сценаріїв на основі ресурсів і без запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 У цьому розділі ви дізнаєтесь, як підписатися на ознайомлювальну пропозицію та розгорнути середовище Project Operations на основі ресурсів і відсутності запасів.
 
@@ -40,7 +40,7 @@ _**Застосовується до:** Project Operations для сценарі
 
   Ви побачите, що пропозицію підтвердження успішно використано.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Підготовча ознайомлювальна версія Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance попередній перегляд ознайомлювальної версії
 
 Перейдіть до [ознайомлювальної підготовчої версії Dynamics 365 Finance](https://aka.ms/trypoche) та повторіть кроки з попереднього розділу із пропозицією «Зареєструйтеся в хмарному розміщеному середовищі».  
 
@@ -49,7 +49,7 @@ _**Застосовується до:** Project Operations для сценарі
 > [!IMPORTANT]
 > Щоб виконати наведені далі кроки, потрібно мати доступ адміністратора до порталу Microsoft 365 організації.
 
-1. Відкрийте [Центр адміністрування Microsoft 365](https://portal.office.com/), щоб призначити ліцензії користувачам.
+1. Перейдіть до [Microsoft 365 Центру](https://portal.office.com/) адміністрування, щоб призначити ліцензії користувачам.
 
 2. На сторінці **Активні користувачі** виберіть користувачів, яким потрібно призначити ліцензію.
 

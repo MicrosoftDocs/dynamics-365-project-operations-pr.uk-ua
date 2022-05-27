@@ -4,14 +4,14 @@ description: У цьому розділі описано параметри, я�
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007801"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8577169"
 ---
 # <a name="configure-expense-management-parameters"></a>Налаштування параметрів керування витратами
 

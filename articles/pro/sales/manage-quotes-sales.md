@@ -4,14 +4,14 @@ description: У цьому розділі наведено відомості п
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001546"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579607"
 ---
 # <a name="manage-project-quotes"></a>Керуйте ціновими пропозиціями проекту
 
@@ -31,6 +31,9 @@ _**Застосовується до:** Project Operations для сценарі
 2. За допомогою **Перемикача подання** виберіть інші відфільтровані подання цінових пропозицій. За допомогою спеціальних критеріїв фільтрування ви можете налаштувати власні подання та параметри навігації.
 
 На цій сторінці списку або на сторінках відомостей можна створювати або видаляти цінові пропозиції.
+
+ > [!NOTE]
+ > Цінові пропозиції, які мають проекти, завдання, оцінки, журнали та/або пов'язані з ними фактичні дані, не можна видалити. Крім того, коли цінова пропозиція закрита як Won або Lost, її більше не можна видалити або змінити. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

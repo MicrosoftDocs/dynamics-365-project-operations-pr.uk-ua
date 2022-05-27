@@ -4,14 +4,14 @@ description: У цьому розділі наведено відомості п
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24796eb70f5da6fa181ef7e88ec5d4d4fddbb436
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003211"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576617"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Оновлення у випуску за листопад 2020 р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
 
@@ -23,7 +23,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="regulatory-updates"></a>Оновлення нормативних вимог
 
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Dynamics 365 Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання відомостей про регуляторні оновлення для Dynamics 365 Finance and Operations програм [див](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

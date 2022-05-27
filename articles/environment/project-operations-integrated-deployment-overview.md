@@ -3,16 +3,15 @@ title: Огляд розгортання Project Operations для сценар�
 description: У цьому розділі наведено відомості про тип розгортання, операції Project для сценаріїв на основі ресурсів і відсутності запасів.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009736"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575150"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Огляд розгортання Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -32,7 +31,7 @@ _**Застосовується до:** Project Operations для сценарі
 - Визначення доходу для проектів
 - Розширюваність за допомогою Power Platform
 
-Цей тип розгортання забезпечує розширення для функцій, які надаються додатками Dynamics 365 Finance і Dynamics 365 Supply Chain Management.
+Цей тип розгортання надає розширення до функціональних можливостей, що надаються Dynamics 365 Finance та Dynamics 365 Supply Chain Management програмами.
 
 Це розгортання потрібно вибрати, оскільки очікується, що Project Operations буде використовувати повний життєвий цикл, що містить такі вимоги.
 
