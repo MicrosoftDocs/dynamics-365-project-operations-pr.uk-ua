@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001051"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683517"
 ---
 # <a name="project-contracts"></a>Проектні договори
 
@@ -45,7 +44,7 @@ ms.locfileid: "7001051"
 -   Дорожній проект спільно фінансується двома муніципалітетами.
 -   Проект мосту фінансується державним грантом і приватною корпорацією.
 
-У програмі Dynamics 365 Finance можна поділити рахунки за одну транзакцію або весь проект між кількома клієнтами, грантами або організаціями. 
+У Dynamics 365 Finance можна розділити виставлення рахунків за одну транзакцію або весь проект між кількома клієнтами, грантами або організаціями. 
 
 У проектах, які мають кількох спонсорів, всі сторони, які вносять вклад у фінансування проекту авансового фінансування, називаються джерелами фінансування. Після того, як клієнт, організація або грант визначаються як джерело фінансування, вони можуть бути призначені одному або кільком правилам фінансування. Правила фінансування містять умови, які визначають, як розподілені платежі між різними джерелами фінансування для проектів. 
 

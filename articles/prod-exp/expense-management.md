@@ -3,25 +3,23 @@ title: Огляд керування витратами
 description: У цьому розділі наведено загальні відомості про керування витратами та посилання на додаткові ресурси. За допомогою Керування витратами можна створити інтегрований робочий цикл, та зберігати в ньому відомості щодо способів оплати, імпортувати транзакції за кредитними картками, а також відстежувати гроші, які працівники витрачають, коли несуть витрати, пов’язані з вашим бізнесом.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001456"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684851"
 ---
 # <a name="expense-management-overview"></a>Огляд керування витратами
 
@@ -45,7 +43,7 @@ ms.locfileid: "7001456"
 
 ### <a name="blogs"></a>Блоґи
 
-Ви можете знайти думки, новини та інші відомості у [блозі Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) і [ блозі Microsoft Dynamics 365 Finance and Operations — Фінанси](https://community.dynamics.com/365/financeandoperations/b/financials).
+Ви можете знайти думки, новини та іншу інформацію на [Microsoft Dynamics блозі](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) 365 і [Microsoft Dynamics 365 фінансів і операцій - фінанси блог](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Блоґ спільноти партнерів Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) пропонує партнерам Microsoft Dynamics єдиний ресурс, де вони можуть дізнатися, що нового та що є популярним у MBS Operations.
 

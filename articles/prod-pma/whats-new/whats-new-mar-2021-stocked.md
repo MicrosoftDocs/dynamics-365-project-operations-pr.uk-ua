@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991196"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723747"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Що нового або змінилося в Project Operations у березні 2021 р. для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -20,7 +20,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
-- Керування проектами та бухгалтерський облік в середовищах програм Dynamics 365 Finance версії 10.0.17
+- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Функції, що містяться у цьому випуску
 До цього випуску увійшли перелічені нижче функції.
@@ -121,7 +121,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Керування проектами та бухгалтерський облік | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Успадкований метод класу робочої структури проекту (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** визнано застарілим.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates.md). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997226"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683245"
 ---
 # <a name="project-timesheet-mobile-application"></a>Програма для мобільних пристроїв Project Timesheet
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997226"
 
 ## <a name="overview"></a>Зведення
 
-Програма для мобільних пристроїв Microsoft Dynamics 365 Project Timesheet дозволяє користувачам надсилати й затверджувати табелі для проектів на своєму мобільному пристрої (iPhone або Android). Ця програма для мобільних пристроїв виводить на передній план функцію обробки табелів у області Dynamics 365 Finance, присвяченій керуванню проектами та бухгалтерському обліку. Завдяки цьому підвищується продуктивність і ефективність роботи користувача, а додатково забезпечується вчасне надсилання та затвердження табелів проекту.
+Програма для мобільних пристроїв Microsoft Dynamics 365 Project Timesheet дозволяє користувачам надсилати й затверджувати табелі для проектів на своєму мобільному пристрої (iPhone або Android). Цей мобільний додаток відображає функціональність табеля, яка знаходиться в області управління проектами та бухгалтерського обліку Dynamics 365 Finance, підвищуючи продуктивність та ефективність користувачів, а також забезпечуючи своєчасне введення та затвердження табелів проекту.
 
 ## <a name="download-and-install-the-mobile-app"></a>Завантажте та інсталюйте програму для мобільних пристроїв
 

@@ -1,32 +1,31 @@
 ---
-title: Синхронізуйте фактичні параметри проекту безпосередньо із Project Service Automation у журналі інтеграції проектів для публікації в Finance and Operations
-description: У цій темі описуються шаблони та основні завдання, що використовуються для синхронізації фактичних параметрів проекту безпосередньо з Microsoft Dynamics 365 Project Service Automation до Finance and Operations.
+title: Синхронізація фактичних даних проекту безпосередньо з автоматизації служби проекту до журналу інтеграції проектів для розміщення в галузі фінансів та операцій
+description: У цьому розділі описано шаблони та основні завдання, які використовуються для синхронізації фактичних даних проекту безпосередньо з Microsoft Dynamics 365 Project Service Automation фінансів та операцій.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988136"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683563"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Синхронізуйте фактичні параметри проекту безпосередньо із Project Service Automation у журналі інтеграції проектів для публікації в Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Синхронізація фактичних даних проекту безпосередньо з автоматизації служби проекту до журналу інтеграції проектів для розміщення в галузі фінансів та операцій
 
 [!include[banner](../includes/banner.md)]
 
-У цій темі описуються шаблони та основні завдання, що використовуються для синхронізації фактичних параметрів проекту безпосередньо з Dynamics 365 Project Service Automation до Dynamics 365 Finance.
+У цьому розділі описано шаблони та основні завдання, які використовуються для синхронізації фактичних даних проекту безпосередньо від Dynamics 365 Project Service Automation до Dynamics 365 Finance.
 
 У цьому шаблоні синхронізуються транзакції з Project Service Automation у проміжну таблицю в Finance. Після завершення синхронізації ви **повинні** імпортувати дані з проміжної таблиці до журналу інтеграції.
 
@@ -42,7 +41,7 @@ ms.locfileid: "6988136"
 
 Наведена далі ілюстрація показує, як синхронізуються дані між Project Service Automation і Finance.
 
-[![Потік даних для інтеграції Project Service Automation з Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Потік даних для інтеграції автоматизації послуг проекту з фінансами та операціями.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Фактичні параметри проекту з Project Service Automation
 
@@ -75,7 +74,7 @@ ms.locfileid: "6988136"
 
 ### <a name="power-query"></a>Power Query
 
-Для виконання цих завдань ви маєте використовувати Microsoft Power Query для Excel у шаблоні фактичних параметрів проекту:
+У шаблоні фактичних значень проекту слід використовувати Microsoft Power Query для Excel для виконання таких завдань:
 
 - Трансформуйте тип транзакції в Project Service Automation на правильний тип транзакції в Finance. Така трансформація вже визначена в шаблоні фактичних параметрів проекту (PSA до Fin і Ops).
 - Трансформуйте тип виставлення рахунків у Project Service Automation на правильний тип виставлення рахунків у Finance. Така трансформація вже визначена в шаблоні фактичних параметрів проекту (PSA до Fin і Ops). Після цього, залежно від конфігурації сторінки **параметрів інтеграції Project Service Automation**, тип виставлення рахунків співставляється з властивістю рядка.
@@ -84,9 +83,9 @@ ms.locfileid: "6988136"
 - Якщо фактичні параметри внутрішнього часу або внутрішніх витрат не синхронізуються до Finance, ви маєте видалити з шаблону останній вставлений умовний стовпець. У іншому разі могла статися помилка інтеграції або до Finance імпортувалися невірні фактичні транзакції.
 
 #### <a name="contract-organizational-unit"></a>Договірна організаційна одиниця
-Щоб оновити вставлений умовний стовпець у шаблоні, клацніть стрілку **Карта**, щоб відкрити зіставлення. Виберіть посилання **Розширений запит і фільтрування**, щоб відкрити Power Query.
+Щоб оновити вставлений умовний стовпець у шаблоні, клацніть стрілку **Карта**, щоб відкрити зіставлення. Виберіть посилання Розширений **запит і фільтрування**, щоб відкрити Power Query.
 
-- Якщо ви використовуєте шаблон фактичних параметрів проекту за замовчуванням (PSA до Fin і Ops), у Power Query виберіть останню **Вставлену умову** в розділі **Застосовані кроки**. У записі **Функція** замініть **USSI** найменуванням юридичної особи, яке слід використовувати при інтеграції. Додайте умови до запису **Функція** залежно від своїх вимог і оновіть умову **в іншому разі** з **USMF** для правильної юридичної особи.
+- Якщо використовується шаблон фактичних компонентів проекту за промовчанням (PSA до Fin і Ops), у Power Query програмі виберіть останню **вставлену умову** **в розділі Застосовані кроки**. У записі **Функція** замініть **USSI** найменуванням юридичної особи, яке слід використовувати при інтеграції. Додайте умови до запису **Функція** залежно від своїх вимог і оновіть умову **в іншому разі** з **USMF** для правильної юридичної особи.
 - Якщо ви створюєте новий шаблон, ви маєте додати стовпець для внутрішнього часу та витрат. Виберіть **Додати умовний стовпець** і введіть ім’я стовпця, наприклад **Юридична особа**. Введіть умову для стовпця, де, якщо **msdyn\_contractorganizationalunitid.msdyn\_name** є \<organizational unit\>, тоді \<enter the legal entity\>; в іншому разі null-значення.
 
 ### <a name="template-mapping-in-data-integration"></a>Зіставлення шаблонів у інтеграції даних
@@ -126,7 +125,7 @@ ms.locfileid: "6988136"
 
 ### <a name="power-query"></a>Power Query
 
-Для виконання цих завдань ви маєте використовувати Microsoft Power Query у шаблоні оновлення фактичних параметрів проекту:
+У шаблоні оновлення фактичних компонентів проекту потрібно виконати Power Query такі завдання:
 
 - Трансформуйте тип транзакції в Finance на правильний тип транзакції в Project Service Automation. Така трансформація вже визначена в шаблоні оновлення фактичних параметрів проекту (Fin Ops до PSA)
 - Трансформуйте тип виставлення рахунків у Finance на правильний тип виставлення рахунків у Project Service Automation. Така трансформація вже визначена в шаблоні оновлення фактичних параметрів проекту (Fin Ops до PSA)

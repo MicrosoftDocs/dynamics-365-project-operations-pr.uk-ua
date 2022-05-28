@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001501"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682827"
 ---
 # <a name="expense-management-mobile-workspace"></a>Мобільна робоча область керування витратами
 
@@ -35,7 +34,7 @@ ms.locfileid: "7001501"
 
 Зокрема, мобільна робоча область **Керування витратами** дає користувачам змогу виконувати перелічені нижче завдання.
 
-- Зробіть фотографію квитанції та передайте її до Dynamics 365 Finance. Таке фото можна додати до звіту про витрати пізніше.
+- Сфотографуйте квитанцію та завантажте її до Dynamics 365 Finance. Таке фото можна додати до звіту про витрати пізніше.
 - Передавати файли із отриманими квитанціями. Такий файл можна додати до звіту про витрати пізніше.
 - Створювати нові рядки витрат за допомогою вкладених квитанцій. Елемент рядка можна додати до звіту про витрати пізніше, а тоді надіслати звіт для затвердження та відшкодування.
 
@@ -53,7 +52,7 @@ ms.locfileid: "7001501"
 ## <a name="prerequisites"></a>Вимоги
 Попередні умови відрізняються залежно від версії, яку розгорнуто у вашій організації.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Необхідні компоненти при використанні Dynamics 365 Finance 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Попередні вимоги, якщо ви використовуєте Dynamics 365 Finance 
 Якщо у вашій організації розгорнуто Finance, системний адміністратор має опублікувати мобільну робочу область **Керування витратами**. Інструкцію див. у розділі [Публікуйте мобільні робочі області](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Попередні умови, якщо ви використовуєте версію 1611 з оновленням платформи 3 або пізнішого випуску

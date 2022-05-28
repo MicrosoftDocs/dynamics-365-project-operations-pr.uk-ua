@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989576"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683977"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Мобільна робоча область для введення часу проекту
 
@@ -45,7 +44,7 @@ ms.locfileid: "6989576"
 ## <a name="prerequisites"></a>Вимоги
 Необхідні компоненти відрізняються залежно від версії Microsoft Dynamics 365, яку розгорнуто у вашій організації.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Необхідні компоненти при використанні Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Попередні вимоги, якщо ви використовуєте Dynamics 365 Finance
 Якщо у вашій організації розгорнуто Finance, системний адміністратор має опублікувати мобільну робочу область **Project time entry**. Інструкцію див. у розділі [Публікуйте мобільну робочу область](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Необхідні компоненти, якщо ви використовуєте версію 1611 з оновленням платформи 3 або пізнішого випуску
@@ -83,7 +82,7 @@ ms.locfileid: "6989576"
 
 ## <a name="download-and-install-the-mobile-app"></a>Завантажте та інсталюйте програму для мобільних пристроїв
 
-Завантажте та інсталюйте програму для мобільних пристроїв Finance and Operations:
+Завантажте та встановіть мобільний додаток «Фінанси та операції»:
 
 -   [Для телефонів Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для пристроїв iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

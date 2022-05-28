@@ -1,32 +1,31 @@
 ---
-title: Синхронізуйте категорії витрат за проектом між Finance and Operations і Project Service Automation
-description: У цій темі описуються шаблони та основні завдання, що використовуються для синхронізації категорій витрат за проектом між Microsoft Dynamics 365 Finance і Dynamics 365 Project Service Automation.
+title: Синхронізація категорій витрат на проект між фінансами та операціями та автоматизацією послуг проекту
+description: У цьому розділі описано шаблони та основні завдання, які використовуються для синхронізації категорій витрат на проект між Microsoft Dynamics 365 фінансами та програмами Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001141"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685495"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Синхронізуйте категорії витрат за проектом між Finance and Operations і Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Синхронізація категорій витрат на проект між фінансами та операціями та автоматизацією послуг проекту
 
 [!include[banner](../includes/banner.md)]
 
-У цій темі описуються шаблони та основні завдання, що використовуються для синхронізації категорій витрат за проектом між Dynamics 365 Finance і Dynamics 365 Project Service Automation.
+У цьому розділі описано шаблони та основні завдання, які використовуються для синхронізації категорій витрат на проект між Dynamics 365 Finance та Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - У версії 8.0 доступні інтеграція завдань за проектом, категорії транзакцій витрат, оцінки часу, кошториси витрат і блокування функцій.
@@ -81,10 +80,10 @@ ms.locfileid: "7001141"
 
 ### <a name="power-query"></a>Power Query
 
-При синхронізації до Project Service Automation слід використовувати Microsoft Power Query для Excel, щоб задати тип виставлення рахунків у категорії транзакцій. У шаблоні витрат за проектом (FIN і OPS до PSA) передбачено стовпець за замовчуванням і зіставлення. У разі створення власного шаблона потрібно додати умовний стовпець у Power Query. Виконайте ці кроки.
+Під час синхронізації з автоматизацією служб Project потрібно настроїти тип виставлення рахунків у категорії транзакції за допомогою Microsoft Power Query для Excel. У шаблоні витрат за проектом (FIN і OPS до PSA) передбачено стовпець за замовчуванням і зіставлення. У разі створення власного шаблону слід додати умовний стовпець у програмі Power Query. Виконайте ці кроки.
 
 1. Клацніть стрілку, щоб відкрити зіставлення завдання категорій витрат за проектом у шаблоні категорій транзакцій витрат за проектом (Fin і Ops до PSA).
-2. Клацніть посилання **Розширений запит і фільтрування**, щоб відкрити Power Query.
+2. Клацніть посилання Попередній **запит і фільтрування,** щоб відкрити Power Query.
 2. Виберіть **Додати умовний стовпець**.
 3. Введіть ім'я нового стовпця, наприклад, **Тип виставлення рахунків**.
 4. Введіть наведену далі умову: **якщо CATEGORYID не дорівнює null-значенню, тоді 19235001, у іншому разі null-значення**.

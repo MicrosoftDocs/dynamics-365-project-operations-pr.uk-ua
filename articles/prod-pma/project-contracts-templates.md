@@ -1,34 +1,33 @@
 ---
 title: Синхронізація проектних сервісних договорів і проектів безпосередньо з Project Service Automation до Finance
-description: У цій темі описується шаблон та основні завдання, що використовуються для синхронізації сервісних договорів проекту та проектів безпосередньо з Microsoft Dynamics 365 Project Service Automation до Dynamics 365 Finance.
+description: У цьому розділі описано шаблон і основні завдання, які використовуються для синхронізації контрактів на проект і проектів безпосередньо від Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance до Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001096"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684667"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Синхронізація проектних сервісних договорів і проектів безпосередньо з Project Service Automation до Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-У цій темі описується шаблон та основні завдання, що використовуються для синхронізації сервісних договорів проекту та проектів безпосередньо з Dynamics 365 Project Service Automation до Dynamics 365 Finance.
+
+У цьому розділі описано шаблон і основні завдання, які використовуються для синхронізації контрактів на проект і проектів безпосередньо від Dynamics 365 Project Service Automation Dynamics 365 Finance до Dynamics 365 Finance.
 
 > [!NOTE] 
 > Якщо ви використовуєте Enterprise edition 7.3.0, ви маєте інсталювати базу знань KB 4074835.
@@ -121,15 +120,15 @@ ms.locfileid: "7001096"
 
 ## <a name="power-query"></a>Power Query
 
-Скористайтеся програмою Microsoft Power Query для Excel для фільтрації даних за виконання наведених нижче умов.
+Фільтрування даних використовується за допомогою корпорації Майкрософт Power Query для Excel, якщо виконуються такі умови:
 
 - У Dynamics 365 Sales є замовлення.
 - У Project Service Automation є кілька організаційних одиниць, і ці організаційні одиниці будуть зіставлені з кількома юридичними особами у Finance.
 
-Дотримуйтеся цих рекомендацій, якщо передбачається використання Power Query:
+Якщо потрібно використовувати Power Query, дотримуйтесь таких вказівок:
 
 - У шаблоні проектів і сервісних договорів (PSA в Fin і Ops) є фільтр за замовчуванням, який містить лише замовлення на продаж типу **Work item (msdyn\_ordertype = 192350001)**. Цей фільтр допомагає гарантувати, що сервісні договори проектів не створюються для замовлень на продаж у Finance. Цей фільтр слід додати в разі створення власного шаблона.
-- Створіть фільтр Power Query, який включає тільки організації сервісного договору, які мають синхронізуватися з юридичною особою набору підключень для інтеграції. Наприклад, проектні сервісні договори між вами та організаційною одиницею сервісного договору компанії Contoso US слід синхронізувати з юридичною особою USSI, а проектні сервісні договори між вами та організаційною одиницею сервісного договору Contoso Global слід синхронізувати з юридичною особою USMF. Якщо цей фільтр не додано до зіставлення завдань, усі сервісні договори проекту буде синхронізовано з юридичною особою, визначеною для набору підключень, незалежно від організаційної одиниці сервісного договору.
+- Power Query Створіть фільтр, який включає лише підрядні організації, які слід синхронізувати з юридичною особою набору інтеграційних підключень. Наприклад, сервісні договори проекту, які ви маєте з організаційної одиницею сервісного договору Contoso US мають бути синхронізовані з юридичною особою USSI, але сервісні договори проекту, які ви маєте з організаційною одиницею Contoso Global мають бути синхронізовані з юридичною особою USMF. Якщо цей фільтр не додано до зіставлення завдань, усі сервісні договори проекту буде синхронізовано з юридичною особою, визначеною для набору підключень, незалежно від організаційної одиниці сервісного договору.
 
 ## <a name="template-mapping-in-data-integration"></a>Зіставлення шаблонів у інтеграції даних
 

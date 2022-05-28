@@ -4,14 +4,14 @@ description: У цьому розділі наведено відомості п
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007981"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600399"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за листопад 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -20,7 +20,7 @@ _**Застосовується до:** Project Operations для сценарі
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
 - Project Operations у середовищі CDS версії 4.4.0.70
-- Керування проектами та бухгалтерський облік в середовищах програм Dynamics 365 Finance версії 10.0.14
+- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Оновлення Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -42,7 +42,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Час і швидкі витрати пусті | 2059859          | Під час створення запису про витрати з’являється неочікуване спливаюче вікно.                                                                                                                         |
 | Інший                        | 2044181          | (Видалення рахунку за замовлення)   Під час спроби видалити рішень msdyn_ProjectServiceCore_Patch і msdyn Project   service core з’являється помилка «Запис недоступний».  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Керування проектами та бухгалтерський облік у Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Управління проектами та бухгалтерський облік в Dynamics 365 Finance
 
 | Розділ функції        | Номер посилання | Оновлення якості                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Бухгалтерський облік проектів  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Якщо ввімкнути функцію, то кілька сервісних робіт за договором не можливо виконати без інтеграції з CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

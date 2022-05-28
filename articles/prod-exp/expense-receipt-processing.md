@@ -1,24 +1,23 @@
 ---
 title: Обробка квитанцій на витрати
-description: У цьому розділі наведено відомості про оптичне розпізнавання символів (OCR) на квитанціях. Ця функція покликана вдосконалити процедуру створення користувачами звітів про витрати у Microsoft Dynamics 365 Finance.
+description: У цьому розділі наведено відомості про оптичне розпізнавання символів (OCR) на квитанціях. Ця функція призначена для поліпшення користувацького досвіду, коли звіти про витрати створюються в Microsoft Dynamics 365 Фінанс.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001411"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684345"
 ---
 # <a name="expense-receipt-processing"></a>Обробка квитанцій на витрати
 
@@ -51,7 +50,7 @@ ms.locfileid: "7001411"
 
 Ця функція працює у сполученні з функцією **Переосмислені звіти про витрати** та допомагає спростити роботу з витратами. Ця функція доступна лише для середовищ рівня 2+, тобто, ізольованих та виробничих.
 
-Щоб скористатися цими додатковими можливостями для витрат, інсталюйте надбудову для служби керування витратами для Microsoft Dynamics 365 Finance і увімкніть функції у вашій інсталяції. Ви можете знайти цю надбудову у своєму проекті в Microsoft Dynamics Lifecycle Services (LCS).
+Щоб скористатися цими розширеними можливостями витрат, інсталюйте надбудову служби управління витратами для Microsoft Dynamics 365 Finance і ввімкніть функції у вашому екземплярі. Ви можете знайти цю надбудову у своєму проекті в Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Увійдіть у LCS і відкрийте потрібне середовище.
 2. Виберіть **Детальна інформація**.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008071"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600905"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового в липні 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008071"
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
    - Project Operations у середовищі Microsoft Dataverse версії 4.12.0.148 або 4.12.0.152.
-   - Керування проектами та бухгалтерський облік в середовищі Dynamics 365 Finance версії 10.0.20.
+   - Управління проектами та бухгалтерський облік в Dynamics 365 Finance середовищі версії 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Функції, що містяться у цьому випуску
 
@@ -80,7 +80,7 @@ ms.locfileid: "7008071"
 | Загальні                       | 2253682              | Рішення подвійного записування Project Operations не повинно інсталюватися, якщо ядро подвійного запису інстальовано в середовищі, в якому відсутнє рішення оркестрації подвійного запису.                                                |
 | Загальні                       | 2316420              | Основну ініціалізацію Project Service не вдається виконати, якщо змінено організаційну одиницю користувача програми.                                                                                                                     |
 | Загальні                       | 2376405              | Виправлена проблема оновлення, викликана видавцем (оновлення якості доступне у версії 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Керування проектами та бухгалтерський облік у Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Управління проектами та бухгалтерський облік на Dynamics 365 Finance
 
 | Розділ функції                      | Номер посилання | Оновлення якості                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993896"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8728029"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Використовуйте надбудову Project Service, щоб планувати вашу роботу в Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "6993896"
 ## <a name="download-and-install-the-add-in"></a>Завантажте та інсталюйте додаток  
  Підготуйте дані для входу [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Вам знадобиться ця інформація для з'єднання від [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] до [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  У Центрі завантажень завантажте надбудову для підтримуваної версії Project Service: [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) або [v3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  У Центрі завантажень завантажте надбудову для підтримуваної версії Project Service: [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) або [v3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Клацніть посилання завантаження.  
 

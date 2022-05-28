@@ -1,6 +1,6 @@
 ---
 title: Налаштування керування витратами
-description: У цій статті описуються міркування та рішення, які необхідно виконати під час процесу планування, перш ніж настроювати керування витратами в Microsoft Dynamics 365 Finance.
+description: У цій статті описано міркування та рішення, які необхідно прийняти під Вільний час планування, перш ніж настроїти управління витратами в Microsoft Dynamics 365 фінанси.
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eca4362b0ff5d37b131e1d96e311aa48ac20397618314936944ba66e458dbdc2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
+ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007486"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710159"
 ---
 # <a name="configure-expense-management"></a>Налаштування керування витратами
 
