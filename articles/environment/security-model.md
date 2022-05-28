@@ -4,20 +4,20 @@ description: У цьому розділі наведено відомості п
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991511"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585771"
 ---
 # <a name="security-model"></a>Модель безпеки
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations містить унікальну модель безпеки, яка дає змогу використовувати модель бізнес-безпеки на основі ролей, яка співпрацює з Групами Microsoft Office. 
 
@@ -70,7 +70,7 @@ Project Operations не створює групу на основі неявно
 
 Додаткові відомості див. в розділі [Безпека в Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Безпека в Project Operations і Microsoft Dynamics 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Проектні операції та Microsoft Dynamics 365 Фінансова безпека
 Project Operations мають такі ролі:
 
 - Менеджер проектів

@@ -3,16 +3,15 @@ title: Огляд внутрішнього виставлення рахункі
 description: У цьому розділі наведено відомості та приклади внутрішнього виставлення рахунка-фактури для проектів.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005416"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586277"
 ---
 # <a name="intercompany-invoicing-overview"></a>Огляд внутрішнього виставлення рахунків
 
@@ -20,7 +19,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 У вашій організацій може бути багато відділень, дочірніх компаній та інших юридичних осіб, які передають одна одній продукти та послуги для реалізації проектів. Юридична особа, яка надає послугу або продукт, називається *юридичною особою, яка надає позику*. Юридична особа, яка отримує послугу або продукт, називається *юридичною особою, яка бере позику*.
 
-У наведеному далі сценарії показано типовий розвиток подій, коли дві юридичних особи Contoso Robotics США (юридична особа – позичальник) і Contoso Robotics (юридична особа – кредитор) спільно користуються ресурсами для виконання проекту для клієнта – компанії Adventure Works. За цим сценарієм компанія Contoso Robotics США є підрядником за сервісним договором для виконання роботи для компанії Adventure Works.
+Нижче зображено типовий сценарій, в якому дві юридичні особи Contoso Robotics USA (бере позику) і Contoso Robotics UK (дає позику) ділять ресурси, щоб доставити проект до клієнта, Adventure works. Для цього сценарію Contoso Robotics USA зобов'язана за контрактом виконати роботу для Adventure Works.
 
 ![Внутрішнє виставлення рахунків.](./media/IntercompanyScenario.png) 
 

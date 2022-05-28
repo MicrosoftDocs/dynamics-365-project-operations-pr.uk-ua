@@ -4,14 +4,14 @@ description: У цьому розділі наведено відомості п
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989936"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585633"
 ---
 # <a name="manage-project-invoice-proposals"></a>Керування пропозицій рахунків-фактур для проектів
 
@@ -22,7 +22,7 @@ _**Застосовується до:** Project Operations для сценарі
   - Керівник проекту підтверджує рахунок-проформу у програмі Microsoft Dataverse.
   - Неоплачувані транзакції збуту за час і матеріали, включені в рахунок-проформу, публікуються за допомогою журналу Dynamics 365 **Інтеграція Project Operations**.
 
-Щоб заповнити пропозицію рахунка проекту в програмі Dynamics 365 Finance, виконайте наведені дії.
+Щоб завершити пропозицію рахунка-фактури проекту в Dynamics 365 Finance, виконайте наведені нижче дії.
 
 1. Перегляньте інформацію про виставлення рахунку для транзакції часу та матеріалів та опублікуйте журнал **Інтеграція Project Operations Integration**.
 2. Перегляньте інформацію про виставлення рахунку для проміжних етапів виставлення рахунків із фіксованою ціною.

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547179"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582919"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у вересні 2021 р. – Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547179"
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
    - Project Operations в середовищі Microsoft Dataverse версії 4.14.0.99.
-   - Керування проектами та бухгалтерський облік в середовищі Dynamics 365 Finance версії 10.0.20.
+   - Управління проектами та бухгалтерський облік в Dynamics 365 Finance середовищі версії 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Оновлення зіставлень з подвійним записуванням в Project Operations
 
@@ -45,7 +45,7 @@ ms.locfileid: "7547179"
 | Виставлення рахунків і визначення цін | 2385802 | Виправлено помилку, яка виникає стосовно негативних фактичних годин при оновленні підсумку проекту. |
 | Виставлення рахунків і визначення цін | 2389675 | Функціональність підтвердження рахунка-фактури покращено. Сутність із тривалими завданнями має враховувати справу, яка є необхідною для запису результатів підтвердження для бухгалтерського обліку. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Керування проектами та бухгалтерський облік у Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Управління проектами та бухгалтерський облік в Dynamics 365 Finance
 
 | Розділ функції | Номер посилання | Оновлення якості |
 | --- | --- | --- |

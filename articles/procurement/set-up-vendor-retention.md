@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594640"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583729"
 ---
 # <a name="set-up-vendor-retention"></a>Налаштування утримання постачальників
 
@@ -22,7 +22,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Налаштуйте статтю з обліку утримання постачальників у головній бухгалтерській книзі
 
-1. У Dynamics 365 Finance перейдіть до розділу **Головна книга** > **Налаштування записів** > **Рахунки для автоматичних транзакцій**.
+1. У Dynamics 365 Finance перейдіть до **головної бухгалтерської книги** > **проводки настроювання** > **облікових записів для автоматичних операцій**.
 2. Додати новий рядок.
 3. У полі **Тип запису** виберіть **Утримання постачальника**.
 4. Виберіть основний рахунок для записів із утримання постачальника.

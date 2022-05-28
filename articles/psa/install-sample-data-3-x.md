@@ -3,19 +3,19 @@ title: Інсталяція прикладів даних
 description: У цьому розділі наведено відомості про інсталяцію прикладів даних у програмі Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 952f3c3c037bb8459bdd1400288c4ea8604ce282
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985571"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581861"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Інсталяція зразків даних для програми Project Service
 
@@ -135,7 +135,7 @@ ms.locfileid: "6985571"
     - Повне ім’я користувача = "Ганна Коваль" як менеджерка облікового запису   
     - Повне ім’я користувача = "Сергій Малий» як менеджера проектів та практичних заходів  
     - Повне ім’я користувача = "Вероніка Прудка" як член робочої групи   
-    - Повне ім’я користувача = "William Contoso"
+    - Повне ім’я користувача = "Василь Карабін"
   
 2. З метою імпортування демо-даних призначте шість користувачів більше ролі адміністратора, щоб зразки записів імпортувати належним чином. 
 

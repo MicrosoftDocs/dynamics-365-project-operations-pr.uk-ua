@@ -2,22 +2,22 @@
 title: Реєстрація для отримання ознайомлювальних версій Project Operations
 description: У цьому розділі наведено відомості про розгортання ознайомлювальної версії Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
-ms.translationtype: HT
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901642"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584299"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Реєстрація для отримання ознайомлювальних версій Project Operations 
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, розгортання Lite — від угоди до рахунків-проформ і Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 У цьому розділі описано, як підписатися на партнерську пропозицію підготовчої версії та розгорнути середовище Dynamics 365 Project Operations.
 
@@ -36,7 +36,6 @@ _**Застосовується до:** Project Operations для сценарі
 | Використання пропозиції                    | Один раз для клієнта                          |
 | Тривалість пропозиції               | 30 календарних днів                             |
 | Активації на клієнт       | 1                                            |
-| Кількість користувачів              | 25                                           |
 | Розширення                    | 1 розширення, 30 календарів днів               |
 | Кількість ознайомлювальних середовищ | 3                                            |
 
@@ -87,17 +86,17 @@ _**Застосовується до:** Project Operations для сценарі
  
   Після завершення підготовки станом середовища є **Готово**. Підготовка середовища включає розгортання демонстраційних даних.
  
-4.  Виберіть відповідну URL-адресу Microsoft Dataverse і URL-адреси програм Finance and Operations для підтвердження розгортання.
+4.  Виберіть відповідну Microsoft Dataverse URL-адресу та URL-адреси програм "Фінанси та операції", щоб перевірити розгортання.
 
 ## <a name="configuring-dual-write"></a>Налаштування подвійного записування
-- Щоб настроїти ролі безпеки для подвійного записування, перегляньте [статтю Оновлення параметрів безпеки в розділі Операції проекту у програмі Dataverse](resource-provision-new-environment.md).
-- Щоб настроїти карти подвійного записування, перегляньте [статтю Запуск карт подвійного записування операцій проекту](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
+- Щоб настроїти ролі безпеки для подвійного записування, див [Dataverse](resource-provision-new-environment.md).
+- Щоб настроїти карти подвійного запису, див [...](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Призначення ліцензій
 
 Щоб виконати наведені далі кроки, потрібно мати доступ адміністратора до порталу Microsoft 365 організації.
 
-1. Перейдіть до [Центру адміністрування Microsoft 365](https://portal.office.com/), щоб призначити ліцензії користувачам.
+1. Перейдіть до [Microsoft 365 Центру](https://portal.office.com/) адміністрування, щоб призначити ліцензії користувачам.
 
    ![Головна сторінка центру адміністрування](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="frequently-asked-questions"></a>Запитання й відповіді
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Що робити, якщо для мого середовища програм Finance and Operations потрібні ALM або ELM?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Що робити, якщо для мого середовища програм «Фінанси та операції» потрібні ALM або ELM?
 
 - Партнери, яким потрібні повні можливості керування життєвим циклом середовища, див. розділ [Запит ліцензії на ізольоване партнерське середовище](https://experience.dynamics.com/requestlicense), щоб переглянути нову пропозицію партнера. 
 - Партнери, які шукають додаткові відомості про права на внутрішнє використання, див. розділ [Хмарні та програмні переваги прав на внутрішнє використання (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
@@ -125,7 +124,7 @@ _**Застосовується до:** Project Operations для сценарі
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>Чи можу я подовжити ознайомлювальну версію після 30 днів?
 Щоб подовжити ознайомлювальну версію, виконайте описані нижче кроки.
 
-1. У **Центрі адміністрування Microsoft 365** перейдіть до розділу **Виставлення рахунків** > **Ваші продукти**.
+1. **Microsoft 365 У Центрі** адміністрування перейдіть на сторінку **Виставлення рахунків** > **за товари**.
 2. Виберіть **Dynamics 365 Project Operations (CE) - ознайомлювальна підготовча версія**.
 3. В області **Дата закінчення дії** виберіть **Подовжити дату**.
 

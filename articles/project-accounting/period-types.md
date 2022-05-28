@@ -4,14 +4,14 @@ description: У цьому розділі наведено відомості п
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998801"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580481"
 ---
 # <a name="period-types"></a>Типи періодів
 
@@ -22,7 +22,7 @@ _**Застосовується до:** Project Operations для сценарі
 ## <a name="create-and-work-with-period-types"></a>Створення типів періоду й робота з ними
 Щоб створити типи періодів і працювати з ними, виконайте зазначені нижче кроки.
 
-1. У середовищі Dynamics 365 Finance відкрийте меню **Керування проектом і бухгалтерський облік** > **Налаштування** > **Оцінювання** > **Типи періоду**.
+1. У Dynamics 365 Finance середовищі перейдіть до **типів періоду оцінки** > **періоду керування проектами та облікового запису** > **·** > **·**.
 2. Щоб створити новий тип періоду, виберіть **Створити**. Введіть ім’я та опис.
 3. Уведіть значення в полі **Частота**
 
