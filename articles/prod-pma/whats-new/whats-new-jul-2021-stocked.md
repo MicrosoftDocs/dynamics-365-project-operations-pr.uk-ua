@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992726"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597087"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Нововведення та зміни в липні 2021 р. у Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
 
@@ -20,7 +20,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
-- Керування проектами та бухгалтерський облік в середовищах програм Dynamics 365 Finance версії 10.0.20
+- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.20
  
 ### <a name="quality-updates"></a>Оновлення якості
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Подорожі й витрати                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Засіб **Скинути стан документа витрати** має скидати стан звіту про витрати на **Чернетка**, якщо не знайдено робочого циклу. 
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Також ви можете увійти в Lifecycle Services (LCS) і переглянути заплановані регуляторні оновлення, використовуючи засіб пошуку проблем. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Також ви можете увійти в Lifecycle Services (LCS) і переглянути заплановані регуляторні оновлення, використовуючи засіб пошуку проблем. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

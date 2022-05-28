@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008116"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599571"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -22,7 +22,7 @@ _**Застосовується до:** Project Operations для сценарі
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
   - Project Operations у середовищі Dataverse версії 4.6.0.154
-  - Керування проектами та бухгалтерський облік в середовищах програм Dynamics 365 Finance версії 10.0.16
+  - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.16
 
 ## <a name="quality-updates"></a>Оновлення якості
 
@@ -43,7 +43,7 @@ _**Застосовується до:** Project Operations для сценарі
 | **Планування проекту та його відстеження** | 2090202 | Позначено бізнес-правила, які більше не використовуються як **Застарілі**. |
 | **Час і витрати** | 2091249 | Запроваджено суворіший контроль, щоб користувачі не могли змінити завдання на запис часу, який було схвалено або надіслано. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Керування проектами та бухгалтерський облік у Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Управління проектами та бухгалтерський облік в Dynamics 365 Finance
 
 | **Розділ функції** | **Номер посилання** | **Оновлення якості** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="regulatory-updates"></a>Оновлення нормативних вимог
 
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

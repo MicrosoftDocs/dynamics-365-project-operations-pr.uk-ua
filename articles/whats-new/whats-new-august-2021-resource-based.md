@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501396"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594189"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового в серпні 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501396"
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
    - Project Operations в середовищі Microsoft Dataverse версії 4.13.0.152.
-   - Керування проектами та бухгалтерський облік в середовищі Dynamics 365 Finance версії 10.0.20.
+   - Управління проектами та бухгалтерський облік в Dynamics 365 Finance середовищі версії 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Функції, що містяться у цьому випуску
 
@@ -54,7 +54,7 @@ ms.locfileid: "7501396"
 | Час і витрати | 2336884 | Кнопка запису часу **Копіювати тиждень** має працювати не тільки для поточного користувача. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Керування проектами та бухгалтерський облік у Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Управління проектами та бухгалтерський облік на Dynamics 365 Finance
 
 | Розділ функції | Номер посилання | Оновлення якості |
 | --- | --- | --- |

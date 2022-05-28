@@ -4,14 +4,14 @@ description: У цьому розділі наведено відомості п
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993581"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594235"
 ---
 # <a name="set-up-cost-templates"></a>Налаштування шаблонів витрат
 
@@ -56,7 +56,7 @@ _**Застосовується до:** Project Operations для сценарі
 ## <a name="create-cost-templates"></a>Створення шаблонів витрат
 Щоб створити шаблон витрат, виконайте зазначені нижче дії.
 
-1. Щоб отримати доступ до шаблонів витрат, у середовищі Dynamics 365 Finance виберіть **Керування проектами та бухгалтерський облік** > **Настроювання** > **Оцінювання** > **Шаблон витрат**.
+1. Щоб отримати доступ до шаблонів витрат, у Dynamics 365 Finance середовищі перейдіть до **шаблону Керування проектами та бухгалтерського обліку** > **Оцінки витрат** > **на настроювання** > **·**.
 2. Щоб створити новий шаблон витрат, виберіть **Створити**. Введіть ім’я та опис.
 3. Укажіть ідентифікатор рядка витрат для кожного типу транзакції.
 4. Виберіть метод виконання за замовчуванням:

@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
-ms.translationtype: HT
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928686"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594879"
 ---
 # <a name="provision-a-new-environment"></a>Підготовка нового середовища
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 У цьому розділі наведено відомості про підготовку нового середовища Dynamics 365 Project Operations для сценаріїв на основі ресурсів/нескладських матеріалів.
 
@@ -34,7 +34,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="provision-a-project-operations-environment"></a>Підготовка середовища Project Operations
 
-1. Відкрийте нове розгортання [демо-середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) або [робочого/ізольованого програмного середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) Dynamics 365 Finance. 
+1. Відкрийте нове Dynamics 365 Finance [демо-середовище](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) або [розгортання пісочниці/ виробничого середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Виконайте вказівки майстра **Підготовка середовища**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ _**Застосовується до:** Project Operations для сценарі
 
     ![Застосування рішень.](./media/13ApplySolutions.png)
 
-5. Виберіть обидва рішення, **Подвійне записування зіставлень сутностей Dynamics 365 Finance and Operations** та **Зіставлень сутностей подвійного записування Dynamics 365 Project Operations**, а потім натисніть кнопку **Застосовувати**.
+5. Виберіть обидва рішення, **Dynamics 365 Finance and Operations Карту** подвійних сутності запису та **Dynamics 365 Project Operations Карти** подвійних сутностей запису, а потім натисніть кнопку **Застосувати**.
 
     ![Підтвердження рішень.](./media/14ConfirmSolutions.png)
 

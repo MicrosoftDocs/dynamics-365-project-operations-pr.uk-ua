@@ -4,27 +4,27 @@ description: У цьому розділі наведено відомості п
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
-ms.translationtype: HT
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986651"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594741"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Налаштування та застосування даних та конфігурації в Common Data Service 
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Вимоги
 
 Наведені далі попередні умови мають виконуватися до початку налаштування даних у Common Data Service (CDS).
 
-1.  Надання середовищ CDS і Dynamics 365 Finance для Project Operations.
-2.  Інформація про юридичну особу поширюються від Dynamics 365 Finance до CDS Це означає, що сутність **Компанія** у CDS має такі записи про компанію.
+1.  Надання середовища CDS і Dynamics 365 Finance середовища для операцій проекту.
+2.  Інформація про юридичну особу з Dynamics 365 Finance передається в середовище CDS. Це означає, що сутність **Компанія** у CDS має такі записи про компанію.
   - THPM
   - USPM
   - GBPM
@@ -132,7 +132,7 @@ _**Застосовується до:** Project Operations для сценарі
 12. Оновіть наведені нижче поля.
 
  - **Стандартна компанія**: USPM.
- - **Організаційна одиниця за промовчанням**: Contoso Robotics Global
+ - **Організаційна одиниця за замовчуванням**: Contoso Robotics Global.
  - **Частота виставлення рахунків**: сьомий і останній день.
  - **Шаблон робочого часу**: змініть його на щойно створений шаблон.
 

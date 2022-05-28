@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753317"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598513"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового в жовтні 2021 р. – Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753317"
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
    - Project Operations в середовищі Microsoft Dataverse версії 4.25.0.91
-   - Керування проектами та бухгалтерський облік в середовищах програм Dynamics 365 Finance версії 10.0.21
+   - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Функції, що містяться у цьому випуску
 
@@ -49,7 +49,7 @@ ms.locfileid: "7753317"
 | Виставлення рахунків і визначення цін | 2338357 | При виборі проекту валюта в журналі використання матеріалів має бути валютою за замовчуванням, основаною на валюті проекту. |
 | Час і витрати | 2414777 | Має бути можливим скасувати затвердження, коли запис витрат або часу має більше одного затвердження проекту. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Керування проектами та бухгалтерський облік у Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Управління проектами та бухгалтерський облік на Dynamics 365 Finance
 
 | Розділ функції | Номер посилання | Оновлення якості |
 | --- | --- | --- |
