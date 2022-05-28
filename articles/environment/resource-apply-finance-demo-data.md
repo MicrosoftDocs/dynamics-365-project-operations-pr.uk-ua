@@ -1,24 +1,24 @@
 ---
 title: Застосування демонстраційних даних до розміщеного в хмарі Finance середовища
-description: У цьому розділі пояснюється, як застосовувати демонстраційні дані з Project Operations до хмарного середовища Dynamics 365 Finance.
+description: У цьому розділі пояснюється, як застосовувати демонстраційні дані з операцій project до Dynamics 365 Finance середовищі, розміщеному в хмарі.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009691"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588991"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Застосування демонстраційних даних до розміщеного в хмарі Finance середовища
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
 > [!IMPORTANT]
-> Ця тема застосовується виключно до Microsoft Dynamics 365 Finance версії 10.0.13, а рекомендації цієї теми можуть виконуватися тільки в хмарному середовищі. Виконайте кроки з цього розділу, **ПЕРШ НІЖ** застосовувати покращення до середовища.
+> Ця тема застосовується лише Microsoft Dynamics для 365 Фінанси версії 10.0.13 і може бути виконана лише в хмарному середовищі. Виконайте кроки з цього розділу, **ПЕРШ НІЖ** застосовувати покращення до середовища.
 
 1. У проекті LCS відкрийте сторінку **Відомості про середовища**. Зверніть увагу, що вона містить відомості, необхідні для підключення до середовища за допомогою протоколу віддаленого робочого стола (RDP).
 
@@ -76,7 +76,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 18. Закрийте сеанс віддаленого робочого стола та скористайтеся сторінкою LCS **Відомості про середовища**, щоб увійти до середовища й упевнитися в його належній роботі.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Фінанси та операції.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

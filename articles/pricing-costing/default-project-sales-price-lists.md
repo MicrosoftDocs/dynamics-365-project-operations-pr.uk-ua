@@ -4,14 +4,14 @@ description: У цій темі міститься інформація про �
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83458d6f62c8790eb967cf07c21ffe7851e14a3a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989891"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591797"
 ---
 # <a name="default-price-lists"></a>Прайси за замовчуванням
 

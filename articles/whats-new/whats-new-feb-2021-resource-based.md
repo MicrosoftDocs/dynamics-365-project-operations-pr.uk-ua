@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986831"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589037"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за лютий 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -21,7 +21,7 @@ _**Застосовується до:** Project Operations для сценарі
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
 - Project Operations у середовищі Dataverse 4.7.0.95
-- Керування проектами та бухгалтерський облік в середовищах програм Dynamics 365 Finance версії 10.0.16 
+- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.16 
 
 ## <a name="quality-updates"></a>Оновлення якості
 
@@ -44,14 +44,14 @@ _**Застосовується до:** Project Operations для сценарі
 | **Запис часу** | 2129161 | Застосовуються суворіші обмеження, щоб користувачі не могли змінювати й оновлювати надісланий або затверджений запис часу. |
 | **Запис часу** | 2103572 | Затвердження часу для записів часу, що не стосуються проекту, не має шукати роль затверджувача проекту. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Керування проектами та бухгалтерський облік у Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Управління проектами та бухгалтерський облік в Dynamics 365 Finance 
 
-Додаткові відомості про керування проектами та бухгалтерський облік у Dynamics 365 Finance наведено в розділі [Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів](whats-new-jan-2021-resource-based.md).
+Для отримання додаткових відомостей про керування проектами та бухгалтерський облік у Dynamics 365 Finance [див](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Оновлення нормативних вимог
 
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Ще один спосіб дізнатися про регуляторні оновлення — увійти в Lifecycle Services (LCS) і переглянути заплановані оновлення нормативних вимог за допомогою засобу пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Ще один спосіб дізнатися про регуляторні оновлення — увійти в Lifecycle Services (LCS) і переглянути заплановані оновлення нормативних вимог за допомогою засобу пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

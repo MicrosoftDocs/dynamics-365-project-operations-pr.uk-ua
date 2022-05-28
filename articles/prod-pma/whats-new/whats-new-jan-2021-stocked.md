@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992771"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592671"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Нові можливості або зміни в Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами в січні 2021 р.
 
@@ -20,7 +20,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
-- Керування проектами та бухгалтерський облік в середовищах програм Dynamics 365 Finance версії 10.0.16
+- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.16
 
 
 ### <a name="quality-updates"></a>Оновлення якості
@@ -142,7 +142,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Подорожі й витрати                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | У Project Operations не можна створювати та затверджувати час із внутрішніми завданнями в Dataverse.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання додаткових відомостей про оновлення нормативних вимог для програм Finance and Operations див. розділ [Оновлення нормативних вимог](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
