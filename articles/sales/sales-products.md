@@ -1,6 +1,6 @@
 ---
 title: Продукти
-description: У цьому розділі наведено відомості про каталог продуктів, який можна використовувати для надання клієнтам інформації про продукти, а також для утворення цін для пропозицій організації.
+description: У цій статті наведено відомості про каталог продуктів, який можна використовувати для надання клієнтам відомостей про продукти та ціни, які пропонує організація.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d45a705c48df84a8f5b3f60121fbcc25e225e6e5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574133"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933103"
 ---
 # <a name="products"></a>Продукти
 

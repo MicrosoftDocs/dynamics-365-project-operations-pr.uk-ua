@@ -1,24 +1,24 @@
 ---
 title: 'Що нового у випуску за грудень 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
-description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску Project Operations за грудень 2020 року для сценаріїв на основі ресурсів і відсутності запасів.
+description: У цій статті наведено відомості про якісні оновлення, доступні в грудні 2020 року випуску операцій project для ресурсів/не забезпечених сценаріїв.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579883"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933057"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за грудень 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
+Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
 
 - Project Operations у середовищі Dataverse версії 4.5.0.134
 - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.15

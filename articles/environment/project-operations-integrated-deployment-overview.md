@@ -1,17 +1,17 @@
 ---
 title: Огляд розгортання Project Operations для сценаріїв на основі ресурсів і відсутності запасів
-description: У цьому розділі наведено відомості про тип розгортання, операції Project для сценаріїв на основі ресурсів і відсутності запасів.
+description: У цій статті наведено відомості про тип розгортання, операції проекту для ресурсів/не забезпечених сценаріїв.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 217a3ae39289b9b06bf2e06ae39810fe4f2fc52b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931585"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Огляд розгортання Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 

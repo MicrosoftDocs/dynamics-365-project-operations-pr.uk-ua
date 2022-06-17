@@ -1,23 +1,23 @@
 ---
 title: Типи періодів
-description: У цьому розділі наведено відомості про настроювання типів періодів для оцінювання прибутку.
+description: У цій статті наведено відомості про настроювання типів періодів для оцінки доходів.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580481"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930987"
 ---
 # <a name="period-types"></a>Типи періодів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Тип періоду визначає частоту оцінки доходу за проектом. У цьому розділі наведено відомості про настроювання типів періодів для оцінювання прибутку. 
+Тип періоду визначає частоту оцінки доходу за проектом. У цій статті наведено відомості про настроювання типів періодів для оцінки доходів. 
 
 ## <a name="create-and-work-with-period-types"></a>Створення типів періоду й робота з ними
 Щоб створити типи періодів і працювати з ними, виконайте зазначені нижче кроки.

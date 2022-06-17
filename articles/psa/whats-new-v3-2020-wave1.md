@@ -1,6 +1,6 @@
 ---
 title: Що нового або що змінилося в Project Service Automation версії 3.x, 1-го випуску 2020 р.
-description: У цій статті наведено відомості про нові й оновлені можливості Project Service Automation версії 3, 1-го випуску 2020 р.
+description: У цій статті наведено відомості про те, що нового та змінено в Project Service Automation версії 3 хвиля 1 2020.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928641"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Що нового або що змінилося в Project Service Automation версії 3, 1-го випуску 2020 р.
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-У цій статті наведено основні моменти, які потрібно враховувати під час переходу до останньої версії Project Service Automation 3.x 1-го випуску 2020 р.
+У статті висвітлено ключові міркування щодо оновлення під час переходу до останнього випуску project service automation (PSA) версії 3.x wave 1 2020 року.
 
 ## <a name="time-entry"></a>Запис часу
 Тепер під час додавання запису часу можна подовжувати час у багатьох клієнтських сценаріях. Це передбачає можливість додавати типи записів, які тепер ініціюють певну поведінку, залежно від імені схеми поля **Настройки запису часу**, що відображається як **Джерело часу**. Для підтримки цієї функції додано нове рішення, яке називається "Час, витрати, визначення статусу і погодження (TESA).

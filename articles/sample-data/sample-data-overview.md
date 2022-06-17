@@ -1,6 +1,6 @@
 ---
 title: Домашня сторінка прикладів даних
-description: У цій темі наводиться інформація про приклади даних, доступні в Dynamics 365 Project Operations.
+description: У цій статті наведено відомості про зразки даних, доступних для операцій Dynamics 365 Project.
 author: rumant
 ms.date: 06/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a6b3bf1eb3256ed1fdc1a043eaabc96c6a7860b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c48be66622fba247a0947afae6dd1d0c335ead31
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931861"
 ---
 # <a name="sample-data-home-page"></a>Домашня сторінка прикладів даних
 

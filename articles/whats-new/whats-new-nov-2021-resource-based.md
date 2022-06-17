@@ -1,24 +1,24 @@
 ---
 title: 'Що нового у випуску за листопад 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
-description: У цьому розділі наведено відомості про оновлення якості, доступні в листопаді 2021 року випуску операцій project operations для ресурсів/не забезпечених сценаріїв.
+description: У цій статті наведено відомості про оновлення якості, доступні в листопаді 2021 року випуску операцій project operations для ресурсів/не забезпечених сценаріїв.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932919"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за листопад 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
 *Застосовується до: Project Operations для сценаріїв на основі ресурсів і відсутності запасів*
 
-Цей розділ стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
+Ця стаття стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
 
 - Операції з проектом Dataverse у версії середовища 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
 - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.22

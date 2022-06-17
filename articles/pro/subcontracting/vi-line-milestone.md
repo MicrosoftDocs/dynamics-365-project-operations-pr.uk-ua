@@ -1,19 +1,19 @@
 ---
-title: Рядки рахунків-фактур постачальника для проміжних етапів
-description: У цьому розділі пояснюється, як створити лінії рахунка-фактури постачальника для проміжних етапів на субпідряді.
+title: Позиції в рахунку постачальника для проміжних етапів
+description: У цій статті пояснюється, як створити постачальника рахунка-фактури рядків для проміжних етапів на субпідряді.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4fa11e2a4f459016b3ce141b03fe97e55c9a2759
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931355"
 ---
-# <a name="vendor-invoice-lines-for-milestones"></a>Рядки рахунків-фактур постачальника для проміжних етапів
+# <a name="vendor-invoice-lines-for-milestones"></a>Позиції в рахунку постачальника для проміжних етапів
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

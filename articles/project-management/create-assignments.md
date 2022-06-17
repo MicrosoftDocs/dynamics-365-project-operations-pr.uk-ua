@@ -1,24 +1,24 @@
 ---
 title: Створення призначень ресурсів
-description: У цьому розділі наведено відомості про створення загальних і іменованих призначень ресурсів.
+description: У цій статті наведено відомості про створення загальних і іменованих призначень ресурсів.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933517"
 ---
 # <a name="create-resource-assignments"></a>Створення призначень ресурсів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
 
-Призначення ресурсу — це безпосереднє поєднання учасника робочої групи проекту із завданням кінцевого вузла. У цьому розділі наведено відомості щодо різних способів призначення ресурсів.
+Призначення ресурсу — це безпосереднє поєднання учасника робочої групи проекту із завданням кінцевого вузла. У цій статті наведено відомості про різні способи призначення ресурсів.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Створення загального члена робочої групи через призначення завдання
 

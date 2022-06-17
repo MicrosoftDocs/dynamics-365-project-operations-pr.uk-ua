@@ -1,6 +1,6 @@
 ---
 title: Перегляньте відставання з виставленням рахунка за проектами та проектними договорами
-description: У цьому розділі наведено відомості про перегляд часу, витрат і відставань у продуктах, а також способи їх позначення як готових до виставлення рахунка-фактури.
+description: У цій статті наведено відомості про те, як переглянути час, витрати та відставання продуктів, а також про те, як позначити їх як готові до виставлення рахунків.
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600583"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928917"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Перегляньте відставання з виставленням рахунка за проектами та проектними договорами
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600583"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Коли транзакція буде готова до створення та обробки рахунка-фактури, транзакція має бути позначена як **Готова до виставлення рахунка**. У цьому розділі описано типи транзакцій, які можна створити.
+Коли транзакція буде готова до створення та обробки рахунка-фактури, транзакція має бути позначена як **Готова до виставлення рахунка**. У цій статті описано типи операцій, які можна створити.
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>Перегляньте невиставлені рахунки за часом і матеріалами
 

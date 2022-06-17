@@ -1,6 +1,6 @@
 ---
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 36, V3
-description: У цьому розділі перелічено функції й виправлення, доступні у випуску Microsoft Dynamics 365 Project Service Automation 36, V3.
+description: У цій статті перелічено функції та виправлення, доступні в Microsoft Dynamics 365 Project Service Automation оновленні випуску 36, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 108c75598dc7dd3dd0cdb9ce68e30423d051a4cf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a8942713109075da2503c9d22d40b6ac95ae00be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925007"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-36-v3"></a>Нові й оновлені можливості в оновленому випуску Project Service Automation 36, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8586691"
 
 Ми раді оголосити останнє оновлення програми Microsoft Dynamics 365 Project Service Automation. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Вона є сумісною з Dynamics 365 9.x. Щоб виконати оновлення до цього випуску, відвідайте сторінку онлайнових рішень центру адміністрування Dynamics 365 та інсталюйте оновлення. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 36, V3. Ця версія має номер збірки V3.10.57.152 та зазвичай надається в складі оновлення за жовтень 2021 р., яке можна завантажити самостійно.
+У цій статті перелічено функції та виправлення, які є новими або зміненими для оновлення служби project service automation release 36, V3. Ця версія має номер збірки V3.10.57.152 та зазвичай надається в складі оновлення за жовтень 2021 р., яке можна завантажити самостійно.
 
 ## <a name="update-release-36"></a>Оновлений випуск 36
 

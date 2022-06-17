@@ -1,17 +1,17 @@
 ---
 title: Заголовок/зведення потенційної угоди
-description: У цьому розділі наведено відомості про угоди на основі проектів, а також позиції потенційної угоди на основі проектів.
+description: У цій статті наведено відомості про угоди на основі проекту та лінії потенційної угоди на основі проекту.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 12173a832c4ed91b72bc398a97c770e551d5e0f5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 376d963cd45d3a71311118c799ac6764285add87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600997"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928155"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>Відомості про заголовок для потенційних угод на основі проекту
 

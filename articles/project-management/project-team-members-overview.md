@@ -1,17 +1,17 @@
 ---
 title: Учасники робочої групи проекту
-description: У цьому розділі наведено відомості про роботу з відомостями про учасників робочої групи, атрибути та планування проекту.
+description: У цій статті наведено відомості про роботу з відомостями про учасників групи проекту, атрибутами та плануванням.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 75b140a4ea17dbb3093f926367f439544c32d587
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3465688fb267f3ab785fcb0d252e8616ac1aa1c8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590831"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929331"
 ---
 # <a name="project-team-members"></a>Учасники робочої групи проекту
 

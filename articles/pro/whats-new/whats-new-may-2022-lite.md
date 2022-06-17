@@ -1,24 +1,24 @@
 ---
 title: Що нового у травні 2022 року - Розгортання операцій проекту Lite
-description: У цьому розділі наведено відомості про оновлення якості, доступні в травні 2022 року випуск розгортання Microsoft Dynamics 365 Project Operations Lite.
+description: У цій статті наведено відомості про якість оновлень, які доступні в травні 2022 випуску розгортання Microsoft Dynamics 365 Project Operations Lite.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a2684d51e643d37c90d2c03ee7a0c2a6ead18682
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: dd7f03068473ee09608945876047710fa44e914a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934161"
 ---
 # <a name="whats-new-may-2022---project-operations-lite-deployment"></a>Що нового у травні 2022 року - Розгортання операцій проекту Lite
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 
-Цей розділ стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
+Ця стаття стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
 
 - Операції з проектом Dataverse у версії середовища 4.42.0.70
 

@@ -1,17 +1,17 @@
 ---
 title: Керування пропозицій рахунків-фактур для проектів
-description: У цьому розділі наведено відомості про обробку рахунків-фактур, призначених для клієнтів, за допомогою Project Operations для сценаріїв на основі ресурсів і відсутності запасів.
+description: У цій статті наведено докладні відомості про обробку рахунків-фактур, орієнтованих на клієнта, за допомогою операцій project для сценаріїв на основі ресурсів/ не забезпечених.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef6003499f1372a51d7d1606db6f5bf9722a369d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927859"
 ---
 # <a name="manage-project-invoice-proposals"></a>Керування пропозицій рахунків-фактур для проектів
 

@@ -1,17 +1,17 @@
 ---
-title: Огляд рядків цінових пропозицій на основі проектів
-description: У цьому розділі наведено відомості про використання позицій цінових пропозицій на основі проекту для роботи за проектом.
+title: Огляд позицій на основі проектів у ціновій пропозиції
+description: У цій статті наведено відомості про використання рядків цінових пропозицій на основі проекту для роботи над проектом.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0a9661d9b91ffeece4c66b129846632b30ebebc8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934483"
 ---
 # <a name="project-based-quote-lines-overview"></a>Огляд позицій на основі проектів у ціновій пропозиції 
 

@@ -1,6 +1,6 @@
 ---
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 13 версії 3
-description: У цій статті наведено відомості про нові й оновлені можливості Project Service Automation 13 версії 3.
+description: У цій статті наведено відомості про нові результати оновлення служби project services Automation Release 13, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: eb935d5bf3d2deb95db420f20a8102dae1864515
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4898391922f5ecbc99d78e49358ea749fe27b3f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930711"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Project Service Automation, оновлений випуск 13, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596213"
 
 Ми з радістю повідомляємо про випуск останнього оновлення програми Dynamics 365 Project Service Automation (PSA). Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу випуску Project Service Automation 12 версії 3. Ця версія має номер збірки V3.10.3.18 і надається за таким розкладом:
+У цій статті перелічено функції та виправлення, які є новими або зміненими для автоматизації служби project V3, оновлення випуску 13. Ця версія має номер збірки V3.10.3.18 і надається за таким розкладом:
 
 - **Загальна доступність (самостійне оновлення):** листопад 2019 р.
 - **Автоматичне оновлення:** грудень 2019 р.

@@ -1,6 +1,6 @@
 ---
-title: Відмінності функцій від автоматизації служб project до project operations
-description: У цьому розділі наведено огляд змін функцій від автоматизації служби project до Dynamics 365 Project Operations.
+title: Зміна функцій від Project Service Automation до Project Operations
+description: У цій статті наведено огляд змін функцій від автоматизації служб project до Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925375"
 ---
-# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Відмінності функцій від автоматизації служб project до project operations
+# <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Зміна функцій від Project Service Automation до Project Operations
 
-Оновлення від Dynamics 365 Project Service Automation Dynamics 365 Project Operations Lite буде здійснюватися в три етапи. У цьому розділі наведено відомості про основні зміни, які можна очікувати після завершення оновлення.
+Оновлення від Dynamics 365 Project Service Automation Dynamics 365 Project Operations Lite буде здійснюватися в три етапи. У цій статті наведено відомості про основні зміни, які можна очікувати, коли оновлення буде завершено.
 
 | Оновити доставку | Етап 1 <br>(січень 2022 р.) | Етап 2 <br>(Квітнева хвиля 2022) | Етап 3  |
 |------------------|------------------------|---------------------------|---------------------------|

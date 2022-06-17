@@ -1,6 +1,6 @@
 ---
 title: Публікація звіту про витрати
-description: У цьому розділі описується процедура публікації звіту про витрати для головної бухгалтерської книги.
+description: У цій статті пояснюється, як розмістити звіт про витрати до головної книги.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd1412f566c49770250f0a9d1d4e71daf783eddf
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 345d7d4f736062290e4f6c195d57498a7f52ce30
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684207"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929699"
 ---
 # <a name="post-an-expense-report"></a>Публікація звіту про витрати
 

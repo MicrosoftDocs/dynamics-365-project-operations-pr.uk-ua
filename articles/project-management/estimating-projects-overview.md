@@ -1,17 +1,17 @@
 ---
 title: Концепції фінансової оцінки
-description: У цій темі наводиться інформація про фінансові оцінки в Project Operations.
+description: У цій статті наведено відомості про фінансові оцінки проектів у проектних операціях.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 338d2924f0e2a4a7fb943686eaad421a892dce70
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f8a4c3dd31cf5612c352331891178ac0ab852921
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931033"
 ---
 # <a name="financial-estimation-concepts"></a>Концепції фінансової оцінки
 

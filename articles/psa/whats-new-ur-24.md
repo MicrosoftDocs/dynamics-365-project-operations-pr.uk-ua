@@ -1,6 +1,6 @@
 ---
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 24 версії 3
-description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 24, V3.
+description: У цій статті перелічено функції та виправлення, доступні в project служби автоматизації оновлення реліз 24, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 63bf96bfeed30ceefab072640172a6a0dafd20f5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d2cd8c18a2ea10ae090d8258d835453b279d717f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926433"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation, оновлений випуск 24, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581585"
 
 Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 24 версії 3. Ця версія має номер збірки V 3.10.42.43 і зазвичай надається в складі оновлення за жовтень 2020 р., яке можна завантажити самостійно.
+У цій статті перелічено функції та виправлення, які є новими або зміненими для автоматизації служби Project V3, оновлення випуску 24. Ця версія має номер збірки V 3.10.42.43 і зазвичай надається в складі оновлення за жовтень 2020 р., яке можна завантажити самостійно.
 
 ## <a name="update-release-24"></a>Оновлений випуск 24
 

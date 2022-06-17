@@ -1,18 +1,18 @@
 ---
 title: Підготовка нового середовища
-description: У цьому розділі наведено відомості про підготовку нового середовища Project Operations.
+description: У цій статті наведено відомості про підготовку нового середовища операцій проекту.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931631"
 ---
 # <a name="provision-a-new-environment"></a>Підготовка нового середовища
 
@@ -20,7 +20,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 
 
-У цьому розділі наведено відомості про підготовку нового середовища Dynamics 365 Project Operations для сценаріїв на основі ресурсів/нескладських матеріалів.
+У цій статті наведено відомості про те, як підготувати нове Dynamics 365 Project Operations середовище для ресурсів/ не забезпечених сценаріїв.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Увімкнення автоматичної підготовки Project Operations у проекті LCS
 

@@ -1,6 +1,6 @@
 ---
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 16 версії 3
-description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 16 версії 3.
+description: У цій статті перелічено функції та виправлення, доступні в project служби автоматизації оновлення реліз 16, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 5651f8b3a2ddf406fcfd7a4e21901c53789fa4ed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e4429ace3d8206369b91917cf87f6968fbb12277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577399"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926525"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation, оновлений випуск 16, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності.  Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція та оновлення основного рішення](/dynamics365/project-service/upgrade-psa-home-page).
-У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу випуску PSA 16 версії 3. Ця версія має номер збірки V3.10.6.34 і зазвичай надається в складі оновлення за січень 2020 р., яке можна завантажити самостійно.
+У цій статті перераховані функції та виправлення, які є новими або зміненими для PSA V3, оновлення реліз 16. Ця версія має номер збірки V3.10.6.34 і зазвичай надається в складі оновлення за січень 2020 р., яке можна завантажити самостійно.
 
 
 ## <a name="update-release-16"></a>Оновлений випуск 16

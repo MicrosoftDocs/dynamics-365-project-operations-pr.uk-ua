@@ -1,6 +1,6 @@
 ---
 title: Прогнози збуту і проекту
-description: У цьому розділі наведено відомості про використання розкладів і прогнозів у процесі збуту.
+description: У цій статті наведено інформацію про те, як скористатися графіком і оцінками в процесі продажу.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 35cf804a7442d3033db32f5a5224737d1752e549
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 957c2337cce3b3bf65a0bfef7c1aee6a730971fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596397"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925421"
 ---
 # <a name="sales-estimates-and-projects"></a>Прогнози збуту і проекту
 

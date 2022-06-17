@@ -1,6 +1,6 @@
 ---
 title: Огляд звірення ресурсів
-description: У цьому розділі наведено інформацію, яка допоможе забезпечити відповідність резервування ресурсів в призначень для проектів.
+description: У цій статті наведено відомості, які допоможуть вам забезпечити узгодження бронювань ресурсів і призначень для проектів.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0574a0402bc6b34ab82bbc223aeb3a0ffcc9df9c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eaad9187f08be810d730f5a8ca6411ecee85bbc4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926341"
 ---
 # <a name="resource-reconciliation-overview"></a>Огляд звірення ресурсів
 

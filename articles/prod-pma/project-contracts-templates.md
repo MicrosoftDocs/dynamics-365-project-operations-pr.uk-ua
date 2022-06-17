@@ -1,6 +1,6 @@
 ---
 title: Синхронізація проектних сервісних договорів і проектів безпосередньо з Project Service Automation до Finance
-description: У цьому розділі описано шаблон і основні завдання, які використовуються для синхронізації контрактів на проект і проектів безпосередньо від Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance до Dynamics 365 Finance.
+description: У цій статті описано шаблон і основні завдання, які використовуються для синхронізації контрактів на проект і проектів безпосередньо від Microsoft Dynamics 365 Project Service Automation до Dynamics 365 Finance.
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 62a24f3af823d474cbb4d63f8d079c708256a75e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933885"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Синхронізація проектних сервісних договорів і проектів безпосередньо з Project Service Automation до Finance 
 
@@ -27,7 +27,7 @@ ms.locfileid: "8684667"
 
 
 
-У цьому розділі описано шаблон і основні завдання, які використовуються для синхронізації контрактів на проект і проектів безпосередньо від Dynamics 365 Project Service Automation Dynamics 365 Finance до Dynamics 365 Finance.
+У цій статті описано шаблон і основні завдання, які використовуються для синхронізації контрактів на проект і проектів безпосередньо від Dynamics 365 Project Service Automation до Dynamics 365 Finance.
 
 > [!NOTE] 
 > Якщо ви використовуєте Enterprise edition 7.3.0, ви маєте інсталювати базу знань KB 4074835.

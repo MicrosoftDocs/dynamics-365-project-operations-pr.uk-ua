@@ -1,6 +1,6 @@
 ---
 title: Нові й оновлені можливості у хвилі раннього доступу Project Service Automation 1 2021 р., версія 3
-description: У цій статті перелічено функції й виправлення, доступні у хвилі раннього доступу Project Service Automation 1 2021 р., версія 3.
+description: У цій статті перелічено функції та виправлення, доступні в хвилі раннього доступу автоматизації служб project 1 2021, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ed2d497146d711fe7e2af06e7ba37c5045aa63e9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7de0c20ae3ce3087946a2c44632f243a30a6dbe9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930757"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Нові й оновлені можливості у хвилі раннього доступу Project Service Automation 1 2021 р., версія 3
 
@@ -31,7 +31,7 @@ ms.locfileid: "8598835"
 
 Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цій статті перелічено нові й оновлені функції й виправлення, що входять до хвилі раннього доступу Project Service Automation 1 2021 р., версія 3. Ця версія має номер збірки V3.10.49.3 та є загальнодоступною в межах самостійного оновлення в лютому 2021 р.
+У цій статті перелічено нові або змінені функції та виправлення для автоматизації служб project V3, хвилі раннього доступу 1 2021 року. Ця версія має номер збірки V3.10.49.3 та є загальнодоступною в межах самостійного оновлення в лютому 2021 р.
 
 
 ### <a name="bug-fixes"></a>Виправлення помилок

@@ -1,24 +1,24 @@
 ---
 title: Налаштування утримання постачальників
-description: У цій темі роз’яснюється, як налаштувати утримання постачальників.
+description: У цій статті пояснюється, як налаштувати збереження постачальника.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583729"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929791"
 ---
 # <a name="set-up-vendor-retention"></a>Налаштування утримання постачальників
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-У цій темі наводяться відомості про те, як налаштувати утримання постачальників.
+У цій статті наведено відомості про настроювання збереження постачальника.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Налаштуйте статтю з обліку утримання постачальників у головній бухгалтерській книзі
 

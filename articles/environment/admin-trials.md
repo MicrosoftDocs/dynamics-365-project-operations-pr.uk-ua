@@ -1,17 +1,17 @@
 ---
 title: Реєстрація для отримання ознайомлювальних версій Project Operations
-description: У цьому розділі наведено відомості про розгортання ознайомлювальної версії Dynamics 365 Project Operations.
+description: У цій статті наведено відомості про розгортання ознайомлювальної версії програми Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584299"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959729"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Реєстрація для отримання ознайомлювальних версій Project Operations 
 
@@ -19,9 +19,9 @@ _**Застосовується до:** Project Operations для сценарі
 
 
 
-У цьому розділі описано, як підписатися на партнерську пропозицію підготовчої версії та розгорнути середовище Dynamics 365 Project Operations.
+У цій статті пояснюється, як підписатися на попередній перегляд партнерської пропозиції та розгорнути Dynamics 365 Project Operations середовище.
 
-Завдяки новій ознайомлювальній версії Project Operations можна автоматично розгортати будь-який із трьох підтримуваних сценаріїв розгортання, заповнивши анкету, яка порекомендує найкращий спосіб розгортання. У цьому розділі наведено такі відомості:
+Завдяки новій ознайомлювальній версії Project Operations можна автоматично розгортати будь-який із трьох підтримуваних сценаріїв розгортання, заповнивши анкету, яка порекомендує найкращий спосіб розгортання. У цій статті наведено інформацію про те, як:
 
 - Активація ознайомлювальної пропозиції.
 - Ініціалізація підготовки.
@@ -89,7 +89,8 @@ _**Застосовується до:** Project Operations для сценарі
 4.  Виберіть відповідну Microsoft Dataverse URL-адресу та URL-адреси програм "Фінанси та операції", щоб перевірити розгортання.
 
 ## <a name="configuring-dual-write"></a>Налаштування подвійного записування
-- Щоб настроїти ролі безпеки для подвійного записування, див [Dataverse](resource-provision-new-environment.md).
+- Щоб настроїти ролі безпеки для подвійного записування, див [Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Щоб отримати доступ до конфігурації подвійного запису, перейдіть до екземпляра фінансів і операцій, а потім перейдіть до **подвійного запису керування** > **даними**.
 - Щоб настроїти карти подвійного запису, див [...](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Призначення ліцензій

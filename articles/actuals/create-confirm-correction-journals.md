@@ -1,6 +1,6 @@
 ---
 title: Створення та підтвердження журналів корекції
-description: У цьому розділі наведено відомості про створення та підтвердження журналів корекції.
+description: У цій статті наведено відомості про те, як створити та підтвердити журнал виправлень.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 70886aa5a3060fa58461ce215e4de3b7286093e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928089"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Створення та підтвердження журналів корекції
 

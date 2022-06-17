@@ -1,6 +1,6 @@
 ---
 title: Зміни в сутності, елементах керування та інтерфейсі користувача (Project Service Automation 3.x)
-description: У цьому розділі описано зміни рішень для Microsoft Dynamics Project Service Automation 3.x.
+description: У цій статті описано зміни рішення для Microsoft Dynamics автоматизації служби project 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926893"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Зміни в сутності, елементах керування та інтерфейсі користувача (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-З випуском Microsoft Dynamics Project Service Automation (PSA) 3.x було внесено багато змін до сутностей, елементів керування, подань та інтерфейсу користувача. Цей розділ містить важливу інформацію про ці важливі зміни.
+З випуском Microsoft Dynamics Project Service Automation (PSA) 3.x було внесено багато змін до сутностей, елементів керування, подань та інтерфейсу користувача. У цій статті наведено інформацію про ці важливі зміни.
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>Сутності зв’язків між первинними та дочірніми документами збуту, позицій документів збуту, відомостей позицій документів збуту
 У версіях Dynamics 365 Project Service Automation (PSA), випущених до версії 3.0, деякі зв'язки між документами збуту, позиціями документів збуту та відомостями позицій документів збуту були впроваджені через поля рядків, що можуть містити відтворення рядка з GUID пов'язаної сутності. Це пов'язано з обмеженнями платформи, які потребували значного настроюваного коду на сервері та клієнтській стороні рішень, щоб ці зв'язки були схожими на типові зв'язки сутностей Dynamics CRM, а також для створення полів рядків, які б діяли як поля підстановки.

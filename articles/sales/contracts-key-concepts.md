@@ -1,17 +1,17 @@
 ---
 title: Проектні договори – основні поняття
-description: У цьому розділі наведено відомості щодо основних понять для проектних сервісних договорів в Project Operations.
+description: У цій статті наведено відомості про ключові концепції проектних контрактів у проектних операціях.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 016a5d1defacdc6ba5828ca26395c9123e9323d0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926249"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Поняття, унікальні за сервісних договорів на основі проектів
 
@@ -19,7 +19,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 
 
-У цьому розділі наведено ключові поняття, які необхідно знати, перш ніж починати використовувати сервісні договори проекту в Dynamics 365 Project Operations.
+У цій статті наведено ключові концепції, про які слід пам'ятати, перш ніж почати використовувати контракти проекту в Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Відповідальна компанія
 

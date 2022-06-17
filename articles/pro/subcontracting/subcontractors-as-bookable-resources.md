@@ -1,17 +1,17 @@
 ---
 title: Налаштування підрядників як планованих ресурсів
-description: У цьому розділі описано, як налаштувати та підтримувати ресурси субпідрядника, створені з користувачів та контактних осіб у системі, щоб їх можна було пов’язати із субпідрядними сервісними договорами в Microsoft Dynamics 365 Project Operations.
+description: У цій статті пояснюється, як настроїти та підтримувати ресурси субпідрядника, створені з користувачів і контактів у системі, щоб вони могли бути пов'язані з субпідрядниками в корпорації Майкрософт Dynamics 365 Project Operations.
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d2f250063afc24de99e308d8d7583d1822bcabb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f005a05fb874f9e32a0041db5fc8fa1228fc91f1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597271"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927567"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Налаштування підрядників як планованих ресурсів
 

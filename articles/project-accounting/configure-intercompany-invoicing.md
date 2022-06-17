@@ -1,17 +1,17 @@
 ---
 title: Налаштування внутрішнього виставлення рахунків
-description: У цьому розділі наведено відомості та приклади налаштування внутрішнього виставлення рахунка-фактури для проектів.
+description: У цій статті наведено відомості та приклади настроювання міжкомпанійного виставлення рахунків для проектів.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ae0c2662bb6b2789ab520f08c7c21935b651ced5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929423"
 ---
 # <a name="configure-intercompany-invoicing"></a>Налаштування внутрішнього виставлення рахунків
 
