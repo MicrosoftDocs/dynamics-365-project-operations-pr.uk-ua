@@ -1,24 +1,24 @@
 ---
 title: Інтеграція кошторисів та фактичних даних проектів
-description: У цьому розділі наведено відомості про інтеграцію Project Operations з подвійним записуванням для кошторисів та фактичних даних проектів.
+description: У цій статті наведено відомості про подвійну інтеграцію операцій із двома записами проектів для оцінки проекту та фактичних даних.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914611"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Інтеграція кошторисів та фактичних даних проектів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-У цьому розділі наведено відомості про інтеграцію Project Operations з подвійним записуванням для кошторисів та фактичних даних проектів.
+У цій статті наведено відомості про подвійну інтеграцію операцій із двома записами проектів для оцінки проекту та фактичних даних.
 
 ## <a name="project-estimates"></a>Кошторис проекту
 

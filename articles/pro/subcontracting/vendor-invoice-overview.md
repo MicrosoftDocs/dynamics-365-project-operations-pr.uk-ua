@@ -1,19 +1,19 @@
 ---
-title: Виставлення рахунків постачальника - Концепція та створення
-description: У цьому розділі описується концепція рахунків-фактур постачальника, сценаріїв для використання та створення рахунків-фактур постачальника в корпорації Майкрософт Dynamics 365 Project Operations.
+title: Виставлення рахунків постачальниками — Поняття та створення
+description: У цій статті описано концепцію рахунків-фактур постачальника, сценаріїв для використання та створення рахунків-фактур постачальника в корпорації Майкрософт Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dc9b3954b237294f52aa0bb74f8008a5dfdf78fd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911483"
 ---
-# <a name="vendor-invoicing---concept-and-creation"></a>Виставлення рахунків постачальника - Концепція та створення
+# <a name="vendor-invoicing---concept-and-creation"></a>Виставлення рахунків постачальниками — Поняття та створення
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

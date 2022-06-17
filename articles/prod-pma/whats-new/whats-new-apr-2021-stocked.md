@@ -1,24 +1,24 @@
 ---
 title: Нові можливості або зміни в Project Operations від квітня 2021 р. для сценаріїв на основі замовлень на виробництво та з матеріалами
-description: У цьому розділі наведено відомості про покращення, доступні у випуску Project Operations від квітня 2021 р. для сценаріїв на основі замовлень на виробництво та з матеріалами.
+description: У цій статті наведено відомості про оновлення якості, доступні у квітні 2021 року випуску project operations для резервних/виробничих сценаріїв.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916497"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Нові можливості або зміни в Project Operations від квітня 2021 р. для сценаріїв на основі замовлень на виробництво та з матеріалами
 
 _**Застосовується до:** Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_
 
-Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
+Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
 
 - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.18
  

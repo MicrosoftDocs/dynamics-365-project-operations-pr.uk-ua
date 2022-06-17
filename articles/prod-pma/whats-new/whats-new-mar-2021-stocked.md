@@ -1,24 +1,24 @@
 ---
 title: Що нового або змінилося в Project Operations у березні 2021 р. для сценаріїв на основі ресурсів і відсутності запасів
-description: У цій темі наводиться інформація про якісні оновлення, доступні у випуску Project Operations за березень 2021 р. для сценаріїв на основі ресурсів і продукції.
+description: У цій статті наведено відомості про оновлення якості, доступні в березні 2021 року випуску project operations для резервних/виробничих сценаріїв.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723747"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911345"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Що нового або змінилося в Project Operations у березні 2021 р. для сценаріїв на основі ресурсів і відсутності запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_
 
-Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
+Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
 
 - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.17
 

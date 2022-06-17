@@ -1,25 +1,25 @@
 ---
 title: 'Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
-description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску Project Operations за січень 2021 року для сценаріїв на основі ресурсів і відсутності запасів.
+description: У цій статті наведено відомості про оновлення якості, доступні в січні 2021 року випуску операцій project для ресурсів/не забезпечених сценаріїв.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910701"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за січень 2021 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
 
-Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
+Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
 
   - Project Operations у середовищі Dataverse версії 4.6.0.154
   - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.16

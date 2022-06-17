@@ -1,6 +1,6 @@
 ---
 title: Прайси продуктів
-description: У цьому розділі наведено відомості про прайси у визначенні цін у каталозі, що використовуються для проектних цінових пропозицій і сервісних договорів.
+description: У цій статті наведено відомості про прейскуранти в каталозі цін, які використовуються для цінових пропозицій проекту та контрактів.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 4feb7638dd7b6826e575d83457ae7f74ef6793bf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 68203f5adf7bf41d97e662e335d481ccac959ed6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593269"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917647"
 ---
 # <a name="product-price-lists"></a>Прайси продуктів
 

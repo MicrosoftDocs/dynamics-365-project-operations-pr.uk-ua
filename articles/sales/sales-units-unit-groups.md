@@ -1,6 +1,6 @@
 ---
 title: Одиниці вимірювання та їхні групи
-description: У цій темі наводиться інформація про те, як створювати одиниці та групи одиниць вимірювання в Dynamics 365 Project Operations.
+description: У цій статті наведено відомості про створення одиниць вимірювання та груп одиниць вимірювання у програмі Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921465"
 ---
 # <a name="units-and-unit-groups"></a>Одиниці вимірювання та їхні групи
 
@@ -28,7 +28,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 Одиниці є кількостями або вимірами, за якими ви продаєте свою продукцію або послуги. Наприклад, якщо ви продаєте садовий інвентар, можна було б продавати насіння в таких одиницях як пакети, ящики і піддони. Група одиниць вимірювання – це набір різних одиниць.
 
-Щоб виконати кроки в цьому розділі, переконайтеся, що вам призначено роль Системний адміністратор або Менеджер Sales Professional, або ж ви маєте рівноцінні дозволи.
+Щоб виконати кроки, описані в цій статті, переконайтеся, що вам призначено роль системного адміністратора або професійного менеджера з продажу або мають еквівалентні дозволи.
 
 ## <a name="create-a-unit-group"></a>Створення групи одиниць вимірювання
 

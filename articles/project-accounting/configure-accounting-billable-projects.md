@@ -1,17 +1,17 @@
 ---
 title: Настроювання бухгалтерського обліку для оплачуваних проектів
-description: У цьому розділі наведено відомості про параметри бухгалтерського обліку для оплачуваних проектів.
+description: У цій статті наведено відомості про варіанти бухгалтерського обліку для розрахункових проектів.
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1159a31ba4f30f09734bf9c5a9e594b5c77a831e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5020c978f0667543aed2b373d262dcda9688b02c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916451"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Настроювання бухгалтерського обліку для оплачуваних проектів
 

@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592363"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919257"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Налаштувати додаткові параметри (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592363"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Щойно ви налаштували елементи в попередніх темах, ви повинні встановити додаткові проектні параметрів для використання у ваших проектах. Коли ви вперше встановили [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], ви створили налаштування параметрів для того, щоб створити всі записи, необхідні для того, щоб [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] запрацював. Тепер настав час, щоб повернутися та налаштувати додаткові поля для цих налаштувань.  
+Після настроювання елементів у попередніх статтях потрібно встановити додаткові параметри проекту для використання для проектів. Коли ви вперше встановили [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], ви створили налаштування параметрів для того, щоб створити всі записи, необхідні для того, щоб [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] запрацював. Тепер настав час, щоб повернутися та налаштувати додаткові поля для цих налаштувань.  
   
  Потрібно буде настроїти такі параметри:  
   

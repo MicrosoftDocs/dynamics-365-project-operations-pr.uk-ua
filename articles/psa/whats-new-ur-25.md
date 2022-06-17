@@ -1,6 +1,6 @@
 ---
 title: Нові можливості й зміни в оновленому випуску Project Service Automation 25 версії 3
-description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 25, версії 3.
+description: У цій статті перелічено функції та виправлення, доступні в project служби автоматизації оновлення реліз 25, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d24403b1bf6a06cc138de3f0158f675f6d3b6ec
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2330c7dc5d2dfb148d5c7fb9a5ce643fded84dde
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581539"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922569"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Нові можливості й зміни в оновленому випуску Project Service Automation 25 версії 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581539"
 
 Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цьому розділі перелічені функції та виправлення, які є новими або змінені для випуску Project Service Automation 25 версії 3. Ця версія має номер збірки V 3.10.43.76 і доступна через самооновлення в жовтні 2020 р.
+У цій статті перелічено функції та виправлення, які є новими або зміненими для автоматизації служби project V3, оновлення випуску 25 Ця версія має номер збірки V 3.10.43.76 і, як правило, доступна через самостійне оновлення в жовтні 2020 року.
 
 ## <a name="update-release-25"></a>Оновлений випуск 25
 

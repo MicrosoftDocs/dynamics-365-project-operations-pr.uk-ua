@@ -1,6 +1,6 @@
 ---
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 17 версії 3
-description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 17 версії 3.
+description: У цій статті перелічено функції та виправлення, доступні в project служби автоматизації оновлення реліз 17, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 70749646f5b67db3cf868a6d9a83c14dc490793a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c8486ef689f0d8ab014c2248fc6e5d0fddc937e7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915715"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation, оновлений випуск 17, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585116"
 
 Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності.  Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу випуску PSA 17 версії 3. Ця версія має номер збірки V3.10.6.34 та зазвичай надається в складі оновлення за березень 2020 р., яке можна завантажити самостійно.
+У цій статті перераховані функції та виправлення, які є новими або зміненими для PSA V3, оновлення реліз 17. Ця версія має номер збірки V3.10.6.34 та зазвичай надається в складі оновлення за березень 2020 р., яке можна завантажити самостійно.
 
 
 ## <a name="update-release-17"></a>Оновлений випуск 17

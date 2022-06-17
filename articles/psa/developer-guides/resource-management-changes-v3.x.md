@@ -1,6 +1,6 @@
 ---
 title: Зміни в керуванні ресурсами (Project Service Automation 3.x)
-description: У цьому розділі наведено відомості про змінення в області керування ресурсами.
+description: У цій статті наведено відомості про зміни в області керування ресурсами.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916037"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Зміни в керуванні ресурсами (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-У розділах цієї теми наведено відомості про зміни, внесені до області керування ресурсами у Dynamics 365 Project Service Automation версії 3.x.
+Розділи цієї статті містять відомості про зміни, внесені до області керування ресурсами Dynamics 365 Project Service Automation версії 3.x.
 
 ## <a name="project-estimates"></a>Кошторис проекту
 

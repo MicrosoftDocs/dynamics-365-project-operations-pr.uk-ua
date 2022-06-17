@@ -1,24 +1,24 @@
 ---
 title: 'Що нового у випуску за лютий 2022 р.: розгортання Project Operations Lite'
-description: У цьому розділі наведено відомості про оновлення якості, доступні в лютому 2022 року випуску project operations lite розгортання.
+description: У цій статті наведено відомості про якість оновлень, які доступні в лютому 2022 року випуску project operations lite розгортання.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922845"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Що нового у випуску за лютий 2022 р.: розгортання Project Operations Lite
 
 _Застосовується до: розгортання Lite — від угоди до рахунків-проформ_
 
-Цей розділ стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
+Ця стаття стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
 
 - Операції з проектом Dataverse у версії середовища 4.28.0.120
 

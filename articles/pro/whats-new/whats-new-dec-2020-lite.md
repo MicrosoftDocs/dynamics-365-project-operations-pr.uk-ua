@@ -1,24 +1,24 @@
 ---
 title: 'Нове за грудень 2020 р. — Розгортання Project Operations Lite: від угоди до рахунків-проформ'
-description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску розгортання Project Operations Lite в грудні 2020 р. — від угоди до рахунків-проформ.
+description: У цій статті наведено відомості про оновлення якості, доступні в грудні 2020 року випуску project operations Lite розгортання - справа проформа виставлення рахунків.
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585449"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924087"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Нове за грудень 2020 р. — Розгортання Project Operations Lite: від угоди до рахунків-проформ
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 
-Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
+Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
 
   - Project Operations у середовищі Dataverse версії 4.5.0.134 
 

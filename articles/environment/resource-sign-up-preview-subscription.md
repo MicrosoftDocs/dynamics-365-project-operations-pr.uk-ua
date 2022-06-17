@@ -1,17 +1,17 @@
 ---
 title: Реєстрація для отримання підготовчих версій передплат Project Operations для сценаріїв на основі ресурсів і без запасів
-description: У цьому розділі наведено відомості про те, як оформити передплату та здійснити розгортання Project Operations для сценаріїв на основі ресурсів і без запасів.
+description: У цій статті наведено відомості про те, як підписатися та розгорнути операції проекту для resouce/не забезпечених сценаріїв.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575835"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920131"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Реєстрація для отримання підготовчих версій передплат Project Operations для сценаріїв на основі ресурсів і без запасів
 
@@ -19,7 +19,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 
 
-У цьому розділі ви дізнаєтесь, як підписатися на ознайомлювальну пропозицію та розгорнути середовище Project Operations на основі ресурсів і відсутності запасів.
+У цій статті пояснюється, як підписатися на ознайомлювальну пропозицію та розгорнути середовище операцій project для ресурсів/не забезпечених сценаріїв.
 
 ## <a name="prerequisites"></a>Вимоги
 - Користувач, який розгортає підготовчу версію, повинен мати глобальні права адміністратора клієнта Azure. При першому прийнятті пропозиції ви можете створити клієнт. 
@@ -60,19 +60,19 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="start-a-new-project-in-lcs"></a>Початок нового проекту у LCS
 
-Створення нового проекту LCS, як описано в розділі [Початок нового проекту в LCS](create-lcs-project.md)
+Створіть новий проект LCS, як описано в статті, [Почніть новий проект в LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Додавання передплати Azure до проекту LCS
 
-Щоб виконати це завдання, дотримуйтеся процедури, описаної в розділі [Додавання передплати Azure до проекту LCS](resource-add-azure-subscription-lcs-project.md).
+Щоб виконати це завдання, виконайте інтерактивні елементи, описані в статті, [Додати Azure підписки на проект LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Розгортання демо-середовища Finance із Project Operations для сценаріїв на основі ресурсів і без запасів
 
-Щоб виконати розгортання, дотримуйтеся вказівок у розділі [Підготовка нового середовища](resource-provision-new-environment.md). Для попереднього перегляду використовуйте тип розгортання [демо-середовище](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
+Дотримуйтесь інструкцій, наведених у статті, [Надання нового середовища](resource-provision-new-environment.md) для завершення розгортання. Для попереднього перегляду використовуйте тип розгортання [демо-середовище](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment). 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Встановлення даних налаштування та конфігурації CDS
 
-Установіть дані налаштування та конфігурації CDS, як описано в розділі [Налаштування та застосування даних конфігурації в Common Data Service](resource-apply-pro-setup-config-data.md).
+Інсталюйте дані налаштування та конфігурації CDS, як описано в статті, [Настроювання та застосування даних конфігурації в області Common Data Service](resource-apply-pro-setup-config-data.md).
 Виконуйте цей крок лише після розгортання демонстраційного середовища Finance та готовності демонстраційних даних.
 
 

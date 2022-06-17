@@ -1,24 +1,24 @@
 ---
 title: Що нового або змінилося в проектних операціях, вересень 2021 року для сценаріїв на основі запасів/виробництва
-description: У цьому розділі наведено відомості про оновлення якості, доступні у вересневому випуску project operations для сценаріїв на основі запасів/виробництва.
+description: У цій статті наведено відомості про оновлення якості, доступні у вересні 2021 року випуску project operations для резервних/виробничих сценаріїв.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916543"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Що нового або змінилося в проектних операціях, вересень 2021 року для сценаріїв на основі запасів/виробництва
 
 _**Застосовується до:** Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_
 
-Цей розділ стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
+Ця стаття стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
 
 - Управління проектами та бухгалтерський облік у середовищі Dynamics 365 Finance версії 10.0.21
  

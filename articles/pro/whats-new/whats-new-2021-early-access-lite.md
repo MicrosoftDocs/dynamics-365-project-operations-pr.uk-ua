@@ -1,24 +1,24 @@
 ---
 title: Що нового в ранньому доступі до другої хвилі оновлень 2021 р. — розгортання Project Operations Lite
-description: У цьому розділі наведено відомості про функції доступні у випуску розгортання Project Operations Lite в ранньому доступі до другої хвилі оновлень 2021 року.
+description: У цій статті наведено відомості про функції, доступні в 2021 хвилі 2 раннього випуску доступу розгортання Project Operations Lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723701"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924133"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Що нового в ранньому доступі до другої хвилі оновлень 2021 р. — розгортання Project Operations Lite
 
 _Застосовується до: розгортання Lite — від угоди до рахунків-проформ_
 
-Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
+Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
 
   - Project Operations у середовищі Dataverse версії 4.23.0.4
 

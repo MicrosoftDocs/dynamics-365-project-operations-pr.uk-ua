@@ -1,6 +1,6 @@
 ---
-title: Домашня сторінка звітування
-description: У цьому розділі наведено відомості про звітування у програмі Dynamics 365 Project Service Automation.
+title: Звітування домашньої сторінки
+description: У цій статті наведено відомості про звітування у програмі Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921695"
 ---
 # <a name="reporting-home-page"></a>Звітування домашньої сторінки
 
@@ -47,7 +47,7 @@ Microsoft Dynamics 365 Project Service Automation дає змогу органі
 
 
 ## <a name="additional-resources"></a>Додаткові ресурси
-Для отримання додаткових відомостей про звітування в PSA див. зазначені нижче розділи.
+Для отримання додаткових відомостей про звітування в УРП див.
 
 - [Робота з моделлю даних Project Service](reports-working-project-service-data-model.md)
 - [Приладні дошки](reports-dashboards.md)

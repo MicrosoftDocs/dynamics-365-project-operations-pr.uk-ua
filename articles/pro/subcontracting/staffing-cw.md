@@ -1,17 +1,17 @@
 ---
 title: Підбір працівників для роботи за сервісним договором і визначення виробничої спроможності субпідрядної сервісної роботи для проекту
-description: У цьому розділі пояснюється, як вимоги до проекту можуть бути укомплектовані за допомогою контрактників або субпідрядних потужностей у корпорації Майкрософт Dynamics 365 Project Operations.
+description: У цій статті пояснюється, як вимоги до проекту можуть бути укомплектовані за допомогою контрактних працівників або субпідрядної потужності в корпорації Майкрософт Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a0efea80484dfca0a9dae8404837c3376dfecaed
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173e1c20d2d046ee2120ec178e51d4868b70847d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922109"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Підбір працівників для роботи за сервісним договором і визначення виробничої спроможності субпідрядної сервісної роботи для проекту
 

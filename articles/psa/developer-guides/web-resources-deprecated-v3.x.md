@@ -1,6 +1,6 @@
 ---
 title: Вилучені веб-ресурси в Project Service Automation 3.x
-description: У цьому розділі описано веб-ресурси, які більше не використовуються в Dynamics 365 Project Service Automation 3.0.
+description: У цій статті описано веб-ресурси, які більше не використовуються в Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 36415cd11188e846ffe1a816c16811097824772a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a2d3f37a92a5261f5799ad149ccd1b5517c25f36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915991"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>Вилучені веб-ресурси в Project Service Automation 3.x
 

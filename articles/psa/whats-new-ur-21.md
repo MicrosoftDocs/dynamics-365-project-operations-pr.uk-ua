@@ -1,6 +1,6 @@
 ---
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 21 версії 3
-description: У цій статті перелічено функції й виправлення, доступні у випуску Project Service Automation 21, V3.
+description: У цій статті перелічено функції та виправлення, доступні в project служби автоматизації оновлення реліз 21, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 34d1540639352f635068b849500a104de2509a7f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7d7c098a4572aa4f5730ffdbdab77b2897cdfeff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918843"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation, оновлений випуск 21, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577860"
 
 Ми з радістю повідомляємо про вихід останнього оновлення для програми Project Service Automation для Dynamics 365. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 21 версії 3. Ця версія має номер збірки V 3.10.32.50 і загальнодоступна у складі самостійного оновлення у червні 2020 р.
+У цій статті перелічено функції та виправлення, які є новими або зміненими для автоматизації служби Project V3, оновлення випуску 21. Ця версія має номер збірки V 3.10.32.50 і загальнодоступна у складі самостійного оновлення у червні 2020 р.
 
 ## <a name="update-release-21"></a>Оновлений випуск 21
 

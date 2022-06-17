@@ -1,17 +1,17 @@
 ---
 title: Відомості про заголовок для субпідрядних сервісних договорів
-description: У цьому розділі описано функціональність, передбачену в заголовку субпідрядного сервісного договору в Project Operations.
+description: У цій статті пояснюється функціональність, надана в заголовку субпідряду в операції project.
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598191"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914197"
 ---
 # <a name="header-details-for-subcontracts"></a>Відомості про заголовок для субпідрядних сервісних договорів
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598191"
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 
-У цьому розділі описано функціональність, передбачену в заголовку субпідрядного сервісного договору в Dynamics 365 Project Operations.
+У цій статті пояснюється функціональність, надана в заголовку субпідряду в програмі Dynamics 365 Project Operations.
 
 Коли менеджер проектів планує та виконує проекти, він може використовувати підрядників і купувати продукти та послуги в постачальників. Коли менеджеру проектів потрібно купити продукти або послуги, він може створити субпідрядний сервісний договір у Project Operations.
 

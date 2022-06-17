@@ -1,24 +1,24 @@
 ---
 title: Що нового в грудні 2021 року - розгортання project operations lite
-description: У цій темі наведено відомості про оновлення якості, доступні в грудні 2021 року випуску project operations lite розгортання.
+description: У цій статті наведено відомості про якість оновлень, які доступні в грудні 2021 випуску project operations lite розгортання.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585403"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914105"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>Що нового в грудні 2021 року - розгортання project operations lite
 
 _Застосовується до: розгортання Lite — від угоди до рахунків-проформ_
 
-Цей розділ стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
+Ця стаття стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
 
 - Операції з проектом Dataverse у версії середовища 4.27.0.195, 4.27.0.242, 4.27.0.244
 

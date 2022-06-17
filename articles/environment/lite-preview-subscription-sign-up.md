@@ -1,21 +1,21 @@
 ---
-title: Реєстрація для отримання підготовчої версії передплати – легка версія
-description: 'У цьому розділі наведено відомості про те, як оформити передплату та здійснити розгортання Project Operations Lite: від угоди до рахунків-проформ.'
+title: 'Реєстрація для отримання підготовчої версії передплати: Lite'
+description: У цій статті наведено відомості про те, як підписатися та розгорнути розгортання Project Operations Lite - справа проформа виставлення рахунків.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921281"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Реєстрація для отримання підготовчої версії передплати: Lite 
 
-У цьому розділі ви дізнаєтесь, як підписатися на ознайомлювальну пропозицію та виконати розгортання Dynamics 365 Project Operations Lite: від угоди до рахунків-проформ.
+У цій статті пояснюється, як підписатися на пробну пропозицію та розгорнути Dynamics 365 Project Operations розгортання lite - справу з виставлення рахунків proforma.
 
 > [!NOTE]
 > Цей процес буде змінено в майбутніх випусках Project Operations.
@@ -50,7 +50,7 @@ ms.locfileid: "8588025"
 
 ## <a name="create-a-new-dataverse-environment"></a>Створіть нове середовище Dataverse
 
-1. Підготуйте нове середовище Dataverse для розгортання Project Operations, дотримуючись вказівок у розділі [Модель розгортання Dataverse](lite-deployment.md). Під час вибору типу середовища переконайтеся, що використовуєте **Ознайомлювальну версію (на основі підписки)**.
+1. Підготовка нового середовища розгортання операцій Dataverse проекту, дотримуючись інструкцій у статті, [Dataverse моделі розгортання](lite-deployment.md). Під час вибору типу середовища переконайтеся, що використовуєте **Ознайомлювальну версію (на основі підписки)**.
 
   ![Нове середовище.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8588025"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Інсталюйте конфігурацію CDS та настройте демонстраційні дані
 
-Інсталюйте конфігурацію CDS і настройте демонстраційні дані, дотримуючись вказівок у розділі [Застосування демонстраційних даних налаштування та конфігурації](lite-apply-demo-setup-config-data.md).
+Встановіть конфігурацію CDS і налаштуйте демонстраційні дані, дотримуючись інструкцій у статті, [Застосувати демо-налаштування та дані конфігурації](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

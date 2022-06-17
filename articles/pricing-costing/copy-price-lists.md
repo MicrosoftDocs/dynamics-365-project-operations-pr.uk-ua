@@ -1,17 +1,17 @@
 ---
 title: Копіювання прайсів
-description: У цьому розділі наведено відомості про копіювання прайсів у Project Operations.
+description: У цій статті наведено відомості про копіювання прейскурантів у програмі «Операції з проектами».
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e5d6e46af2eef47246b677494fd3503c838560d1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3fce3a362fe6326e362c3f77054c10281a9c146c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587979"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921189"
 ---
 # <a name="copy-price-lists"></a>Копіювання прайсів
 

@@ -1,6 +1,6 @@
 ---
 title: Посібник з керування ресурсами
-description: У цьому розділі наведено посилання на відомості про керування ресурсами в Project Service Automation
+description: У цій статті наведено посилання на відомості про керування ресурсами в системі автоматизації служб project
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910823"
 ---
 # <a name="resource-management-guide"></a>Посібник з керування ресурсами
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595477"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-Посилання на PDF-файл було видалено з цього розділу, а вміст переміщено до таких розділів:
+ПОСИЛАННЯ PDF, яке раніше було в цій статті, видалено, а вміст переміщено до таких статей:
 
 - [Головна сторінка керування ресурсами](../resource-management-home-page.md)
 - [Ключові поняття](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ ms.locfileid: "8595477"
 - [Запитання та відповіді щодо керування ресурсами](../resource-management-faq.md)
 
 > [!NOTE]
-> Цей розділ буде видалено з майбутньої оновленої документації. 
+> Цю статтю буде видалено в майбутньому оновленні документації. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

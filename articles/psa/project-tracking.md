@@ -1,6 +1,6 @@
 ---
 title: Перебіг проектів і використання коштів під час них
-description: У цій темі викладається інформація про відстеження виконання проекту та витрачання коштів.
+description: У цій статті наведено відомості про відстеження прогресу проекту та споживання витрат.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575283"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921787"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Перебіг проектів і використання коштів під час них
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575283"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Необхідність відстежувати перебіг виконання за розкладом залежить від галузей. Деякі галузі відстежують на дуже детальному рівні, тоді як інші галузі відстежують вищому рівні. У цьому розділі показано, як виконати планування, щоб задовольнити вимоги організації.
+Необхідність відстежувати перебіг виконання за розкладом залежить від галузей. Деякі галузі відстежують на дуже детальному рівні, тоді як інші галузі відстежують вищому рівні. У цій статті показано, як запланувати, щоб задовольнити вимоги організації.
 
 ## <a name="effort-tracking-view"></a>Перегляд відстеження обсягів робіт
 

@@ -1,24 +1,24 @@
 ---
 title: Інтеграція керування витратами
-description: У цьому розділі наведено відомості про інтеграцію звітів витрат в Project Operations за допомогою подвійного записування.
+description: У цій статті наведено відомості про інтеграцію звіту про витрати в операціях project за допомогою подвійного запису.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924639"
 ---
 # <a name="expense-management-integration"></a>Інтеграція керування витратами
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-У цьому розділі наведено відомості про інтеграцію звітів витрат в [повному розгортанні витрат](../expense/expense-overview.md) Project Operations за допомогою подвійного записування.
+У цій статті наведено відомості про інтеграцію звітів про витрати в операціях [project повного розгортання](../expense/expense-overview.md) витрат за допомогою подвійного запису.
 
 ## <a name="expense-categories"></a>Категорії витрат
 

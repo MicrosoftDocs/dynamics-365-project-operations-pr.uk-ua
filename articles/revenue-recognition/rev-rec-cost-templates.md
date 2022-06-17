@@ -1,24 +1,24 @@
 ---
 title: Налаштування шаблонів витрат
-description: У цьому розділі наведено відомості про створення та використання шаблонів у Project Operations.
+description: У цій статті наведено відомості про створення та використання шаблонів витрат у програмах Project Operations.
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918429"
 ---
 # <a name="set-up-cost-templates"></a>Налаштування шаблонів витрат
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
 
-У цьому розділі наведено відомості про створення та використання шаблонів у Project Operations. У шаблоні витрат визначаються:
+У цій статті наведено відомості про створення та використання шаблонів витрат у програмах Project Operations. У шаблоні витрат визначаються:
 
 - Категорії проекту для прогнозування та фактичних транзакцій, що додаються до обчислення виконання проекту у відсотках. У подальшому значення відсотка виконання використовується для підрахунку розміру визнання доходу.
 - Визначає, чи може змінюватися відсоток виконання у разі його автоматичного обчислення.

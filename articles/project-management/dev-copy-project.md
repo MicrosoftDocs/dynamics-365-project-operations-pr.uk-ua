@@ -1,17 +1,17 @@
 ---
 title: Розробка шаблонів проектів за допомогою функції копіювання проектів
-description: У цьому розділі наведено відомості про створення шаблонів проектів за допомогою настроюваної дії «Копіювати проект».
+description: У цій статті наведено відомості про створення шаблонів проектів за допомогою настроюваної дії Копіювати проект.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923857"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Розробка шаблонів проектів за допомогою функції копіювання проектів
 

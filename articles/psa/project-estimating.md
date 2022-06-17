@@ -1,6 +1,6 @@
 ---
 title: Витрати та дохід проекту
-description: У цьому розділі наведено відомості щодо оцінки витрат та надходжень по проекту.
+description: У цій статті наведено відомості про оцінку витрат на проект і доходів.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ecac3a08b2405e697eb260bbab991458dbe69f4e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 745f6390d9987dfcb2557d0345e7444512d191fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581907"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919165"
 ---
 # <a name="project-costs-and-revenue"></a>Витрати та дохід проекту
 

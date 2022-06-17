@@ -1,6 +1,6 @@
 ---
 title: Розширений посібник із цінових пропозицій, ціноутворення та виставлення рахунків
-description: У цьому розділі наведено відомості про цінові пропозиції, ціноутворення та надсилання рахунків у Project Service Automation.
+description: У цій статті наведено відомості про цитування, виставлення рахунків і ціни в розділі Автоматизація служб project.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921833"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Розширений посібник із цінових пропозицій, ціноутворення та виставлення рахунків
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579377"
 
 Вміння знаходити потрібні ресурси в потрібний час, бронювати ці ресурси у проекти й підтримувати ефективне використання ресурсів допомагає організації досягати цілей у прибутках і задоволеності клієнтів. 
 
-Посилання на PDF-файл було видалено з цього розділу, а вміст переміщено до таких розділів:
+ПОСИЛАННЯ PDF, яке раніше було в цій статті, видалено, а вміст переміщено до таких статей:
 
 - [Цінові пропозиції, ціноутворення та виставлення рахунків](../quote-bill-price.md)
 - [Процеси збуту](../basic-sales-process.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8579377"
 - [Запис фактичних даних](../advanced-actuals.md)
 
 > [!NOTE]
-> Цей розділ буде видалено з майбутньої оновленої документації. 
+> Цю статтю буде видалено в майбутньому оновленні документації. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

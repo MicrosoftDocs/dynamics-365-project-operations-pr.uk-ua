@@ -1,17 +1,17 @@
 ---
 title: Ресурси для субпідрядної сервісної роботи
-description: У цьому розділі описано, як указати виділені ресурси, які надає постачальник для певної субпідрядної сервісної роботи на певний час.
+description: У цій статті пояснюється, як указати виділені ресурси, які надаються постачальником для певної лінії субпідряду на час.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96bce2d6797c124331ce0174b16804ff8dfec993
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84fbbd6e1a82db2b2d998b5f41579396df884ec3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576111"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924179"
 ---
 # <a name="subcontract-line-resources"></a>Ресурси для субпідрядної сервісної роботи
 

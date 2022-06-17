@@ -1,24 +1,24 @@
 ---
 title: Видалені або застарілі функції в Dynamics 365 Project Operations
-description: У цьому розділі описано функції, які було видалено або які планується для видалення з програми Dynamics 365 Project Operations.
+description: У цій статті описано функції, які було видалено або які планується видалити з програми Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601595"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921511"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Видалені або застарілі функції в Dynamics 365 Project Operations
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, розгортання Lite — від угоди до рахунків-проформ і Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_
 
-У цьому розділі описано функції, які було видалено або які планується для видалення з програми Dynamics 365 Project Operations.
+У цій статті описано функції, які було видалено або які планується видалити з програми Dynamics 365 Project Operations.
 
 - *Видалена* функція більше не доступна в продукті.
 - *Застарілі* функції є функціями, яке не перебувають на етапі активної розробки й можуть бути видалені в будь-якому майбутньому оновленні.

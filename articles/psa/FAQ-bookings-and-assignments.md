@@ -1,6 +1,6 @@
 ---
 title: Резервування ресурсів і як вони пов’язані із призначенням завдань
-description: У цьому розділі наведено відомості про керування названими ресурсами, резервуваннями ресурсів і призначеннями завдань, а також їх співвідношенням.
+description: У цій статті наведено відомості про керування іменованими ресурсами, бронювання ресурсів і призначення завдань і про те, як вони пов'язані один з одним.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 953d7ca1995eae823fd29d0a9e85ff6a2a2eb59b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd8f028a9f4056a646f5001ee8c91191c71140af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910977"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>Резервування ресурсів і як вони пов’язані із призначенням завдань
 

@@ -1,6 +1,6 @@
 ---
 title: Нові й оновлені можливості в оновленому випуску Project Service Automation 15 версії 3
-description: У цій статті наведено відомості про нові й оновлені можливості Project Service Automation 15 версії 3.
+description: У цій статті наведено відомості про нові можливості оновлення служби project services automation release 15, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 26b9ee0a6ff1ad81d6c77a6a7091733667c493ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b87cae2cd8913457c2931d1661a57509d1398d29
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915669"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation, оновлений випуск 15, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585173"
 
 Ми з радістю повідомляємо про випуск останнього оновлення програми Dynamics 365 Project Service Automation (PSA). Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Цей випуск сумісний із Dynamics 365 9.x. Щоб інсталювати цей випуск, відкрийте Центр адміністрування Dynamics 365 в Інтернеті й перейдіть на сторінку рішень. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу випуску PSA 15 версії 3. Ця версія має номер збірки V3.10.5.28 і зазвичай надається в складі оновлення за січень 2020 р., яке можна завантажити самостійно.
+У цій статті перераховані функції та виправлення, які є новими або зміненими для PSA V3, оновлення реліз 15. Ця версія має номер збірки V3.10.5.28 і зазвичай надається в складі оновлення за січень 2020 р., яке можна завантажити самостійно.
 
 ## <a name="update-release-15"></a>Оновлений випуск 15 
 

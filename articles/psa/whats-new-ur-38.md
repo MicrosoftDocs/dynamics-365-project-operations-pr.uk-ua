@@ -1,6 +1,6 @@
 ---
 title: Що нового або змінено в project service automation оновлення реліз 38, V3
-description: У цьому розділі перелічено функції й виправлення, доступні у випуску Microsoft Dynamics 365 Project Service Automation 38, V3.
+description: У цій статті перелічено функції та виправлення, які доступні в Microsoft Dynamics 365 Project Service Automation оновленні випуску 38, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 12/06/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 16994535d57dc1d7fefbe6e892c154f52638c7c0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ccc08cd0bc365bd4761424a4c0ceac91985e7c89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915210"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-38-v3"></a>Що нового або змінено в project service automation оновлення реліз 38, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8598743"
 
 Ми раді оголосити останнє оновлення програми Microsoft Dynamics 365 Project Service Automation. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Вона є сумісною з Dynamics 365 9.x. Щоб виконати оновлення до цього випуску, відвідайте сторінку онлайнових рішень центру адміністрування Dynamics 365 та інсталюйте оновлення. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цьому розділі перелічено функції та виправлення, які є новими або зміненими для оновлення служби project service automation release 38, V3. Ця версія має номер випуску V3.10.59.117 і є загальнодоступною в межах самостійного оновлення в грудні 2021.
+У цій статті перелічено функції та виправлення, які є новими або зміненими для оновлення служби project service automation release 38, V3. Ця версія має номер випуску V3.10.59.117 і є загальнодоступною в межах самостійного оновлення в грудні 2021.
 
 ## <a name="update-release-38"></a>Оновлений випуск 38
 

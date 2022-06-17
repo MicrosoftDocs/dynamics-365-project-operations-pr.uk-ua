@@ -1,17 +1,17 @@
 ---
 title: Режими планування
-description: У цьому розділі наведено відомості про режими планування.
+description: У цій статті наведено відомості про режими планування.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923673"
 ---
 # <a name="scheduling-modes"></a>Режими планування
 
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations надає організаціям можлив
 | Завдання з фіксованим обсягом роботи    | Переобчислення тривалості. | Переобчислення одиниць.    | Переобчислення тривалості. |
 | Завдання з фіксованою тривалістю  | Переобчислення обсягу роботи.   | Переобчислення обсягу роботи.    | Переобчислення одиниць.   |
 
-Для отримання додаткових відомостей про наслідки використання певного режиму, див. розділ [Зміна типу завдання для більш точного планування](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). У розділі використовується термін **Робота**, а не **Обсяг роботи**.
+Для отримання додаткових відомостей про наслідки використання певного режиму, див. розділ [Зміна типу завдання для більш точного планування](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). У статті **термін Робота** використовується замість **зусиль**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Зміна режиму планування організації
 

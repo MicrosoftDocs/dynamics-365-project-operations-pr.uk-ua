@@ -1,25 +1,25 @@
 ---
 title: Оновлення Project Operations у середовищі Finance
-description: У цьому розділі наведено відомості про оновлення операцій project у Dynamics 365 Finance середовищі.
+description: У цій статті наведено відомості про оновлення операцій project у Dynamics 365 Finance середовищі.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912495"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Оновлення Project Operations у середовищі Finance
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
 
-У цьому розділі наведено відомості Dynamics 365 Project Operations про оновлення в Dynamics 365 Finance середовищі. Для оновлення Project Operations до Update 5 (UR5) існує три необхідні процедури.
+У цій статті наведено відомості про оновлення Dynamics 365 Project Operations в середовищі Dynamics 365 Finance. Для оновлення Project Operations до Update 5 (UR5) існує три необхідні процедури.
 
 - [Імпорт пакета до проекту підготовчої версії](#import)
 - [Схвалення оновлення](#apply)

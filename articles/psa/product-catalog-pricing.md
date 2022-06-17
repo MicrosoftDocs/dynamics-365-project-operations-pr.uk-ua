@@ -1,6 +1,6 @@
 ---
 title: Ціноутворення в каталозі продуктів
-description: У цьому розділі наведено відомості про те, як працює каталог продуктів у Dynamics 365 Project Service Automation (PSA).
+description: У цій статті наведено відомості про те, як ціни на каталог продукції працюють (Dynamics 365 Project Service Automation УРП).
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6cf50a09226bd6fdb803fd1fd379fec80838be75
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61d35a9ce16bb58abc66edab5e21dd83d607184e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913415"
 ---
 # <a name="product-catalog-pricing"></a>Ціноутворення в каталозі продуктів 
 

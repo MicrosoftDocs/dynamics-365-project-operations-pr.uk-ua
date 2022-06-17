@@ -1,17 +1,17 @@
 ---
 title: Подовження записів часу
-description: У цьому розділі наведено відомості про те, як розробники можуть розширити елемент керування введенням часу.
+description: У цій статті наведено відомості про те, як розробники можуть продовжити контроль часу входу.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914795"
 ---
 # <a name="extending-time-entries"></a>Подовження записів часу
 

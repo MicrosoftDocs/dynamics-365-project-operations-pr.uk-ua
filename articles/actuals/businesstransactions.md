@@ -1,6 +1,6 @@
 ---
-title: Бізнес-операції в операціях проекту
-description: У цьому розділі наведено огляд концепції ділових операцій у корпорації Майкрософт Dynamics 365 Project Operations.
+title: Ділові транзакції в Project Operations
+description: У цій статті наведено огляд концепції ділових операцій у корпорації Майкрософт Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2022-01-31
-ms.openlocfilehash: 0c6fe583af0dcaa62204b35c1093746b13b6e00e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fab0061af6e615c25d0fbf79d024370285dc6f86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923305"
 ---
-# <a name="business-transactions-in-project-operations"></a>Бізнес-операції в операціях проекту
+# <a name="business-transactions-in-project-operations"></a>Ділові транзакції в Project Operations
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків_
 

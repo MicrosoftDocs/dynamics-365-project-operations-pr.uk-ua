@@ -1,6 +1,6 @@
 ---
 title: Деактивуйте прайси
-description: У цій темі роз’яснюється, як деактивувати або видалити старі прайси або прайси, що не використовуються.
+description: У цій статті пояснюється, як деактивувати або видалити невикористані або старі прейскуранти.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Professional Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ab790764f7a99118fd42bc76934105389173ff88
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 56bd498d2cb892bdf0c7514d0918e3873098b8d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596908"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924409"
 ---
 # <a name="deactivate-price-lists"></a>Деактивуйте прайси 
 

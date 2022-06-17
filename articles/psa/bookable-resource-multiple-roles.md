@@ -1,6 +1,6 @@
 ---
 title: Оцінка збуту та вартості проекту в разі, коли резервований ресурс виконує кілька ролей у проекті.
-description: У цьому розділі описано, як можна використовувати виміри ціноутворення для підтримки ціноутворення та кошторисних оцінок для ресурсу, який виконує кілька ролей у проекті.
+description: У цій статті наведено відомості про те, як цінові розміри можна використовувати для підтримки ціноутворення та витрат на ресурс, який заповнює кілька ролей у проекті.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590739"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916175"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Оцінка збуту та вартості проекту в разі, коли резервований ресурс виконує кілька ролей у проекті. 
 

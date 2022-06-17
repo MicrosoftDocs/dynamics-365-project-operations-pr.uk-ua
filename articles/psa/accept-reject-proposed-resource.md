@@ -1,6 +1,6 @@
 ---
 title: Приймання або відхилення запропонованого ресурсу до проекту
-description: У цьому розділі наведено відомості про затвердження або відхилення запропонованого у проект ресурсу.
+description: У цій статті наведено відомості про затвердження або відхилення запропонованого ресурсу проекту.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 94c3f9f960adc7c348b19e23a11bc05bd60e0b56
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916221"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Приймання або відхилення запропонованого ресурсу до проекту
 
@@ -30,7 +30,7 @@ ms.locfileid: "8599157"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-У цьому розділі наведено відомості про затвердження або відхилення запропонованого у проект ресурсу.
+У цій статті наведено відомості про затвердження або відхилення запропонованого ресурсу проекту.
 
 Коли диспетчер ресурсів пропонує названий ресурс, щоб заповнити загальний запит ресурсів для проекту, поле **Статус запиту** для загального учасника команди буде змінено на **Потребує перегляду**. Запит буде надіслано керівнику проекту для затвердження або відхилення.
 

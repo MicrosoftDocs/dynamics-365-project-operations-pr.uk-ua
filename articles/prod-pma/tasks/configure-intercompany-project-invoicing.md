@@ -1,6 +1,6 @@
 ---
 title: Настроювання внутрішнього виставлення рахунків за проектом
-description: У цій темі описано, як організувати виставлення рахунків за проектом за участю двох компаній у вашій організації.
+description: У цій статті показано, як налаштувати виставлення рахунків за проект між двома компаніями у вашій організації.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683300"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916635"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Настроювання внутрішнього виставлення рахунків за проектом
 
 [!include [banner](../../includes/banner.md)]
 
-У цій темі описано, як організувати виставлення рахунків за проектом за участю двох компаній у вашій організації. У цьому завданні використовується набір даних USSI.
+У цій статті показано, як налаштувати виставлення рахунків за проект між двома компаніями у вашій організації. У цьому завданні використовується набір даних USSI.
 
 1. У області переходів перейдіть до розділу **Модулі > Рахунки до сплати > Постачальники > Усі постачальники**.
 2. У списку **Усі постачальники** знайдіть і виберіть бажаний запис.

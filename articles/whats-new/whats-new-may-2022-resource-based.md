@@ -1,24 +1,24 @@
 ---
 title: Що нового в травні 2022 р. – Project Operations для сценаріїв на основі ресурсів і відсутності запасів
-description: У цьому розділі наведено відомості про оновлення якості, доступні в травні 2022 року випуску корпорації Майкрософт Dynamics 365 Project Operations для сценаріїв на основі ресурсів або не запасів.
+description: У цій статті наведено відомості про якість оновлень, які доступні в травні 2022 випуску корпорації Майкрософт Dynamics 365 Project Operations для ресурсів/не забезпечених сценаріїв.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921419"
 ---
 # <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового в травні 2022 р. – Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Цей розділ стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
+Ця стаття стосується таких компонентів і версій корпорації Майкрософт Dynamics 365 Project Operations:
 
 - Операції з проектом Dataverse у версії середовища 4.42.0.70
 - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.26

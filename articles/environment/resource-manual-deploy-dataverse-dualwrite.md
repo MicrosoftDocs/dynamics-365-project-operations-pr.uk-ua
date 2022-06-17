@@ -1,25 +1,25 @@
 ---
 title: Розгортання вручну програми Project Operations Dataverse з підтримкою подвійного запису
-description: У цьому розділі пояснюється, як вручну розгорнути програму Project Operations Dataverse із підтримкою подвійного записування.
+description: У цій статті пояснюється, як вручну розгорнути програму Project Operations Dataverse, щоб вона підтримувала подвійне записування.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912035"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Розгортання вручну програми Project Operations Dataverse з підтримкою подвійного запису
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-У цьому розділі пояснюється, як вручну розгорнути Microsoft Dynamics 365 Project Operations у Microsoft Dataverse із підтримкою подвійного записування. Project Operations виявляє конфігурацію середовища та додає розширену підтримку для подвійного записування за виконання попередніх умов.
+У цій статті пояснюється, як вручну розгорнути Корпорацію Майкрософт Dynamics 365 Project Operations Microsoft Dataverse, щоб вона підтримувала подвійне записування. Project Operations виявляє конфігурацію середовища та додає розширену підтримку для подвійного записування за виконання попередніх умов.
 
-Якщо під час розгортання за допомогою Microsoft Dynamics Lifecycle Services (LCS) ви дотримувалися вказівок з цього розділу, ви можете пропустити розгортання інтеграції Microsoft Power Platform (раніше відомої як середовище Common Data Service).
+Під Вільний час розгортання через Microsoft Dynamics служб життєвого циклу (LCS), якщо ви дотримувалися інструкцій, наведених Microsoft Power Platform у цій статті, ви можете пропустити розгортання інтеграції (раніше відомої Common Data Service як навколишнє середовище).
 
 Процес розгортання Project Operations у Dataverse із підтримкою подвійного записування складається з чотирьох основних кроків.
 

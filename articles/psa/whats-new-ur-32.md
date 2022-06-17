@@ -1,6 +1,6 @@
 ---
 title: Нові можливості та зміни в оновленому випуску Project Service Automation 32 версії 3
-description: У цій статті перелічено функції й виправлення, доступні в оновленому випуску Project Service Automation 32, версії 3.
+description: У цій статті перелічено функції та виправлення, доступні в project служби автоматизації оновлення реліз 32, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3ad87eceb90a48997aadf00803b8d14c5108eb83
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5124137c24da9b579ee1365524d66d9135b2d420
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912909"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-32-v3"></a>Нові можливості та зміни в оновленому випуску Project Service Automation 32 версії 3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8580113"
 
 Ми раді оголосити останнє оновлення програми Microsoft Dynamics 365 Project Service Automation. Цей випуск містить деякі важливі покращення якості, продуктивності та зручності. Вона є сумісною з Dynamics 365 9.x. Щоб виконати оновлення до цього випуску, відвідайте сторінку онлайнових рішень центру адміністрування Dynamics 365 та інсталюйте оновлення. Щоб отримати додаткові відомості, див. [Інсталяція, оновлення або вилучення основного рішення](/power-platform/admin/install-remove-preferred-solution).
 
-У цій статті перелічено нові та оновлені функції й виправлення, що входять до складу оновленого випуску Project Service Automation 32 версії 3. Ця версія має номер збірки V3.10.53.108 та буде загальнодоступною способом самостійного оновлення в червні 2021 р.
+У цій статті перелічено функції та виправлення, які є новими або зміненими для автоматизації служби project V3, оновлення випуску 32. Ця версія має номер збірки V3.10.53.108 та буде загальнодоступною способом самостійного оновлення в червні 2021 р.
 
 ## <a name="update-release-32"></a>Оновлений випуск 32
 

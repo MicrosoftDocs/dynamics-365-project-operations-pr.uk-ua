@@ -1,19 +1,19 @@
 ---
-title: Перевірка рахунків-фактур постачальників із затвердженими фактичними даними
-description: У цьому розділі пояснюється, як керівники проектів Корпорації Майкрософт Dynamics 365 Project Operations перевіряють рахунки-фактури постачальників з фактичними даними, які були затверджені як підрядники, які виконували роботу та записаний час, а також витрати та матеріали, які використовувалися членами команди проекту.
+title: Перевірка рахунків постачальника із затвердженими фактичними даними
+description: У цій статті пояснюється, як Microsoft Dynamics 365 Project Operations давайте керівники проектів перевірити постачальника рахунків-фактур з фактичними даними, які були затверджені як підрядники виконують роботу і записаний час, а також витрати і матеріали, які використовувалися членами команди проекту.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914243"
 ---
-# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Перевірка рахунків-фактур постачальників із затвердженими фактичними даними
+# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Перевірка рахунків постачальника із затвердженими фактичними даними
 
 [!include [banner](../../includes/dataverse-preview.md)]
 

@@ -1,24 +1,24 @@
 ---
 title: 'Нові можливості в грудні 2020 р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами'
-description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску Project Operations у грудні 2020 р. для сценаріїв на основі замовлень на виробництво та з матеріалами.
+description: У цій статті наведено відомості про оновлення якості, доступні в грудні 2020 року випуску проектних операцій для біржових/виробничих сценаріїв.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594971"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911391"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Нові можливості або зміни в Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами в грудні 2020 р.
 
 _Застосовується до: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_
 
-Цей розділ застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
+Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
 
   - Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.15
 

@@ -1,17 +1,17 @@
 ---
 title: 'Нове з листопад 2020 р. — Розгортання Project Operations Lite: від угоди до рахунків-проформ'
-description: У цьому розділі наведено відомості про оновлення якості, доступні у випуску розгортання Project Operations Lite в листопаді 2020 р. — від угоди до рахунків-проформ.
+description: У цій статті наведено відомості про оновлення якості, доступні в листопаді 2020 року випуску Project Operations Lite розгортання - справа проформа виставлення рахунків.
 author: sigitac
 ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3a7d63e746edf73873840aee2f095192364cb286
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dfa39c702446fb47359fac442bde52f0e2ab9cf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584667"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913875"
 ---
 # <a name="whats-new-november-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Нове з листопад 2020 р. — Розгортання Project Operations Lite: від угоди до рахунків-проформ
 

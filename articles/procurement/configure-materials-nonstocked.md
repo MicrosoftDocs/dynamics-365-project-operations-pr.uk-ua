@@ -1,18 +1,18 @@
 ---
 title: Налаштування нескладських матеріалів та непідтверджених рахунків постачальника
-description: У цьому розділі описано, як увімкнути нескладські матеріали та непідтверджені рахунки постачальника.
+description: У цій статті пояснюється, як увімкнути не забезпечені матеріали та очікувані рахунки-фактури постачальника.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913783"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>Налаштування нескладських матеріалів та непідтверджених рахунків постачальника
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>Запустіть зіставлення таблиць подвійного записування для інтеграції нескладських матеріалів та рахунків постачальника
 
-У цьому розділі наведено інформацію про конкретні зіставлення, необхідні для нескладських матеріалів та рахунків постачальника. Підтвердьте, що необхідні зіставлення в розділі [Підготовка нового середовища](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) працюють у вашому середовищі.
+У цьому розділі наведено інформацію про конкретні зіставлення, необхідні для нескладських матеріалів та рахунків постачальника. Переконайтеся, що попередні карти, перелічені [в статті Про надання нового середовища](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps), працюють у вашому середовищі.
 
 1. Увійдіть до Lifecycle Services (LCS), перейдіть до вашого проекту LCS, та зайдіть на сторінку **Відомості про середовище**.
 2. В розділі **Відомості про середовище Common Data Service**, виберіть **Зв'язок із CDS для програм**. Після вибору зв’язку вас буде переспрямовано до списку сутностей у зіставленнях.
