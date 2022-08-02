@@ -1,18 +1,18 @@
 ---
 title: Підготовка нового середовища
-description: У цій статті наведено відомості про підготовку нового середовища операцій проекту.
+description: У цій статті наведено відомості про те, як створити нове середовище для операцій із проектом.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931631"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028543"
 ---
 # <a name="provision-a-new-environment"></a>Підготовка нового середовища
 
@@ -20,7 +20,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 
 
-У цій статті наведено відомості про те, як підготувати нове Dynamics 365 Project Operations середовище для ресурсів/ не забезпечених сценаріїв.
+У цій статті наведено відомості про те, як створити нове Dynamics 365 Project Operations середовище для сценаріїв на основі ресурсів і некомплектованих резервів.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Увімкнення автоматичної підготовки Project Operations у проекті LCS
 
@@ -34,7 +34,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="provision-a-project-operations-environment"></a>Підготовка середовища Project Operations
 
-1. Відкрийте нове Dynamics 365 Finance [демо-середовище](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) або [розгортання пісочниці/ виробничого середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Відкрийте новий Dynamics 365 Finance [демонстраційного середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) або [розгортання пісочниці / виробничого середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Виконайте вказівки майстра **Підготовка середовища**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ _**Застосовується до:** Project Operations для сценарі
 
     ![Застосування рішень.](./media/13ApplySolutions.png)
 
-5. Виберіть обидва рішення, **Dynamics 365 Finance and Operations Карту** подвійних сутності запису та **Dynamics 365 Project Operations Карти** подвійних сутностей запису, а потім натисніть кнопку **Застосувати**.
+5. Виберіть обидва рішення, **Dynamics 365 Finance карту** сутностей подвійного запису та **Dynamics 365 Project Operations карти** сутностей подвійного запису, а потім натисніть кнопку **Застосувати**.
 
     ![Підтвердження рішень.](./media/14ConfirmSolutions.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Мобільна робоча область для введення часу проекту
-description: У цій статті наведено відомості про мобільну робочу область для запису часу проекту. У цій робочій області користувачі можуть вводити та зберігати в мобільному пристрої час, затрачений за проектом.
+description: У цій статті наведено відомості про робочу область Project для мобільних пристроїв для введення часу. У цій робочій області користувачі можуть вводити та зберігати в мобільному пристрої час, затрачений за проектом.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50388bd024fdf2de0d28e49ef07a01b03c6b88f0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919579"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029693"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Мобільна робоча область для введення часу проекту
 
 [!include [banner](../includes/banner.md)]
 
-У цій статті наведено відомості про мобільну робочу **область для запису** часу проекту. У цій робочій області користувачі можуть вводити та зберігати в мобільному пристрої час, затрачений за проектом.
+У цій статті наведено відомості про робочу **область Project для мобільних пристроїв для введення** часу. У цій робочій області користувачі можуть вводити та зберігати в мобільному пристрої час, затрачений за проектом.
 
 Ця мобільна робоча область призначена для використання з програмою для мобільних пристроїв Dynamics 365 Unified Ops. 
 
@@ -44,7 +44,7 @@ ms.locfileid: "8919579"
 ## <a name="prerequisites"></a>Вимоги
 Необхідні компоненти відрізняються залежно від версії Microsoft Dynamics 365, яку розгорнуто у вашій організації.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Попередні вимоги, якщо ви використовуєте Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Обов'язкові умови використання Dynamics 365 Finance
 Якщо у вашій організації розгорнуто Finance, системний адміністратор має опублікувати мобільну робочу область **Project time entry**. Інструкцію див. у розділі [Публікуйте мобільну робочу область](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Необхідні компоненти, якщо ви використовуєте версію 1611 з оновленням платформи 3 або пізнішого випуску
@@ -82,7 +82,7 @@ ms.locfileid: "8919579"
 
 ## <a name="download-and-install-the-mobile-app"></a>Завантажте та інсталюйте програму для мобільних пристроїв
 
-Завантажте та встановіть мобільний додаток «Фінанси та операції»:
+Завантажте та встановіть мобільний додаток для фінансів та операцій:
 
 -   [Для телефонів Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Для пристроїв iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

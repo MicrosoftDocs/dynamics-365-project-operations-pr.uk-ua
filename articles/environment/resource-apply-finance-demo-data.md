@@ -1,24 +1,24 @@
 ---
 title: Застосування демонстраційних даних до розміщеного в хмарі Finance середовища
-description: У цій статті пояснюється, як застосувати демонстраційні дані з операцій project до Dynamics 365 Finance хмарному середовищі.
+description: У цій статті пояснюється, як застосувати демонстраційні дані з Project Operations до середовища, розміщеного Dynamics 365 Finance хмарі.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924685"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029922"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Застосування демонстраційних даних до розміщеного в хмарі Finance середовища
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
 > [!IMPORTANT]
-> Ця стаття застосовується лише Microsoft Dynamics для 365 Фінанси версії 10.0.13 і може бути виконана лише в хмарному середовищі. Виконайте кроки, описані в цій статті **, ПЕРШ НІЖ** застосовувати якісні оновлення до навколишнього середовища.
+> Ця стаття стосується Microsoft Dynamics лише 365 Finance версії 10.0.13 і може бути виконана лише в хмарному середовищі. Виконайте дії, описані в цій статті **, ПЕРШ НІЖ** застосовувати оновлення якості до навколишнього середовища.
 
 1. У проекті LCS відкрийте сторінку **Відомості про середовища**. Зверніть увагу, що вона містить відомості, необхідні для підключення до середовища за допомогою протоколу віддаленого робочого стола (RDP).
 

@@ -1,26 +1,26 @@
 ---
 title: Нові можливості або зміни в Project Operations від квітня 2021 р. для сценаріїв на основі замовлень на виробництво та з матеріалами
-description: У цій статті наведено відомості про оновлення якості, доступні у квітні 2021 року випуску project operations для резервних/виробничих сценаріїв.
+description: У цій статті наведено відомості про оновлення якості, доступні у випуску «Операції проекту» за квітень 2021 року для сценаріїв на основі запасів і виробництва.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 726e940d2cb5dff11c682c27dc936322856b6440
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 74cace069e0b5a982e6ea1df0607ff72f1911a0f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916497"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028219"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>Нові можливості або зміни в Project Operations від квітня 2021 р. для сценаріїв на основі замовлень на виробництво та з матеріалами
 
 _**Застосовується до:** Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_
 
-Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
+Ця стаття стосується наступних Dynamics 365 Project Operations компонентів і версій:
 
-- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.18
+- Управління проектами та облік в Dynamics 365 Finance середовищі версія 10.0.18
  
 ### <a name="quality-updates"></a>Оновлення якості
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Подорожі й витрати                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | Якщо категорія витрат непроектна, вибрана на сторінці **Витрати** фінансова аналітика не копіюється у звіт витрат.                                          |
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Відомості про нормативні оновлення для програм фінансів і операцій наведено в статті [Нормативні оновлення](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

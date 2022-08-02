@@ -1,25 +1,25 @@
 ---
 title: Оновлення Project Operations у середовищі Finance
-description: У цій статті наведено відомості про оновлення операцій project у Dynamics 365 Finance середовищі.
+description: У цій статті наведено відомості про те, як оновити операції Project у Dynamics 365 Finance середовищі.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912495"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030060"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Оновлення Project Operations у середовищі Finance
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
 
-У цій статті наведено відомості про оновлення Dynamics 365 Project Operations в середовищі Dynamics 365 Finance. Для оновлення Project Operations до Update 5 (UR5) існує три необхідні процедури.
+Ця стаття містить інформацію про те, як оновити Dynamics 365 Project Operations Dynamics 365 Finance середовище. Для оновлення Project Operations до Update 5 (UR5) існує три необхідні процедури.
 
 - [Імпорт пакета до проекту підготовчої версії](#import)
 - [Схвалення оновлення](#apply)
@@ -119,7 +119,7 @@ _**Застосовується до:** Project Operations для сценарі
 4. На сторінці **Версія зіставлення таблиці** застосуйте нову версію зіставлення до кожної з трьох сутностей.
 5. На сторінці **Подвійне записування** натисніть «Запуск», щоб перезапустити карти.
 6. У списку карт виберіть зіставлення з усіма потребами **Ledger (msdyn_ledgers)** та встановіть прапорець **Початкова синхронізація**. 
-7. У полі Майстер для початкової **синхронізації** виберіть пункт **Програми фінансування та операції**, а потім натисніть кнопку **Виконати**.
+7. У полі Зразок для початкової **синхронізації** виберіть пункт **Програми фінансів** і операцій, а потім натисніть кнопку **Виконати**.
  
  ![Синхронізація зіставлення Ledger.](media/DW6.png)
  

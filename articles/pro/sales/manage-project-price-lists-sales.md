@@ -1,21 +1,21 @@
 ---
 title: Керування проектними прайсами у цінових пропозиціях проекту
-description: У цій статті наведено відомості про роботу з прейскурантами проекту за ціновими пропозиціями.
+description: У даній статті представлена інформація про роботу з прайс-листами проекту за котируваннями.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929975"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023638"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Керування проектними прайсами у цінових пропозиціях проекту 
 
-_**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
+_**Застосовується до:** Легке розгортання - виставлення попередніх рахунків, Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
 Цінові пропозиції проекту призначені для підтримки кількох прайсів, дійсних для різних дат. У Dynamics 365 Project Operations додано нову пов’язану сутність під назвою **Проектні прайси**. Ця сутність має відношення 1 до багатьох із ціновою пропозицією проекту.
 

@@ -1,26 +1,26 @@
 ---
 title: Нововведення та зміни в липні 2021 р. у Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
-description: У цій статті наведено відомості про оновлення якості, доступні в липні 2021 року випуску project operations для накопичувальних/виробничих сценаріїв.
+description: У цій статті наведено відомості про оновлення якості, доступні в липні 2021 року випуску «Операції проекту» для сценаріїв на основі запасів і виробництва.
 author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933655"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028865"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Нововведення та зміни в липні 2021 р. у Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
 
 _**Застосовується до:** Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_
 
-Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
+Ця стаття стосується наступних Dynamics 365 Project Operations компонентів і версій:
 
-- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.20
+- Управління проектами та облік в Dynamics 365 Finance середовищі версії 10.0.20
  
 ### <a name="quality-updates"></a>Оновлення якості
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Подорожі й витрати                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Засіб **Скинути стан документа витрати** має скидати стан звіту про витрати на **Чернетка**, якщо не знайдено робочого циклу. 
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Також ви можете увійти в Lifecycle Services (LCS) і переглянути заплановані регуляторні оновлення, використовуючи засіб пошуку проблем. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Відомості про нормативні оновлення для програм фінансів і операцій наведено в статті [Нормативні оновлення](/dynamics365/finance/localizations/regulatory-updates). Також ви можете увійти в Lifecycle Services (LCS) і переглянути заплановані регуляторні оновлення, використовуючи засіб пошуку проблем. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

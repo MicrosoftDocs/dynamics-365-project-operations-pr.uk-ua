@@ -1,26 +1,26 @@
 ---
 title: Що нового або змінилося в Project Operations у березні 2021 р. для сценаріїв на основі ресурсів і відсутності запасів
-description: У цій статті наведено відомості про оновлення якості, доступні в березні 2021 року випуску project operations для резервних/виробничих сценаріїв.
+description: У цій статті наведено відомості про оновлення якості, доступні в березні 2021 року випуску «Операції проекту» для сценаріїв на основі запасів і виробництва.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911345"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028773"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Що нового або змінилося в Project Operations у березні 2021 р. для сценаріїв на основі ресурсів і відсутності запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами_
 
-Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
+Ця стаття стосується наступних Dynamics 365 Project Operations компонентів і версій:
 
-- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.17
+- Управління проектами та облік в Dynamics 365 Finance середовищі версія 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Функції, що містяться у цьому випуску
 До цього випуску увійшли перелічені нижче функції.
@@ -121,7 +121,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Керування проектами та бухгалтерський облік | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Успадкований метод класу робочої структури проекту (WBS), **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** визнано застарілим.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Відомості про нормативні оновлення для програм фінансів і операцій наведено в статті [Нормативні оновлення](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

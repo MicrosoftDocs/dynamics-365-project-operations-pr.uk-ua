@@ -1,26 +1,26 @@
 ---
 title: 'Що нового у випуску за листопад 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
-description: У цій статті наведено відомості про оновлення якості, доступні в листопаді 2020 року випуску операцій project для ресурсів/не забезпечених сценаріїв.
+description: У цій статті наведено відомості про оновлення якості, доступні у випуску project Operations за листопад 2020 року для сценаріїв на основі ресурсів або без запасів.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923443"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029555"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Що нового у випуску за листопад 2020 р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
+Ця стаття стосується наступних Dynamics 365 Project Operations компонентів і версій:
 
 - Project Operations у середовищі CDS версії 4.4.0.70
-- Управління проектами та бухгалтерський облік у Dynamics 365 Finance середовищі версії 10.0.14
+- Управління проектами та облік в Dynamics 365 Finance середовищі версії 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Оновлення Project Operations для сценаріїв на основі ресурсів і відсутності запасів
 
@@ -42,7 +42,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Час і швидкі витрати пусті | 2059859          | Під час створення запису про витрати з’являється неочікуване спливаюче вікно.                                                                                                                         |
 | Інший                        | 2044181          | (Видалення рахунку за замовлення)   Під час спроби видалити рішень msdyn_ProjectServiceCore_Patch і msdyn Project   service core з’являється помилка «Запис недоступний».  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Управління проектами та бухгалтерський облік в Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Управління проектами та облік в Dynamics 365 Finance
 
 | Розділ функції        | Номер посилання | Оновлення якості                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ _**Застосовується до:** Project Operations для сценарі
 | Бухгалтерський облік проектів  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Якщо ввімкнути функцію, то кілька сервісних робіт за договором не можливо виконати без інтеграції з CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Оновлення нормативних вимог
-Для отримання відомостей про регуляторні оновлення для програм "Фінанси та операції" див [...](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
+Відомості про нормативні оновлення для програм фінансів і операцій наведено в статті [Нормативні оновлення](/dynamics365/finance/localizations/regulatory-updates). Крім того, можна увійти в LCS і переглянути заплановані оновлення нормативних вимог за допомогою інструменту пошуку інцидентів. Пошук інцидентів дає змогу виконувати пошук за країною, типом функції та випуском.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
