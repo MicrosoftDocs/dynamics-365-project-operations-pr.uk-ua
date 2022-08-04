@@ -56,48 +56,54 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Інтеграція керування витратами
               href: environment/resource-dual-write-expense.md
-            - name: Інтеграція з рахунку постачальника
+            - name: Інтеграція рахунків постачальників
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Видалення Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Що нового
       items:
-        - name: "Травень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-may-2022-resource-based.md
-        - name: "Квітень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-apr-2022-resource-based.md
-        - name: "Березень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-mar-2022-resource-based.md
-        - name: "Лютий 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-feb-2022-resource-based.md
-        - name: "Грудень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: 'Листопад 2021: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: "Жовтень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: "Вересень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: "Серпень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: "Липень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: "Червень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: "Травень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-may-2021-resource-based.md
-        - name: "Квітень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-apr-2021-resource-based.md
-        - name: "Березень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-mar-2021-resource-based.md
-        - name: "Лютий 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-feb-2021-resource-based.md
-        - name: "Січень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-jan-2021-resource-based.md
-        - name: "Грудень 2020\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: 'Листопад 2020: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
-          href: whats-new/whats-new-nov-2020-resource-based.md
+        - name: "Липень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Архів
+          items:
+            - name: "Червень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-june-2022-resource-based.md
+            - name: "Травень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-may-2022-resource-based.md
+            - name: "Квітень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-apr-2022-resource-based.md
+            - name: "Березень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-mar-2022-resource-based.md
+            - name: "Лютий 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-feb-2022-resource-based.md
+            - name: "Грудень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-dec-2021-resource-based.md
+            - name: 'Листопад 2021: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
+              href: whats-new/whats-new-nov-2021-resource-based.md
+            - name: "Жовтень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-oct-2021-resource-based.md
+            - name: "Вересень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-sept-2021-resource-based.md
+            - name: "Серпень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-august-2021-resource-based.md
+            - name: "Липень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-july-2021-resource-based.md
+            - name: "Червень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-june-2021-resource-based.md
+            - name: "Травень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-may-2021-resource-based.md
+            - name: "Квітень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-apr-2021-resource-based.md
+            - name: "Березень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-mar-2021-resource-based.md
+            - name: "Лютий 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-feb-2021-resource-based.md
+            - name: "Січень 2021\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-jan-2021-resource-based.md
+            - name: "Грудень 2020\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-dec-2020-resource-based.md
+            - name: 'Листопад 2020: Project Operations для сценаріїв на основі ресурсів і відсутності запасів'
+              href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Процес збуту за проектом
       items:
         - name: Огляд процесу збуту за проектом
@@ -468,9 +474,17 @@
           href: actuals/businesstransactions.md
         - name: Огляд фактичних даних
           href: actuals/actuals-overview.md
-        - name: Джерела транзакцій — Пов’язати фактичні дані з джерелом
+        - name: Вплив фактичних даних під час взаємодії з часовими й матеріальним ресурсами
+          href: actuals/ActualsonTM.md
+        - name: Вплив фактичних даних під час взаємодії з фіксованою ціною
+          href: actuals/ActualonFP.md
+        - name: Вплив фактичних даних під час взаємодії на етапі підготовки до продажу
+          href: actuals/ActualonPreSales.md
+        - name: Вплив фактичних даних на внутрішній проект
+          href: actuals/ActualonInternal.md
+        - name: 'Джерела транзакцій: пов’язання фактичних даних із джерелом'
           href: actuals/linkingactuals.md
-        - name: Зв’язки між транзакціями — Пов’язати фактичні дані різних типів транзакцій
+        - name: 'Зв’язки між транзакціями: пов’язання фактичних даних для різних типів транзакцій'
           href: actuals/connectingactuals.md
         - name: Журнали
           items:
@@ -513,14 +527,16 @@
             - name: Підтвердження рахунка-проформи на основі проекту
               href: proforma-invoicing/confirm-proforma-invoice.md
             - name: Створення коригувальних рахунків на основі проекту
-              href: proforma-invoicing/corrective-invoices.md
+              href: pro/proforma-invoicing/corrective-invoices-sales.md
             - name: Налаштування автоматизації виставлення рахунків на основі проекту
               href: proforma-invoicing/configure-automated-invoice-creation.md
+            - name: Коригувальні рахунки на основі проекту
+              href: proforma-invoicing/corrective-invoices.md
         - name: Виставлення рахунків клієнтам
           items:
-            - name: Керування пропозиціями щодо рахунків із проекту
+            - name: Керування пропозиціями щодо рахунків за проектом
               href: invoicing/format-update-project-invoice-proposals.md
-            - name: Правильний бухгалтерський облік за допомогою чернеток пропозицій щодо рахунків із проекту
+            - name: Правильний бухгалтерський облік за допомогою чернеток пропозицій щодо рахунків за проектом
               href: invoicing/correct-project-invoice-proposals.md
         - name: Внутрішнє виставлення рахунків
           items:
@@ -594,44 +610,50 @@
           href: environment/security-model.md
     - name: Що нового
       items:
-        - name: "Що нового в другій хвилі оновлення 2021 року із завчасним доступом\_– розгортання Lite"
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: "Що нового в травні 2022\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-may-2022-lite.md
-        - name: "Що нового в квітні 2022\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-apr-2022-lite.md
-        - name: "Що нового в березні 2022\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-mar-2022-lite.md
-        - name: "Що нового в лютому 2022\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-feb-2022-lite.md
-        - name: "Що нового в грудні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: "Що нового в листопаді 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: "Що нового в жовтні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: "Що нового у вересні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: "Що нового в серпні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: "Що нового в липні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: "Що нового в червні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: "Що нового в травні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-may-2021-lite.md
-        - name: "Що нового в квітні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-apr-2021-lite.md
-        - name: "Що нового в березні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-mar-2021-lite.md
-        - name: "Що нового в лютому 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-feb-2021-lite.md
-        - name: "Що нового в січні 2021\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-jan-2021-lite.md
-        - name: "Що нового в грудні 2020\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: "Що нового в листопаді 2020\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-nov-2020-lite.md
+        - name: "Що нового в липні 2022\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Архів
+          items:
+            - name: "Що нового в червні 2022\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-june-2022-lite.md
+            - name: "Що нового в другій хвилі оновлення 2021 року із завчасним доступом\_– розгортання Lite"
+              href: pro/whats-new/whats-new-2021-early-access-lite.md
+            - name: "Що нового в травні 2022\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-may-2022-lite.md
+            - name: "Що нового в квітні 2022\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-apr-2022-lite.md
+            - name: "Що нового в березні 2022\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-mar-2022-lite.md
+            - name: "Що нового в лютому 2022\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-feb-2022-lite.md
+            - name: "Що нового в грудні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-dec-2021-lite.md
+            - name: "Що нового в листопаді 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-nov-2021-lite.md
+            - name: "Що нового в жовтні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-oct-2021-lite.md
+            - name: "Що нового у вересні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-sept-2021-lite.md
+            - name: "Що нового в серпні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-august-2021-lite.md
+            - name: "Що нового в липні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-july-2021-lite.md
+            - name: "Що нового в червні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-june-2021-lite.md
+            - name: "Що нового в травні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-may-2021-lite.md
+            - name: "Що нового в квітні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-apr-2021-lite.md
+            - name: "Що нового в березні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-mar-2021-lite.md
+            - name: "Що нового в лютому 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-feb-2021-lite.md
+            - name: "Що нового в січні 2021\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-jan-2021-lite.md
+            - name: "Що нового в грудні 2020\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-dec-2020-lite.md
+            - name: "Що нового в листопаді 2020\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Процес збуту за проектом
       items:
         - name: Огляд процесу збуту за проектом
@@ -1030,9 +1052,9 @@
           href: actuals/businesstransactions.md
         - name: Огляд фактичних даних
           href: actuals/actuals-overview.md
-        - name: Джерела транзакцій — Пов’язати фактичні дані з джерелом
+        - name: 'Джерела транзакцій: пов’язання фактичних даних із джерелом'
           href: actuals/linkingactuals.md
-        - name: Зв’язки між транзакціями — Пов’язати фактичні дані різних типів транзакцій
+        - name: 'Зв’язки між транзакціями: пов’язання фактичних даних для різних типів транзакцій'
           href: actuals/connectingactuals.md
         - name: Журнали
           items:
@@ -1068,26 +1090,54 @@
           href: team-member/project-operations-team-member.md
 - name: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
   items:
+    - name: Почати
+      items:
+        - name: Інтеграція функції конфігурації даних
+          items:
+            - name: Огляд Project Service Automation
+              href: prod-pma/PSA-integration.md
+            - name: Параметри інтеграції Project Service Automation
+              href: prod-pma/PSA-parameters.md
+            - name: Синхронізація проектних сервісних договорів і проектів безпосередньо з Project Service Automation до Finance
+              href: prod-pma/project-contracts-templates.md
+            - name: Синхронізуйте фактичні параметри проекту безпосередньо із Project Service Automation до журналу інтеграції проектів для публікації в середовищі фінансів і операцій
+              href: prod-pma/project-actuals-templates.md
+            - name: Синхронізуйте оцінки проектів безпосередньо з Project Service Automation до середовища фінансів і операцій
+              href: prod-pma/project-estimates-templates.md
+            - name: Синхронізуйте категорії витрат за проектом між середовищем фінансів і операцій та Project Service Automation
+              href: prod-pma/project-categories-templates.md
+            - name: Синхронізуйте завдання проекту безпосередньо з Project Service Automation до середовища фінансів і операцій
+              href: prod-pma/project-tasks-template.md
+        - name: Розгортання середовищ
+          items:
+            - name: Оновлення Project Operations у середовищі Finance
+              href: whats-new/ur5-nonstocked-installation.md
     - name: Що нового
       items:
-        - name: "Що нового в жовтні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: "Що нового у вересні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: "Що нового в липні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: "Що нового в травні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-        - name: "Що нового у квітні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-        - name: "Що нового в березні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-        - name: "Що нового в січні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-        - name: "Що нового в грудні 2020\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-        - name: "Що нового в листопаді 2020\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
-          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+        - name: "Що нового в липні 2022\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Архів
+          items:
+            - name: "Що нового в червні 2022\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
+            - name: "Що нового в жовтні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+            - name: "Що нового у вересні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+            - name: "Що нового в липні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+            - name: "Що нового в травні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-may-2021-stocked.md
+            - name: "Що нового у квітні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
+            - name: "Що нового в березні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
+            - name: "Що нового в січні 2021\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+            - name: "Що нового в грудні 2020\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+            - name: "Що нового в листопаді 2020\_р.: Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами"
+              href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Огляд розгортання Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: Огляд керування проектами та бухгалтерського обліку
@@ -1118,11 +1168,13 @@
           href: prod-pma/project-mobile-application-overview.md
         - name: Мобільна робоча область для введення часу проекту
           href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: Програма для роботи з табелями проектів для мобільних пристроїв
+        - name: Мобільна програма Project Timesheet
           href: prod-pma/project-timesheet.md
         - name: Табелі проектів на мобільному пристрої
           href: prod-pma/mobile-timesheets.md
-        - name: Реалізація настроюваних полів для програми Project Timesheet для мобільних пристроїв
+        - name: Перейменування або зміна стадії проекту
+          href: prod-pma/tasks/rename-project.md
+        - name: Реалізація настроюваних полів для мобільної програми Project Timesheet
           href: prod-pma/custom-fields-mobile.md
     - name: Керування ресурсами
       items:
@@ -1150,6 +1202,8 @@
       items:
         - name: Прогнози та бюджети проекту
           href: prod-pma/project-forecasts-budgets.md
+        - name: Розподілення бюджету проекту або перегляду бюджету за періодами
+          href: prod-pma/tasks/allocate-project.md
         - name: Створення моделей прогнозування для бюджетів проектів
           href: prod-pma/create-forecast-models-project-budgets.md
         - name: Перенесення бюджетів проектів наприкінці фінансового року
@@ -1246,6 +1300,10 @@
       items:
         - name: Усунення оцінки проекту
           href: prod-pma/eliminate-project-estimate.md
+    - name: Державний сектор
+      items:
+        - name: Розклад витрат на надання федеральних ґрантів
+          href: prod-pma/project-sefa-inquiry.md
 - name: Керування витратами
   items:
     - name: Огляд керування витратами
@@ -1264,6 +1322,8 @@
           href: expense/set-up-workflows.md
         - name: Керування делегуванням
           href: expense/manage-delegation.md
+        - name: Налаштування керування витратами
+          href: prod-exp/plan-expense-management.md
         - name: Налаштування параметрів керування витратами
           href: expense/configure-expense-management-parameters.md
         - name: Налаштування інтеграції кредитних карток
@@ -1278,10 +1338,14 @@
       items:
         - name: Розподілення у звіті про витрати
           href: expense/distributions-expense-report.md
+        - name: Імпорт і обслуговування операцій з кредитними картками
+          href: prod-exp/import-credit-card.md
     - name: Затвердження звітів про витрати
       items:
         - name: Звіти про витрати та кілька затверджувачів
           href: expense/expense-reports-multiple-approvers.md
+        - name: Делегування керування витратами
+          href: prod-exp/manage-expense-delegation.md
     - name: Публікація звітів про витрати
       href: expense/posting-expense-reports.md
     - name: Заявка на відрядження
@@ -1296,6 +1360,8 @@
       items:
         - name: Відшкодування ПДВ
           href: expense/vat-recovery.md
+        - name: Перегляньте звіт про витрати в головній бухгалтерській книзі або в розділі закупівель і постачання
+          href: prod-exp/view-expense-report.md
 - name: Dynamics 365 Project Service Automation
   items:
     - name: Project Service Automation
@@ -1304,6 +1370,8 @@
       items:
         - name: Розклад випуску оновлень для Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Нові можливості або зміни у випуску оновлень 44, V3'
+          href: psa/whats-new-ur-44.md
         - name: 'Нові можливості або зміни у випуску оновлень 43, V3'
           href: psa/whats-new-ur43.md
         - name: 'Нові можливості або зміни у випуску оновлень 42, V3'
@@ -1361,6 +1429,8 @@
         - name: 'Нові можливості або зміни у випуску оновлень 23, V3'
           href: psa/whats-new-ur-23.md
         - name: 'Нові можливості або зміни у випуску оновлень 22, V3'
+          href: psa/whats-new-ur-22.md
+        - name: 'Нові можливості або зміни у випуску оновлень 21, V3'
           href: psa/whats-new-ur-21.md
         - name: 'Нові можливості або зміни у випуску оновлень 20, V3'
           href: psa/whats-new-ur-20.md
