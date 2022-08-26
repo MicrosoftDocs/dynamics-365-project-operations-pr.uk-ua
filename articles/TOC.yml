@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Що нового
       items:
-        - name: "Липень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: "Серпень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Архів
           items:
+            - name: "Липень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: "Червень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: "Травень 2022\_р.: Project Operations для сценаріїв на основі ресурсів і відсутності запасів"
@@ -384,13 +386,49 @@
           items:
             - name: Огляд використання ресурсів
               href: resource-management/resource-utilization-overview.md
+    - name: Диспетчер субпідрядних сервісних договорів
+      items:
+        - name: Керування субпідрядними сервісними договорами в Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Основні поняття в субпідрядних сервісних договорах
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Керування постачальниками та проектними прайсами
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Підрядники як доступні для резервування ресурси
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Відомості про заголовок для субпідрядних сервісних договорів
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Субпідрядні сервісні роботи за договором для кількості часу
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Категорії субпідрядних сервісних робіт за договором для витрат
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Субпідрядні сервісні роботи за договором для продуктів
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Ресурси субпідрядної сервісної роботи за договором
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Проміжні етапи субпідрядної сервісної роботи за договором
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Учасники робочої групи субпідрядного проекту
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Параметри субпідрядної сервісної роботи для учасників робочої групи проекту
+          href: pro/subcontracting/subcon-options.md
+        - name: Оцінка вартості ресурсів для субпідрядної сервісної роботи
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Відображення працівників за сервісним договором і виробничої спроможності субпідрядної сервісної роботи на панелі розкладів
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Підбір працівників для роботи за сервісним договором і визначення виробничої спроможності субпідрядної сервісної роботи для проекту
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Фіксування часу, витрат і використання матеріалів для компонентів субпідрядної сервісної роботи'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Змінення стану субпідрядного сервісного договору
+          href: pro/subcontracting/subcon-states.md
     - name: Час
       items:
         - name: Огляд часу
           href: time/time-entry-overview.md
         - name: Створення записів часу
           items:
-            - name: Інтерфейс користувача записів часу
+            - name: Інтерфейс користувача для записів часу
               href: time/ui-behavior-time.md
         - name: Нотатки для розробників
           items:
@@ -580,6 +618,8 @@
       items:
         - name: Міграція етапів виставлення рахунків із повністю виставленими рахунками під час повного перенесення
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: 'Синхронізація стану проекту, щоб запобігати записам у закриті проекти'
+          href: advanced-configuration/sync-project-status.md
     - name: Оновлення
       items:
         - name: Міркування щодо оновлення функції "Сучасні затвердження"
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Що нового
       items:
-        - name: "Що нового в липні 2022\_р.: розгортання Lite"
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: "Що нового в серпні 2022\_р.: розгортання Lite"
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Архів
           items:
+            - name: "Що нового в липні 2022\_р.: розгортання Lite"
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: "Що нового в червні 2022\_р.: розгортання Lite"
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: "Що нового в другій хвилі оновлення 2021 року із завчасним доступом\_– розгортання Lite"
