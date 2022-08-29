@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
-ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
-ms.translationtype: HT
+ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "9190692"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295857"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Розклад випуску оновлень для Project Service 3.x
 
@@ -63,12 +63,12 @@ ms.locfileid: "9190692"
 | | <i>Океанія</i> | [3.10.76.168](whats-new-ur-45.md) | Має бути визначено | 09 вересня 2022 р.
 | | <i>Об'єднані Арабські Емірати</i> | [3.10.76.168](whats-new-ur-45.md) | Має бути визначено | 09 вересня 2022 р.
 |<strong>Станція 4</strong> | |  |  | |
-| | <i>Європа</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29 липня 2022 року
+| | <i>Європа</i> | [3.10.76.168](whats-new-ur-45.md) | Має бути визначено | 16 вересня 2022 р.
 |<strong>Станція 5</strong> | |  |  | |
-| | <i>Північна Америка</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 серпня 2022 р.
+| | <i>Північна Америка</i> | [3.10.76.168](whats-new-ur-45.md) | Має бути визначено | 23 вересня 2022 р.
 |<strong>Станція 6</strong> | |  |  | |
-| | <i>Хмара спільноти державних установ</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03 серпня 2022 р.
-| | <i>Виділені групи масштабування</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 серпня 2022 р.
+| | <i>Хмара спільноти державних установ</i> | [3.10.76.168](whats-new-ur-45.md) | Має бути визначено | 21 вересня 2022 р.
+| | <i>Виділені групи масштабування</i> | [3.10.76.168](whats-new-ur-45.md) | Має бути визначено | 30 вересня 2022 р.
 
 
 

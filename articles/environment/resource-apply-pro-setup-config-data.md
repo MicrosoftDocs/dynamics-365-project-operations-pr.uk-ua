@@ -1,17 +1,17 @@
 ---
-title: Налаштування та застосування даних та конфігурації в Common Data Service
-description: У цій статті наведено відомості про настроювання та застосування даних конфігурації в операціях project.
+title: Налаштування та застосування даних та конфігурації в Microsoft Dataverse
+description: У цій статті наведено відомості про настроювання та застосування даних конфігурації в операціях Project.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928043"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230277"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Налаштування та застосування даних та конфігурації в Common Data Service 
 
@@ -19,12 +19,12 @@ _**Застосовується до:** Project Operations для сценарі
 
 
 
-## <a name="prerequisites"></a>Вимоги
+## <a name="prerequisites"></a>вимоги
 
-Наведені далі попередні умови мають виконуватися до початку налаштування даних у Common Data Service (CDS).
+Перш ніж приступити до налаштування даних в Microsoft Dataverse, повинні бути виконані наступні передумови:
 
-1.  Надання середовища CDS і Dynamics 365 Finance середовища для операцій проекту.
-2.  Інформація про юридичну особу з Dynamics 365 Finance передається в середовище CDS. Це означає, що сутність **Компанія** у CDS має такі записи про компанію.
+1.  Забезпечення Dataverse середовища та Dynamics 365 Finance середовища для операцій проекту.
+2.  Інформація про юридичну особу від Dynamics 365 Finance передається навколишньому середовищу Dataverse. Це означає, що суб’єкт **господарювання в Товаристві** Dataverse має такі записи компанії:
   - THPM
   - USPM
   - GBPM

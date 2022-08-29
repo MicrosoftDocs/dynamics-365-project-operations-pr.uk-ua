@@ -1,21 +1,20 @@
 ---
 title: Керування прайсами постачальників і покупок в Project Operations
-description: У цій статті наведено відомості, які допоможуть вам створити та підтримувати дані постачальників і прейскуранти закупівель для субпідряду.
+description: Ця стаття містить інформацію, яка допоможе вам створити та підтримувати дані постачальників та придбати прайс-листи для субпідряду.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6840ffcbc510fe6385dd3fdaf881e9700c4fdd18
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3cd883fed8a59f1c54c39e2d051b9748833ba692
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914151"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261913"
 ---
 # <a name="vendor-and-purchase-price-list-management-in-project-operations"></a>Керування прайсами постачальників і покупок в Project Operations
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 

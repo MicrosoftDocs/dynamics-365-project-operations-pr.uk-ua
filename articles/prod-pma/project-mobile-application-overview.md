@@ -1,6 +1,6 @@
 ---
 title: Огляд програм для мобільних пристроїв проекту
-description: У цій статті наведено загальні відомості про програми, пов'язані з часом проекту, запис Microsoft Dynamics 365 Project Timesheet часу проекту та мої табелі/табелі, доступні на мобільному пристрої.
+description: У цій статті наведено загальні відомості про програми, пов’язані з часом проекту, запис Microsoft Dynamics 365 Project Timesheet часу проекту та мої табелі/табелі, доступні на мобільному пристрої.
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028911"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317013"
 ---
 # <a name="project-mobile-applications-overview"></a>Огляд програм для мобільних пристроїв проекту
 
@@ -42,9 +42,8 @@ My timesheets (оптимізовано для мобільних пристро
 ## <a name="for-more-information"></a>Щоб отримати додаткові відомості
 
 - [Програма для мобільних пристроїв Project Timesheet](project-timesheet.md)
-- [Робоча область Project Time Entry]( project-time-entry-mobile-workspace.md)
+- [Робоча область Project Time Entry](project-time-entry-mobile-workspace.md)
 - [Табелі проектів на мобільному пристрої](Mobile-timesheets.md)
 - [Використовуйте настроювані поля в програмі для мобільних пристроїв Microsoft Dynamics 365 Project Timesheet на iOS і Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
