@@ -1,21 +1,21 @@
 ---
 title: 'Реєстрація для отримання підготовчої версії передплати: Lite'
-description: У цій статті наведено відомості про те, як підписатися та розгорнути розгортання Project Operations Lite - справа проформа виставлення рахунків.
+description: У цій статті наведено відомості про те, як підписатися на розгортання Project Operations lite і розгорнути його – розібратися з проформою виставлення рахунків.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921281"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410101"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Реєстрація для отримання підготовчої версії передплати: Lite 
 
-У цій статті пояснюється, як підписатися на пробну пропозицію та розгорнути Dynamics 365 Project Operations розгортання lite - справу з виставлення рахунків proforma.
+У цій статті пояснюється, як підписатися на пробну пропозицію та розгорнути Dynamics 365 Project Operations lite deployment - розібратися з проформою виставлення рахунків.
 
 > [!NOTE]
 > Цей процес буде змінено в майбутніх випусках Project Operations.
@@ -43,14 +43,14 @@ ms.locfileid: "8921281"
 > Щоб виконати наведені далі кроки, потрібно мати доступ адміністратора до порталу Microsoft 365 організації.
 
 
-1. Перейдіть до [Microsoft 365 Центру](https://portal.office.com/) адміністрування, щоб призначити ліцензії користувачам.
+1. Перейдіть до [Microsoft 365 Центру адміністрування](https://portal.office.com/), щоб призначити ліцензії користувачам.
 2. На сторінці **Активні користувачі** виберіть користувачів, яким потрібно призначити ліцензію.
 3. Переконайтеся, що вибрано ліцензію **Dynamics 365 Project Operations**. 
 4. Виберіть **Зберегти зміни**.
 
 ## <a name="create-a-new-dataverse-environment"></a>Створіть нове середовище Dataverse
 
-1. Підготовка нового середовища розгортання операцій Dataverse проекту, дотримуючись інструкцій у статті, [Dataverse моделі розгортання](lite-deployment.md). Під час вибору типу середовища переконайтеся, що використовуєте **Ознайомлювальну версію (на основі підписки)**.
+1. Створіть нове середовище розгортання операцій Dataverse проекту, дотримуючись інструкцій у статті, [Dataverse моделі розгортання](lite-deployment.md). Під час вибору типу середовища переконайтеся, що використовуєте **Ознайомлювальну версію (на основі підписки)**.
 
   ![Нове середовище.](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ ms.locfileid: "8921281"
 
 ![Інсталяція рішення.](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Інсталюйте конфігурацію CDS та настройте демонстраційні дані
+## <a name="set-up-demo-data"></a>Налаштування демонстраційних даних
 
-Встановіть конфігурацію CDS і налаштуйте демонстраційні дані, дотримуючись інструкцій у статті, [Застосувати демо-налаштування та дані конфігурації](lite-apply-demo-setup-config-data.md).
+Налаштуйте демонстраційні дані, дотримуючись інструкцій у статті, [Застосувати демо-налаштування та конфігураційні дані](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
