@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Копіювання цінових пропозицій проекту
               href: sales/lose-quote.md
+            - name: Активація та змінення цінової пропозиції проекту
+              href: sales/activation-and-revision.md
             - name: Закриття цінових пропозицій проекту
               href: sales/win-quote.md
         - name: Керування проектними сервісними договорами
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Створення розкладів виставлення рахунків за сервісні роботи за договором на основі проектів
                   href: sales/invoice-schedules-contract-line.md
+            - name: Копіювання сервісних договорів на основі проектів
+              href: sales/copy-project-based-contracts-sales.md
             - name: Підтвердження проектного сервісного договору
               href: pro/sales/confirm-contract-sales.md
             - name: Аванси та абонентські внески
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Змінення проектних прайсів збуту
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Вирішення вартості для орієнтовних показників і фактичних даних
+            - name: Визначення вартості для орієнтовних показників і фактичних даних
               href: pricing-costing/cost-price-resolution.md
-            - name: Вирішення цін збуту для орієнтовних показників і фактичних даних
+            - name: Визначення цін збуту для орієнтовних показників і фактичних даних
               href: pricing-costing/sales-price-resolution.md
             - name: Копіювання прайсів
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Копіювання цінових пропозицій на основі проектів
               href: sales/lose-quote.md
+            - name: Активація та змінення цінової пропозиції проекту
+              href: sales/activation-and-revision.md
             - name: Закриття цінових пропозицій на основі проектів
               href: pro/sales/win-quote-sales.md
         - name: Керування сервісними договорами на основі проектів
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Змінення проектних прайсів збуту
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Вирішення вартості для орієнтовних показників і фактичних даних проекту
+            - name: Визначення вартості для орієнтовних показників і фактичних даних проекту
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Вирішення цін збуту для орієнтовних показників і фактичних даних проекту
+            - name: Визначення цін збуту для орієнтовних показників і фактичних даних проекту
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Копіювання прайсів
               href: pricing-costing/copy-price-lists.md
