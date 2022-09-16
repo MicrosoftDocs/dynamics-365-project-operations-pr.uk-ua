@@ -226,12 +226,14 @@
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
             - name: Налаштування норм вартості та збуту для матеріалів
               href: pricing-costing/set-up-cost-sales-rates-materials.md
-        - name: Стандартні значення та перевизначення
+        - name: Стандартні значення та змінення
           items:
             - name: Прайси за замовчуванням
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Змінення проектних прайсів збуту
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Налаштування змін ціни за датою для окремих цін у прайсі
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Визначення вартості для орієнтовних показників і фактичних даних
               href: pricing-costing/cost-price-resolution.md
             - name: Визначення цін збуту для орієнтовних показників і фактичних даних
@@ -544,11 +546,19 @@
           href: procurement/pending-vendor-invoices.md
         - name: Замовлення товарів і послуг для проектів із використанням замовлень на придбання для проекту
           href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Зберігання постачальників
+        - name: Рахунки постачальників для субпідрядних сервісних договорів у Dataverse
           items:
-            - name: Огляд зберігання постачальників
+            - name: Створення рахунків постачальників
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Перевірка рахунків постачальників із затвердженими фактичними даними
+              href: pro/subcontracting/VI-Verification.md
+            - name: Підтвердження рахунків постачальників у проекті
+              href: procurement/Confirm-a-project-vendor-invoice.md
+        - name: Утримання постачальників
+          items:
+            - name: Огляд утримання постачальників
               href: procurement/vendor-retention-overview.md
-            - name: Налаштування зберігання постачальників
+            - name: Налаштування утримання постачальників
               href: procurement/set-up-vendor-retention.md
     - name: Виставлення рахунків
       items:
@@ -838,12 +848,14 @@
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
             - name: Налаштування норм вартості та збуту для матеріалів
               href: pricing-costing/set-up-cost-sales-rates-materials.md
-        - name: Стандартні значення та перевизначення
+        - name: Стандартні значення та змінення
           items:
             - name: Прайси за замовчуванням
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Змінення проектних прайсів збуту
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Налаштування змін ціни за датою для окремих цін у прайсі
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Визначення вартості для орієнтовних показників і фактичних даних проекту
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Визначення цін збуту для орієнтовних показників і фактичних даних проекту
@@ -1050,7 +1062,7 @@
           href: pro/subcontracting/vi-line-milestone.md
         - name: Позиції в рахунку постачальника для категорій витрат
           href: pro/subcontracting/vi-line-expense.md
-        - name: Перевірка рахунків постачальника із затвердженими фактичними даними
+        - name: Перевірка рахунків постачальників із затвердженими фактичними даними
           href: pro/subcontracting/VI-Verification.md
         - name: Скасування рахунку постачальника в проекті
           href: pro/subcontracting/cancel-vi.md
