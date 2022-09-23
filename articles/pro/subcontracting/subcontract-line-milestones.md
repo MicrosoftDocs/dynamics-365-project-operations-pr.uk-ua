@@ -2,20 +2,20 @@
 title: Проміжні етапи субпідрядної сервісної роботи
 description: У цій статті пояснюється, як створити та підтримувати графік рахунків-фактур на основі проміжних етапів для субпідряду з постачальником.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261819"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522490"
 ---
 # <a name="subcontract-line-milestones"></a>Проміжні етапи субпідрядної сервісної роботи
 
-_**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
+_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
 У Dynamics 365 Project Operations субпідрядна сервісна робота з методом виставлення рахунків на основі проміжних етапів може вказувати розклад виставлення рахунків на основі проміжних етапів з постачальником.
 

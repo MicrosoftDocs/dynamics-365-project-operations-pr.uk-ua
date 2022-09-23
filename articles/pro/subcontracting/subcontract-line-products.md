@@ -2,20 +2,20 @@
 title: Субпідрядні сервісні роботи для продуктів
 description: У цій статті пояснюється, як записувати лінії субпідряду для продуктів і використовувати різні поля для запису покупок продуктів у постачальників.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262148"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522868"
 ---
 # <a name="subcontract-lines-for-products"></a>Субпідрядні сервісні роботи для продуктів
 
-_**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
+_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
 Субпідрядний сервісний договір у Dynamics 365 Project Operations може мати субпідрядну сервісну роботу для продуктів. Ці позиції дають менеджеру проекту змогу купувати в постачальників продукти, які потім можуть використовувати для завдань проекту.
 

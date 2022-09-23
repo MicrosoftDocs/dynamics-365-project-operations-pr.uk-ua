@@ -1,21 +1,21 @@
 ---
-title: Перевірка рахунків постачальника із затвердженими фактичними даними
+title: Перевірка рахунків постачальників із затвердженими фактичними даними
 description: У цій статті пояснюється, як керівники проектів корпорації Майкрософт Dynamics 365 Project Operations перевіряють рахунки-фактури постачальників із показниками, затвердженими як підрядники, які виконували роботи, і записували час, а також витратами та матеріалами, які використовувалися членами проектної групи.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ab9f69e36aa58bfe3a2f8e3455db66b6bceea968
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 67e0a0143fa354ca9a87bfac5fbbd6306a97811c
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261772"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522959"
 ---
-# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Перевірка рахунків постачальника із затвердженими фактичними даними
+# <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Перевірка рахунків постачальників із затвердженими фактичними даними
 
-_**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
+_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
 Microsoft Dynamics 365 Project Operations дозволяє керівникам проектів перевіряти рядки рахунків-фактур постачальників такими способами:
 

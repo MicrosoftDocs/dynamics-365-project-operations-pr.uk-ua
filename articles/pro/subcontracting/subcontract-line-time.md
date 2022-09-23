@@ -2,20 +2,20 @@
 title: Субпідрядні сервісні роботи для часу
 description: У цій статті пояснюється, як записувати лінії субпідряду на час і фіксувати час покупки у постачальників.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262125"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522258"
 ---
 # <a name="subcontract-lines-for-time"></a>Субпідрядні сервісні роботи для часу
 
-_**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
+_**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
 Субпідрядний сервісний договір у Dynamics 365 Project Operations може мати субпідрядну сервісну роботу для часу. Субпідрядні сервісні роботи для часу дають змогу менеджеру проекту придбати час постачальника для завдань проектів і вимог ресурсів для персоналу.
 

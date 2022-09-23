@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 60790d83d5fcc8c75fef8eac2877d1ca14a761f2
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029325"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528045"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Реєстрація для отримання ознайомлювальних версій Project Operations 
 
@@ -112,7 +112,7 @@ _**Застосовується до:** Project Operations для сценарі
 Наведені нижче ресурси надають корисні поради для початку роботи з Project Operations:
 
 - [Серії відео — Огляд Project Operations, докладне знайомство з функціями та дорожня карта](https://youtube.com/playlist?list=PLcakwueIHoT_LJ3Fr1tHnkPk5lioqE6uH)
-- [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
+- [Dynamics 365 Project Operations](/training/modules/examine-dynamics-365-project-operations/)
 - [Визначення вашого типу розгортання](determine-deployment-type.md)
 
 ## <a name="frequently-asked-questions"></a>Запитання й відповіді
