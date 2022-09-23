@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Відкликання попередньо затверджених записів
           href: approvals/recall-cancel.md
+        - name: Безпека та затвердження
+          href: approvals/approvals-security.md
         - name: Нотатки для розробників
           items:
             - name: Примітки розробника для затвердження
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Налаштування утримання постачальників
               href: procurement/set-up-vendor-retention.md
+            - name: Оплата при сплаті
+              href: procurement/Pay-when-paid.md
     - name: Виставлення рахунків
       items:
         - name: Огляд виставлення рахунків
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Відкликання попередньо затверджених записів
           href: approvals/recall-cancel.md
+        - name: Безпека та затвердження
+          href: approvals/approvals-security.md
         - name: Нотатки для розробників
           items:
             - name: Примітки розробника для затвердження
