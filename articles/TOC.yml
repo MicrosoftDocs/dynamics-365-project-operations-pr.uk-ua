@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Нові можливості або зміни в Project Service Automation V3
           href: psa/whats-new-changed-v3.md
+    - name: "Перехід від Project Service Automation (полегшена версія програми Project Operations\_4.x)"
+      items:
+        - name: Перехід від Project Service Automation до Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Зміна функцій від Project Service Automation до Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: Процес перетворення служби планування проектів Project Service Automation на Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: Планування впровадження (програма версії 3.x)
       items:
         - name: Інсталяція прикладів даних
