@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
-ms.translationtype: HT
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9687001"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709470"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Перехід від Project Service Automation до Project Operations
 
@@ -70,7 +70,7 @@ ms.locfileid: "9687001"
 
 ## <a name="licensing"></a>Ліцензування
 
-Якщо у вас є активні ліцензії на автоматизацію служби Project Service, можна інсталювати та використовувати операції Project Operations, які включають усі можливості автоматизації служби Project Service тощо. Потім ви можете протестувати можливості Project Operations в окремому середовищі, продовжуючи використовувати автоматизацію служби Project у виробництві. Після закінчення терміну дії ліцензій Project Service Automation вам доведеться перейти до Project Operations. Плануючи цей перехід, потрібно враховувати той факт, що ліцензія Project Operations не містить ліцензію Project Service Automation (Автоматизація служби проекту).
+Якщо у вас є активні ліцензії на автоматизацію служби Project Service, можна інсталювати та використовувати операції Project Operations, які включають усі можливості автоматизації служби Project Service тощо. Таким чином, можна перевірити можливості Project Operations, продовжуючи використовувати Project Service Automation у виробництві. Після закінчення терміну дії ліцензій Project Service Automation вам доведеться перейти до Project Operations. Плануючи цей перехід, потрібно враховувати той факт, що ліцензія Project Operations не містить ліцензію Project Service Automation (Автоматизація служби проекту). Клієнти, які мають сценарії, за яких вони розгорнули автоматизацію обслуговування проектів, і їм потрібно продовжувати використовувати або збільшувати свої ліцензії на УРП, поки вони планують перейти до операцій проекту, можуть запросити тимчасові ліцензії PSA на основі придбаних ліцензій Project Operations. Одна ліцензія Project Service Automation буде видана для однієї ліцензії Project Operations. Запросити тимчасові ліцензії на УРП можна за цим посиланням: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>Налаштування тестування та рефакторингу
 
