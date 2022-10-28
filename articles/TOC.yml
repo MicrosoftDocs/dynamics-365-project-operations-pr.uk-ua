@@ -1750,10 +1750,8 @@
               href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
             - name: Як попередньо зарезервувати ресурси (програма версії 2.x)?
               href: psa/FAQ-soft-book-in-web-app.md
-            - name: Як налаштувати потік бізнес-процесу стадій проекту?
+            - name: Як налаштувати потік бізнес-процесу ддля стадій проекту?
               href: psa/FAQ-customize-bpf.md
-            - name: 'Фактори, які потрібно враховувати під час оновлення з точки зору робочої структури проекту'
-              href: psa/upgrade-considerations-tasks.md
         - name: Офіційні документи
           href: psa/white-papers.md
         - name: Посібник адміністратора
