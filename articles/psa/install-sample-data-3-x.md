@@ -1,6 +1,6 @@
 ---
 title: Інсталяція прикладів даних
-description: У цій статті наведено відомості про інсталяцію зразків даних у розділі Автоматизація служби project.
+description: У цій статті наведено відомості про інсталяцію прикладів даних у програмі Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: johnmichalak

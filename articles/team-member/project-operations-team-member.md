@@ -1,6 +1,6 @@
 ---
-title: Програма "Учасник групи операцій проекту"
-description: У цій статті наведено відомості про застосунок Project Operations Team Member у корпорації Майкрософт Dynamics 365 Project Operations.
+title: Програма Project Operations Team Member
+description: У цій статті наведено відомості про програму Project Operations Team Member у Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -22,20 +22,20 @@ ms.contentlocale: uk-UA
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8918245"
 ---
-# <a name="project-operations-team-member-app"></a>Програма "Учасник групи операцій проекту"
+# <a name="project-operations-team-member-app"></a>Програма Project Operations Team Member
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів, полегшене розгортання: угоди та виставлення рахунків-проформ_
 
-Застосунок Project Operations Team Member (раніше відомий як Центр ресурсів проекту) містить усі можливості, які корпорація Майкрософт Dynamics 365 Project Operations пропонує ліцензії користувача Team Members.
+Програма Project Operations Team Member (колишня назва – «Центр проектних ресурсів») включає всі можливості, які корпорація Microsoft Dynamics 365 Project Operations пропонує для ліцензії користувача на Team Member.
 
-Нижче наведено деякі можливості програми "Учасник групи операцій проекту".
+Нижче наведено деякі можливості програми Project Operations Team Member.
 
 - Запис часу
 - Запис витрат (розгортання Lite)
 - Використання матеріалів
 - Approvals
-- Розширюваність (до 15 сутностей)
+- Розширення (до 15 сутностей)
 
-Щоб використовувати програму Project Operations Team Member, потрібно мати повну ліцензію на операції з проектом або ліцензію користувача dynamics team members. Для отримання додаткових відомостей про ліцензії [див](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Програма "Учасник робочої групи операцій проекту" вимагає розгортання операцій проекту.
+Щоб скористатися програмою Project Operations Team Member, потрібно мати повну ліцензію на Project Operations або ліцензію користувача на Dynamics Team Members. Докладні відомості про ліцензії див. в [Посібнику з ліцензування Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409). Програма Project Operations Team Member потребує розгортання Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

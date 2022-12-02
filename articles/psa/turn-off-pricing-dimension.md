@@ -1,6 +1,6 @@
 ---
 title: Вимкнення критеріїв ціни
-description: У цій статті описано настроювання параметрів ціноутворення у рішенні служби project.
+description: У цій статті показано, як налаштувати критерії ціноутворення в рішенні Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Домашня сторінка для розробки (Project Service Automation 3.x)
-description: У цій статті наведено посилання на статті, які надають інформацію про розробку (Dynamics 365 Project Service Automation PSA) версії 3.x.
+description: У цій статті наведено посилання на статті, які містять відомості для Dynamics 365 Project Service Automation (PSA) версії 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -27,7 +27,7 @@ ms.locfileid: "8929009"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x пропонує нові функції, впровадження нових можливостей платформи та вдосконалення наявних функцій в різних областях. У наступних статтях наведено додаткові відомості про зміни, внесені в найновішій версії PSA:
+Dynamics 365 Project Service Automation 3.x пропонує нові функції, впровадження нових можливостей платформи та вдосконалення наявних функцій в різних областях. У зазначених нижче статтях наведено додаткові відомості про зміни, внесені в найновішу версію програми PSA.
 
 - [Зміни в сутності, елементах керування та інтерфейсі користувача (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Зміни для часу і витрат (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

@@ -1,6 +1,6 @@
 ---
 title: Основні поняття керування ресурсами
-description: У цій статті наведено відомості про можливості керування ресурсами в Microsoft Dynamics операціях project.
+description: У цій статті наведено відомості про можливості керування ресурсами в Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

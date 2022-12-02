@@ -1,6 +1,6 @@
 ---
 title: Приладні дошки
-description: У цій статті наведено відомості про приладні дошки звітів, які входять до складу програми Dynamics 365 Project Service Automation.
+description: У цій статті наведено відомості про дані приладних дошок для звітування, включених до програми Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

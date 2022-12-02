@@ -1,6 +1,6 @@
 ---
 title: Створення шаблону робочих годин
-description: У цій статті описано створення шаблону робочого часу в службі Project Service.
+description: У цій статті описано, як створити шаблон робочого часу у Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

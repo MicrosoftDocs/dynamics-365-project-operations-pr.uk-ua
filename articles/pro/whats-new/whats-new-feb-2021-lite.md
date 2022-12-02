@@ -1,6 +1,6 @@
 ---
 title: 'Що нового у випуску за лютий 2021 р.: розгортання Project Operations Lite'
-description: У цій статті наведено відомості про оновлення якості, доступні в лютому 2021 року випуск розгортання Project Operations Lite.
+description: У цій статті наведено відомості про покращення, доступні у випуску розгортання Project Operations Lite у лютому 2021 р.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.locfileid: "8914059"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Що нового у випуску за лютий 2021 р.: розгортання Project Operations Lite
 
-Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
+Ця стаття застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
   - Project Operations у середовищі Dataverse версії 4.7.0.95
 

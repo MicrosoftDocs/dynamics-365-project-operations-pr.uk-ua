@@ -47,7 +47,7 @@ Microsoft Dynamics 365 Project Service Automation дає змогу органі
 
 
 ## <a name="additional-resources"></a>Додаткові ресурси
-Для отримання додаткових відомостей про звітування в УРП див.
+Для отримання додаткових відомостей про звітування в PSA див. зазначені нижче статті.
 
 - [Робота з моделлю даних Project Service](reports-working-project-service-data-model.md)
 - [Приладні дошки](reports-dashboards.md)

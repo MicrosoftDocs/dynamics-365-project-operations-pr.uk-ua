@@ -1,6 +1,6 @@
 ---
 title: Модель безпеки
-description: У цій статті наведено відомості про модель безпеки в програмі Dynamics 365 Project Operations.
+description: У цій статті наведено відомості про модель системи безпеки у Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
@@ -70,7 +70,7 @@ Project Operations не створює групу на основі неявно
 
 Додаткові відомості див. в розділі [Безпека в Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Проектні операції та Microsoft Dynamics 365 Фінансова безпека
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Безпека в Project Operations і Microsoft Dynamics 365 Finance
 Project Operations мають такі ролі:
 
 - Менеджер проектів

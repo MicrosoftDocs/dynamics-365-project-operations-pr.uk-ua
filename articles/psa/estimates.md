@@ -1,6 +1,6 @@
 ---
 title: Оцінювання
-description: У цій статті наведено відомості про оцінки в програмі Dynamics 365 Project Service Automation.
+description: У цій статті наведено відомості про прогнози у програмі Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

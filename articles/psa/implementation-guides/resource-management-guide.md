@@ -1,6 +1,6 @@
 ---
 title: Посібник з керування ресурсами
-description: У цій статті наведено посилання на відомості про керування ресурсами в системі автоматизації служб project
+description: У цій статті наведено посилання на відомості про керування ресурсами в Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -30,7 +30,7 @@ ms.locfileid: "8910823"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-ПОСИЛАННЯ PDF, яке раніше було в цій статті, видалено, а вміст переміщено до таких статей:
+Посилання на PDF-файл було видалено з цієї статті, а вміст переміщено до таких статей:
 
 - [Головна сторінка керування ресурсами](../resource-management-home-page.md)
 - [Ключові поняття](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ ms.locfileid: "8910823"
 - [Запитання та відповіді щодо керування ресурсами](../resource-management-faq.md)
 
 > [!NOTE]
-> Цю статтю буде видалено в майбутньому оновленні документації. 
+> Цю статтю буде видалено з майбутньої оновленої інструкції. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

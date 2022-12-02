@@ -1,6 +1,6 @@
 ---
 title: Розклади проекту
-description: У цій статті наведено відомості про створення розкладу.
+description: У цій статті наведено відомості про створення розкладів.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

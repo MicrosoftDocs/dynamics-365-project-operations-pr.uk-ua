@@ -1,6 +1,6 @@
 ---
 title: Типи стадій проекту
-description: У цій статті наведено відомості про етапи проекту.
+description: У цій статті наведено відомості про стадії проекту.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Визначення вашого типу розгортання
-description: У цій статті наведено відомості, які допоможуть визначити правильний тип розгортання операцій Project для вашої компанії.
+description: У цій статті наведено відомості, які допоможуть визначити правильний тип розгортання Project Operations для вашої компанії.
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
@@ -25,7 +25,7 @@ _**Застосовується до:** Project Operations для сценарі
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Існуючі клієнти Dynamics, що використовують Dynamics 365 Project Service Automation
 Project Operations містить можливості, які постачаються з Project Service Automation. Випуск шляху оновлення для цих клієнтів відбудеться в рамках першої хвилі випусків 2021 року.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Існуючі клієнти Dynamics 365 Finance з використанням управління проектами та бухгалтерського обліку 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Існуючі клієнти Dynamics 365 Finance, що використовують Керування проектами та бухгалтерський облік 
 
 Наявні клієнти Finance, які користуються функціями керування проектами та бухгалтерського обліку, можуть продовжувати користуватися ними «як є». Див. [Project Operations для сценаріїв на основі замовлень на виробництво та з матеріалами](#pma).
 

@@ -1,6 +1,6 @@
 ---
 title: Переміщення інтерфейсом користувача
-description: У цій статті наведено відомості про керування проектами в dynamics 365 операцій проекту.
+description: У цій статті описується керування проектами в Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Ціноутворення в каталозі продуктів
-description: У цій статті наведено відомості про те, як ціни на каталог продукції працюють (Dynamics 365 Project Service Automation УРП).
+description: У цій статті наведено відомості про те, як працює ціноутворення в каталозі продуктів у Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom:
 - dyn365-projectservice

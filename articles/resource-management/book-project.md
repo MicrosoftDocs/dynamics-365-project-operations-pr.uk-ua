@@ -1,6 +1,6 @@
 ---
 title: Резервування для проекту
-description: У цій статті наведено відомості про бронювання ресурсу для проекту.
+description: У цій статті наведено інформацію про те, як зарезервувати ресурс для проекту.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
@@ -55,7 +55,7 @@ _**Застосовується до:** Project Operations для сценарі
     - Тривалість
    
    > [!NOTE]
-   > В даний Dynamics 365 Project Operations час не підтримує графік ради.   
+   > Наразі Dynamics 365 Project Operations не підтримує панель розкладів.   
 
 ## <a name="book-from-the-project-form"></a>Резервування з форми Проект
 

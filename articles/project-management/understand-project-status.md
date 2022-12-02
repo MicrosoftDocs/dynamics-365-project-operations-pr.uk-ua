@@ -1,6 +1,6 @@
 ---
 title: Ознайомлення зі станом проектів
-description: У цій статті наведено відомості про стан, призначений проектам у програмі Dynamics 365 Project Operations.
+description: У цій статті наводиться інформація про стан, який призначається проектам у Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

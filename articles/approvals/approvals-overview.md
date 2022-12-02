@@ -1,6 +1,6 @@
 ---
 title: Огляд затверджень
-description: У цій статті наведено відомості про роботу зі затвердженнями в проектних операціях.
+description: У цій статті міститься інформація про роботу із затвердженнями в Project Operations.
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview

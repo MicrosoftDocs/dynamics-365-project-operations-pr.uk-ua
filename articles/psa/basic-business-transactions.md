@@ -1,6 +1,6 @@
 ---
 title: Ділові транзакції
-description: У цій статті наведено відомості про ділові операції.
+description: У цій статті наведено відомості про бізнес-транзакції.
 author: rumant
 ms.custom:
 - dyn365-projectservice

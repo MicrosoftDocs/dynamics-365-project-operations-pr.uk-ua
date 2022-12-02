@@ -1,6 +1,6 @@
 ---
 title: Додати нові настроювані форми сутності (Project Service Automation 2.x)
-description: У цій статті наведено відомості про додавання настроюваних форм сутностей для потенційних угод, цінових пропозицій, замовлень або рахунків-фактур у Dynamics 365 Project Service Automation програмі 2.x.
+description: У цій статті наведено відомості про додавання настроюваних форм сутностей до потенційних угод, цінових пропозицій, замовлень або рахунків у Dynamics 365 Project Service Automation 2.x.
 author: makk
 ms.custom:
 - dyn365-projectservice

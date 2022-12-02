@@ -1,6 +1,6 @@
 ---
 title: Створення та оновлення проекту
-description: У цій статті наведено відомості про оновлення проектів Операцій із проектами.
+description: У цій статті наведено інформацію про оновлення проектів у Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

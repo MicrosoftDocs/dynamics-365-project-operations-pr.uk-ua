@@ -1,6 +1,6 @@
 ---
 title: Зміни в керуванні ресурсами (Project Service Automation 3.x)
-description: У цій статті наведено відомості про зміни в області керування ресурсами.
+description: У цій статті наведено відомості про змінення в області керування ресурсами.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -26,7 +26,7 @@ ms.locfileid: "8916037"
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Розділи цієї статті містять відомості про зміни, внесені до області керування ресурсами Dynamics 365 Project Service Automation версії 3.x.
+У розділах цієї статті наведено відомості про зміни, внесені до області керування ресурсами у Dynamics 365 Project Service Automation версії 3.x.
 
 ## <a name="project-estimates"></a>Кошторис проекту
 

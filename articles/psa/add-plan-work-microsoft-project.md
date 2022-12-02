@@ -1,6 +1,6 @@
 ---
 title: Використовуйте надбудову Project Service, щоб планувати вашу роботу | MicrosoftDocs
-description: У цій статті наведено відомості про додавання, настроювання та використання надбудови Microsoft Project для служби Microsoft Project.
+description: У цій статті наведено відомості про додавання, налаштування та використання надбудови Microsoft Project для Microsoft Project Service.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

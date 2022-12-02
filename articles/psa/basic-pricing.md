@@ -1,6 +1,6 @@
 ---
 title: Ціноутворення проекту
-description: У цій статті наведено відомості про те, як працює ціноутворення в програмі Dynamics 365 Project Service Automation.
+description: У цій статті наведено відомості про принцип ціноутворення в Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice

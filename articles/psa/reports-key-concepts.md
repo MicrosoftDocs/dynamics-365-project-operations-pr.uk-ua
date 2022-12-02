@@ -1,6 +1,6 @@
 ---
 title: Основні поняття
-description: У цій статті наведено відомості про ключові концепції керування ресурсами в автоматизації служб project.
+description: У цій статті наведено відомості про ключові поняття керування ресурсами в Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice

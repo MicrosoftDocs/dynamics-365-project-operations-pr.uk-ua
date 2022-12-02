@@ -1,6 +1,6 @@
 ---
 title: Огляд використання ресурсів
-description: У цій статті наведено відомості про використання ресурсів у проектних операціях.
+description: У цій статті наведено відомості про використання ресурсів у Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview

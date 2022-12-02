@@ -1,6 +1,6 @@
 ---
-title: Розширені організаційні підрозділи
-description: У цій статті наведено відомості про організаційні підрозділи у програмі Dynamics 365 Project Service Automation.
+title: Розширені організаційні одиниці
+description: У цій статті наведено інформацію щодо організаційних одиниць у Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -24,7 +24,7 @@ ms.contentlocale: uk-UA
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8927123"
 ---
-# <a name="about-organizational-units"></a>Про організаційні підрозділи 
+# <a name="about-organizational-units"></a>Про організаційні одиниці 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

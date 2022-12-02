@@ -1,6 +1,6 @@
 ---
 title: Новини за жовтень 2021 р. – Розгортання Project Operations Lite
-description: У цій статті наведено відомості про оновлення якості, доступні в жовтневому випуску розгортання Project Operations Lite за жовтень 2021 року.
+description: У цій статті наведено відомості про покращення, доступні у випуску розгортання Project Operations Lite від жовтня 2021 р.
 author: sigitac
 ms.date: 10/05/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8921971"
 
 _Застосовується до: розгортання Lite — від угоди до рахунків-проформ_
 
-Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
+Ця стаття застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
   - Project Operations у середовищі Microsoft Dataverse версії 4.25.0.91
 

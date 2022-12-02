@@ -1,6 +1,6 @@
 ---
 title: Інтеграція подвійного записування в Project Operations
-description: У цій статті наведено огляд інтеграції подвійного запису операцій project operations.
+description: У цій статті наведено огляд інтеграції подвійного записування в Project Operations.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.locfileid: "8927997"
 
 _**Застосовується до:** Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
-Project Operations використовує [можливості](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) подвійного запису для синхронізації даних між Microsoft Dataverse Dynamics 365 Finance та Dynamics 365 Finance.
+Project Operations використовує [можливості подвійного записування](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page), щоб синхронізувати дані між Microsoft Dataverse і Dynamics 365 Finance.
 
 Наведена нижче ілюстрація показує, як синхронізуються дані, що є частиною інтеграції між Dataverse та Finance.
 

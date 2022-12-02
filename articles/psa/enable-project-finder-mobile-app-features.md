@@ -48,11 +48,11 @@ ms.locfileid: "8593710"
   
 4. Встановіть **Дозволити ресурсам оновлювати навички** у значення **Так**.  
   
-   ![ProjectService&#95; ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Це глобальний параметр. Менеджери проектів можуть налаштувати, чи окремі проекти буде видно на сторінці **Робоча група проекту** цього проекту.  
   
-   ![ProjectService&#95; ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Сповіщення електронною поштою  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] розсилає листи щодо запитів ресурсів вказаним одержувачам за таким розкладом:  

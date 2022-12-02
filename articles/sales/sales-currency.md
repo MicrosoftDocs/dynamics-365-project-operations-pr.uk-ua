@@ -1,6 +1,6 @@
 ---
 title: Грошова одиниця
-description: У цій статті наведено відомості про додавання та видалення типів грошових одиниць у програмі Project Operations.
+description: У цій статті наведено відомості про додавання та вилучення типів грошових одиниць у Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
