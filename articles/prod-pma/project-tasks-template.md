@@ -1,6 +1,6 @@
 ---
-title: Синхронізація завдань проекту безпосередньо від автоматизації служби проектів до фінансів та операцій
-description: У цій статті описано шаблон і базове завдання, які використовуються для синхронізації завдань проекту безпосередньо з Microsoft Dynamics 365 Project Service Automation Dynamics 365 Finance.
+title: Синхронізуйте завдання проекту безпосередньо з Project Service Automation до середовища фінансів і операцій
+description: У цій статті описується шаблон і основне завдання, що використовуються для синхронізації завдань проекту безпосередньо з Microsoft Dynamics 365 Project Service Automation до Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -21,11 +21,11 @@ ms.contentlocale: uk-UA
 ms.lasthandoff: 06/18/2022
 ms.locfileid: "9028451"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронізація завдань проекту безпосередньо від автоматизації служби проектів до фінансів та операцій
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Синхронізуйте завдання проекту безпосередньо з Project Service Automation до середовища фінансів і операцій
 
 [!include[banner](../includes/banner.md)]
 
-У цій статті описано шаблон і базове завдання, які використовуються для синхронізації завдань проекту безпосередньо з Dynamics 365 Project Service Automation Dynamics 365 Finance.
+У цій статті описується шаблон і основне завдання, що використовуються для синхронізації завдань проекту безпосередньо з Dynamics 365 Project Service Automation до Dynamics 365 Finance.
 
 > [!NOTE]
 > - У версії 8.0 доступні інтеграція завдань за проектом, категорії транзакцій витрат, оцінки часу, кошториси витрат і блокування функцій.
@@ -67,11 +67,11 @@ ms.locfileid: "9028451"
 
 ## <a name="power-query"></a>Power Query
 
-Ви повинні використовувати Microsoft Power Query для Excel, щоб фільтрувати дані, якщо виконується така умова:
+Якщо виконується ця умова, для фільтрування даних ви маєте використовувати Microsoft Power Query для Excel:
 
 - У завданні проекту ви маєте специфічні для проекту записи.
 
-Якщо ви повинні використовувати Power Query, дотримуйтесь наступної настанови:
+Дотримуйтеся цих рекомендацій, якщо передбачається використання Power Query:
 
 - У шаблоні завдань проекту (PSA до Fin і Ops) є фільтр за замовчуванням, який виключає специфічні для ресурсів записи із завдання проекту способом налаштування для фільтра **IsLineTask** значення **Хибно**. Цей фільтр слід додати в разі створення власного шаблона.
 

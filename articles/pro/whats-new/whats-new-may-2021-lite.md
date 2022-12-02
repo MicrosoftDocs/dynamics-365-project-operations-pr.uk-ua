@@ -1,6 +1,6 @@
 ---
 title: Що нового в травні 2021р. – легке розгортання Project Operations
-description: У цій статті наведено відомості про оновлення якості, доступні в травні 2021 року випуск розгортання Project Operations Lite.
+description: У цій статті наведено інформацію про покращення, доступні у випуску легкого розгортання Project Operations Lite від травня 2021 р.
 author: sigitac
 ms.date: 05/17/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.locfileid: "8934207"
 
 _Застосовується до: розгортання Lite — від угоди до рахунків-проформ_
 
-Ця стаття стосується таких Dynamics 365 Project Operations компонентів і версій:
+Ця стаття застосовується до зазначених нижче компонентів і версій Dynamics 365 Project Operations.
 
    - Project Operations у середовищі Dataverse версії 4.10.0.186.
 

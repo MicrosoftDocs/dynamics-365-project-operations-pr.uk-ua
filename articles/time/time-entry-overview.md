@@ -1,6 +1,6 @@
 ---
 title: Огляд часу
-description: У цій статті наведено відомості про функціональність часу в програмі Dynamics 365 Project Operations.
+description: У цій статті наведено відомості про часову функцію в Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview

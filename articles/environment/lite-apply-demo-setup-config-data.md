@@ -1,6 +1,6 @@
 ---
 title: Застосування демонстраційних даних налаштування та конфігурації – легка версія
-description: У цій статті наведено відомості про застосування демонстраційних даних настроювання та конфігурації для операцій із проектом.
+description: У цій статті наведено відомості про застосування демонстраційних даних налаштування та конфігурації для Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
 ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: uk-UA
 ms.lasthandoff: 09/07/2022
 ms.locfileid: "9410066"
@@ -21,7 +21,7 @@ _**Розгортання Lite: від угоди до рахунків-проф
 
 ## <a name="prerequisites"></a>вимоги
 
-Перш ніж почати налаштування, необхідно мати середовище, Dataverse передбачене для Dynamics 365 Project Operations.
+Перш ніж починати налаштування ви повинні підготувати середовище Dataverse для Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Інструкції

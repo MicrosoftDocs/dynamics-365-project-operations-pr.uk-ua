@@ -1,6 +1,6 @@
 ---
 title: Поля Project Operations як виміри визначення цін
-description: У цій статті наведено відомості з використанням полів як цінових параметрів у програмі Dynamics 365 Project Operations.
+description: У цій статті викладено відомості про використання полів як вимірів визначення цін у Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

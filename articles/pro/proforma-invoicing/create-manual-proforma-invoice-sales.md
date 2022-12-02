@@ -1,6 +1,6 @@
 ---
 title: Проектні рахунки
-description: У цій статті наведено відомості про proforma проект рахунків-фактур у проектних операціях.
+description: У цій статті наводиться інформація про проектні рахунки в Project Operations.
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article

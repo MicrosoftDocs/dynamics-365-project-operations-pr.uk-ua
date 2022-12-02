@@ -1,6 +1,6 @@
 ---
 title: Параметри інтеграції Project Service Automation
-description: У цій статті пояснюється, як налаштувати спосіб введення даних за промовчанням під Вільний час інтеграції Microsoft Dynamics 365 for Project Service Automation з Microsoft Dynamics 365 фінансів.
+description: У цій статті роз’яснюється, як налаштувати спосіб введення даних за замовчуванням при інтеграції Microsoft Dynamics 365 for Project Service Automation з Microsoft Dynamics 365 Finance.
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
@@ -25,7 +25,7 @@ ms.locfileid: "8932321"
 
 [!include[banner](../includes/banner.md)]
 
-**На сторінці Параметри** інтеграції служби project services Automation можна настроїти спосіб введення даних за промовчанням під час інтеграції Dynamics 365 Project Service Automation з Dynamics 365 Finance. Для успішної синхронізації проектів з Project Service Automation до Finance ви маєте настроїти наведені далі поля.
+На сторінці **Параметри інтеграції Project Service Automation** ви можете налаштувати спосіб, у який вводяться дані за замовчуванням, коли виконується інтеграція Dynamics 365 Project Service Automation з Dynamics 365 Finance. Для успішної синхронізації проектів з Project Service Automation до Finance ви маєте настроїти наведені далі поля.
 
 Щоб відкрити сторінку **Параметри інтеграції Project Service Automation**, перейдіть до розділу **Керування проектами та бухгалтерський облік** \> **Налаштування** \> Параметри інтеграції **Dynamics 365 for Project Service Automation**. 
 

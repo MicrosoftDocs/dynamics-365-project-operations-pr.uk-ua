@@ -1,6 +1,6 @@
 ---
 title: Закриття цінової пропозиції
-description: У цій статті наведено відомості про закриття цінових пропозицій у програмі Project Operations.
+description: У цій статті міститься інформація про закриття цінових пропозицій у Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

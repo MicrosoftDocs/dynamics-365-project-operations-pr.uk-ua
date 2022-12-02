@@ -1,6 +1,6 @@
 ---
 title: Огляд розгортання Lite
-description: У цій статті наведено відомості про розгортання Lite Dynamics 365 Project Operations.
+description: У цій статті наведено відомості про розгортання легкої версії Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview

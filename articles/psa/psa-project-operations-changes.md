@@ -1,6 +1,6 @@
 ---
 title: Зміна функцій від Project Service Automation до Project Operations
-description: У цій статті наведено огляд змін функцій від автоматизації служби проекту до Dynamics 365 Project Operations.
+description: У цій статті наведено огляд змін функцій від Project Service Automation до Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -25,79 +25,79 @@ ms.locfileid: "9459952"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Зміна функцій від Project Service Automation до Project Operations
 
-Оновлення з Dynamics 365 Project Service Automation до Dynamics 365 Project Operations Lite буде поставлятися в три етапи. У цій статті наведено відомості про основні зміни, які можна очікувати після завершення оновлення.
+Оновлення з Dynamics 365 Project Service Automation до Dynamics 365 Project Operations Lite буде доставлено трьома етапами. У цій статті наведено інформацію про основні зміни, які можна очікувати на час завершення оновлення.
 
-| Оновлення доставки | Фаза 1 <br>(Січень 2022) | Фаза 2 <br>(Листопад 2022) | Фаза 3  |
+| Доставка оновлення | Етап 1 <br>(Січень 2022 р.) | Етап 2 <br>(Листопад 2022) | Етап 3  |
 |------------------|------------------------|---------------------------|---------------------------|
-| Відсутність залежності від ієрархічної структури робіт (WBS) для проектів. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| WBS включена в підтримувані в даний час ліміти операцій проекту. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
-| WBS виходить за межі поточних підтримуваних обмежень Project Operations, включаючи підтримку клієнта Project для настільних комп’ютерів. | &nbsp; | &nbsp; | :heavy_check_mark: |
+| Відсутність залежності від робочої структури проекту (WBS) для проектів. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| WBS входить до підтримуваних зараз обмежень Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
+| WBS знаходиться за межами наразі підтримуваних обмежень Project Operations, включно з підтримкою Project Desktop Client. | &nbsp; | &nbsp; | :heavy_check_mark: |
 
 ## <a name="project-management"></a>Керування проектами
 
-Найбільш істотні зміни в користувальницькому досвіді будуть в області планування проекту. Project Operations використовує новий сучасний досвід керування ієрархічною структурою робіт (WBS) шляхом використання можливостей планування, наданих [Project для Інтернету](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
+Найбільш значні зміни в інтерфейсі користувача будуть в області планування проекту. Project Operations пропонує новий сучасний інтерфейс для керування робочою структурою проекту (WBS), використовуючи можливості планування, надані [Project for the Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5).
 
-## <a name="differences-in-the-scheduling-experience"></a>Відмінності в роботі з плануванням
+## <a name="differences-in-the-scheduling-experience"></a>Відмінності в інтерфейсі планування роботи
 
-У наведеній нижче таблиці наведено відмінності між плануванням між автоматизацією служби проектів і операціями проекту.
+У наведеній нижче таблиці підсумовано різницю в плануванні між Project Service Automation і Project Operations.
 
-|  Планування     |   Project Operations   |   УРП   |
+|  Планування     |   Project Operations   |   PSA   |
 |-----------------|------------------------|---------|
-| Шаблони проектів – можливість визначати та застосовувати шаблони проектів під час створення проекту  |  &nbsp;    | :heavy_check_mark: |
-| Інтеграція ієрархічної структури робіт проекту (WBS) з настільним клієнтом   |    &nbsp;  | :heavy_check_mark: |
-| Обмеження - початок не раніше, завершення не пізніше  | :heavy_check_mark: |   &nbsp;  |
-| Проміжні етапи – завдання з нульовою тривалістю   | :heavy_check_mark:  |  &nbsp;  |
-| Завдання, керовані ресурсами, поважатимуть доступність призначених ресурсів   | :heavy_check_mark: |  &nbsp;    |
-| Поетапне редагування за часом – редагування планів і роботи щодня   |   &nbsp;  | :heavy_check_mark: |
-| Автоматичне/ручне планування – використання механізму планування Project для автоматичного або ручного планування завдань |  &nbsp; | :heavy_check_mark:  |
-| Редагування великих проектів безпосередньо в інтерфейсі користувача: немає обмежень у розмірі планів, які можна редагувати  | Обмеження в 500 завдань  | :heavy_check_mark:       |
-| Відсоток виконання – позначення перебігу виконання завдання   | :heavy_check_mark:  |  &nbsp;  |
-| [Режими](../project-management/scheduling-modes.md) планування проекту – визначення проекту як фіксованих одиниць, фіксованого зусилля або фіксованої тривалості | :heavy_check_mark: | &nbsp; |
-| Часова шкала – створіть і настройте подання часової шкали, щоб візуалізувати відомості про розклад і спілкуватися із зацікавленими сторонами. | :heavy_check_mark:  | &nbsp; |
-| Завдання з фіксованим обсягом роботи – підтримка механізму планування для планування завдання як завдання з фіксованим обсягом роботи  | :heavy_check_mark:  | &nbsp; |
-| **Діалогове вікно відомостей про** завдання – збереження відомостей про завдання за допомогою діалогового вікна | :heavy_check_mark:  |  &nbsp;  |
-| Перетягування - Завдання множинного вибору та зміна їх положення на WBS | :heavy_check_mark: | &nbsp;  |
-| Гнучкі постійні подання – визначення більш детальних подань атрибутів завдання   | :heavy_check_mark:  | &nbsp; |
-| Сортування та фільтрування WBS  | :heavy_check_mark:  | &nbsp; |
-| Вид дощок для доставки проекту без водоспаду  | :heavy_check_mark:   | &nbsp; |
-| Подання часової шкали – інтерактивна діаграма Ганта, яка використовується для візуалізації та редагування WBS   | :heavy_check_mark:  | &nbsp; |
-| Сполучення клавіш – використання сполучень клавіш для поширених операцій, таких як відступ або вставлення  | :heavy_check_mark:  |  &nbsp; |
-| Багаторівневе скасування - Виконайте аналіз what-if, щоб повністю зрозуміти вплив змін шляхом скасування та повторного застосування цілого набору операцій | :heavy_check_mark: | &nbsp; |
-| Вирізати/Копіювати/Вставити - Співпрацюйте над розробкою розкладу, копіюючи та вставляючи деталі розкладу між програмами  | :heavy_check_mark: | &nbsp; |
-| Контрольні списки завдань - Додайте до 20 пунктів контрольного списку до завдання   | :heavy_check_mark: | &nbsp; |
+| Шаблони проектів: можливість визначати та застосовувати шаблони проектів під час створення проекту  |  &nbsp;    | :heavy_check_mark: |
+| Інтеграція робочої структури проекту (WBS) із класичним клієнтом   |    &nbsp;  | :heavy_check_mark: |
+| Обмеження: початок не раніше, завершення не пізніше ніж  | :heavy_check_mark: |   &nbsp;  |
+| Проміжні етапи: завдання з нульовою тривалістю   | :heavy_check_mark:  |  &nbsp;  |
+| Завдання на основі ресурсів будуть враховувати доступність призначених ресурсів   | :heavy_check_mark: |  &nbsp;    |
+| Розподілене в часі редагування: редагування планів і щоденна робота   |   &nbsp;  | :heavy_check_mark: |
+| Автоматичне/ручне планування: використання механізму планування проекту для автоматичного або ручного планування завдань |  &nbsp; | :heavy_check_mark:  |
+| Редагування великих проектів безпосередньо в інтерфейсі користувача: немає обмеження на розмір планів, які можна редагувати  | Максимальна кількість 500 завдань  | :heavy_check_mark:       |
+| Відсоток виконання: позначення перебігу виконання завдання   | :heavy_check_mark:  |  &nbsp;  |
+| [Режими розкладу проекту](../project-management/scheduling-modes.md): визначення проекту як фіксованих одиниць вимірювання, фіксованого обсягу роботи або фіксованої тривалості | :heavy_check_mark: | &nbsp; |
+| Часова шкала: створення та налаштування подання часової шкали для візуалізації відомостей про розклад і спілкування із зацікавленими сторонами. | :heavy_check_mark:  | &nbsp; |
+| Завдання на основі обсягу роботи: підтримка обробника планування для планування завдань як завдання на основі обсягу роботи  | :heavy_check_mark:  | &nbsp; |
+| Діалогове вікно **Відомості про завдання**: збереження відомостей про завдання за допомогою діалогового вікна | :heavy_check_mark:  |  &nbsp;  |
+| Перетягування: вибір кількох завдань і зміна їхнього положення у WBS | :heavy_check_mark: | &nbsp;  |
+| Гнучкі постійні подання: визначення докладніших подань атрибутів завдань   | :heavy_check_mark:  | &nbsp; |
+| Фільтрування та сортування WBS  | :heavy_check_mark:  | &nbsp; |
+| Подання дощок для некаскадної доставки проекту  | :heavy_check_mark:   | &nbsp; |
+| Подання часової шкали: інтерактивна діаграма Ганта для графічного відображення та редагування WBS   | :heavy_check_mark:  | &nbsp; |
+| Сполучення клавіш: використання сполучень клавіш для загальних операцій, наприклад відступів або вставлення.  | :heavy_check_mark:  |  &nbsp; |
+| Скасування кількох дій: виконайте аналіз what-if, щоб повною мірою зрозуміти вплив змін шляхом скасування та повторного застосування всього набору операцій | :heavy_check_mark: | &nbsp; |
+| Вирізання, копіювання та вставлення: співпраця над розробками розкладів за допомогою копіювання та вставлення даних розкладу між програмами  | :heavy_check_mark: | &nbsp; |
+| Контрольні списки завдань: додавання до 20 елементів контрольного списку для завдання   | :heavy_check_mark: | &nbsp; |
 
 ## <a name="project-planning"></a>Планування проектів
 
-Сторінка **Project** в розділі "Операції з проектами" має значну кількість відмінностей у порівнянні зі сторінкою **"Проект"** у розділі "Автоматизація служби проекту".
+На сторінці **Проект** у Project Operations значною мірою відрізняється від сторінки **Проект** у Project Service Automation.
 
-У рамках оновлення Фази 1 зі сторінки **"Проекти"** було видалено такі дії:
+Зі сторінки **Проекти** в рамках оновлення етапу 1 видалено описані нижче дії.
 
   - **Відкрити в MS Project**
   - **Створити шаблон**
   - **Розірвати зв’язок із MS Project**
 
-Сторінка **"Проект"** в розділі "Операції з проектами" містить такі нові вкладки.
+На сторінці **Проект** у Project Operations містяться такі нові вкладки.
 
 - **Кошторис матеріалів**
 - **Налаштування виставлення рахунків за завдання**
 
-**Вкладку Стан** видалено, **а поле «Стан**» тепер на **вкладці «Зведення**» з режимом планування проекту.
+Вкладку **Стан** видалено, а поле **Стан** тепер розташовано на вкладці **Зведення** в режимі планування проекту.
 
-   ![Оновлення сторінки проекту.](media/projectform.png)
+   ![Оновлення сторінки «Проект».](media/projectform.png)
 
-Вкладку Розклад **перейменовано** на вкладку **Завдання**, на якій представлено нові можливості планування проекту у програмі Project для Інтернету.
+Вкладку **Розклад** було перейменовано на вкладку **Завдання** та оновлено інтерфейс планування проектів з Project for the Web.
 
-   ![Вкладка "Нові завдання проекту".](media/tasktab.png)
+   ![Нова вкладка «Завдання проекту».](media/tasktab.png)
 
 ## <a name="scheduling-modes"></a>Режими планування
 
-Операції проекту ввели нову функцію, [Режими](../project-management/scheduling-modes.md) планування. У всіх існуючих проектах автоматизації служби проектів за замовчуванням відображатиметься **значення Фіксована тривалість** в операціях проекту. Однак за замовчуванням для нових проектів можна керувати, перейшовши в **Режим** > **розкладу параметрів** > **параметрів** > **налаштувань**.
+Project Operations включає нову функцію [Режими планування](../project-management/scheduling-modes.md). Усі наявні проекти Project Service Automation за замовчуванням матимуть значення **Фіксована тривалість** у Project Operations. Проте за замовчуванням для нових проектів ним можна керувати в меню **Настройки** > **Параметри** > **Параметр** > **Режим планування**.
 
-   ![Параметри проекту для режиму розкладу.](media/projectparameter.png)
+   ![Настройки параметрів проекту для режиму розкладу.](media/projectparameter.png)
 
-## <a name="project-planning-limits"></a>Обмеження планування проекту
+## <a name="project-planning-limits"></a>Обмеження планування проектів
 
-Операції проекту залежать від Project для Інтернету для всіх операцій планування проекту. Веб-програма Project для інтернету керує ієрархічною структурою робіт, використовуючи обмеження, наведені в таблиці нижче.
+Project Operations залежить від Project for the Web для всіх операцій планування проектів. Project for the Web керує робочою структурою проекту за допомогою обмежень у наведеній нижче таблиці.
 
 | **Поле**                                          | **Межа**             |
 |----------------------------------------------------|-----------------------|
@@ -114,9 +114,9 @@ ms.locfileid: "9459952"
 | Підтримуваний діапазон дат для завдання                    | 1.1.2000 — 31.12.2149 |
 | Елементи контрольного списку                                    | 20                    |
 
-## <a name="project-planning-extensibility-and-development"></a>Розширюваність і розвиток планування проекту
+## <a name="project-planning-extensibility-and-development"></a>Розширення та розробка планування проектів
 
-Після оновлення до розділу Операції проекту необхідно використовувати API планування проекту, щоб виконувати операції зі створення, оновлення та видалення таких сутностей:
+Після оновлення до project Operations для виконання створення, оновлення та видалення операцій із переліченими нижче сутностями потрібно використовувати API Project Scheduling.
 
 |   Ім’я сутності           |   Логічне ім’я сутності       |
 |-------------------------|-----------------------------|
@@ -127,16 +127,16 @@ ms.locfileid: "9459952"
 | Блок проекту          | msdyn_projectbucket         |
 | Учасник робочої групи проекту     | msdyn_projectteam           |
 
-Якщо зараз у вас є настроювання, у яких беруть участь ці сутності, перегляньте статтю [Використання API планування проекту для виконання операцій із сутностями](../project-management/schedule-api-preview.md) планування для керівництва з впровадження.
+Якщо наразі є настроювання, які включають ці сутності, див. розділ [Використання API розкладів проектів для виконання операцій із сутностями планування](../project-management/schedule-api-preview.md) для вказівок щодо впровадження.
 
-## <a name="data-model-changes"></a>Зміни в моделі даних
+## <a name="data-model-changes"></a>Зміни моделі даних
 
-У рамках фази оновлення 1 до моделі даних внесено зміни. Ці зміни є насамперед польовими змінами існуючих суб’єктів. На етапі 1 сутності, **msydn_project** та **msdyn_projectteam** є рефакторінгом налаштувань. 
+В рамках етапу 1 оновлення існують зміни в моделі даних. Ці зміни в першу чергу є змінами полів на наявні сутності. На етапі 1 сутності **msydn_project** та **msdyn_projectteam** є реструктуризацією настроювань. 
 
 > [!IMPORTANT]
-> Цей розділ буде оновлюватися додатковими організаціями після завершення майбутніх етапів оновлення.
+> У цьому розділі буде оновлено додаткові сутності після завершення подальших етапів оновлення.
 
-Наступні поля замінено новими полями.
+Наведені нижче поля замінено на нові.
 
 |   Об'єкт          |   Старе логічне ім’я   |   Нове логічне ім’я    |
 |-------------------|----------------------|-----------------------|
@@ -149,63 +149,63 @@ ms.locfileid: "9459952"
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
 
-Додано такі поля.
+Додано зазначені нижче поля.
 
 |   Об'єкт          |   Логічне ім’я                               |   Опис |
 |-------------------|----------------------------------------------|---------------|
-| msdyn_project     | msdyn_actualfeesales                         | Показує сукупність фактичних продажів за проектом. Для використання лише в автоматизації служби проекту. |
-| msdyn_project     | msdyn_actualmaterialcost                     | Показує сукупність фактичних матеріальних витрат на проект. Для використання лише в автоматизації служби проекту. |
-| msdyn_project     | msdyn_actualmaterialsales                    | Показує сукупність фактичних продажів матеріалу по проекту. Для використання лише в автоматизації служби проекту. |
+| msdyn_project     | msdyn_actualfeesales                         | Показує сукупний фактичний збір від ціни збуту за проектом. Лише для використання в Project Service Automation. |
+| msdyn_project     | msdyn_actualmaterialcost                     | Показує агреговані фактичні витрати на матеріали за проектом. Лише для використання в Project Service Automation. |
+| msdyn_project     | msdyn_actualmaterialsales                    | Показує сукупну фактичну вартість збуту матеріалів за проектом. Лише для використання в Project Service Automation. |
 | msdyn_project     | msdyn_businesscase                           |                |
-| msdyn_project     | msdyn_contractlineproject                    | Лінія контракту, пов’язана з цим проектом. |
-| msdyn_project     | msdyn_copyprojectcorrelationid               | Це внутрішнє системне поле, яке використовується для **copy project**, пов’язаного з ідентифікатором кореляції. Для використання лише в автоматизації служби проекту. |
-| msdyn_project     | msdyn_copyprojectsessionid                   | Це внутрішнє системне поле, яке використовується для **копіювання проекту**, пов’язаного з ідентифікатором сеансу. Для використання лише в автоматизації служби проекту. |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Маркер глобальної ревізії останньої синхронізації xRM зі служби планування проекту. |
-| msdyn_project     | msdyn_msprojectdocument                      | Документ Microsoft Project, який належить проекту. |
-| msdyn_project     | msdyn_plannedmaterialcost                    | Сукупність запланованих матеріальних витрат на проект. Для використання лише в автоматизації служби проекту. |
-| msdyn_project     | msdyn_plannedmaterialsales                   | Сукупність запланованих продажів матеріалу по проекту. Для використання лише в автоматизації служби проекту. |
+| msdyn_project     | msdyn_contractlineproject                    | Сервісна робота за договором, пов’язана з цим проектом. |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | Це внутрішнє системне поле, що використовується для **Копіювання проекту**, пов’язаного з ідентифікатором кореляції. Лише для використання в Project Service Automation. |
+| msdyn_project     | msdyn_copyprojectsessionid                   | Це внутрішнє системне поле, що використовується для **Копіювання проекту**, пов’язаного з ідентифікатором сеансу. Лише для використання в Project Service Automation. |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Остання синхронізація глобального маркера редакції xRM зі служби планування проектів. |
+| msdyn_project     | msdyn_msprojectdocument                      | Документ Microsoft Project, який належить до проекту. |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Агреговані заплановані витрати на матеріали за проектом. Лише для використання в Project Service Automation. |
+| msdyn_project     | msdyn_plannedmaterialsales                   | Агреговані заплановані витрати на збут за проектом. Лише для використання в Project Service Automation. |
 | msdyn_project     | msdyn_program                                | Програма, з якою пов’язано цей проект. |
-| msdyn_project     | msdyn_quotelineproject                       | Рядок цитати, пов’язаний з цим проектом. |
-| msdyn_project     | msdyn_replaylogheader                        | Заголовок для журналів повторів. |
-| msdyn_project     | msdyn_schedulemode                           | Режим планування за промовчанням, який використовується для всіх завдань у проекті.  |
+| msdyn_project     | msdyn_quotelineproject                       | Позиція в ціновій пропозиції, пов’язана з цим проектом. |
+| msdyn_project     | msdyn_replaylogheader                        | Заголовок для журналів відтворення. |
+| msdyn_project     | msdyn_schedulemode                           | Стандартний режим планування, який використовується для всіх завдань у проекті.  |
 | msdyn_project     | msdyn_taskearlieststart                      | Найраніша дата початку будь-якого завдання в проекті.  |
 | msdyn_project     | msdyn_valuestatement                         |                |
-| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Член проектної групи, з якого був скопійований цей член проектної команди. |
-| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Указує, чи потрібно створювати вимоги до ресурсів для новоствореного загального члена групи.  |
-| msdyn_projectteam | msdyn_deletestatus                           | Стан видалення учасника групи для відстеження наявності запиту на видалення, надісланого до служби планування проекту, і чи успішно він надсилає відповідь у межах очікуваного часового вікна. |
-| msdyn_projectteam | msdyn_effortcompleted                        | Відстежує зусилля, виконані членом команди під час виконання своїх завдань. |
-| msdyn_projectteam | msdyn_effortremaining                        | Відстежує зусилля, які ще не були виконані членом команди під час виконання своїх завдань. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Період очікування, починаючи з моменту, коли учасник команди надсилає запит на видалення до служби планування проекту, поки член команди не буде фактично видалений на Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Позначка часу, яку потрібно записати, коли учасник групи надсилає запит на видалення, до служби планування проекту. |
+| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Учасник робочої групи проекту, з якого скопійовано цього учасника. |
+| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Указує, чи потрібно створювати вимоги до ресурсів для нового універсального учасника робочої групи.  |
+| msdyn_projectteam | msdyn_deletestatus                           | Стан видалення учасника робочої групи дає змогу відстежувати, чи надіслано до служби планування проектів запит на видалення та чи він успішно повертає відповідь протягом очікуваного проміжку часу. |
+| msdyn_projectteam | msdyn_effortcompleted                        | Відстежує обсяг робіт, виконаного учасником робочої групи за його призначеннями. |
+| msdyn_projectteam | msdyn_effortremaining                        | Відстежує обсяг робіт, який має бути виконаний учасником робочої групи за його призначеннями. |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | Період очікування від моменту, коли учасник команди надсилає до служби планування проектів запит на видалення, доки учасника робочої групи не буде видалено з Microsoft Dataverse.|
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | Позначка часу, коли запит на видалення учасника робочої групи надіслано до служби планування проектів. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Показує учасника робочої групи проекту, з якого скопійовано цього учасника.  |
 
 ## <a name="project-templates"></a>Шаблони проекту
 
-Операції проекту не підтримують шаблони проектів. Однак ви можете відтворити більшу частину основної функціональності за допомогою [Project Copy API](../project-management/dev-copy-project.md).
+Project Operations не підтримує шаблони проектів. Проте більшість основних функціональних можливостей можна копіювати за допомогою [API Project Copy](../project-management/dev-copy-project.md).
 
 ## <a name="desktop-add-in-support"></a>Підтримка надбудов для настільних комп’ютерів
 
-Підтримка надбудови Microsoft Project Desktop буде недоступна на перших 2 етапах оновлення. На етапі 3 клієнти, які мають проекти, більші за поточні підтримувані обмеження Project for the Web, зможуть використовувати надбудову для настільних комп’ютерів.
+Підтримка надбудови для настільних комп’ютерів Microsoft Project буде недоступна в перших 2 етапах оновлення. На етапі 3 клієнти, які мають проекти, розмір яких перевищує поточні підтримувані обмеження в Project for the Web, зможуть використовувати надбудову для настільних комп’ютерів.
 
 ## <a name="editing-resource-assignment-contours"></a>Редагування контурів призначення ресурсів
 
-Можливість редагувати контури призначення ресурсів буде доступна, коли буде доступний етап оновлення 2.
+Можливість редагування контурів призначень ресурсів буде доступна, коли буде доступним етап 2 оновлення.
 
 ## <a name="billing-and-pricing"></a>Виставлення рахунків і визначення цін
 
-Наступні нові функції були додані в операції Project. Ці функції мають додатковий характер і не впливають на модель даних автоматизації служби проекту.
+У Project Operations додано описані нижче нові функції. Ці функції є за характером додатковими та не впливають на модель даних Project Service Automation.
 
-- [Запис використання матеріалу для проектів та завдань проекту](../material/material-usage-log.md)
-- [Управління субпідрядами](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Записування використання матеріалів для проектів і проектних завдань](../material/material-usage-log.md)
+- [Диспетчер субпідрядних сервісних договорів](../pro/subcontracting/managing-subcontracts-overview.md)
 - [Сервісні договори на основі авансових платежів і платежів на основі абонентського внеску](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Статус та підтвердження договору не перевищено](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Стан і перевірки граничних обмежень сервісного договору](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - [Виставлення рахунків на основі завдань](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
-## <a name="deprecated-components"></a>Застарілі компоненти
+## <a name="deprecated-components"></a>Вилучені компоненти
 
-У наведених нижче таблицях задокументовано всі застарілі поля, переміщені до застарілого рішення компонентів після оновлення. Докладнішу інформацію та посилання на рішення можна знайти в розділі [Dynamics 365 Project Service Automation 3x на застарілі компоненти](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution) Project Operations 4x.
+У наведених нижче таблицях описано всі вилучені поля, які буде переміщено до вилучених компонентів після оновлення рішення. Додаткові відомості та посилання на рішення див. в розділі [Вилучені компоненти Dynamics 365 Project Service Automation 3x до Project Operations 4x](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
-### <a name="invoicedetail"></a>рахунок-фактурадеталь
+### <a name="invoicedetail"></a>invoicedetail
 
 | Поля                                                    |
 |-----------------------------------------------------------------------------------------------|
@@ -221,12 +221,12 @@ ms.locfileid: "9459952"
 
 | Поля                                                    |
 |-----------------------------------------------------------------------------------------------|
-| msdyn_characteristicreqforteammember.msdyn_характеристика                                     |
+| msdyn_characteristicreqforteammember.msdyn_characteristic                                     |
 | msdyn_characteristicreqforteammember.msdyn_characteristicreqforteammemberid                   |
 | msdyn_characteristicreqforteammember.msdyn_characteristictype                                 |
-| ім’я_msdyn_characteristicreqforteammember.msdyn                                               |
+| msdyn_characteristicreqforteammember.msdyn_name                                               |
 | msdyn_characteristicreqforteammember.msdyn_ratingvalue                                        |
-| msdyn_characteristicreqforteammember.msdyn_resourcererementid                              |
+| msdyn_characteristicreqforteammember.msdyn_resourcerequirementid                              |
 
 ### <a name="msdyn_contractlineinvoiceschedule"></a>msdyn_contractlineinvoiceschedule
 
@@ -241,7 +241,7 @@ ms.locfileid: "9459952"
 |-----------------------------------------------------------------------------------------------|
 | msdyn_dataexport.msdyn_dataexportid                                                           |
 | msdyn_dataexport.msdyn_datatoken                                                              |
-| msdyn_dataexport.msdyn_ім’я_сутності                                                             |
+| msdyn_dataexport.msdyn_entityname                                                             |
 | msdyn_dataexport.msdyn_exportedrecordcount                                                    |
 | msdyn_dataexport.msdyn_exportstatus                                                           |
 | msdyn_dataexport.msdyn_linkedentitydata                                                       |
@@ -260,7 +260,7 @@ ms.locfileid: "9459952"
 |-----------------------------------------------------------------------------------------------|
 | msdyn_findworkevent.msdyn_bookableresource                                                    |
 | msdyn_findworkevent.msdyn_findworkeventid                                                     |
-| ім’я_msdyn_findworkevent.msdyn                                                                |
+| msdyn_findworkevent.msdyn_name                                                                |
 | msdyn_findworkevent.msdyn_timestamp                                                           |
 | msdyn_findworkevent.msdyn_type                                                                |
 | msdyn_findworkevent.msdyn_value                                                               |
@@ -301,9 +301,9 @@ ms.locfileid: "9459952"
 | msdyn_opportunitylinetransaction.msdyn_amountmethod                                           |
 | msdyn_opportunitylinetransaction.msdyn_basisamount                                            |
 | msdyn_opportunitylinetransaction.msdyn_basisamount_base                                       |
-| msdyn_opportunitylinetransaction.msdyn_basis pricece                                             |
+| msdyn_opportunitylinetransaction.msdyn_basisprice                                             |
 | msdyn_opportunitylinetransaction.msdyn_basisprice_base                                        |
-| msdyn_opportunitylinetransaction.msdyn_basis кількість                                          |
+| msdyn_opportunitylinetransaction.msdyn_basisquantity                                          |
 | msdyn_opportunitylinetransaction.msdyn_billingtype                                            |
 | msdyn_opportunitylinetransaction.msdyn_bookableresource                                       |
 | msdyn_opportunitylinetransaction.msdyn_contactcustomer                                        |
@@ -323,7 +323,7 @@ ms.locfileid: "9459952"
 | msdyn_opportunitylinetransaction.msdyn_project                                                |
 | msdyn_opportunitylinetransaction.msdyn_quantity                                               |
 | msdyn_opportunitylinetransaction.msdyn_resourcecategory                                       |
-| msdyn_opportunitylinetransaction.msdyn_resourceорганізаціяalunitid                           |
+| msdyn_opportunitylinetransaction.msdyn_resourceorganizationalunitid                           |
 | msdyn_opportunitylinetransaction.msdyn_startdatetime                                          |
 | msdyn_opportunitylinetransaction.msdyn_task                                                   |
 | msdyn_opportunitylinetransaction.msdyn_transactioncategory                                    |
@@ -380,7 +380,7 @@ ms.locfileid: "9459952"
 | msdyn_project.msdyn_actualdurationminutes                                                     |
 | msdyn_project.msdyn_actualhours                                                               |
 | msdyn_project.msdyn_istemplate                                                                |
-| msdyn_project.msdyn_planhours                                                              |
+| msdyn_project.msdyn_plannedhours                                                              |
 | msdyn_project.msdyn_projecttemplate                                                           |
 | msdyn_project.msdyn_remaininghours                                                            |
 | msdyn_project.msdyn_scheduleddurationminutes                                                  |
@@ -418,8 +418,8 @@ ms.locfileid: "9459952"
 | msdyn_projecttaskstatususer.msdyn_expectedcompletiondate                                      |
 | msdyn_projecttaskstatususer.msdyn_expectedhourstocomplete                                     |
 | msdyn_projecttaskstatususer.msdyn_iscompleted                                                 |
-| ім’я_msdyn_projecttaskstatususer.msdyn                                                        |
-| msdyn_projecttaskstatususer.msdyn_percentзаповнення                                             |
+| msdyn_projecttaskstatususer.msdyn_name                                                        |
+| msdyn_projecttaskstatususer.msdyn_percentcomplete                                             |
 | msdyn_projecttaskstatususer.msdyn_projecttaskid                                               |
 | msdyn_projecttaskstatususer.msdyn_projecttaskstatusindicator                                  |
 | msdyn_projecttaskstatususer.msdyn_projecttaskstatususerid                                     |
@@ -429,7 +429,7 @@ ms.locfileid: "9459952"
 | Поля                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projectteam.msdyn_applicantcount                                                        |
-| msdyn_projectteam.msdyn_applicantsдоступні                                                   |
+| msdyn_projectteam.msdyn_applicantsavailable                                                   |
 | msdyn_projectteam.msdyn_assignedhours                                                         |
 | msdyn_projectteam.msdyn_description                                                           |
 | msdyn_projectteam.msdyn_from                                                                  |
@@ -444,7 +444,7 @@ ms.locfileid: "9459952"
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projectteammembersignup.msdyn_bookableresource                                          |
 | msdyn_projectteammembersignup.msdyn_membershipstatus                                          |
-| ім’я_msdyn_projectteammembersignup.msdyn                                                      |
+| msdyn_projectteammembersignup.msdyn_name                                                      |
 | msdyn_projectteammembersignup.msdyn_projectteammembersignupid                                 |
 | msdyn_projectteammembersignup.msdyn_teammembership                                            |
 
@@ -453,7 +453,7 @@ ms.locfileid: "9459952"
 | Поля                                                    |
 |-----------------------------------------------------------------------------------------------|
 | msdyn_projecttransactioncategory.msdyn_billingtype                                            |
-| ім’я_msdyn_projecttransactioncategory.msdyn                                                   |
+| msdyn_projecttransactioncategory.msdyn_name                                                   |
 | msdyn_projecttransactioncategory.msdyn_project                                                |
 | msdyn_projecttransactioncategory.msdyn_projecttransactioncategoryid                           |
 | msdyn_projecttransactioncategory.msdyn_transactioncategory                                    |
@@ -479,11 +479,11 @@ ms.locfileid: "9459952"
 | msdyn_resourceassignment.msdyn_todate                                                         |
 | msdyn_resourceassignmentdetail.msdyn_duration                                                 |
 | msdyn_resourceassignmentdetail.msdyn_from                                                     |
-| ім’я_msdyn_resourceassignmentdetail.msdyn                                                     |
+| msdyn_resourceassignmentdetail.msdyn_name                                                     |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentdetailid                               |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentid                                     |
 
-### <a name="salesorderdetail"></a>продажзамовленнядеталь
+### <a name="salesorderdetail"></a>salesorderdetail
 
 | Поля                                                    |
 |-----------------------------------------------------------------------------------------------|

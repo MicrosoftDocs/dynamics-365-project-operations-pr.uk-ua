@@ -43,7 +43,7 @@ ms.locfileid: "9029371"
 
 ### <a name="blogs"></a>Блоґи
 
-Ви можете знайти думки, новини та іншу інформацію в [Microsoft Dynamics блозі 365 і](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) блозі [Microsoft Dynamics 365 Фінанси - Фінанси](https://community.dynamics.com/365/financeandoperations/b/financials).
+Ви можете знайти думки, новини та інші відомості у [блозі Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) і [блозі Microsoft Dynamics 365 Finance — Фінанси](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 [Блоґ спільноти партнерів Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) пропонує партнерам Microsoft Dynamics єдиний ресурс, де вони можуть дізнатися, що нового та що є популярним у MBS Operations.
 

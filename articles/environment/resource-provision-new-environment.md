@@ -1,6 +1,6 @@
 ---
 title: Підготовка нового середовища
-description: У цій статті наведено відомості про те, як створити нове середовище для операцій із проектом.
+description: У цій статті наведено відомості про підготовку нового середовища Project Operations.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -20,7 +20,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 
 
-У цій статті наведено відомості про те, як створити нове Dynamics 365 Project Operations середовище для сценаріїв на основі ресурсів і некомплектованих резервів.
+У цій статті наведено відомості про підготовку нового середовища Dynamics 365 Project Operations для сценаріїв на основі ресурсів/нескладських матеріалів.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Увімкнення автоматичної підготовки Project Operations у проекті LCS
 
@@ -34,7 +34,7 @@ _**Застосовується до:** Project Operations для сценарі
 
 ## <a name="provision-a-project-operations-environment"></a>Підготовка середовища Project Operations
 
-1. Відкрийте новий Dynamics 365 Finance [демонстраційного середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) або [розгортання пісочниці / виробничого середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
+1. Відкрийте нове розгортання [демо-середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) або [робочого/ізольованого програмного середовища](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) Dynamics 365 Finance. 
 2. Виконайте вказівки майстра **Підготовка середовища**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ _**Застосовується до:** Project Operations для сценарі
 
     ![Застосування рішень.](./media/13ApplySolutions.png)
 
-5. Виберіть обидва рішення, **Dynamics 365 Finance карту** сутностей подвійного запису та **Dynamics 365 Project Operations карти** сутностей подвійного запису, а потім натисніть кнопку **Застосувати**.
+5. Виберіть обидва рішення, **Карта сутності подвійного записування Dynamics 365 Finance** і **Карти сутностей подвійного записування Dynamics 365 Project Operations**, а потім натисніть кнопку **Застосувати**.
 
     ![Підтвердження рішень.](./media/14ConfirmSolutions.png)
 
