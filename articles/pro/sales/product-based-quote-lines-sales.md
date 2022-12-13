@@ -1,19 +1,19 @@
 ---
-title: Огляд рядків цінових пропозицій на основі продуктів – легка версія
+title: Огляд позицій на основі продуктів у ціновій пропозиції
 description: У цій статті описується робота із рядками цінових пропозицій на основі продуктів.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a260c0f51cc2d958281dbc6f0f711347cab85a9a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914335"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826248"
 ---
-# <a name="product-based-quote-lines-overview---lite"></a>Огляд рядків цінових пропозицій на основі продуктів – легка версія
+# <a name="product-based-quote-lines-overview"></a>Огляд позицій на основі продуктів у ціновій пропозиції
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 

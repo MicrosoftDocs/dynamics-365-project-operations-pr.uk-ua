@@ -1,19 +1,19 @@
 ---
-title: Розгортання Project Operations – легка версія
+title: Розгортання Project Operations Lite
 description: 'У цій статті наведено відомості про те, як інсталювати розгортання Project Operations Lite: від угоди до рахунків-проформ.'
 author: stsporen
-ms.date: 02/28/2022
+ms.date: 11/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
-ms.translationtype: HT
+ms.openlocfilehash: 2c508f56b3018b6a86fea78bcf9ee4136e90f385
+ms.sourcegitcommit: 38cb012502cbd640abbc21a0912b195112b27ccb
+ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930343"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9811004"
 ---
-# <a name="deploy-project-operations---lite"></a>Розгортання Project Operations – легка версія
+# <a name="deploy-project-operations-lite"></a>Розгортання Project Operations Lite
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 
@@ -27,21 +27,27 @@ _**Застосовується до:** розгортання Lite: від уг
 
 - [Інсталяція Project Operations у новому середовищі Dataverse](#new)
 - [Інсталяція у наявному середовищі Dataverse](#existing)
+- [Інсталяція в існуюче Dataverse середовище, яке має компоненти подвійного запису](#existingdw)
 
 
 
-## <a name="install-project-operations-to-a-new-dataverse-environment"></a><a name="new"></a>Інсталяція Project Operations у новому середовищі Dataverse
+## <a name="install-project-operations-lite-to-a-new-dataverse-environment"></a><a name="new"></a> Інсталяція Project Operations Lite до нового Dataverse середовища
 
 1. Як [глобальний адміністратор або адміністратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) із ліцензією Project Operations, створіть нове середовище Dataverse у [центрі адміністрування Power Platform](https://admin.powerplatform.com). Переконайтеся, що параметри **Створити базу даних для цього середовища** та **Програми Dynamics 365** увімкнуто. Додаткові відомості ви можете знайти тут: [Створення середовищ у центрі адміністрування Power Platform і керування ними](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
-2. Виберіть **Microsoft Dynamics 365 Project Operations** зі списку розгортань програм Dynamics 365 apps.
+1. Виберіть **Microsoft Dynamics 365 Project Operations** зі списку розгортань програм Dynamics 365 apps.
 
 
-## <a name="install-project-operations-to-an-existing-dataverse-environment"></a><a name="existing"></a>Інсталяція Project Operations у наявному середовищі Dataverse
-1. Переконайтеся, що середовище не було налаштовано за допомогою [подвійного записування](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), оскільки інсталяція тоді інсталює можливості [Project Operations для сценаріїв на основі ресурсів і відсутності запасів](project-operations-integrated-deployment-overview.md).
-2. Як [глобальний адміністратор або адміністратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) із ліцензією Project Operations, знайдіть в [центрі адміністрування Power Platform](https://admin.powerplatform.com) середовище, в якому потрібно інсталювати Project Operations.
-3. Встановіть **Microsoft Dynamics 365 Project Operations** зі списку розгортань програм Dynamics 365 apps. Додаткові відомості: [Керування програмами Dynamics 365](/power-platform/admin/manage-apps).
+## <a name="install-project-operations-lite-to-an-existing-dataverse-environment"></a><a name="existing"></a> Інсталяція Project Operations Lite до наявного Dataverse середовища 
+1. Як [глобальний адміністратор або адміністратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) із ліцензією Project Operations, знайдіть в [центрі адміністрування Power Platform](https://admin.powerplatform.com) середовище, в якому потрібно інсталювати Project Operations.
+1. Встановіть **Microsoft Dynamics 365 Project Operations** зі списку розгортань програм Dynamics 365 apps. Додаткові відомості: [Керування програмами Dynamics 365](/power-platform/admin/manage-apps).
 
+## <a name="install-project-operations-lite-to-an-existing-dataverse-environment-where-dual-write-solutions-are-already-present"></a><a name="existingdw"></a> Встановіть Project Operations Lite в існуюче Dataverse середовище, де вже присутні рішення подвійного запису
 
+Щоб продовжити запуск операцій Project у режимі розгортання Lite, виконайте наведені нижче дії.
 
+1. Як [глобальний адміністратор або адміністратор Power Platform](/power-platform/admin/global-service-administrators-can-administer-without-license) із ліцензією Project Operations, знайдіть в [центрі адміністрування Power Platform](https://admin.powerplatform.com) середовище, в якому потрібно інсталювати Project Operations.
+1. Встановіть **Microsoft Dynamics 365 Project Operations** зі списку розгортань програм Dynamics 365 apps. Додаткові відомості: [Керування програмами Dynamics 365](/power-platform/admin/manage-apps).
+1. Оскільки у вашому середовищі є компоненти подвійного запису, які допомагають з інтеграцією для встановлення програм фінансування та операцій, інсталяція Project Operations також інсталює можливості та розширення, необхідні для інтеграції даних, пов’язаних із Проектом, у фінансові та операційні програми. Оскільки ви хочете запустити операції Project у розгортанні Lite, ці компоненти інтеграції слід видалити, оскільки вони створять обмеження та накладні витрати для сценаріїв розгортання Lite. Вручну видаліть рішення **Dynamics 365 Project Operations Dual Write** і **Dynamics 365 Project Operations Dual Write Entity Maps**, щоб видалити ці компоненти.
+1. Перейдіть до **Операції проекту - > Налаштування -> Параметри**.  **Відкрийте сторінку відомостей про параметри** Project і встановіть **для поля «Поведінка оновлення** рішення» значення **Lite Only**. Це гарантує, що будь-яке подальше оновлення операцій проекту не поверне компоненти інтеграції в операції проекту.  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

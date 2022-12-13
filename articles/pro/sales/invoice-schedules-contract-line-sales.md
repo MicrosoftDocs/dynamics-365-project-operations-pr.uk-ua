@@ -1,19 +1,19 @@
 ---
-title: Створюйте розклади виставлення рахунків за сервісну роботу за договором на основі проектів – легка версія
+title: Створення графіків рахунків-фактур на лінії договору проекту
 description: Ця стаття описує створення розкладів виставлення рахунків і проміжні етапи.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 403b993c3f61ca5f0fb1bac45331aa0613d16439
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1a6d0647ee012212a74a674cfa4e995d0e375b77
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921143"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824746"
 ---
-# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Створюйте розклади виставлення рахунків за сервісну роботу за договором на основі проектів – легка версія
+# <a name="create-invoice-schedules-on-a-project-contract-line"></a>Створення графіків рахунків-фактур на лінії договору проекту
 
 _**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
 

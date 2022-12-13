@@ -1,21 +1,21 @@
 ---
-title: Імпорт орієнтовного показника до сервісної роботи за договором на основі проектів – легка версія
+title: Імпорт орієнтовних показників із проекту до сервісної роботи за проектним договором
 description: У цій статті наведено відомості про імпортування фінансових оцінок з проекту до сервісної роботи за договором.
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924225"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824700"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Імпорт орієнтовного показника до сервісної роботи за договором на основі проектів – легка версія
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>Імпорт орієнтовних показників із проекту до сервісної роботи за проектним договором
 
-_**Застосовується до:** розгортання Lite: від угоди до рахунків-проформ_
+_**Застосовується до:**  розгортання Lite - угода з виставленням рахунків на проформі, операції проекту для сценаріїв на основі ресурсів / не запасів_ _
 
 У Dynamics 365 Project Operations можна імпортувати орієнтовні показники з проекту до сервісного договору на основі проекту.
 

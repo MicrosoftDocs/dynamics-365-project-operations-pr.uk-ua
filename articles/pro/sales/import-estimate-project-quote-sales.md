@@ -1,19 +1,19 @@
 ---
-title: Імпорт орієнтовних показників для проекту до рядків на основі проектів у ціновій пропозиції – легка версія
-description: У цій статті наведено відомості про імпортування оцінок з проекту до позиції цінової пропозиції.
+title: Імпорт оцінок із проекту до рядка цінової пропозиції проекту
+description: У цій статті наведено відомості про те, як імпортувати оцінки з проекту до рядка котирування проекту.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917325"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824514"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Імпорт орієнтовних показників для проекту до позицій на основі проектів у ціновій пропозиції 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>Імпорт оцінок із проекту до рядка цінової пропозиції проекту 
 
 _**Застосовується до:** Легке розгортання - виставлення попередніх рахунків, Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 

@@ -1,19 +1,19 @@
 ---
-title: Огляд позицій на основі проектів у ціновій пропозиції
+title: Огляд позицій цінових пропозицій на основі проектів
 description: У цій статті наведено відомості про використання позицій цінових пропозицій на основі проекту для роботи за проектом.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: MT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934483"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825684"
 ---
-# <a name="project-based-quote-lines-overview"></a>Огляд позицій на основі проектів у ціновій пропозиції 
+# <a name="project-quote-lines-overview"></a>Огляд позицій цінових пропозицій на основі проектів 
 
 _**Застосовується до:** Легке розгортання - виставлення попередніх рахунків, Project Operations для сценаріїв на основі ресурсів і відсутності запасів_
 
