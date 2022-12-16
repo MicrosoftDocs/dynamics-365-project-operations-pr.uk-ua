@@ -846,7 +846,7 @@
               items:
                 - name: Сервісні договори на основі авансів і абонентських внесків
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Налаштування розкладу абонентських внесківНалаштування розкладу абонентських внесків
+                - name: Налаштування розкладу абонентських внесків
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Створення несистемного авансового платежу для проектного сервісного договору
                   href: pro/sales/create-ad-hoc-advance-sales.md
